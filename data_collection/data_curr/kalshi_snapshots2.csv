@@ -1,0 +1,541 @@
+timestamp,ticker,title,status,market_type,yes_bid,yes_ask,yes_ask2,no_bid,no_ask,no_ask2,yes_spread,no_spread,yes_depth,no_depth,liquidity_dollars,volume_24h
+2025-10-22T00:27:01.772399Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.99,74142.0
+2025-10-22T00:27:01.860179Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.7,20399.0
+2025-10-22T00:27:01.949998Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.38,18706.0
+2025-10-22T00:27:02.059248Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:27:02.150500Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:27:02.243402Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:27:02.339146Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:27:02.447579Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:27:02.542931Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:27:02.645969Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:27:02.758825Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:27:02.853733Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:27:02.952618Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2189017.76,11270.0
+2025-10-22T00:27:03.057901Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.05,9361.0
+2025-10-22T00:27:03.157180Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:27:03.270719Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:27:03.372564Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:27:03.490492Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:27:03.581414Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:27:03.686662Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:27:03.775809Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:27:03.872869Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:27:03.962258Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:27:04.053864Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:27:04.172382Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:27:04.265325Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:27:04.355658Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:27:04.440493Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812137.65,11694.0
+2025-10-22T00:27:04.530635Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.98,14431.0
+2025-10-22T00:27:04.646328Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:27:19.826434Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.99,74142.0
+2025-10-22T00:27:19.914185Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.7,20399.0
+2025-10-22T00:27:20.021527Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.38,18706.0
+2025-10-22T00:27:20.121325Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:27:20.216785Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:27:20.310068Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:27:20.406641Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:27:20.497615Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:27:20.592936Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:27:20.681492Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:27:20.779728Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:27:20.869183Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:27:20.957701Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188957.76,11270.0
+2025-10-22T00:27:21.061346Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.05,9361.0
+2025-10-22T00:27:21.162839Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:27:21.247258Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:27:21.330192Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:27:21.423972Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:27:21.529323Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:27:21.621350Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:27:21.711032Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:27:21.797127Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:27:21.890364Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:27:21.978728Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:27:22.093879Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:27:22.187812Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:27:22.283436Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:27:22.378031Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812137.65,11694.0
+2025-10-22T00:27:22.463263Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.98,14431.0
+2025-10-22T00:27:22.563569Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:27:37.724363Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:27:37.800842Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:27:37.881883Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:27:37.962697Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:27:38.047641Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:27:38.144858Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:27:38.234005Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:27:38.350140Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:27:38.441828Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:27:38.522409Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:27:38.608617Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:27:38.679898Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:27:38.781886Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:27:38.862905Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:27:38.948818Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:27:39.062807Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:27:39.148751Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:27:39.239534Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:27:39.330963Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:27:39.433390Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:27:39.520478Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:27:39.630970Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:27:39.718222Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:27:39.806564Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:27:39.901926Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:27:39.990177Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:27:40.082306Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:27:40.178931Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:27:40.270362Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:27:40.363817Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:27:55.539382Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:27:55.618207Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:27:55.705234Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:27:55.790057Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:27:55.883325Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:27:55.968819Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:27:56.052205Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:27:56.140020Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:27:56.228991Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:27:56.324710Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:27:56.414186Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:27:56.498774Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:27:56.584459Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:27:56.673237Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:27:56.762958Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:27:56.850744Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:27:56.939237Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:27:57.026400Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:27:57.124756Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:27:57.199818Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:27:57.281072Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:27:57.366911Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:27:57.445291Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:27:57.534991Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:27:57.613795Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:27:57.693566Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:27:57.789145Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:27:57.864892Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:27:57.945595Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:27:58.026165Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:28:13.235321Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:28:13.330580Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:28:13.418328Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:28:13.506661Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:28:13.627063Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:28:13.720685Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:28:13.821985Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:28:13.906925Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:28:14.000762Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:28:14.097182Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:28:14.177279Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:28:14.262640Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:28:14.346238Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:28:14.432959Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:28:14.525818Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:28:14.622701Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:28:14.717854Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:28:14.809034Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:28:14.900977Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:28:14.997796Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:28:15.104688Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:28:15.192372Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:28:15.282544Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:28:15.357171Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:28:15.432127Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:28:15.510355Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:28:15.606371Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:28:15.696110Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:28:15.788517Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:28:15.879604Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:28:31.095533Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:28:31.175625Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:28:31.263901Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:28:31.362945Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:28:31.454962Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:28:31.547371Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:28:31.667707Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:28:31.756941Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:28:31.846362Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:28:31.931830Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:28:32.007868Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:28:32.079577Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:28:32.155370Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:28:32.239748Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:28:32.321421Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:28:32.437634Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:28:32.525940Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:28:32.613307Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:28:32.704549Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127860.06,2458.0
+2025-10-22T00:28:32.817964Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:28:32.907460Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:28:32.996042Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:28:33.092985Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:28:33.188174Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:28:33.290849Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:28:33.383970Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:28:33.470637Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:28:33.580729Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:28:33.675547Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:28:33.762504Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:28:48.978434Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:28:49.074736Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:28:49.173476Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:28:49.263655Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:28:49.346384Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2477101.42,40192.0
+2025-10-22T00:28:49.422882Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473679.66,52203.0
+2025-10-22T00:28:49.507395Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:28:49.599410Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:28:49.688300Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:28:49.782902Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:28:49.859657Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:28:49.938488Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:28:50.024966Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:28:50.132512Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:28:50.221465Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:28:50.305975Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:28:50.386571Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:28:50.467547Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:28:50.556839Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127492.6,2458.0
+2025-10-22T00:28:50.647286Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:28:50.750108Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:28:50.839428Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:28:50.923818Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:28:51.016208Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:28:51.102006Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:28:51.187761Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:28:51.278767Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:28:51.359089Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:28:51.448798Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:28:51.538717Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:29:06.737285Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:29:06.828629Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:29:06.914832Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:29:07.008238Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:29:07.094503Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473601.84,52203.0
+2025-10-22T00:29:07.175302Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2473474.26,40192.0
+2025-10-22T00:29:07.252488Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:29:07.329203Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:29:07.413990Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:29:07.500234Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:29:07.589540Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:29:07.668412Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:29:07.752371Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:29:07.838570Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:29:07.941950Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:29:09.070550Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:29:09.183791Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:29:09.278461Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:29:09.368663Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127492.6,2458.0
+2025-10-22T00:29:09.461811Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:29:09.575018Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:29:09.667385Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:29:09.761822Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:29:09.858083Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:29:09.945632Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:29:10.037273Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:29:10.127735Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:29:10.225043Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:29:10.329843Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:29:10.411543Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:29:25.598026Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:29:25.680037Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:29:25.762326Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:29:25.850835Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:29:25.951150Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473601.84,52203.0
+2025-10-22T00:29:26.040823Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2469981.8,40192.0
+2025-10-22T00:29:26.126414Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:29:26.209341Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:29:26.295038Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:29:26.384816Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:29:26.483625Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:29:26.555320Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:29:26.642674Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:29:26.740722Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:29:26.832947Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:29:26.937244Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:29:27.031407Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:29:27.163381Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:29:27.299440Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127492.6,2458.0
+2025-10-22T00:29:27.395659Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:29:27.493419Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:29:27.593799Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:29:27.677037Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:29:27.769069Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:29:27.865768Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:29:27.952933Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:29:28.041200Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:29:28.122955Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:29:28.204465Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:29:28.288919Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:29:43.499234Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74142.0
+2025-10-22T00:29:43.585804Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:29:43.666420Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:29:43.752277Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:29:43.877011Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473601.84,52203.0
+2025-10-22T00:29:43.964972Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2469981.8,40192.0
+2025-10-22T00:29:44.055870Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:29:44.137226Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:29:44.218488Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:29:44.312651Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:29:44.407746Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:29:44.489052Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:29:44.573682Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:29:44.677346Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:29:44.764263Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:29:44.863697Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:29:44.955110Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:29:45.058343Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:29:45.154195Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127492.6,2458.0
+2025-10-22T00:29:45.240943Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:29:45.329813Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:29:45.423179Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:29:45.525844Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:29:45.617381Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:29:45.698528Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:29:45.786173Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:29:45.871527Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:29:45.997841Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:29:46.090070Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:29:46.187014Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46781.0
+2025-10-22T00:30:01.398606Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.1,0.02,0.9,0.93,0.02,0.03,0.03,7,36,3465941.12,74168.0
+2025-10-22T00:30:01.489768Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2754316.76,20399.0
+2025-10-22T00:30:01.582982Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,30,2606598.48,18706.0
+2025-10-22T00:30:01.671548Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2489231.76,37684.0
+2025-10-22T00:30:01.759187Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2473601.84,53203.0
+2025-10-22T00:30:01.847592Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2469981.8,40222.0
+2025-10-22T00:30:01.934035Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,32,2433878.34,11923.0
+2025-10-22T00:30:02.027181Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2404453.33,1650.0
+2025-10-22T00:30:02.112768Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,30,2275665.83,8405.0
+2025-10-22T00:30:02.207979Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249386.98,3740.0
+2025-10-22T00:30:02.286459Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,28,2235641.63,13251.0
+2025-10-22T00:30:02.364603Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.99,0.0
+2025-10-22T00:30:02.451215Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188965.95,11270.0
+2025-10-22T00:30:02.536913Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,31,2178348.13,9361.0
+2025-10-22T00:30:02.624077Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2173254.2,1512.0
+2025-10-22T00:30:02.716886Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:30:02.816858Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.3,200.0
+2025-10-22T00:30:02.916821Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.26,333.0
+2025-10-22T00:30:03.005187Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127492.6,3458.0
+2025-10-22T00:30:03.096020Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:30:03.195187Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.71,0.0
+2025-10-22T00:30:03.286618Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.13,0.0
+2025-10-22T00:30:03.375997Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.67,0.0
+2025-10-22T00:30:03.472715Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.44,0.0
+2025-10-22T00:30:03.631009Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:30:03.721021Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:30:03.834878Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:30:03.936408Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.14,0.15,0.02,0.85,0.86,0.02,0.01,0.01,13,29,1812136.91,11694.0
+2025-10-22T00:30:04.030290Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1714508.16,14431.0
+2025-10-22T00:30:04.126452Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.15,0.02,0.85,0.93,0.02,0.08,0.08,6,26,1249583.36,46948.0
+2025-10-22T00:37:01.604350Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:37:01.688652Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:37:01.777662Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:37:01.901305Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:37:02.022301Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:37:02.126335Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:37:02.251973Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:37:02.344073Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:37:02.448895Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:37:02.539099Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:37:02.629950Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:37:02.726460Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:37:02.812162Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:37:02.899920Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.39,9361.0
+2025-10-22T00:37:02.988935Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:37:03.096992Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:37:03.202426Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:37:03.316076Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:37:03.431509Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:37:03.530647Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:37:03.649571Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:37:03.741021Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:37:03.838510Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:37:03.922814Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:37:04.016861Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:37:04.111511Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:37:04.207338Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:37:04.296183Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:37:04.390570Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:37:04.482467Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.17,0.02,0.83,0.93,0.02,0.1,0.1,6,30,1237776.76,46948.0
+2025-10-22T00:37:19.668923Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:37:19.756372Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:37:19.844553Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:37:19.933308Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:37:20.040571Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:37:20.131224Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:37:20.214000Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:37:20.285584Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:37:20.372116Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:37:20.465862Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:37:20.547367Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:37:20.623767Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:37:20.704269Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:37:20.791562Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.39,9361.0
+2025-10-22T00:37:20.880053Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:37:20.964309Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:37:21.051153Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:37:21.132541Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:37:21.208121Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:37:21.290799Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:37:21.375044Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:37:21.456805Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:37:21.543459Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:37:21.629821Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:37:21.727784Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:37:21.833581Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:37:21.932126Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:37:22.051666Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:37:22.160239Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:37:22.250953Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237776.58,46948.0
+2025-10-22T00:37:37.436518Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:37:37.537193Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:37:37.630112Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:37:37.728272Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:37:37.821630Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:37:37.930957Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:37:38.020816Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:37:38.137921Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:37:38.225957Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:37:38.318451Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:37:38.398483Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:37:38.480289Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:37:38.561731Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:37:38.649610Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177350.39,9361.0
+2025-10-22T00:37:38.741273Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:37:38.829382Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:37:38.914749Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:37:39.007829Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:37:39.087913Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:37:39.190737Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:37:39.273502Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:37:39.355275Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:37:39.435204Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:37:39.521990Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:37:39.614420Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:37:39.697809Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:37:39.780997Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:37:39.867872Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:37:39.959492Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:37:40.059155Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237748.74,46948.0
+2025-10-22T00:37:55.236069Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:37:55.320300Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:37:55.399658Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:37:55.484254Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:37:55.566396Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:37:55.650408Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:37:55.738245Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:37:55.839079Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:37:55.927197Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:37:56.016082Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:37:56.101422Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:37:56.180464Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:37:56.271377Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:37:56.378367Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.59,9361.0
+2025-10-22T00:37:56.485627Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:37:56.580891Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:37:56.669742Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:37:56.755237Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:37:56.868413Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:37:56.965513Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:37:57.064598Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:37:57.156931Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:37:57.251309Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:37:57.347969Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:37:57.439052Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:37:57.528216Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:37:57.611586Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:37:57.696585Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:37:57.781808Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:37:57.872805Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237748.74,46948.0
+2025-10-22T00:38:13.052199Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:38:13.137841Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:38:13.225929Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:38:13.320873Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:38:13.401403Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:38:13.490311Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:38:13.573515Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:38:13.654654Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:38:13.738760Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:38:13.826779Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:38:13.912815Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:38:13.982844Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:38:14.068435Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:38:14.156007Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.59,9361.0
+2025-10-22T00:38:14.236125Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:38:14.326320Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:38:14.409546Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:38:14.490526Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:38:14.583296Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:38:14.670174Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:38:14.756631Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:38:14.843935Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:38:14.933874Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:38:15.020969Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:38:15.104925Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:38:15.197713Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:38:15.282642Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:38:15.377015Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:38:15.466465Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:38:15.564548Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237748.74,46948.0
+2025-10-22T00:38:30.757144Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:38:30.840298Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:38:30.932906Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:38:31.018392Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:38:31.106800Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:38:31.202843Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:38:31.298600Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:38:31.382419Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:38:31.474950Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:38:31.563006Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:38:31.642636Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:38:31.721169Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:38:31.808053Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:38:31.894569Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.59,9361.0
+2025-10-22T00:38:31.992615Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:38:32.080467Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:38:32.174105Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:38:32.272728Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:38:32.358626Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:38:32.445118Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:38:32.550628Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:38:32.640624Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:38:32.727953Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:38:32.809826Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:38:32.898209Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:38:32.993047Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:38:33.080251Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:38:33.181731Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:38:33.276441Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:38:33.381798Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237748.74,46948.0
+2025-10-22T00:38:48.554669Z,KXNBA-26-NYK,Will the New York win the 2026 Pro Basketball Finals?,active,binary,0.07,0.09,0.02,0.91,0.93,0.02,0.02,0.02,7,37,3466139.68,74168.0
+2025-10-22T00:38:48.633103Z,KXNBA-26-ORL,Will the Orlando win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2753596.16,20399.0
+2025-10-22T00:38:48.720327Z,KXNBA-26-LAL,Will the Los Angeles L win the 2026 Pro Basketball Finals?,active,binary,0.06,0.07,0.02,0.93,0.94,0.02,0.01,0.01,6,29,2605357.75,18706.0
+2025-10-22T00:38:48.815066Z,KXNBA-26-LAC,Will the Los Angeles C win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.03,0.94,0.95,0.02,0.01,0.01,4,28,2488154.97,37684.0
+2025-10-22T00:38:48.901684Z,KXNBA-26-BOS,Will the Boston win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,29,2473241.92,53203.0
+2025-10-22T00:38:48.988089Z,KXNBA-26-OKC,Will the Oklahoma City win the 2026 Pro Basketball Finals?,active,binary,0.28,0.3,0.02,0.7,0.72,0.02,0.02,0.02,19,26,2467442.36,40222.0
+2025-10-22T00:38:49.072681Z,KXNBA-26-MIN,Will the Minnesota win the 2026 Pro Basketball Finals?,active,binary,0.04,0.05,0.02,0.95,0.96,0.02,0.01,0.01,4,31,2432441.35,11923.0
+2025-10-22T00:38:49.150244Z,KXNBA-26-PHI,Will the Philadelphia win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,32,2403359.85,1650.0
+2025-10-22T00:38:49.227677Z,KXNBA-26-SAS,Will the San Antonio win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,31,2274861.91,8405.0
+2025-10-22T00:38:49.318051Z,KXNBA-26-NOP,Will the New Orleans win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,29,2249387.08,3740.0
+2025-10-22T00:38:49.405104Z,KXNBA-26-MIL,Will the Milwaukee win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2234800.07,13251.0
+2025-10-22T00:38:49.493158Z,KXNBA-26-BKN,Will the Brooklyn win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,30,2196255.94,0.0
+2025-10-22T00:38:49.567611Z,KXNBA-26-GSW,Will the Golden State win the 2026 Pro Basketball Finals?,active,binary,0.05,0.06,0.02,0.94,0.95,0.02,0.01,0.01,5,31,2188213.68,12270.0
+2025-10-22T00:38:49.643733Z,KXNBA-26-DAL,Will the Dallas win the 2026 Pro Basketball Finals?,active,binary,0.03,0.04,0.02,0.96,0.97,0.02,0.01,0.01,3,32,2177351.59,9361.0
+2025-10-22T00:38:49.728321Z,KXNBA-26-ATL,Will the Atlanta win the 2026 Pro Basketball Finals?,active,binary,0.02,0.03,0.02,0.97,0.98,0.02,0.01,0.01,2,28,2172110.0,1512.0
+2025-10-22T00:38:49.812735Z,KXNBA-26-POR,Will the Portland win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2152829.57,500.0
+2025-10-22T00:38:49.895414Z,KXNBA-26-MIA,Will the Miami win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2144915.25,200.0
+2025-10-22T00:38:49.992133Z,KXNBA-26-PHX,Will the Phoenix win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2142956.21,333.0
+2025-10-22T00:38:50.083053Z,KXNBA-26-DET,Will the Detroit win the 2026 Pro Basketball Finals?,active,binary,0.01,0.02,,0.98,0.99,0.02,0.01,0.01,1,29,2127220.37,3458.0
+2025-10-22T00:38:50.180960Z,KXNBA-26-MEM,Will the Memphis win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2126284.06,492.0
+2025-10-22T00:38:50.280162Z,KXNBA-26-TOR,Will the Toronto win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126141.66,0.0
+2025-10-22T00:38:50.368962Z,KXNBA-26-SAC,Will the Sacramento win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2126042.08,0.0
+2025-10-22T00:38:50.452421Z,KXNBA-26-UTA,Will the Utah win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,27,2125172.62,0.0
+2025-10-22T00:38:50.538338Z,KXNBA-26-WAS,Will the Washington win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2124153.39,0.0
+2025-10-22T00:38:50.626277Z,KXNBA-26-IND,Will the Indiana win the 2026 Pro Basketball Finals?,active,binary,0.0,0.02,,0.98,1.0,0.02,0.02,0.02,0,29,2120695.93,498.0
+2025-10-22T00:38:50.707813Z,KXNBA-26-CHI,Will the Chicago win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118711.98,467.0
+2025-10-22T00:38:50.816178Z,KXNBA-26-CHA,Will the Charlotte win the 2026 Pro Basketball Finals?,active,binary,0.0,0.01,,0.99,1.0,0.02,0.01,0.01,0,26,2118532.58,467.0
+2025-10-22T00:38:50.892467Z,KXNBA-26-DEN,Will the Denver win the 2026 Pro Basketball Finals?,active,binary,0.13,0.15,0.02,0.85,0.87,0.02,0.02,0.02,12,30,1805913.71,11694.0
+2025-10-22T00:38:50.987230Z,KXNBA-26-CLE,Will the Cleveland win the 2026 Pro Basketball Finals?,active,binary,0.1,0.11,0.02,0.89,0.9,0.02,0.01,0.01,10,30,1708191.51,14431.0
+2025-10-22T00:38:51.075603Z,KXNBA-26-HOU,Will the Houston win the 2026 Pro Basketball Finals?,active,binary,0.07,0.16,0.02,0.84,0.93,0.02,0.09,0.09,6,30,1237748.74,46948.0
