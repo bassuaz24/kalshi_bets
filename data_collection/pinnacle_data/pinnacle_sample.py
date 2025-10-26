@@ -47,15 +47,18 @@ def require_key():
 # =========================
 # 🎯 Scope & run controls — EDIT
 # =========================
-SPORT_IDS = [3, 6]  # e.g., 3=Basketball (per your sample), 6=American football (adjust to your feed)
-EVENT_TYPE = "prematch"      # "prematch" | "live"
+SPORTS_SCOPE = {
+    3: [487, 493],   # Basketball → NBA only
+    7: [889, 905],  # American Football → NFL only
+}
+EVENT_TYPE = "live"      # "prematch" | "live"
 IS_HAVE_ODDS = True          # True = only events that have periods (markets may still be closed)
 POLL_INTERVAL = 10           # seconds between cycles
-RUN_DURATION_MINUTES = 3    # None for continuous
+RUN_DURATION_MINUTES = None    # None for continuous
 USE_DAILY_FILE = True
 OUTPUT_DIR = "pinnacle_data_logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-GLOBAL_CSV = os.path.join(OUTPUT_DIR, "pinnacle_markets.csv")
+GLOBAL_CSV = os.path.join(OUTPUT_DIR, "pinnacle_markets_10/26.csv")
 
 # Optional: persist `since` between runs (set to a path or leave None for memory-only)
 SINCE_STATE_FILE = os.getenv("PINNACLE_SINCE_FILE", None)
@@ -320,12 +323,18 @@ def main():
 
             batch: List[dict] = []
 
-            for sid in SPORT_IDS:
+            for sid, league_ids in SPORTS_SCOPE.items():
                 since = since_state.get(str(sid))
-                params_info = {"sport_id": sid, "event_type": EVENT_TYPE, "is_have_odds": IS_HAVE_ODDS, "since": since}
+                params_info = {
+                    "sport_id": sid,
+                    "event_type": EVENT_TYPE,
+                    "is_have_odds": IS_HAVE_ODDS,
+                    "since": since,
+                    "league_ids": league_ids,
+                }
                 print(f"📡 markets query: {params_info}")
 
-                payload = fetch_markets(sid, since, EVENT_TYPE, IS_HAVE_ODDS)
+                payload = fetch_markets(sid, since, EVENT_TYPE, IS_HAVE_ODDS, league_ids=league_ids)
                 if not isinstance(payload, dict):
                     print(f"⚠️ No payload for sport_id={sid}")
                     time.sleep(0.2)
@@ -377,5 +386,13 @@ def main():
 
 
 if __name__ == "__main__":
+    sports = http_get("kit/v1/sports")
+    if sports:
+        print("📋 Available Sports:")
+        for s in sports:
+            print(f" - {s['id']}: {s['name']}")
+    else:
+        print("⚠️ Could not load sports list.")
+
     main()
 
