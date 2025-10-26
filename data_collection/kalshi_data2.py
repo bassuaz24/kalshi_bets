@@ -5,8 +5,8 @@ kalshi_logger_single_csv.py
 - Unified CSV (daily/global) with top-of-book and second-best levels:
   Columns:
     timestamp, ticker, title, status, market_type,
-    yes_bid, yes_bid2, yes_ask, yes_ask2,
-    no_bid,  no_bid2,  no_ask,  no_ask2,
+    yes_bid, yes_ask,
+    no_bid,  no_ask,
     yes_depth, no_depth,
     liquidity_dollars, volume_24h
 """

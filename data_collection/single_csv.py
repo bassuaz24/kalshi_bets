@@ -32,17 +32,17 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Unified CSV settings
 USE_DAILY_FILE = True
-GLOBAL_CSV_PATH = os.path.join(OUTPUT_DIR, "kalshi_snapshots2.csv")
+GLOBAL_CSV_PATH = os.path.join(OUTPUT_DIR, "kalshi_snapshots_10/26.csv")
 
 # Discovery/selection knobs
-SERIES_TICKERS = []               # e.g. ["KXHIGHNY"]; empty = crawl all (paginated)
+SERIES_TICKERS = ["KXNFLGAME", "KXNBAGAME"]               # e.g. ["KXHIGHNY"]; empty = crawl all (paginated)
 PAGINATION_PAGE_LIMIT = 50        # cap pages during listing crawl
 MAX_TICKERS = 50                  # per cycle, log up to N tickers
 MIN_LIQUIDITY_DOLLARS = 0.0       # filter listing by liquidity floor (coerced)
 
 # Loop timing
 POLL_INTERVAL = 15                # seconds between cycles
-RUN_DURATION_MINUTES = 3         # None for infinite
+RUN_DURATION_MINUTES = None         # None for infinite
 
 # =============================
 # 📡 API helpers
