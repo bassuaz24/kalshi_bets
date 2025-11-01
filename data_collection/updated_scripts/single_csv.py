@@ -37,7 +37,7 @@ with keep.running(on_fail='warn'):
 
     # Unified CSV settings
     USE_DAILY_FILE = True
-    GLOBAL_CSV_PATH = os.path.join(OUTPUT_DIR, "kalshi_snapshots_10/26.csv")
+    GLOBAL_CSV_PATH = os.path.join(OUTPUT_DIR, "kalshi_snapshots_10/31.csv")
 
     # Discovery/selection knobs
     SERIES_TICKERS = ["KXNFLGAME", "KXNBAGAME"]               # e.g. ["KXHIGHNY"]; empty = crawl all (paginated)

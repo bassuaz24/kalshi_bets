@@ -65,7 +65,7 @@ with keep.running(on_fail='warn'):
     USE_DAILY_FILE = True
     OUTPUT_DIR = "pinnacle_data_logs"
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    GLOBAL_CSV = os.path.join(OUTPUT_DIR, "pinnacle_markets_10/26.csv")
+    GLOBAL_CSV = os.path.join(OUTPUT_DIR, "pinnacle_markets_10/31.csv")
 
     # Optional: persist `since` between runs (set to a path or leave None for memory-only)
     SINCE_STATE_FILE = os.getenv("PINNACLE_SINCE_FILE", None)
