@@ -1,0 +1,6 @@
+ts,msg,dry_run,tickers
+2025-11-01T20:36:12.904004Z,trader_start,True,"KXNFLGAME,KXNBAGAME"
+2025-11-06T16:39:50.258234Z,ready,True,"KXNFLGAME,KXNBAGAME"
+2025-11-06T16:40:00.273147Z,stopping,False
+2025-11-06T16:40:00.274408Z,stopped
+2025-11-06T16:48:55.825111Z,ready,True,https://api.elections.kalshi.com,"KXNFLGAME,KXNBAGAME"
