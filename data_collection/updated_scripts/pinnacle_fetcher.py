@@ -56,7 +56,7 @@ with keep.running(on_fail='warn'):
     # =========================
     SPORTS_SCOPE = {
         3: [487, 493],   # Basketball → NBA only
-        7: [889, 905],  # American Football → NFL only
+        7: [889, 905]  # American Football → NFL only  
     }
     EVENT_TYPE = "live"      # "prematch" | "live"
     IS_HAVE_ODDS = True          # True = only events that have periods (markets may still be closed)
@@ -400,6 +400,7 @@ with keep.running(on_fail='warn'):
                 print(f" - {s['id']}: {s['name']}")
         else:
             print("⚠️ Could not load sports list.")
-
+        tennis_leagues = http_get("kit/v1/leagues", params={"sport_id": 2})
+        print(json.dumps(tennis_leagues, indent=2))
         main()
 
