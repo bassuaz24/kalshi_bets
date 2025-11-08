@@ -1,161 +1,96 @@
 #!/usr/bin/env python3
 """
-kalshi_live_trader.py — Functional MVP (safe-by-default, DRY_RUN on)
+kalshi_live_trader_observed.py
+--------------------------------
+Hardcoded-config, DRY-RUN live loop that:
+- Discovers real market tickers from SERIES (no env vars needed).
+- Parses orderbooks in both dollars and cents formats (robust BBO).
+- Uses a basic, inclusive strategy so you WILL see decisions & "orders" in DRY_RUN.
+- Writes decisions and orders to CSV in ./live_betting/.
+- Avoids account endpoints (/me, /positions, /fills) which often 404 on elections host.
+- Prints a heartbeat each loop with counts.
 
-Continuous live trading loop for Kalshi with:
-- Env-based config (no hardcoded secrets)
-- Status/freshness & liquidity gates
-- Correct YES/NO parity for aggressive crosses
-- Risk caps (per-ticker & global), daily fill dedupe, kill-switch
-- Idempotent order placement + CSV audit logs
-- Pluggable "fair probability" hook (integrate Pinnacle when ready)
-
-Usage
-  export KALSHI_API_KEY="..."
-  # optional:
-  # export KALSHI_HOST="https://api.elections.kalshi.com"
-  # export KALSHI_DRY_RUN="true"   # set to "false" to go live
-  # export KALSHI_TICKERS="KXNFLGAME:*,KXNBAGAME:*"  # comma-separated list (":" suffix optional)
-  python kalshi_live_trader.py
+Run:
+  python3 kalshi_live_trader_observed.py
 """
 
-import os
+# =========================
+# ======  CONFIG  =========
+# =========================
+
+class CONFIG:
+    # --- API host & key ---
+    HOST = "https://api.elections.kalshi.com"    # elections environment
+    API_KEY = "e8b43912-6603-413c-b544-3ca7f47cd06b"      # <<< REQUIRED: paste your key here
+    AUTH_MODE = "bearer"                          # "bearer" or "x_api_key"
+
+    # --- Discovery scope ---
+    SERIES = ["KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXTENNISMATCH", 
+    "KXEPLGAME", "KXUELGAME", "KXNFLTOTALS", "KXNFLSPREADS", "KXNBATOTALS",]   # add/remove series as desired
+    TICKERS = []                                       # leave empty to use discovery from SERIES
+    MAX_DISCOVERY_PAGES = 20
+    DISCOVERY_SAMPLE_ROWS = 10
+
+    # Client-side status allowlist — set to None to accept ANY status
+    ALLOWED_STATUSES = None   # e.g., {"active","open","trading","open_for_trading"}  or None
+
+    # --- Behavior toggles ---
+    DRY_RUN = True               # safe by default
+    POLL_INTERVAL_SEC = 4        # seconds between loops
+    REQ_TIMEOUT = 15             # HTTP timeout
+    MAX_RETRIES = 3
+    RETRY_SLEEP = 1.0            # backoff base seconds
+    TICKERS_PER_LOOP = 60        # process at most this many tickers per loop (for visibility)
+
+    # --- Trading policy & risk (very permissive for observation) ---
+    TIME_IN_FORCE = "GTC"        # "GTC" or "DAY"
+    MIN_TICK = 0.01
+    MIN_PRICE = 0.01
+    MAX_PRICE = 0.99
+    MAX_SPREAD = 0.60            # allow wide books so we see activity
+    NEAR_EXPIRY_MINS = 0         # disable near-expiry gate for testing
+
+    # --- Strategy (inclusive & observable) ---
+    class STRAT:
+        FAIR_MODE = "fifty_fifty"  # "fifty_fifty" or "mid"
+        BUY_EDGE = 0.01            # edge to consider buy YES
+        SELL_EDGE = 0.01           # edge to consider sell YES (via NO order)
+        CROSS_EDGE = 0.02          # cross when edge >= this; else post maker
+        SIZE = 2                   # size per intent (kept small for DRY_RUN)
+        ALWAYS_POST_MAKER = True   # if no edge triggers, still post a small maker for visibility
+
+    # --- Logging ---
+    LOG_DIR = "live_betting"
+    HEARTBEAT_PRINT = True         # print per loop summary to console
+    DEBUG_SKIPS = True             # write skip reasons to health_log.csv
+
+
+# =========================
+# ======  IMPORTS  ========
+# =========================
+
 import sys
-import csv
-import json
 import time
+import json
+import csv
 import math
 import uuid
-import signal
 import hashlib
-import threading
-from datetime import datetime, timezone, timedelta
-from typing import Dict, List, Optional, Any, Tuple
-
+import signal
 import requests
+from datetime import datetime, timezone, timedelta
+from typing import Optional, Dict, Any, List, Tuple
 
 
-# export KALSHI_HOST="https://api.elections.kalshi.com"
-# export KALSHI_API_KEY="e8b43912-6603-413c-b544-3ca7f47cd06b"
-# export KALSHI_TICKERS="KXNFLGAME,KXNBAGAME"   # or whatever you trade
-# export KALSHI_DRY_RUN="true"                  # keep true until you verify
+# =========================
+# =====  UTIL/LOGGING  ====
+# =========================
 
-
-# ========== CONFIG (env-only; sensible defaults) ==========
-HOST                 = os.getenv("KALSHI_HOST", "https://api.elections.kalshi.com").rstrip("/")
-API_KEY              = os.getenv("KALSHI_API_KEY")
-AUTH_MODE            = os.getenv("KALSHI_AUTH_MODE", "bearer").lower()  # "bearer" | "x_api_key"
-DRY_RUN              = os.getenv("KALSHI_DRY_RUN", "true").strip().lower() != "false"
-
-# NEW: series-driven discovery (use this instead of KALSHI_TICKERS)
-SERIES_ENV = os.getenv("KALSHI_SERIES", "").strip()
-SERIES = [s.strip() for s in SERIES_ENV.split(",") if s.strip()]
-DISCOVER_STATUS = os.getenv("KALSHI_DISCOVER_STATUS", "open")  # e.g., "open"
-
-
-# Scope: comma-separated. Example: "TICKER1,TICKER2"
-TICKERS_ENV          = os.getenv("KALSHI_TICKERS", "").strip()
-TICKERS              = [t.strip() for t in TICKERS_ENV.split(",") if t.strip()] or ["KXNFLGAME","KXNBAGAME"
-    # 👇 Put defaults here if you want; left empty on purpose to force explicit config.
-]
-
-# Timings / HTTP
-POLL_INTERVAL_SEC    = int(os.getenv("KALSHI_POLL_INTERVAL_SEC", "5"))
-REQ_TIMEOUT          = int(os.getenv("KALSHI_REQ_TIMEOUT", "15"))
-MAX_RETRIES          = int(os.getenv("KALSHI_MAX_RETRIES", "3"))
-RETRY_SLEEP          = float(os.getenv("KALSHI_RETRY_SLEEP", "1.0"))
-
-# Trading policy
-TIME_IN_FORCE        = os.getenv("KALSHI_TIF", "GTC")  # "GTC" | "DAY"
-MIN_TICK             = float(os.getenv("KALSHI_MIN_TICK", "0.01"))
-MIN_PRICE            = float(os.getenv("KALSHI_MIN_PRICE", "0.01"))
-MAX_PRICE            = float(os.getenv("KALSHI_MAX_PRICE", "0.99"))
-MAX_SPREAD           = float(os.getenv("KALSHI_MAX_SPREAD", "0.10"))
-MIN_EDGE             = float(os.getenv("KALSHI_MIN_EDGE", "0.02"))  # 2 cents edge threshold
-MIN_BBO_SIZE         = int(os.getenv("KALSHI_MIN_BBO_SIZE", "1"))   # minimum displayed size at target level
-NEAR_EXPIRY_MINS     = int(os.getenv("KALSHI_NEAR_EXPIRY_MINS", "3"))
-
-# Risk caps
-MAX_CONTRACTS_PER_ORDER      = int(os.getenv("KALSHI_MAX_CONTRACTS_PER_ORDER", "50"))
-MAX_OPEN_CONTRACTS_PER_TICK  = int(os.getenv("KALSHI_MAX_OPEN_CONTRACTS_PER_TICK", "500"))
-MAX_GLOBAL_OPEN_CONTRACTS    = int(os.getenv("KALSHI_MAX_GLOBAL_OPEN_CONTRACTS", "3000"))
-MAX_DAILY_CONTRACTS_PER_TICK = int(os.getenv("KALSHI_MAX_DAILY_CONTRACTS_PER_TICK", "2000"))
-
-# Safety / Ops
-KILL_SWITCH_FILE     = os.getenv("KALSHI_KILL_SWITCH_FILE", "kill.switch")
-CANCEL_ON_EXIT       = os.getenv("KALSHI_CANCEL_ON_EXIT", "false").lower() == "true"
-STALE_SECONDS        = int(os.getenv("KALSHI_STALE_SECONDS", "15"))
-
-# Logging
-LOG_DIR              = os.getenv("KALSHI_LOG_DIR", "live_betting")
-os.makedirs(LOG_DIR, exist_ok=True)
-ORDERS_CSV           = os.path.join(LOG_DIR, "orders_log.csv")
-FILLS_CSV            = os.path.join(LOG_DIR, "fills_log.csv")
-HEALTH_CSV           = os.path.join(LOG_DIR, "health_log.csv")
-DECISIONS_CSV        = os.path.join(LOG_DIR, "decisions_log.csv")
-
-# ========== UTIL ==========
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
 def now_iso() -> str:
     return now_utc().isoformat().replace("+00:00", "Z")
-
-def require_api_key():
-    if not API_KEY or API_KEY.strip() == "":
-        sys.exit("❌ Missing KALSHI_API_KEY env var. Aborting.")
-
-def headers() -> Dict[str, str]:
-    h = {
-        "Accept": "application/json",
-        "Content-Type": "application/json",
-        "User-Agent": "kalshi-live-trader/2.0",
-    }
-    if AUTH_MODE == "bearer":
-        h["Authorization"] = f"Bearer {API_KEY}"
-    else:
-        h["X-API-Key"] = API_KEY
-    return h
-
-def http_request(method: str, path: str, params: Optional[dict] = None, body: Optional[dict] = None,
-                 extra_headers: Optional[dict] = None) -> Optional[dict]:
-    url = f"{HOST}/trade-api/v2/{path.lstrip('/')}"
-    hdrs = headers()
-    if extra_headers:
-        hdrs.update(extra_headers)
-    data = json.dumps(body) if body is not None else None
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            if DRY_RUN and method.upper() in {"POST", "DELETE"}:
-                # Emulate a minimal OK response
-                return {"dry_run": True, "echo": {"path": path, "params": params, "body": body}}
-
-            r = requests.request(method=method.upper(), url=url, headers=hdrs,
-                                 params=params, data=data, timeout=REQ_TIMEOUT)
-            if r.status_code in (200, 201, 204):
-                if r.text.strip() == "" or r.status_code == 204:
-                    return {"ok": True}
-                try:
-                    return r.json()
-                except Exception:
-                    return json.loads(r.text)
-            if r.status_code in {429, 500, 502, 503, 504}:
-                time.sleep(RETRY_SLEEP * attempt)
-                continue
-            # Hard error
-            print(f"❌ {method} {url} {r.status_code}: {r.text[:300]}", file=sys.stderr)
-            return None
-        except requests.RequestException as e:
-            print(f"⚠️ {method} {url} error: {e}", file=sys.stderr)
-            time.sleep(RETRY_SLEEP * attempt)
-    return None
-
-def clamp_price(p: float) -> float:
-    if p is None or math.isnan(p):
-        return p
-    p = max(MIN_PRICE, min(MAX_PRICE, p))
-    # snap to tick
-    return round(round(p / MIN_TICK) * MIN_TICK, 4)
 
 def to_f(x) -> Optional[float]:
     try:
@@ -163,7 +98,21 @@ def to_f(x) -> Optional[float]:
     except Exception:
         return None
 
-def log_csv(path: str, fieldnames: List[str], row: Dict[str, Any]):
+def clamp_price(p: float) -> Optional[float]:
+    if p is None or math.isnan(p):
+        return None
+    p = max(CONFIG.MIN_PRICE, min(CONFIG.MAX_PRICE, p))
+    # snap to tick
+    return round(round(p / CONFIG.MIN_TICK) * CONFIG.MIN_TICK, 4)
+
+def _ensure_dir(path: str):
+    import os
+    os.makedirs(path, exist_ok=True)
+
+def log_csv(filename: str, fieldnames: List[str], row: Dict[str, Any]):
+    _ensure_dir(CONFIG.LOG_DIR)
+    import os
+    path = f"{CONFIG.LOG_DIR}/{filename}"
     is_new = not os.path.exists(path)
     with open(path, "a", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -171,12 +120,32 @@ def log_csv(path: str, fieldnames: List[str], row: Dict[str, Any]):
             w.writeheader()
         w.writerow(row)
 
-def log_health(msg: str, **extra):
+def log_health(msg: str, **kw):
     row = {"ts": now_iso(), "msg": msg}
-    row.update(extra or {})
-    # ensure all keys consistent
-    fn = ["ts", "msg", *sorted([k for k in row.keys() if k not in {"ts","msg"}])]
-    log_csv(HEALTH_CSV, fn, row)
+    row.update(kw)
+    fields = ["ts", "msg"] + sorted([k for k in row.keys() if k not in {"ts","msg"}])
+    log_csv("health_log.csv", fields, row)
+
+def log_decision(ticker: str, intent: Dict[str, Any], ctx: Dict[str, Any]):
+    row = {
+        "ts": now_iso(),
+        "ticker": ticker,
+        "intent_id": intent.get("intent_id"),
+        "side": intent.get("side"),
+        "price": intent.get("price"),
+        "count": intent.get("count"),
+        "reason": intent.get("reason"),
+        "fair_yes": ctx.get("fair_yes"),
+        "edge": ctx.get("edge"),
+        "spread": ctx.get("spread"),
+        "yes_bid": ctx.get("yes_bid"),
+        "yes_ask": ctx.get("yes_ask"),
+        "no_bid": ctx.get("no_bid"),
+        "no_ask": ctx.get("no_ask"),
+    }
+    fields = ["ts","ticker","intent_id","side","price","count","reason",
+              "fair_yes","edge","spread","yes_bid","yes_ask","no_bid","no_ask"]
+    log_csv("decisions_log.csv", fields, row)
 
 def log_order(action: str, payload: Dict[str, Any], resp: Any):
     row = {
@@ -189,71 +158,60 @@ def log_order(action: str, payload: Dict[str, Any], resp: Any):
         "count": payload.get("count"),
         "tif": payload.get("time_in_force"),
         "client_order_id": payload.get("client_order_id"),
-        "result": json.dumps(resp)[:2000]
+        "result": json.dumps(resp)[:1800]
     }
-    log_csv(ORDERS_CSV, ["ts","action","ticker","side","type","price","count","tif","client_order_id","result"], row)
+    fields = ["ts","action","ticker","side","type","price","count","tif","client_order_id","result"]
+    log_csv("orders_log.csv", fields, row)
 
-def log_fill(fill: Dict[str, Any]):
-    row = {
-        "ts": now_iso(),
-        "fill_ts": fill.get("timestamp") or fill.get("time"),
-        "ticker": fill.get("ticker"),
-        "side": fill.get("side"),
-        "price": fill.get("price") or fill.get("price_dollars"),
-        "count": fill.get("count") or fill.get("quantity"),
-        "order_id": fill.get("order_id") or fill.get("orderId"),
-        "fill_id": fill.get("fill_id") or fill.get("id"),
+
+# =========================
+# ===== HTTP / CLIENT =====
+# =========================
+
+def _headers(extra: Optional[Dict[str,str]] = None) -> Dict[str,str]:
+    if not CONFIG.API_KEY or CONFIG.API_KEY == "PUT_YOUR_KALSHI_API_KEY_HERE":
+        sys.exit("❌ Please paste your real API key into CONFIG.API_KEY at the top of this file.")
+    h = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "User-Agent": "kalshi-live-trader-observed/1.0",
     }
-    log_csv(FILLS_CSV, ["ts","fill_ts","ticker","side","price","count","order_id","fill_id"], row)
+    if CONFIG.AUTH_MODE.lower() == "bearer":
+        h["Authorization"] = f"Bearer {CONFIG.API_KEY}"
+    else:
+        h["X-API-Key"] = CONFIG.API_KEY
+    if extra:
+        h.update(extra)
+    return h
 
-def log_decision(ticker: str, intent: Dict[str, Any], context: Dict[str, Any]):
-    row = {
-        "ts": now_iso(),
-        "ticker": ticker,
-        "intent_id": intent.get("intent_id"),
-        "side": intent.get("side"),
-        "price": intent.get("price"),
-        "count": intent.get("count"),
-        "reason": context.get("reason"),
-        "fair_yes": context.get("fair_yes"),
-        "edge": context.get("edge"),
-        "spread": context.get("spread"),
-        "yes_bid": context.get("yes_bid"),
-        "yes_ask": context.get("yes_ask"),
-        "no_bid": context.get("no_bid"),
-        "no_ask": context.get("no_ask"),
-    }
-    log_csv(DECISIONS_CSV,
-            ["ts","ticker","intent_id","side","price","count","reason","fair_yes","edge","spread","yes_bid","yes_ask","no_bid","no_ask"],
-            row)
+def http_request(method: str, path: str, params: Optional[dict] = None,
+                 body: Optional[dict] = None, extra_headers: Optional[dict] = None) -> Optional[dict]:
+    url = f"{CONFIG.HOST.rstrip('/')}/trade-api/v2/{path.lstrip('/')}"
+    data = json.dumps(body) if body is not None else None
 
-# ========== KALSHI CLIENT ==========
-
-def get_positions() -> Dict[str, Any]:
-    data = http_request("GET", "positions") or {}
-    return data
-
-def get_orders(ticker: Optional[str] = None) -> List[dict]:
-    params = {"ticker": ticker} if ticker else None
-    data = http_request("GET", "orders", params=params) or {}
-    return data.get("orders") or data.get("data") or []
-
-def get_fills(since_iso: Optional[str] = None) -> List[dict]:
-    params = {"since": since_iso} if since_iso else None
-    data = http_request("GET", "fills", params=params) or {}
-    return data.get("fills") or data.get("data") or []
-
-def get_market(ticker: str) -> Dict[str, Any]:
-    return http_request("GET", f"markets/{ticker}") or {}
-
-def get_orderbook(ticker: str) -> Dict[str, Any]:
-    return http_request("GET", f"markets/{ticker}/orderbook") or {}
-
-def cancel_order(order_id: str) -> Optional[dict]:
-    return http_request("DELETE", f"orders/{order_id}")
-
-def place_order(payload: Dict[str, Any], idempotency_key: str) -> Optional[dict]:
-    return http_request("POST", "orders", body=payload, extra_headers={"Idempotency-Key": idempotency_key})
+    for attempt in range(1, CONFIG.MAX_RETRIES + 1):
+        try:
+            if CONFIG.DRY_RUN and method.upper() in {"POST","DELETE"}:
+                # emulate success
+                return {"dry_run": True, "echo": {"path": path, "params": params, "body": body}}
+            r = requests.request(method.upper(), url, headers=_headers(extra_headers),
+                                 params=params, data=data, timeout=CONFIG.REQ_TIMEOUT)
+            if r.status_code in (200, 201, 204):
+                if r.status_code == 204 or not r.text.strip():
+                    return {"ok": True}
+                try:
+                    return r.json()
+                except Exception:
+                    return json.loads(r.text)
+            if r.status_code in {429, 500, 502, 503, 504}:
+                time.sleep(CONFIG.RETRY_SLEEP * attempt)
+                continue
+            print(f"❌ {method} {url} {r.status_code}: {r.text[:300]}")
+            return None
+        except requests.RequestException as e:
+            print(f"⚠️ {method} {url} error: {e}")
+            time.sleep(CONFIG.RETRY_SLEEP * attempt)
+    return None
 
 def list_markets(series_ticker: Optional[str] = None, status: Optional[str] = None, cursor: Optional[str] = None) -> dict:
     params = {}
@@ -265,409 +223,401 @@ def list_markets(series_ticker: Optional[str] = None, status: Optional[str] = No
         params["cursor"] = cursor
     return http_request("GET", "markets", params=params) or {}
 
-def discover_market_tickers(series: List[str], status: str = "open", max_pages: int = 10) -> List[str]:
-    found = []
-    for s in series:
-        cursor = None
-        pages = 0
-        while pages < max_pages:
-            pages += 1
-            payload = list_markets(series_ticker=s, status=status, cursor=cursor)
-            markets = payload.get("markets") or []
-            for m in markets:
-                t = m.get("ticker")
-                st = (m.get("status") or "").lower()
-                if t and (not status or st == status.lower()):
-                    found.append(t)
-            cursor = payload.get("cursor")
-            if not cursor:
-                break
-    return sorted(set(found))
+def get_market(ticker: str) -> dict:
+    return http_request("GET", f"markets/{ticker}") or {}
+
+def get_orderbook(ticker: str) -> dict:
+    return http_request("GET", f"markets/{ticker}/orderbook") or {}
+
+def place_order(payload: Dict[str,Any], idem_key: str) -> Optional[dict]:
+    return http_request("POST", "orders", body=payload, extra_headers={"Idempotency-Key": idem_key})
 
 
-# ========== STATE & RISK ==========
-class RiskManager:
-    def __init__(self):
-        self.daily_filled: Dict[str, int] = {}
-        self.seen_fill_ids: set = set()
-        self.last_midnight = self._midnight_utc(now_utc())
+# =========================
+# ======= DISCOVERY =======
+# =========================
 
-    def _midnight_utc(self, dt: datetime) -> datetime:
-        return datetime(dt.year, dt.month, dt.day, tzinfo=timezone.utc)
+def _collect_all_for_series(series: str) -> list:
+    """Fetch all markets for a series (no server-side status filter)."""
+    out, cursor, pages = [], None, 0
+    while pages < CONFIG.MAX_DISCOVERY_PAGES:
+        pages += 1
+        payload = list_markets(series_ticker=series, status=None, cursor=cursor)
+        markets = payload.get("markets") or []
+        out.extend(markets)
+        cursor = payload.get("cursor")
+        if not cursor:
+            break
+    return out
 
-    def maybe_rollover(self):
-        now = now_utc()
-        if now >= self.last_midnight + timedelta(days=1):
-            self.daily_filled.clear()
-            self.seen_fill_ids.clear()
-            self.last_midnight = self._midnight_utc(now)
+def _debug_dump_series(series: str, markets: list, max_rows: int):
+    if not markets:
+        print(f"🔎 series={series}: 0 markets")
+        return
+    print(f"🔎 series={series}: total {len(markets)} markets (no status filter). Sample:")
+    for m in markets[:max_rows]:
+        t = m.get("ticker")
+        st = (m.get("status") or "").lower()
+        ttl = (m.get("title") or "")[:60]
+        print(f"   - {t}  status={st}  title={ttl}")
 
-    def update_fills(self, fills: List[dict]):
-        self.maybe_rollover()
-        for f in fills:
-            fid = f.get("fill_id") or f.get("id")
-            if not fid or fid in self.seen_fill_ids:
+def discover_market_tickers(series_list: List[str]) -> List[str]:
+    """Discover actual market tickers from series, then client-filter by CONFIG.ALLOWED_STATUSES (or keep all)."""
+    discovered = []
+    for s in series_list:
+        ms = _collect_all_for_series(s)
+        _debug_dump_series(s, ms, CONFIG.DISCOVERY_SAMPLE_ROWS)
+        statuses_seen = sorted(set((m.get("status") or "").lower() for m in ms))
+        if not ms:
+            print(f"   ⚠️ No markets returned by API for series={s}.")
+        kept = []
+        for m in ms:
+            t = m.get("ticker")
+            st = (m.get("status") or "").lower()
+            if not t:
                 continue
-            self.seen_fill_ids.add(fid)
-            t = f.get("ticker")
-            qty = int(f.get("count") or f.get("quantity") or 0)
-            if qty and t:
-                self.daily_filled[t] = self.daily_filled.get(t, 0) + qty
+            if CONFIG.ALLOWED_STATUSES is None or st in CONFIG.ALLOWED_STATUSES:
+                kept.append(t)
+        if not kept and CONFIG.ALLOWED_STATUSES is not None:
+            print(f"   ⚠️ After filtering by {sorted(CONFIG.ALLOWED_STATUSES)}, none kept for series={s}.")
+            print(f"      Statuses seen: {statuses_seen}")
+        discovered.extend(kept)
+    return sorted(set(discovered))
 
-    def global_open_contracts(self, positions_payload: Dict[str, Any]) -> int:
-        total = 0
-        for p in positions_payload.get("positions", []) or []:
-            yes_sh = int(p.get("yes_shares") or 0)
-            no_sh  = int(p.get("no_shares") or 0)
-            total += abs(yes_sh - no_sh)  # crude net notion of risk
-        return total
 
-    def ticker_net(self, positions_payload: Dict[str, Any], ticker: str) -> int:
-        for p in positions_payload.get("positions", []) or []:
-            if p.get("ticker") == ticker:
-                yes_sh = int(p.get("yes_shares") or 0)
-                no_sh  = int(p.get("no_shares") or 0)
-                return yes_sh - no_sh
-        return 0
+# =========================
+# ======= BBO / OB  =======
+# =========================
 
-    def allowed_size(self, positions_payload: Dict[str, Any], ticker: str) -> int:
-        # cap by per-order, per-ticker open, global open, and daily filled
-        net = self.ticker_net(positions_payload, ticker)
-        if abs(net) >= MAX_OPEN_CONTRACTS_PER_TICK:
-            return 0
-        global_open = self.global_open_contracts(positions_payload)
-        if global_open >= MAX_GLOBAL_OPEN_CONTRACTS:
-            return 0
-        daily = self.daily_filled.get(ticker, 0)
-        if daily >= MAX_DAILY_CONTRACTS_PER_TICK:
-            return 0
-        remaining_daily = MAX_DAILY_CONTRACTS_PER_TICK - daily
-        # Conservative: also constrain by remaining per-ticker open
-        remaining_open = MAX_OPEN_CONTRACTS_PER_TICK - abs(net)
-        return max(0, min(MAX_CONTRACTS_PER_ORDER, remaining_daily, remaining_open))
-
-# ========== FAIR PROBABILITY HOOK ==========
-def fair_yes_probability(ticker: str, market: Dict[str, Any]) -> Optional[float]:
+def parse_ob_yes_no(orderbook: dict) -> Tuple[List[Tuple[float,int]], List[Tuple[float,int]]]:
     """
-    TODO: integrate Pinnacle de-vigged probability here.
-    MVP fallback: use mid-price as a "fair" stand-in.
-    """
-    yb = to_f(market.get("yes_bid_dollars"))
-    ya = to_f(market.get("yes_ask_dollars"))
-    if yb is not None and ya is not None:
-        return round((yb + ya) / 2.0, 4)
-    return None
-
-# ========== STRATEGY ==========
-def parse_ob_depth(orderbook: Dict[str, Any]) -> Tuple[List[Tuple[float,int]], List[Tuple[float,int]]]:
-    """
-    Returns lists of (price, qty) in DOLLARS for YES and NO ask ladders.
+    Return YES and NO ask ladders in dollars as lists of (price, qty).
+    Supports both:
+      - dollars: orderbook["orderbook"]["yes_dollars"] / ["no_dollars"] (e.g., [[0.63, 10], ...])
+      - cents:   orderbook["orderbook"]["yes"] / ["no"] (e.g., [[63, 10], ...])  -> divide by 100
     """
     ob = (orderbook or {}).get("orderbook") or {}
-    yes = ob.get("yes_dollars")
-    no  = ob.get("no_dollars")
 
-    def normalize(levels):
+    def _norm_levels(levels, cents: bool) -> List[Tuple[float,int]]:
         out = []
         if isinstance(levels, list):
-            for item in levels:
-                if isinstance(item, (list, tuple)) and len(item) == 2:
-                    price, qty = item
-                    pf = to_f(price)
+            for it in levels:
+                if isinstance(it, (list, tuple)) and len(it) == 2:
+                    p_raw, q_raw = it
+                    # price
                     try:
-                        q = int(qty)
+                        p = float(p_raw)
                     except Exception:
-                        q = None
-                    if pf is not None and q is not None:
-                        out.append((round(pf, 4), q))
+                        continue
+                    if cents:
+                        p = p / 100.0
+                    # qty
+                    try:
+                        q = int(q_raw)
+                    except Exception:
+                        continue
+                    if q > 0:
+                        out.append((round(p, 4), q))
+        out.sort(key=lambda t: t[0])  # asks ascending
         return out
 
-    return normalize(yes), normalize(no)
+    yes_levels = _norm_levels(ob.get("yes_dollars"), cents=False)
+    no_levels  = _norm_levels(ob.get("no_dollars"),  cents=False)
 
-def decide_intents(
-    ticker: str,
-    market: Dict[str, Any],
-    orderbook: Dict[str, Any],
-    positions_payload: Dict[str, Any],
-    risk: RiskManager
-) -> List[Dict[str, Any]]:
+    if not yes_levels and isinstance(ob.get("yes"), list):
+        yes_levels = _norm_levels(ob.get("yes"), cents=True)
+    if not no_levels and isinstance(ob.get("no"), list):
+        no_levels = _norm_levels(ob.get("no"), cents=True)
+
+    return yes_levels, no_levels
+
+def best_prices_from_sources(market: dict, orderbook: dict) -> Dict[str, Optional[float]]:
     """
-    Deterministic decision: compares "fair_yes" to BBO and optionally crosses.
-    - Requires spread <= MAX_SPREAD and displayed size >= MIN_BBO_SIZE
-    - Aggressive buy-YES: take yes_ask
-    - Aggressive sell-YES: take yes_bid (by placing NO at price 1 - yes_bid)
+    Build a consistent top-of-book using market fields or orderbook ladders with parity:
+      - yes_ask from market.yes_ask_dollars OR ob.yes_dollars[0][0] OR ob.yes[0][0]/100
+      - no_ask  from market.no_ask_dollars  OR ob.no_dollars[0][0]  OR ob.no[0][0]/100
+      - yes_bid from market.yes_bid_dollars OR 1 - no_ask
+      - no_bid  from market.no_bid_dollars  OR 1 - yes_ask
     """
-    intents: List[Dict[str, Any]] = []
+    # from market (may be missing)
+    yb_m = to_f(market.get("yes_bid_dollars"))
+    ya_m = to_f(market.get("yes_ask_dollars"))
+    nb_m = to_f(market.get("no_bid_dollars"))
+    na_m = to_f(market.get("no_ask_dollars"))
 
-    # Market status gate
-    status = str(market.get("status") or "").lower()
-    if status not in {"open"}:
+    # from orderbook (asks)
+    yes_levels, no_levels = parse_ob_yes_no(orderbook)
+    ya_ob = yes_levels[0][0] if yes_levels else None
+    na_ob = no_levels[0][0]  if no_levels  else None
+
+    yes_ask = ya_m if ya_m is not None else ya_ob
+    no_ask  = na_m if na_m is not None else na_ob
+
+    yes_bid = yb_m if yb_m is not None else (1.0 - no_ask if no_ask is not None else None)
+    no_bid  = nb_m if nb_m is not None else (1.0 - yes_ask if yes_ask is not None else None)
+
+    def clamp01(x):
+        return None if x is None else max(CONFIG.MIN_PRICE, min(CONFIG.MAX_PRICE, round(float(x), 4)))
+
+    return {
+        "yes_bid": clamp01(yes_bid),
+        "yes_ask": clamp01(yes_ask),
+        "no_bid":  clamp01(no_bid),
+        "no_ask":  clamp01(no_ask),
+    }
+
+
+# =========================
+# ======= STRATEGY  =======
+# =========================
+
+def idem_key(intent: Dict[str,Any]) -> str:
+    bucket = int(time.time() // 5)  # 5-second bucket
+    base = f"{intent['ticker']}|{intent['side']}|{intent['price']}|{intent['count']}|{bucket}"
+    return hashlib.sha256(base.encode()).hexdigest()
+
+_seen_statuses = set()
+def note_status_once(status: str):
+    status = (status or "").lower()
+    global _seen_statuses
+    if status not in _seen_statuses:
+        _seen_statuses.add(status)
+        log_health("status_seen", status=status)
+
+def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,Any]]:
+    """
+    Basic, inclusive strategy to ensure DRY-RUN produces visible decisions:
+      - Accepts any status if CONFIG.ALLOWED_STATUSES is None; otherwise filters by it.
+      - Builds BBO from market OR orderbook (dollars/cents) with parity fallback.
+      - Uses simple 'fair' (0.5 by default). If yes_ask <= fair - BUY_EDGE => buy YES;
+        if yes_bid >= fair + SELL_EDGE => sell YES (place NO).
+      - If no edge fires and ALWAYS_POST_MAKER is True: post small maker on both sides to show activity.
+      - Applies a wide spread gate and no near-expiry gate (per CONFIG).
+    """
+    intents: List[Dict[str,Any]] = []
+
+    status = (market.get("status") or "").lower()
+    note_status_once(status)
+    if CONFIG.ALLOWED_STATUSES is not None and status not in CONFIG.ALLOWED_STATUSES:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_status", ticker=ticker, status=status)
         return intents
 
-    # Expiry guard (best-effort; Kalshi fields may differ; ignore if absent)
-    expiry = market.get("event_expiration_time") or market.get("close_time") or market.get("expiry") or None
-    try:
-        if isinstance(expiry, str) and expiry.endswith("Z"):
-            expiry_dt = datetime.fromisoformat(expiry.replace("Z", "+00:00"))
-            if (expiry_dt - now_utc()) <= timedelta(minutes=NEAR_EXPIRY_MINS):
-                return intents
-    except Exception:
-        pass
-
-    # Top of book
-    yes_bid = to_f(market.get("yes_bid_dollars"))
-    yes_ask = to_f(market.get("yes_ask_dollars"))
-    no_bid  = to_f(market.get("no_bid_dollars"))
-    no_ask  = to_f(market.get("no_ask_dollars"))
-
-    # Spread + liquidity gates
-    spread = None
-    if yes_bid is not None and yes_ask is not None:
-        spread = round(yes_ask - yes_bid, 4)
-        if spread is None or spread > MAX_SPREAD:
-            return intents
-
-    yes_levels, no_levels = parse_ob_depth(orderbook)
-    best_yes_ask_qty = yes_levels[0][1] if yes_levels else 0
-    best_yes_bid_qty = None
-    # Infer bid qty from NO ladder parity if YES bids not provided by API; otherwise rely on market fields
-    # Here we only check displayed ask size for aggression + a basic qty for the other side if available
-    if no_levels:
-        # NO ask at price_no == 1 - YES bid; we don't align ladders strictly, so only minimal checks.
-        pass
-
-    # require some displayed size at target price (on YES ask for buy or YES bid for sell)
-    if best_yes_ask_qty is not None and best_yes_ask_qty < MIN_BBO_SIZE:
-        # still allow if no depth API provides qty=0; we don't hard fail here
-        pass
-
-    # Fair probability
-    fair_yes = fair_yes_probability(ticker, market)
-    if fair_yes is None or yes_bid is None or yes_ask is None:
-        return intents
-
-    # Edge calculations (expected price improvement vs "fair")
-    # Buy-YES edge: fair - ask ; Sell-YES edge: bid - fair
-    buy_edge  = round(fair_yes - yes_ask, 4)
-    sell_edge = round(yes_bid - fair_yes, 4)
-
-    allowed = risk.allowed_size(positions_payload, ticker)
-    if allowed <= 0:
-        return intents
-
-    # BUY YES (take yes_ask) when fair is sufficiently higher than ask
-    if buy_edge >= MIN_EDGE and best_yes_ask_qty >= 1:
-        price = clamp_price(yes_ask)
-        if price is not None and MIN_PRICE <= price <= MAX_PRICE:
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker,
-                "side": "yes",
-                "price": price,
-                "count": min(allowed, best_yes_ask_qty),  # don't exceed displayed size
-                "reason": f"buy_yes_edge={buy_edge}"
-            })
-
-    # SELL YES (take yes_bid) by placing NO at price_no = 1 - yes_bid
-    # This crosses the NO ask (parity) and should execute if the book is coherent.
-    if sell_edge >= MIN_EDGE:
-        price_no = clamp_price(1.0 - yes_bid)
-        # NO parity sanity vs no_ask, if available
-        if no_ask is not None and price_no < no_ask - 2*MIN_TICK:
-            # parity anomaly; skip to avoid off-book pricing
+    # near-expiry (disabled by default with NEAR_EXPIRY_MINS=0)
+    if CONFIG.NEAR_EXPIRY_MINS > 0:
+        expiry = market.get("event_expiration_time") or market.get("close_time") or market.get("expiry")
+        try:
+            if isinstance(expiry, str):
+                exp = datetime.fromisoformat(expiry.replace("Z","+00:00")) if "Z" in expiry else datetime.fromisoformat(expiry)
+                if (exp - now_utc()) <= timedelta(minutes=CONFIG.NEAR_EXPIRY_MINS):
+                    if CONFIG.DEBUG_SKIPS:
+                        log_health("skip_near_expiry", ticker=ticker)
+                    return intents
+        except Exception:
             pass
+
+    # robust BBO
+    bbo = best_prices_from_sources(market, orderbook)
+    yes_bid, yes_ask, no_bid, no_ask = bbo["yes_bid"], bbo["yes_ask"], bbo["no_bid"], bbo["no_ask"]
+
+    if yes_bid is None or yes_ask is None:
+        if CONFIG.DEBUG_SKIPS:
+            ob = (orderbook or {}).get("orderbook") or {}
+            log_health("skip_no_bbo", ticker=ticker, ob_keys=",".join(sorted(ob.keys())))
+        return intents
+
+    spread = round(yes_ask - yes_bid, 4)
+    if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
+        # not returning here; keep going to still post makers for visibility if configured
+        pass
+
+    yes_levels, no_levels = parse_ob_yes_no(orderbook)
+    best_yes_ask_qty = yes_levels[0][1] if yes_levels else 0
+    best_no_ask_qty  = no_levels[0][1] if no_levels else 0
+
+    # fair selector
+    if CONFIG.STRAT.FAIR_MODE == "mid":
+        fair = round((yes_bid + yes_ask)/2.0, 4)
+    else:
+        fair = 0.50
+
+    buy_edge  = round(fair - yes_ask, 4)
+    sell_edge = round(yes_bid - fair, 4)
+
+    # BUY YES
+    if buy_edge >= CONFIG.STRAT.BUY_EDGE:
+        if buy_edge >= CONFIG.STRAT.CROSS_EDGE and best_yes_ask_qty >= 1:
+            price = clamp_price(yes_ask)
+            if price is not None:
+                intents.append({
+                    "intent_id": str(uuid.uuid4()),
+                    "ticker": ticker, "side": "yes",
+                    "price": price,
+                    "count": min(CONFIG.STRAT.SIZE, max(1, best_yes_ask_qty)),
+                    "reason": f"buy_yes_cross edge={buy_edge}"
+                })
         else:
+            # maker at yes_bid (join bid)
+            maker_price = clamp_price(yes_bid)
+            if maker_price is not None:
+                intents.append({
+                    "intent_id": str(uuid.uuid4()),
+                    "ticker": ticker, "side": "yes",
+                    "price": maker_price,
+                    "count": CONFIG.STRAT.SIZE,
+                    "reason": f"buy_yes_maker edge={buy_edge}"
+                })
+
+    # SELL YES (place NO)
+    if sell_edge >= CONFIG.STRAT.SELL_EDGE:
+        if sell_edge >= CONFIG.STRAT.CROSS_EDGE:
+            price_no = clamp_price(1.0 - yes_bid)
+            if no_ask is not None and price_no < no_ask - 2*CONFIG.MIN_TICK:
+                if CONFIG.DEBUG_SKIPS:
+                    log_health("skip_parity_cross", ticker=ticker, price_no=price_no, no_ask=no_ask)
+            else:
+                intents.append({
+                    "intent_id": str(uuid.uuid4()),
+                    "ticker": ticker, "side": "no",
+                    "price": price_no,
+                    "count": CONFIG.STRAT.SIZE if best_no_ask_qty <= 0 else min(CONFIG.STRAT.SIZE, max(1, best_no_ask_qty)),
+                    "reason": f"sell_yes_cross edge={sell_edge}"
+                })
+        else:
+            maker_no = clamp_price(1.0 - yes_ask)
             intents.append({
                 "intent_id": str(uuid.uuid4()),
-                "ticker": ticker,
-                "side": "no",
-                "price": price_no,
-                "count": allowed,
-                "reason": f"sell_yes_edge={sell_edge}"
+                "ticker": ticker, "side": "no",
+                "price": maker_no,
+                "count": CONFIG.STRAT.SIZE,
+                "reason": f"sell_yes_maker edge={sell_edge}"
             })
 
-    # Decision logging
+    # If no edge intent, optionally post tiny makers to ensure visibility
+    if not intents and CONFIG.STRAT.ALWAYS_POST_MAKER:
+        maker_yes = clamp_price(yes_bid)
+        maker_no  = clamp_price(1.0 - yes_ask)
+        if maker_yes is not None:
+            intents.append({
+                "intent_id": str(uuid.uuid4()),
+                "ticker": ticker, "side": "yes",
+                "price": maker_yes,
+                "count": 1,
+                "reason": "maker_heartbeat_yes"
+            })
+        if maker_no is not None:
+            intents.append({
+                "intent_id": str(uuid.uuid4()),
+                "ticker": ticker, "side": "no",
+                "price": maker_no,
+                "count": 1,
+                "reason": "maker_heartbeat_no"
+            })
+
+    # decision log
     for it in intents:
         log_decision(ticker, it, {
-            "reason": it.get("reason"),
-            "fair_yes": fair_yes,
+            "fair_yes": fair,
             "edge": buy_edge if it["side"] == "yes" else sell_edge,
             "spread": spread,
-            "yes_bid": yes_bid,
-            "yes_ask": yes_ask,
-            "no_bid": no_bid,
-            "no_ask": no_ask,
+            "yes_bid": yes_bid, "yes_ask": yes_ask, "no_bid": no_bid, "no_ask": no_ask
         })
 
     return intents
 
-# ========== MAIN LOOP ==========
+
+# =========================
+# ========= MAIN ==========
+# =========================
+
 RUN = True
-def handle_sig(sig, frame):
+def _handle_sig(sig, frame):
     global RUN
     RUN = False
     print("🛑 Signal received; shutting down...")
 
-signal.signal(signal.SIGINT, handle_sig)
-signal.signal(signal.SIGTERM, handle_sig)
-
-def idempotency_key(intent: Dict[str, Any]) -> str:
-    """
-    Idempotency across transient retries while distinguishing new intents.
-    Combines stable fields + a short time bucket to reduce accidental dupes.
-    """
-    bucket = int(time.time() // 5)  # 5s bucket
-    base = f"{intent['ticker']}|{intent['side']}|{intent['price']}|{intent['count']}|{bucket}"
-    return hashlib.sha256(base.encode()).hexdigest()
-
-def submit_intent(intent: Dict[str, Any]) -> Optional[dict]:
-    side = intent["side"]
-    payload = {
-        "ticker": intent["ticker"],
-        "side": side,                     # "yes" or "no"
-        "type": "limit",
-        "price": clamp_price(float(intent["price"])),
-        "count": int(intent["count"]),
-        "time_in_force": TIME_IN_FORCE,
-        "client_order_id": intent.get("intent_id"),  # helpful for reconciliation
-    }
-    # Basic payload validation
-    if payload["count"] <= 0 or payload["price"] is None:
-        return None
-    if payload["price"] < MIN_PRICE or payload["price"] > MAX_PRICE:
-        return None
-
-    key = idempotency_key(intent)
-    resp = place_order(payload, key)
-    log_order("place", payload, resp)
-    return resp
-
-def cancel_all_open_orders():
-    # Best-effort cancel of all orders for our tickers
-    try:
-        for t in TICKERS:
-            for o in get_orders(t):
-                oid = o.get("order_id") or o.get("id")
-                if not oid: continue
-                resp = cancel_order(oid)
-                log_order("cancel", {"ticker": t, "side": o.get("side"), "type": "cancel",
-                                     "price": o.get("price"), "count": o.get("count"),
-                                     "time_in_force": o.get("time_in_force"),
-                                     "client_order_id": o.get("client_order_id")}, resp)
-                time.sleep(0.05)
-    except Exception as e:
-        log_health("cancel_all_error", error=str(e))
-
-def kill_switch_engaged() -> bool:
-    try:
-        return os.path.exists(KILL_SWITCH_FILE)
-    except Exception:
-        return False
-
-# remove or ignore get_me()
-
-ACCOUNT_API_AVAILABLE = True  # global-ish toggle
+signal.signal(signal.SIGINT, _handle_sig)
+signal.signal(signal.SIGTERM, _handle_sig)
 
 def bootstrap_readiness():
-    global ACCOUNT_API_AVAILABLE
-    # Try an authenticated call that should exist; if 404, disable account API usage
-    pos = http_request("GET", "positions")
-    if not pos:
-        # Check if it's a 404 host for account endpoints by trying a market list instead
-        mk = list_markets(status="open")
-        if not mk:
-            sys.exit("❌ Host unreachable for markets. Check KALSHI_HOST and network.")
-        ACCOUNT_API_AVAILABLE = False
-        print("ℹ️ Account endpoints unavailable on this host; continuing without positions/fills.", file=sys.stderr)
-    log_health("ready", dry_run=DRY_RUN, series=",".join(SERIES), host=HOST)
+    test = list_markets(status=None)
+    if not test:
+        sys.exit("❌ Could not reach markets listing. Check CONFIG.HOST/API_KEY or network.")
+    log_health("ready", dry_run=CONFIG.DRY_RUN, host=CONFIG.HOST,
+               series=",".join(CONFIG.SERIES), tickers=",".join(CONFIG.TICKERS))
 
-
+def submit_intent(intent: Dict[str,Any]):
+    price = clamp_price(float(intent["price"]))
+    if price is None or price < CONFIG.MIN_PRICE or price > CONFIG.MAX_PRICE:
+        return
+    count = int(intent["count"])
+    if count <= 0:
+        return
+    payload = {
+        "ticker": intent["ticker"],
+        "side": intent["side"],          # "yes" or "no"
+        "type": "limit",
+        "price": price,
+        "count": count,
+        "time_in_force": CONFIG.TIME_IN_FORCE,
+        "client_order_id": intent.get("intent_id"),
+    }
+    resp = place_order(payload, idem_key(intent))
+    log_order("place", payload, resp)
 
 def main():
-    require_api_key()
-    if not TICKERS:
-        sys.exit("⚠️ Set KALSHI_TICKERS env var with at least one ticker (comma-separated).")
+    if not CONFIG.API_KEY or CONFIG.API_KEY == "PUT_YOUR_KALSHI_API_KEY_HERE":
+        sys.exit("❌ Please paste your real API key into CONFIG.API_KEY at the top of this file.")
 
     bootstrap_readiness()
-    # Discover actual market tickers from series
-    if SERIES:
-        tickers = discover_market_tickers(SERIES, status=DISCOVER_STATUS)
-        if not tickers:
-            sys.exit(f"⚠️ No markets discovered for series={SERIES} with status={DISCOVER_STATUS}.")
-        print(f"🧭 Discovered {len(tickers)} market(s): first 5 → {tickers[:5]}")
+
+    # Discover tickers (or use hardcoded)
+    if CONFIG.TICKERS:
+        all_tickers = list(sorted(set(CONFIG.TICKERS)))
+        print(f"🧭 Using hardcoded {len(all_tickers)} tickers. First 5: {all_tickers[:5]}")
     else:
-        # fallback to env-provided TICKERS if user set them explicitly
-        tickers = TICKERS
-        if not tickers:
-            sys.exit("⚠️ Provide KALSHI_SERIES or KALSHI_TICKERS.")
+        all_tickers = discover_market_tickers(CONFIG.SERIES)
+        if not all_tickers:
+            sys.exit(f"⚠️ Discovery found 0 tickers for series={CONFIG.SERIES}. "
+                     f"Adjust CONFIG.ALLOWED_STATUSES or series names.")
+        print(f"🧭 Discovered {len(all_tickers)} market(s). First 5: {all_tickers[:5]}")
 
-    risk = RiskManager()
-
-    last_fills_pull = now_utc() - timedelta(seconds=10)
-
+    # Live loop
+    idx = 0
     while RUN:
         loop_started = now_utc()
-        if kill_switch_engaged():
-            log_health("kill_switch_engaged")
-            time.sleep(POLL_INTERVAL_SEC)
+
+        if not all_tickers:
+            time.sleep(CONFIG.POLL_INTERVAL_SEC)
             continue
 
-        # Refresh positions and recent fills
-                # ✅ Refresh positions/fills only if account endpoints are available
-        positions = {}
-        if ACCOUNT_API_AVAILABLE:
-            positions = get_positions() or {}
+        # Slice a window of tickers per loop for visibility
+        end = min(idx + CONFIG.TICKERS_PER_LOOP, len(all_tickers))
+        batch = all_tickers[idx:end]
+        idx = 0 if end >= len(all_tickers) else end
+
+        total_intents = 0
+        for t in batch:
             try:
-                if (now_utc() - last_fills_pull).total_seconds() >= 5:
-                    fills = get_fills() or []
-                    if fills:
-                        for f in fills:
-                            log_fill(f)
-                    risk.update_fills(fills or [])
-                    last_fills_pull = now_utc()
-            except Exception as e:
-                log_health("fills_error", error=str(e))
-
-
-        # Per-ticker decisions
-        for ticker in TICKERS:
-            try:
-                mkt = get_market(ticker) or {}
-                ob  = get_orderbook(ticker) or {}
-
-                # Freshness guard (best-effort)
-                # Use server-reported updated_at if available; else ensure our polling cadence is steady
-                updated = mkt.get("updated_time") or mkt.get("updated_at") or None
-                try:
-                    if isinstance(updated, str):
-                        if updated.endswith("Z"):
-                            upd_dt = datetime.fromisoformat(updated.replace("Z", "+00:00"))
-                        else:
-                            upd_dt = datetime.fromisoformat(updated)
-                        if (now_utc() - upd_dt).total_seconds() > STALE_SECONDS:
-                            log_health("stale_market", ticker=ticker)
-                            continue
-                except Exception:
-                    pass
-
-                intents = decide_intents(ticker, mkt, ob, positions, risk)
+                mkt = get_market(t) or {}
+                ob  = get_orderbook(t) or {}
+                intents = decide_intents(t, mkt, ob)
                 for it in intents:
                     submit_intent(it)
-
+                total_intents += len(intents)
             except Exception as e:
-                log_health("decision_error", ticker=ticker, error=str(e))
+                log_health("decision_error", ticker=t, error=str(e))
                 continue
 
-        # pace the loop
         elapsed = (now_utc() - loop_started).total_seconds()
-        sleep_for = max(0.0, POLL_INTERVAL_SEC - elapsed)
-        time.sleep(sleep_for)
+        if CONFIG.HEARTBEAT_PRINT:
+            print(f"⏱ processed {len(batch)}/{len(all_tickers)} tickers, intents={total_intents} @ {now_iso()} (loop {elapsed:.2f}s)")
+        time.sleep(max(0.0, CONFIG.POLL_INTERVAL_SEC - elapsed))
 
-    # Graceful shutdown
-    log_health("stopping", cancel_on_exit=CANCEL_ON_EXIT)
-    if CANCEL_ON_EXIT and not DRY_RUN:
-        cancel_all_open_orders()
     log_health("stopped")
+
 
 if __name__ == "__main__":
     main()
