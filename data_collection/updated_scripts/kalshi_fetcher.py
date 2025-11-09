@@ -19,16 +19,29 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 local_tz = pytz.timezone("US/Eastern")
 
 BASE_SERIES_TICKERS = [
-    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXTENNISMATCH", 
-    "KXEPLGAME", "KXUELGAME", "KXNFLTOTALS", "KXNFLSPREADS", "KXNBATOTALS",
+    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXATPMATCH", 
+    "KXEPLGAME", "KXUELGAME", "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL",
+    "KXNBASPREAD", "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", 
+    "KXNCAAMBSPREAD"
 ]
 SERIES_TICKERS = BASE_SERIES_TICKERS 
 
 SERIES_TO_FILENAME = {
-    "KXNFLGAME": "nfl_winners.csv", "KXNBAGAME": "nba_winners.csv", 
-    "KXNCAAFGAME": "ncaaf_winners.csv", "KXNCAAMBGAME": "ncaab_winners.csv", 
-    "KXTENNISMATCH": "tennis.csv", "KXEPLGAME": "epl.csv", "KXUELGAME": "uel.csv", 
-    "KXNFLTOTALS": "nfl_totals.csv", "KXNFLSPREADS": "nfl_spreads.csv", "KXNBATOTALS": "nba_totals.csv",
+    "KXNFLGAME": "nfl_winners.csv",
+    "KXNBAGAME": "nba_winners.csv",
+    "KXNCAAFGAME": "ncaaf_winners.csv",
+    "KXNCAAMBGAME": "ncaab_winners.csv",
+    "KXATPMATCH": "tennis.csv",
+    "KXEPLGAME": "epl.csv",
+    "KXUELGAME": "uel.csv",
+    "KXNFLTOTAL": "nfl_totals.csv",
+    "KXNFLSPREAD": "nfl_spreads.csv",
+    "KXNBATOTAL": "nba_totals.csv",
+    "KXNBASPREAD": "nba_spreads.csv",
+    "KXNCAAFTOTAL": "ncaaf_totals.csv",
+    "KXNCAAFSPREAD": "ncaaf_spreads.csv",
+    "KXNCAAMBTOTAL": "ncaab_totals.csv",
+    "KXNCAAMBSPREAD": "ncaab_spreads.csv"
 }
 
 PAGINATION_PAGE_LIMIT = 50        
