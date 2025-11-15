@@ -1,6 +1,7 @@
 import os
 import time
 import json
+import re
 import requests
 import pandas as pd
 from datetime import datetime, timezone, timedelta
@@ -19,10 +20,9 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 local_tz = pytz.timezone("US/Eastern")
 
 BASE_SERIES_TICKERS = [
-    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXATPMATCH", 
-    "KXEPLGAME", "KXUELGAME", "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL",
-    "KXNBASPREAD", "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", 
-    "KXNCAAMBSPREAD"
+    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", 
+    "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL","KXNBASPREAD", 
+    "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"
 ]
 SERIES_TICKERS = BASE_SERIES_TICKERS 
 
@@ -31,23 +31,21 @@ SERIES_TO_FILENAME = {
     "KXNBAGAME": "nba_winners.csv",
     "KXNCAAFGAME": "ncaaf_winners.csv",
     "KXNCAAMBGAME": "ncaab_winners.csv",
-    "KXATPMATCH": "tennis.csv",
-    "KXEPLGAME": "epl.csv",
-    "KXUELGAME": "uel.csv",
     "KXNFLTOTAL": "nfl_totals.csv",
     "KXNFLSPREAD": "nfl_spreads.csv",
     "KXNBATOTAL": "nba_totals.csv",
     "KXNBASPREAD": "nba_spreads.csv",
     "KXNCAAFTOTAL": "ncaaf_totals.csv",
     "KXNCAAFSPREAD": "ncaaf_spreads.csv",
-    "KXNCAAMBTOTAL": "ncaab_totals.csv",
-    "KXNCAAMBSPREAD": "ncaab_spreads.csv"
+"KXNCAAMBTOTAL": "ncaab_totals.csv",
+"KXNCAAMBSPREAD": "ncaab_spreads.csv"
 }
+TICKER_DATE_RE = re.compile(r"-(\d{2}[A-Z]{3}\d{2})")
 
 PAGINATION_PAGE_LIMIT = 50        
 MAX_TICKERS = None                  
 MIN_LIQUIDITY_DOLLARS = 0.0       
-POLL_INTERVAL = 60                
+POLL_INTERVAL = 15                
 RUN_DURATION_MINUTES = None         
 
 # =============================
@@ -104,29 +102,49 @@ def select_relevant_markets(markets: list) -> pd.DataFrame:
     df["volume_24h"] = pd.to_numeric(df.get("volume_24h"), errors="coerce").fillna(0)
     df = df[df["status"] == "active"] 
 
+    def parse_market_time(ts):
+        if not ts: return None
+        if isinstance(ts, datetime): dt = ts
+        else:
+            try: dt = datetime.fromisoformat(str(ts).replace("Z", "+00:00"))
+            except Exception: return None
+        if dt.tzinfo is None: dt = pytz.utc.localize(dt)
+        return dt.astimezone(local_tz)
+
     def get_market_datetime(row):
-        ts = row.get("close_time")
-        try: return datetime.fromisoformat(ts.replace("Z", "+00:00")).astimezone(local_tz)
-        except Exception: return None
+        for key in ("event_expiration_time", "close_time", "expiry"):
+            dt = parse_market_time(row.get(key))
+            if dt: return dt
+        return None
+
+    def infer_event_date(row):
+        ticker = (row.get("ticker") or "").upper()
+        m = TICKER_DATE_RE.search(ticker)
+        if m:
+            try: return datetime.strptime(m.group(1), "%y%b%d").date()
+            except ValueError: pass
+        evt_dt = row.get("event_time")
+        if isinstance(evt_dt, datetime): return evt_dt.date()
+        for key in ("event_expiration_time", "close_time", "expiry"):
+            dt = parse_market_time(row.get(key))
+            if dt: return dt.date()
+        return None
 
     df["event_time"] = df.apply(get_market_datetime, axis=1)
-    df = df[df["event_time"].notna()] 
+    df["event_date"] = df.apply(infer_event_date, axis=1)
+    df = df[df["event_date"].notna()]
 
     now_local = datetime.now(local_tz)
-    time_window_from_now = now_local + timedelta(days=30) 
-    
-    is_not_started = (df["event_time"] > now_local)
-    is_closing_soon = (df["event_time"] <= time_window_from_now)
-    
-    df = df[is_not_started & is_closing_soon]
+    target_date = now_local.date()
+    df = df[df["event_date"] == target_date]
     df = df[df["liquidity_dollars"] >= MIN_LIQUIDITY_DOLLARS]
 
     print(f"📅 Local time now: {now_local.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"🕒 Selecting markets closing between now and {time_window_from_now.strftime('%Y-%m-%d')} (30-day window).")
+    print(f"🕒 Selecting markets scheduled for {target_date.isoformat()} (local).")
     
     keep_cols = [
         "ticker", "title", "status", "market_type", "yes_bid_dollars", "yes_ask_dollars",
-        "no_bid_dollars", "no_ask_dollars", "liquidity_dollars", "volume_24h", "event_time" 
+        "no_bid_dollars", "no_ask_dollars", "liquidity_dollars", "volume_24h", "event_time", "event_date"
     ]
     return df[keep_cols].reset_index(drop=True)
 

@@ -1,0 +1,163 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,h2h,Brooklyn Nets,2.54,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,h2h,Orlando Magic,1.5,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,spreads,Brooklyn Nets,1.88,3.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,spreads,Orlando Magic,1.88,-3.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,totals,Over,1.93,232.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,FanDuel,totals,Under,1.82,232.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,h2h,Brooklyn Nets,2.35,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,h2h,Orlando Magic,1.57,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,spreads,Brooklyn Nets,1.91,3.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,spreads,Orlando Magic,1.83,-3.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,totals,Over,1.91,234.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,DraftKings,totals,Under,1.83,234.5,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,h2h,Brooklyn Nets,2.61,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,h2h,Orlando Magic,1.53,,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,spreads,Brooklyn Nets,1.93,4.0,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,spreads,Orlando Magic,1.93,-4.0,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,totals,Over,1.93,232.0,Orlando Magic,Brooklyn Nets
+NBA,,b042c1ffa4d1465733e453db2b3beacc,2025-11-14 18:12:00 CST,Pinnacle,totals,Under,1.93,232.0,Orlando Magic,Brooklyn Nets
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,h2h,Miami Heat,3.0,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,h2h,New York Knicks,1.37,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,spreads,Miami Heat,1.87,7.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,spreads,New York Knicks,1.87,-7.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,totals,Over,1.83,251.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,DraftKings,totals,Under,1.91,251.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,h2h,Miami Heat,2.72,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,h2h,New York Knicks,1.44,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,spreads,Miami Heat,1.69,6.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,spreads,New York Knicks,2.08,-6.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,totals,Over,1.83,247.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,FanDuel,totals,Under,1.91,247.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,h2h,Miami Heat,2.28,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,h2h,New York Knicks,1.67,,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,spreads,Miami Heat,1.92,3.0,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,spreads,New York Knicks,1.93,-3.0,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,totals,Over,1.94,240.5,New York Knicks,Miami Heat
+NBA,,63016986bd7402f9433def9ec4be4fe1,2025-11-14 18:13:00 CST,Pinnacle,totals,Under,1.91,240.5,New York Knicks,Miami Heat
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,h2h,Detroit Pistons,1.74,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,h2h,Philadelphia 76ers,2.06,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,spreads,Detroit Pistons,1.96,-2.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,spreads,Philadelphia 76ers,1.78,2.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,totals,Over,1.82,229.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,FanDuel,totals,Under,1.93,229.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,h2h,Detroit Pistons,1.8,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,h2h,Philadelphia 76ers,1.95,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,spreads,Detroit Pistons,1.83,-1.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,spreads,Philadelphia 76ers,1.91,1.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,totals,Over,1.83,225.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,DraftKings,totals,Under,1.91,225.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,h2h,Detroit Pistons,1.65,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,h2h,Philadelphia 76ers,2.23,,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,spreads,Detroit Pistons,1.88,-3.0,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,spreads,Philadelphia 76ers,1.9,3.0,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,totals,Over,1.89,229.5,Detroit Pistons,Philadelphia 76ers
+NBA,,eac240dfaaa6377457daa36ac01b777e,2025-11-14 18:43:00 CST,Pinnacle,totals,Under,1.88,229.5,Detroit Pistons,Philadelphia 76ers
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,h2h,Charlotte Hornets,4.15,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,h2h,Milwaukee Bucks,1.25,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,spreads,Charlotte Hornets,1.94,9.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,spreads,Milwaukee Bucks,1.88,-9.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,totals,Over,1.91,238.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,FanDuel,totals,Under,1.91,238.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,h2h,Charlotte Hornets,4.0,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,h2h,Milwaukee Bucks,1.26,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,spreads,Charlotte Hornets,1.83,9.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,spreads,Milwaukee Bucks,2.0,-9.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,totals,Over,1.89,237.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,DraftKings,totals,Under,1.93,237.5,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,h2h,Charlotte Hornets,4.06,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,h2h,Milwaukee Bucks,1.28,,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,spreads,Charlotte Hornets,1.97,9.0,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,spreads,Milwaukee Bucks,1.93,-9.0,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,totals,Over,1.97,238.0,Milwaukee Bucks,Charlotte Hornets
+NBA,,ab89cda07f21ecec76a5b461174ec380,2025-11-14 19:10:00 CST,Pinnacle,totals,Under,1.9,238.0,Milwaukee Bucks,Charlotte Hornets
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,h2h,Houston Rockets,1.33,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,h2h,Portland Trail Blazers,3.45,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,spreads,Houston Rockets,1.88,-7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,spreads,Portland Trail Blazers,1.94,7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,totals,Over,1.91,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,FanDuel,totals,Under,1.91,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,h2h,Houston Rockets,1.32,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,h2h,Portland Trail Blazers,3.5,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,spreads,Houston Rockets,1.93,-7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,spreads,Portland Trail Blazers,1.89,7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,totals,Over,1.91,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,DraftKings,totals,Under,1.91,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,h2h,Houston Rockets,1.34,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,h2h,Portland Trail Blazers,3.53,,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,spreads,Houston Rockets,1.98,-7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,spreads,Portland Trail Blazers,1.92,7.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,totals,Over,1.93,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,e8dd245278646c0b7835609c0d04c4a5,2025-11-14 19:10:00 CST,Pinnacle,totals,Under,1.96,236.5,Houston Rockets,Portland Trail Blazers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,h2h,Los Angeles Lakers,1.22,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,h2h,New Orleans Pelicans,4.5,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,spreads,Los Angeles Lakers,1.88,-9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,spreads,New Orleans Pelicans,1.94,9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,totals,Over,1.91,227.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,FanDuel,totals,Under,1.91,227.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,h2h,Los Angeles Lakers,1.21,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,h2h,New Orleans Pelicans,4.6,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,spreads,Los Angeles Lakers,1.87,-9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,spreads,New Orleans Pelicans,1.95,9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,totals,Over,1.91,227.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,DraftKings,totals,Under,1.91,227.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,h2h,Los Angeles Lakers,1.22,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,h2h,New Orleans Pelicans,4.75,,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,spreads,Los Angeles Lakers,1.89,-9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,spreads,New Orleans Pelicans,2.02,9.5,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,totals,Over,1.88,227.0,New Orleans Pelicans,Los Angeles Lakers
+NBA,,5d2bab71b12e005da1a9491834c945dc,2025-11-14 19:10:00 CST,Pinnacle,totals,Under,2.0,227.0,New Orleans Pelicans,Los Angeles Lakers
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,h2h,Minnesota Timberwolves,1.17,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,h2h,Sacramento Kings,5.4,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.88,-11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,spreads,Sacramento Kings,1.94,11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,totals,Over,1.94,240.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,FanDuel,totals,Under,1.88,240.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,h2h,Minnesota Timberwolves,1.17,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,h2h,Sacramento Kings,5.4,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,spreads,Minnesota Timberwolves,1.91,-11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,spreads,Sacramento Kings,1.91,11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,totals,Over,1.95,240.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,DraftKings,totals,Under,1.87,240.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,h2h,Minnesota Timberwolves,1.17,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,h2h,Sacramento Kings,5.66,,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,spreads,Minnesota Timberwolves,1.92,-11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,spreads,Sacramento Kings,1.99,11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,totals,Over,1.95,240.0,Minnesota Timberwolves,Sacramento Kings
+NBA,,2a534db0689c24c8b50c65bd9e0d2c82,2025-11-14 19:10:00 CST,Pinnacle,totals,Under,1.93,240.0,Minnesota Timberwolves,Sacramento Kings
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,h2h,Dallas Mavericks,2.38,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,h2h,Los Angeles Clippers,1.61,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,spreads,Dallas Mavericks,1.93,3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,spreads,Los Angeles Clippers,1.89,-3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,totals,Over,1.87,220.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,FanDuel,totals,Under,1.95,220.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,h2h,Dallas Mavericks,2.42,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,h2h,Los Angeles Clippers,1.59,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,spreads,Dallas Mavericks,1.93,3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,spreads,Los Angeles Clippers,1.89,-3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,totals,Over,1.93,221.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,DraftKings,totals,Under,1.89,221.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,h2h,Dallas Mavericks,2.44,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,h2h,Los Angeles Clippers,1.62,,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,spreads,Dallas Mavericks,1.96,3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,spreads,Los Angeles Clippers,1.94,-3.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,totals,Over,1.95,221.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,b7f9aeee1ae7391cf1271b7589f779aa,2025-11-14 19:40:00 CST,Pinnacle,totals,Under,1.93,221.5,Dallas Mavericks,Los Angeles Clippers
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,h2h,Golden State Warriors,2.24,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,h2h,San Antonio Spurs,1.68,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,spreads,Golden State Warriors,1.95,2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,spreads,San Antonio Spurs,1.87,-2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,totals,Over,1.91,233.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,DraftKings,totals,Under,1.91,233.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,h2h,Golden State Warriors,2.2,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,h2h,San Antonio Spurs,1.7,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,spreads,Golden State Warriors,1.91,2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,-2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,totals,Over,1.91,233.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,FanDuel,totals,Under,1.91,233.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,h2h,Golden State Warriors,2.28,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,h2h,San Antonio Spurs,1.7,,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,spreads,Golden State Warriors,1.98,2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,spreads,San Antonio Spurs,1.93,-2.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,totals,Over,1.93,233.5,San Antonio Spurs,Golden State Warriors
+NBA,,46fc9b98835561f7bfa81c7275b3ed37,2025-11-14 20:40:00 CST,Pinnacle,totals,Under,1.95,233.5,San Antonio Spurs,Golden State Warriors

@@ -1,0 +1,37 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,h2h,Clemson Tigers,1.77,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,h2h,Louisville Cardinals,2.0,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,spreads,Clemson Tigers,1.91,-2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,spreads,Louisville Cardinals,1.83,2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,totals,Over,1.91,45.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,DraftKings,totals,Under,1.83,45.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,h2h,Clemson Tigers,1.7,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,h2h,Louisville Cardinals,2.12,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,spreads,Clemson Tigers,1.83,-2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,spreads,Louisville Cardinals,1.91,2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,totals,Over,1.94,45.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,FanDuel,totals,Under,1.82,45.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,h2h,Clemson Tigers,1.74,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,h2h,Louisville Cardinals,2.11,,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,spreads,Clemson Tigers,1.91,-2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,spreads,Louisville Cardinals,1.91,2.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,totals,Over,2.01,50.5,Louisville Cardinals,Clemson Tigers
+CFB,,42cca8d28245b1fbf784f639a81f2542,2025-11-14 18:37:00 CST,Pinnacle,totals,Under,1.82,50.5,Louisville Cardinals,Clemson Tigers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,h2h,Minnesota Golden Gophers,17.0,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,h2h,Oregon Ducks,1.02,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,spreads,Minnesota Golden Gophers,1.88,26.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,spreads,Oregon Ducks,1.94,-26.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,totals,Over,1.88,44.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,FanDuel,totals,Under,1.94,44.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,h2h,Minnesota Golden Gophers,15.0,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,h2h,Oregon Ducks,1.03,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,spreads,Minnesota Golden Gophers,1.89,26.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,spreads,Oregon Ducks,1.93,-26.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,totals,Over,1.87,44.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,DraftKings,totals,Under,1.95,44.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,h2h,Minnesota Golden Gophers,14.48,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,h2h,Oregon Ducks,1.04,,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,spreads,Minnesota Golden Gophers,1.97,26.0,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,spreads,Oregon Ducks,1.92,-26.0,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,totals,Over,1.85,44.5,Oregon Ducks,Minnesota Golden Gophers
+CFB,,e6f69472213fa5c127d39a0c4db53a3e,2025-11-14 20:00:00 CST,Pinnacle,totals,Under,2.0,44.5,Oregon Ducks,Minnesota Golden Gophers

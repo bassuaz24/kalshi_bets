@@ -45,10 +45,21 @@ CSV_COLUMNS = [
 OUTPUT_DIR = "oddsapi_outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def convert_to_cst(iso_str: str) -> str:
-    dt_utc = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
-    dt_cst = dt_utc.astimezone(CST)
-    return dt_cst.strftime("%Y-%m-%d %H:%M:%S %Z")
+
+def _as_cst_datetime(value) -> datetime:
+    if value is None:
+        raise ValueError("Missing datetime value")
+    if isinstance(value, datetime):
+        dt = value
+    else:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        dt = UTC.localize(dt)
+    return dt.astimezone(CST)
+
+
+def convert_to_cst(value) -> str:
+    return _as_cst_datetime(value).strftime("%Y-%m-%d %H:%M:%S %Z")
 
 def fetch_odds(sport_key: str):
     url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds/"
@@ -68,7 +79,7 @@ def fetch_odds(sport_key: str):
 
     return resp.json()
 
-def normalize_to_rows(sport_name: str, games: list) -> (list, set):
+def normalize_to_rows(sport_name: str, games: list, target_date) -> (list, set):
     rows = []
     market_keys = set()
 
@@ -80,6 +91,15 @@ def normalize_to_rows(sport_name: str, games: list) -> (list, set):
                 continue  
 
         game_time = game.get("commence_time")
+        if not game_time:
+            continue
+        try:
+            game_time_cst = _as_cst_datetime(game_time)
+        except Exception:
+            continue
+        if game_time_cst.date() != target_date:
+            continue
+
         home_team = game.get("home_team")
         away_team = game.get("away_team")
         game_id = game.get("id")
@@ -99,7 +119,7 @@ def normalize_to_rows(sport_name: str, games: list) -> (list, set):
                         "sport": sport_name,
                         "league": game.get("league", ""),
                         "game_id": game_id,
-                        "start_time": convert_to_cst(game_time),
+                        "start_time": convert_to_cst(game_time_cst),
                         "bookmaker": book_name,
                         "market": market_type,
                         "team": outcome.get("name"),
@@ -113,6 +133,11 @@ def normalize_to_rows(sport_name: str, games: list) -> (list, set):
 
 def main():
     all_data = []
+    today_cst = datetime.now(CST)
+    date_folder = today_cst.strftime("%Y-%m-%d")
+    target_date = today_cst.date()
+    dated_output_dir = os.path.join(OUTPUT_DIR, date_folder)
+    os.makedirs(dated_output_dir, exist_ok=True)
 
     for sport_name, sport_key in SPORT_KEYS.items():
         print(f"📡 Fetching odds for {sport_name} ({sport_key})...")
@@ -120,7 +145,7 @@ def main():
         if not data:
             continue
 
-        rows, markets_found = normalize_to_rows(sport_name, data)
+        rows, markets_found = normalize_to_rows(sport_name, data, target_date)
 
         if markets_found:
             print(f"🔎 Markets available for {sport_name}: {sorted(markets_found)}")
@@ -128,7 +153,8 @@ def main():
         if rows:
             df = pd.DataFrame(rows)
             df = df[CSV_COLUMNS]
-            output_path = os.path.join(OUTPUT_DIR, f"{sport_name.lower()}_odds_{datetime.now().date()}.csv")
+            filename = f"{sport_name.lower()}_odds.csv"
+            output_path = os.path.join(dated_output_dir, filename)
             df.to_csv(output_path, index=False)
             print(f"✅ Saved {len(df)} rows to {output_path}")
             all_data.extend(rows)
