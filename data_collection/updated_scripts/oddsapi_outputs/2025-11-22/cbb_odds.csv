@@ -1,0 +1,499 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,DraftKings,h2h,Saint Peter's Peacocks,1.25,,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,DraftKings,h2h,UMass Lowell River Hawks,3.8,,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,DraftKings,spreads,Saint Peter's Peacocks,1.87,-2.5,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,DraftKings,spreads,UMass Lowell River Hawks,1.87,2.5,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,FanDuel,h2h,Saint Peter's Peacocks,1.25,,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,86b646e4454bb759c93c31c46d156c2a,2025-11-22 12:47:00 CST,FanDuel,h2h,UMass Lowell River Hawks,3.85,,Saint Peter's Peacocks,UMass Lowell River Hawks
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,h2h,Central Michigan Chippewas,18.0,,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,h2h,Marquette Golden Eagles,1.01,,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,spreads,Central Michigan Chippewas,1.85,8.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,spreads,Marquette Golden Eagles,1.89,-8.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,totals,Over,1.93,161.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,FanDuel,totals,Under,1.82,161.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,h2h,Central Michigan Chippewas,16.0,,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,h2h,Marquette Golden Eagles,1.02,,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,spreads,Central Michigan Chippewas,1.95,8.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,spreads,Marquette Golden Eagles,1.8,-8.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,totals,Over,1.87,162.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,42de858124bbb1f919284da58a0f8b7f,2025-11-22 13:00:00 CST,DraftKings,totals,Under,1.87,162.5,Marquette Golden Eagles,Central Michigan Chippewas
+CBB,,7c8fc0961a143bb68e54855dfed1153a,2025-11-22 13:00:00 CST,FanDuel,totals,Over,1.77,130.5,Dayton Flyers,North Carolina Central Eagles
+CBB,,7c8fc0961a143bb68e54855dfed1153a,2025-11-22 13:00:00 CST,FanDuel,totals,Under,1.98,130.5,Dayton Flyers,North Carolina Central Eagles
+CBB,,7c8fc0961a143bb68e54855dfed1153a,2025-11-22 13:00:00 CST,DraftKings,spreads,Dayton Flyers,1.74,-23.5,Dayton Flyers,North Carolina Central Eagles
+CBB,,7c8fc0961a143bb68e54855dfed1153a,2025-11-22 13:00:00 CST,DraftKings,spreads,North Carolina Central Eagles,2.05,23.5,Dayton Flyers,North Carolina Central Eagles
+CBB,,fa13d1cbe3ff77e9e3ff6dc322d15ea2,2025-11-22 13:00:00 CST,FanDuel,spreads,Nicholls St Colonels,2.02,14.5,Oklahoma St Cowboys,Nicholls St Colonels
+CBB,,fa13d1cbe3ff77e9e3ff6dc322d15ea2,2025-11-22 13:00:00 CST,FanDuel,spreads,Oklahoma St Cowboys,1.74,-14.5,Oklahoma St Cowboys,Nicholls St Colonels
+CBB,,fa13d1cbe3ff77e9e3ff6dc322d15ea2,2025-11-22 13:00:00 CST,DraftKings,spreads,Nicholls St Colonels,1.74,16.5,Oklahoma St Cowboys,Nicholls St Colonels
+CBB,,fa13d1cbe3ff77e9e3ff6dc322d15ea2,2025-11-22 13:00:00 CST,DraftKings,spreads,Oklahoma St Cowboys,2.05,-16.5,Oklahoma St Cowboys,Nicholls St Colonels
+CBB,,2da4e467d78a041dcde10cf28891eae1,2025-11-22 13:01:15 CST,DraftKings,spreads,Illinois Fighting Illini,2.05,-38.5,Illinois Fighting Illini,LIU Sharks
+CBB,,2da4e467d78a041dcde10cf28891eae1,2025-11-22 13:01:15 CST,DraftKings,spreads,LIU Sharks,1.74,38.5,Illinois Fighting Illini,LIU Sharks
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,DraftKings,spreads,Cleveland St Vikings,2.05,20.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,DraftKings,spreads,Kent State Golden Flashes,1.74,-20.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,FanDuel,spreads,Cleveland St Vikings,1.91,19.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,FanDuel,spreads,Kent State Golden Flashes,1.83,-19.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,FanDuel,totals,Over,1.72,166.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,cf52c9b47b46d617b01d728d1fc2b6f3,2025-11-22 13:02:38 CST,FanDuel,totals,Under,2.04,166.5,Kent State Golden Flashes,Cleveland St Vikings
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,h2h,Green Bay Phoenix,1.43,,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,h2h,Massachusetts Minutemen,2.76,,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,spreads,Green Bay Phoenix,1.8,-3.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,spreads,Massachusetts Minutemen,1.94,3.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,totals,Over,1.88,133.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,FanDuel,totals,Under,1.88,133.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,h2h,Green Bay Phoenix,1.5,,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,h2h,Massachusetts Minutemen,2.54,,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,spreads,Green Bay Phoenix,1.95,-3.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,spreads,Massachusetts Minutemen,1.8,3.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,totals,Over,1.83,132.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,bd5fd64194d8722428f8faeec6de0423,2025-11-22 14:00:00 CST,DraftKings,totals,Under,1.91,132.5,Massachusetts Minutemen,Green Bay Phoenix
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,h2h,Eastern Kentucky Colonels,5.7,,Eastern Kentucky Colonels,Mercer Bears
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,h2h,Mercer Bears,1.13,,Eastern Kentucky Colonels,Mercer Bears
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,spreads,Eastern Kentucky Colonels,1.87,10.5,Eastern Kentucky Colonels,Mercer Bears
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,spreads,Mercer Bears,1.87,-10.5,Eastern Kentucky Colonels,Mercer Bears
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,totals,Over,1.91,176.5,Eastern Kentucky Colonels,Mercer Bears
+CBB,,3fd57a842f99b5451c68ca7ae3d37d62,2025-11-22 14:02:36 CST,DraftKings,totals,Under,1.83,176.5,Eastern Kentucky Colonels,Mercer Bears
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,h2h,Binghamton Bearcats,5.0,,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,h2h,Maryland-Eastern Shore Hawks,1.16,,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,spreads,Binghamton Bearcats,1.91,8.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,spreads,Maryland-Eastern Shore Hawks,1.83,-8.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,totals,Over,1.8,124.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,DraftKings,totals,Under,1.95,124.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,h2h,Binghamton Bearcats,5.5,,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,h2h,Maryland-Eastern Shore Hawks,1.14,,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,spreads,Binghamton Bearcats,1.88,8.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,spreads,Maryland-Eastern Shore Hawks,1.88,-8.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,totals,Over,1.85,125.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,64d419056f00e87bd817920771a37d18,2025-11-22 14:04:27 CST,FanDuel,totals,Under,1.89,125.5,Binghamton Bearcats,Maryland-Eastern Shore Hawks
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,DraftKings,spreads,CSU Bakersfield Roadrunners,1.87,-22.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,DraftKings,spreads,Miss Valley St Delta Devils,1.95,22.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,DraftKings,totals,Over,1.89,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,DraftKings,totals,Under,1.93,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,h2h,CSU Bakersfield Roadrunners,1.01,,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,h2h,Miss Valley St Delta Devils,19.0,,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,spreads,CSU Bakersfield Roadrunners,1.91,-21.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,spreads,Miss Valley St Delta Devils,1.91,21.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,totals,Over,1.88,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,FanDuel,totals,Under,1.94,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,Pinnacle,spreads,CSU Bakersfield Roadrunners,1.88,-22.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,Pinnacle,spreads,Miss Valley St Delta Devils,1.93,22.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,Pinnacle,totals,Over,1.87,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,91e7063f815e8f1c5181049a43478ff5,2025-11-22 15:00:00 CST,Pinnacle,totals,Under,1.87,138.5,CSU Bakersfield Roadrunners,Miss Valley St Delta Devils
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,h2h,Duquesne Dukes,1.25,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,h2h,Northeastern Huskies,4.0,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,spreads,Duquesne Dukes,1.83,-7.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,spreads,Northeastern Huskies,1.98,7.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,totals,Over,1.88,146.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,FanDuel,totals,Under,1.94,146.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,h2h,Duquesne Dukes,1.28,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,h2h,Northeastern Huskies,3.87,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,spreads,Duquesne Dukes,1.95,-8.0,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,spreads,Northeastern Huskies,1.9,8.0,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,totals,Over,1.89,147.0,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,Pinnacle,totals,Under,1.93,147.0,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,h2h,Duquesne Dukes,1.26,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,h2h,Northeastern Huskies,4.0,,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,spreads,Duquesne Dukes,1.89,-7.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,spreads,Northeastern Huskies,1.93,7.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,totals,Over,1.95,147.5,Duquesne Dukes,Northeastern Huskies
+CBB,,85ea954d315642c472486a5a94975776,2025-11-22 15:00:00 CST,DraftKings,totals,Under,1.87,147.5,Duquesne Dukes,Northeastern Huskies
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,h2h,Howard Bison,1.44,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,h2h,Niagara Purple Eagles,2.8,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,spreads,Howard Bison,1.87,-4.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,spreads,Niagara Purple Eagles,1.95,4.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,totals,Over,1.89,139.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,FanDuel,totals,Under,1.93,139.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,h2h,Howard Bison,1.54,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,h2h,Niagara Purple Eagles,2.52,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,spreads,Howard Bison,1.93,-4.0,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,spreads,Niagara Purple Eagles,1.89,4.0,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,totals,Over,1.88,139.0,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,Pinnacle,totals,Under,1.85,139.0,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,h2h,Howard Bison,1.49,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,h2h,Niagara Purple Eagles,2.7,,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,spreads,Howard Bison,1.91,-4.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,spreads,Niagara Purple Eagles,1.91,4.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,totals,Over,1.91,137.5,Howard Bison,Niagara Purple Eagles
+CBB,,2f0f43c90b7828cbbd8b45746cd8b7d6,2025-11-22 15:00:00 CST,DraftKings,totals,Under,1.91,137.5,Howard Bison,Niagara Purple Eagles
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,h2h,Penn State Nittany Lions,2.52,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,h2h,Providence Friars,1.54,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,spreads,Penn State Nittany Lions,1.95,3.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,spreads,Providence Friars,1.87,-3.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,totals,Over,1.87,164.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,FanDuel,totals,Under,1.95,164.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,h2h,Penn State Nittany Lions,2.5,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,h2h,Providence Friars,1.56,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,spreads,Penn State Nittany Lions,1.88,4.0,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,spreads,Providence Friars,1.97,-4.0,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,totals,Over,1.93,165.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,Pinnacle,totals,Under,1.89,165.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,h2h,Penn State Nittany Lions,2.54,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,h2h,Providence Friars,1.54,,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,spreads,Penn State Nittany Lions,1.91,3.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,spreads,Providence Friars,1.91,-3.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,totals,Over,1.91,165.5,Penn State Nittany Lions,Providence Friars
+CBB,,d97a9e03cf58a3576404a506bb0c34f8,2025-11-22 15:00:00 CST,DraftKings,totals,Under,1.91,165.5,Penn State Nittany Lions,Providence Friars
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,h2h,Chattanooga Mocs,1.2,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,h2h,North Alabama Lions,4.8,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,spreads,Chattanooga Mocs,1.87,-8.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,spreads,North Alabama Lions,1.95,8.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,totals,Over,1.91,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,DraftKings,totals,Under,1.91,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,h2h,Chattanooga Mocs,1.18,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,h2h,North Alabama Lions,4.9,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,spreads,Chattanooga Mocs,1.91,-9.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,spreads,North Alabama Lions,1.91,9.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,totals,Over,1.91,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,FanDuel,totals,Under,1.91,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,h2h,Chattanooga Mocs,1.18,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,h2h,North Alabama Lions,5.01,,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,spreads,Chattanooga Mocs,1.88,-9.0,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,spreads,North Alabama Lions,1.94,9.0,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,totals,Over,1.88,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,2870680dbc2ff5acacea7666adea78ec,2025-11-22 15:30:00 CST,Pinnacle,totals,Under,1.85,149.5,Chattanooga Mocs,North Alabama Lions
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,h2h,Lipscomb Bisons,1.41,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,h2h,Western Carolina Catamounts,2.98,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,spreads,Lipscomb Bisons,1.83,-4.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,spreads,Western Carolina Catamounts,1.98,4.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,totals,Over,1.88,152.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,FanDuel,totals,Under,1.94,152.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,h2h,Lipscomb Bisons,1.44,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,h2h,Western Carolina Catamounts,2.85,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,spreads,Lipscomb Bisons,1.95,-5.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,spreads,Western Carolina Catamounts,1.87,5.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,totals,Over,1.87,151.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,DraftKings,totals,Under,1.95,151.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,h2h,Lipscomb Bisons,1.42,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,h2h,Western Carolina Catamounts,2.91,,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,spreads,Lipscomb Bisons,1.85,-5.0,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,spreads,Western Carolina Catamounts,1.98,5.0,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,totals,Over,1.94,152.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,8fd0d38c073e9a3beb9c91f78adffc3b,2025-11-22 16:00:00 CST,Pinnacle,totals,Under,1.8,152.5,Lipscomb Bisons,Western Carolina Catamounts
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,h2h,Missouri St Bears,1.74,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,h2h,UT Rio Grande Valley Vaqueros,2.14,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,spreads,Missouri St Bears,1.98,-2.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,spreads,UT Rio Grande Valley Vaqueros,1.85,2.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,totals,Over,1.87,149.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,DraftKings,totals,Under,1.95,149.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,h2h,Missouri St Bears,1.76,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,h2h,UT Rio Grande Valley Vaqueros,2.13,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,spreads,Missouri St Bears,1.93,-2.0,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,spreads,UT Rio Grande Valley Vaqueros,1.93,2.0,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,totals,Over,1.87,149.0,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,Pinnacle,totals,Under,1.95,149.0,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,h2h,Missouri St Bears,1.69,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,h2h,UT Rio Grande Valley Vaqueros,2.18,,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,spreads,Missouri St Bears,1.95,-2.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,spreads,UT Rio Grande Valley Vaqueros,1.87,2.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,totals,Over,1.95,150.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,2b4437918709e1a3a8708dc0a871e651,2025-11-22 16:00:00 CST,FanDuel,totals,Under,1.87,150.5,Missouri St Bears,UT Rio Grande Valley Vaqueros
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,h2h,Nevada Wolf Pack,1.44,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,h2h,UC Santa Barbara Gauchos,2.84,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,spreads,Nevada Wolf Pack,1.83,-4.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,spreads,UC Santa Barbara Gauchos,1.98,4.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,totals,Over,1.95,148.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,FanDuel,totals,Under,1.87,148.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,h2h,Nevada Wolf Pack,1.46,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,h2h,UC Santa Barbara Gauchos,2.84,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,spreads,Nevada Wolf Pack,1.93,-5.0,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,spreads,UC Santa Barbara Gauchos,1.93,5.0,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,totals,Over,1.95,149.0,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,Pinnacle,totals,Under,1.87,149.0,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,h2h,Nevada Wolf Pack,1.44,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,h2h,UC Santa Barbara Gauchos,2.85,,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,spreads,Nevada Wolf Pack,1.95,-5.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,spreads,UC Santa Barbara Gauchos,1.87,5.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,totals,Over,1.93,148.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,8b5a99d70215524f8e73004ff79b9b9d,2025-11-22 16:00:00 CST,DraftKings,totals,Under,1.89,148.5,Nevada Wolf Pack,UC Santa Barbara Gauchos
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,h2h,Prairie View Panthers,5.0,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,h2h,Tenn-Martin Skyhawks,1.18,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,spreads,Prairie View Panthers,1.91,9.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,spreads,Tenn-Martin Skyhawks,1.91,-9.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,totals,Over,1.91,155.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,FanDuel,totals,Under,1.91,155.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,h2h,Prairie View Panthers,5.25,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,h2h,Tenn-Martin Skyhawks,1.17,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,spreads,Prairie View Panthers,1.87,10.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,spreads,Tenn-Martin Skyhawks,1.95,-10.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,totals,Over,1.95,155.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,DraftKings,totals,Under,1.87,155.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,h2h,Prairie View Panthers,4.64,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,h2h,Tenn-Martin Skyhawks,1.2,,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,spreads,Prairie View Panthers,1.9,9.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,spreads,Tenn-Martin Skyhawks,1.92,-9.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,totals,Over,1.87,154.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,42d6f93de47fa90ab252e644ece6149e,2025-11-22 16:00:00 CST,Pinnacle,totals,Under,1.87,154.5,Tenn-Martin Skyhawks,Prairie View Panthers
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,h2h,Southern Indiana Screaming Eagles,6.0,,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,h2h,UIC Flames,1.14,,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,spreads,Southern Indiana Screaming Eagles,1.83,11.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,spreads,UIC Flames,1.98,-11.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,totals,Over,1.87,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,FanDuel,totals,Under,1.95,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,h2h,Southern Indiana Screaming Eagles,6.34,,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,h2h,UIC Flames,1.12,,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,spreads,Southern Indiana Screaming Eagles,1.88,12.0,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,spreads,UIC Flames,1.94,-12.0,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,totals,Over,1.91,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,Pinnacle,totals,Under,1.83,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,DraftKings,spreads,Southern Indiana Screaming Eagles,1.89,11.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,DraftKings,spreads,UIC Flames,1.93,-11.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,DraftKings,totals,Over,1.91,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,69ec99511bd6a407fff8fe39e8067d2c,2025-11-22 16:00:00 CST,DraftKings,totals,Under,1.91,153.5,Southern Indiana Screaming Eagles,UIC Flames
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,h2h,CSU Fullerton Titans,6.3,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,h2h,St. Thomas (MN) Tommies,1.13,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,spreads,CSU Fullerton Titans,1.91,11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,spreads,St. Thomas (MN) Tommies,1.91,-11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,totals,Over,1.87,162.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,FanDuel,totals,Under,1.95,162.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,h2h,CSU Fullerton Titans,5.9,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,h2h,St. Thomas (MN) Tommies,1.15,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,spreads,CSU Fullerton Titans,1.91,11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,spreads,St. Thomas (MN) Tommies,1.91,-11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,totals,Over,1.95,162.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,DraftKings,totals,Under,1.87,162.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,h2h,CSU Fullerton Titans,5.78,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,h2h,St. Thomas (MN) Tommies,1.16,,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,spreads,CSU Fullerton Titans,1.88,11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,spreads,St. Thomas (MN) Tommies,1.97,-11.5,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,totals,Over,1.88,162.0,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,2e02576f4286b1a2030ed0ffdac9dd0d,2025-11-22 16:30:00 CST,Pinnacle,totals,Under,1.86,162.0,CSU Fullerton Titans,St. Thomas (MN) Tommies
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,h2h,Iona Gaels,2.5,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,h2h,Oregon St Beavers,1.55,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,spreads,Iona Gaels,1.91,3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,spreads,Oregon St Beavers,1.91,-3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,totals,Over,1.91,157.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,FanDuel,totals,Under,1.91,157.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,h2h,Iona Gaels,2.49,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,h2h,Oregon St Beavers,1.57,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,spreads,Iona Gaels,1.93,3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,spreads,Oregon St Beavers,1.92,-3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,totals,Over,1.93,157.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,Pinnacle,totals,Under,1.89,157.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,h2h,Iona Gaels,2.54,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,h2h,Oregon St Beavers,1.54,,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,spreads,Iona Gaels,1.93,3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,spreads,Oregon St Beavers,1.89,-3.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,totals,Over,1.87,156.5,Oregon St Beavers,Iona Gaels
+CBB,,e4c3a0e6724252afd55ec72e1e1212bc,2025-11-22 16:30:00 CST,DraftKings,totals,Under,1.95,156.5,Oregon St Beavers,Iona Gaels
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,h2h,Minnesota Golden Gophers,1.91,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,h2h,San Francisco Dons,1.91,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,spreads,Minnesota Golden Gophers,1.83,1.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,spreads,San Francisco Dons,1.98,-1.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,totals,Over,1.91,139.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,FanDuel,totals,Under,1.91,139.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,h2h,Minnesota Golden Gophers,1.98,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,h2h,San Francisco Dons,1.88,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,spreads,Minnesota Golden Gophers,1.92,1.0,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,spreads,San Francisco Dons,1.9,-1.0,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,totals,Over,1.87,140.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,Pinnacle,totals,Under,1.94,140.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,h2h,Minnesota Golden Gophers,1.95,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,h2h,San Francisco Dons,1.87,,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,spreads,Minnesota Golden Gophers,1.83,1.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,spreads,San Francisco Dons,2.0,-1.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,totals,Over,1.91,140.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,1b4ec87bb928f533ff03259322157af3,2025-11-22 16:30:00 CST,DraftKings,totals,Under,1.91,140.5,Minnesota Golden Gophers,San Francisco Dons
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,h2h,Ball State Cardinals,4.1,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,h2h,Indiana St Sycamores,1.25,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,spreads,Ball State Cardinals,1.98,7.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,spreads,Indiana St Sycamores,1.83,-7.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.91,153.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.91,153.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,h2h,Ball State Cardinals,3.78,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,h2h,Indiana St Sycamores,1.29,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,spreads,Ball State Cardinals,1.87,8.0,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,spreads,Indiana St Sycamores,1.99,-8.0,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.93,154.0,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.88,154.0,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,h2h,Ball State Cardinals,3.8,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,h2h,Indiana St Sycamores,1.28,,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,spreads,Ball State Cardinals,1.93,7.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,spreads,Indiana St Sycamores,1.89,-7.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.89,153.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,5e7a29c6aba42b89f5e622c9d1cfdcee,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.93,153.5,Indiana St Sycamores,Ball State Cardinals
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,h2h,Coastal Carolina Chanticleers,1.62,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,h2h,North Dakota Fighting Hawks,2.32,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,spreads,Coastal Carolina Chanticleers,1.98,-3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,spreads,North Dakota Fighting Hawks,1.83,3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.89,147.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.93,147.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,h2h,Coastal Carolina Chanticleers,1.59,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,h2h,North Dakota Fighting Hawks,2.42,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,spreads,Coastal Carolina Chanticleers,1.93,-3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,spreads,North Dakota Fighting Hawks,1.89,3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.91,147.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.91,147.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,h2h,Coastal Carolina Chanticleers,1.58,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,h2h,North Dakota Fighting Hawks,2.47,,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,spreads,Coastal Carolina Chanticleers,1.96,-3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,spreads,North Dakota Fighting Hawks,1.89,3.5,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.96,148.0,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2ff97fabff99aeb213543f62901010d7,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.85,148.0,Coastal Carolina Chanticleers,North Dakota Fighting Hawks
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,h2h,Gardner-Webb Bulldogs,15.0,,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,h2h,Richmond Spiders,1.02,,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,spreads,Gardner-Webb Bulldogs,1.91,19.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,spreads,Richmond Spiders,1.91,-19.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.95,154.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.87,154.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,h2h,Gardner-Webb Bulldogs,19.0,,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,h2h,Richmond Spiders,1.02,,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,spreads,Gardner-Webb Bulldogs,1.89,19.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,spreads,Richmond Spiders,1.93,-19.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.91,154.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.91,154.5,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,Pinnacle,spreads,Gardner-Webb Bulldogs,1.94,19.0,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,Pinnacle,spreads,Richmond Spiders,1.88,-19.0,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.86,155.0,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,2fc9556d13210d2acc150b85e3fe459e,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.88,155.0,Richmond Spiders,Gardner-Webb Bulldogs
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,h2h,High Point Panthers,1.12,,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,h2h,Incarnate Word Cardinals,6.7,,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,spreads,High Point Panthers,1.88,-11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,spreads,Incarnate Word Cardinals,1.94,11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.87,159.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.95,159.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,h2h,High Point Panthers,1.11,,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,h2h,Incarnate Word Cardinals,6.81,,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,spreads,High Point Panthers,1.88,-11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,spreads,Incarnate Word Cardinals,1.94,11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.89,160.0,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.85,160.0,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,DraftKings,spreads,High Point Panthers,1.87,-11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,DraftKings,spreads,Incarnate Word Cardinals,1.95,11.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.91,159.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,0255ab9a08ae19b14f72015862813a96,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.91,159.5,Incarnate Word Cardinals,High Point Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,h2h,Milwaukee Panthers,6.2,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,h2h,Wichita St Shockers,1.13,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,spreads,Milwaukee Panthers,1.98,10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,spreads,Wichita St Shockers,1.83,-10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.87,159.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.95,159.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,h2h,Milwaukee Panthers,5.56,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,h2h,Wichita St Shockers,1.16,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,spreads,Milwaukee Panthers,1.93,10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,spreads,Wichita St Shockers,1.92,-10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.91,160.0,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.91,160.0,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,h2h,Milwaukee Panthers,5.55,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,h2h,Wichita St Shockers,1.16,,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,spreads,Milwaukee Panthers,1.91,10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,spreads,Wichita St Shockers,1.91,-10.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.91,159.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,d721be561df338554f5018b56ccf5fc1,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.91,159.5,Wichita St Shockers,Milwaukee Panthers
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,h2h,Morehead St Eagles,1.34,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,h2h,UL Monroe Warhawks,3.35,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,spreads,Morehead St Eagles,1.96,-6.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,spreads,UL Monroe Warhawks,1.85,6.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.95,145.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.87,145.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,h2h,Morehead St Eagles,1.37,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,h2h,UL Monroe Warhawks,3.22,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,spreads,Morehead St Eagles,1.87,-6.0,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,spreads,UL Monroe Warhawks,1.95,6.0,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.83,145.0,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.99,145.0,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,h2h,Morehead St Eagles,1.37,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,h2h,UL Monroe Warhawks,3.2,,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,spreads,Morehead St Eagles,1.95,-6.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,spreads,UL Monroe Warhawks,1.87,6.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.91,145.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,04c980a92898676c0fbc2303e9ec9855,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.91,145.5,Morehead St Eagles,UL Monroe Warhawks
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,h2h,Stetson Hatters,2.3,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,h2h,VMI Keydets,1.64,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,spreads,Stetson Hatters,1.91,2.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,spreads,VMI Keydets,1.91,-2.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,totals,Over,1.91,149.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,FanDuel,totals,Under,1.91,149.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,h2h,Stetson Hatters,2.2,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,h2h,VMI Keydets,1.7,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,spreads,Stetson Hatters,1.89,2.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,spreads,VMI Keydets,1.93,-2.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,totals,Over,1.89,148.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,DraftKings,totals,Under,1.93,148.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,h2h,Stetson Hatters,2.19,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,h2h,VMI Keydets,1.69,,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,spreads,Stetson Hatters,1.86,3.0,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,spreads,VMI Keydets,1.96,-3.0,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,totals,Over,1.85,149.5,Stetson Hatters,VMI Keydets
+CBB,,5d5ff1039daa2f508377e5e1ff16b934,2025-11-22 18:00:00 CST,Pinnacle,totals,Under,1.88,149.5,Stetson Hatters,VMI Keydets
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,FanDuel,spreads,Coppin St Eagles,1.96,32.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,FanDuel,spreads,VCU Rams,1.85,-32.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,FanDuel,totals,Over,1.91,151.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,FanDuel,totals,Under,1.91,151.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,DraftKings,spreads,Coppin St Eagles,1.91,32.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,DraftKings,spreads,VCU Rams,1.91,-32.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,DraftKings,totals,Over,1.91,151.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,DraftKings,totals,Under,1.91,151.5,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,Pinnacle,spreads,Coppin St Eagles,1.94,32.0,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,Pinnacle,spreads,VCU Rams,1.88,-32.0,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,Pinnacle,totals,Over,1.85,151.0,VCU Rams,Coppin St Eagles
+CBB,,3bb3b3f2e6c81f343de2db732c583d8c,2025-11-22 18:30:00 CST,Pinnacle,totals,Under,1.89,151.0,VCU Rams,Coppin St Eagles
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,h2h,N Colorado Bears,1.57,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,h2h,Portland Pilots,2.46,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,spreads,N Colorado Bears,1.91,-3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,spreads,Portland Pilots,1.91,3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,totals,Over,1.87,156.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,FanDuel,totals,Under,1.95,156.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,h2h,N Colorado Bears,1.59,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,h2h,Portland Pilots,2.42,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,spreads,N Colorado Bears,1.93,-3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,spreads,Portland Pilots,1.89,3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,totals,Over,1.93,157.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,DraftKings,totals,Under,1.89,157.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,h2h,N Colorado Bears,1.6,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,h2h,Portland Pilots,2.41,,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,spreads,N Colorado Bears,1.93,-3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,spreads,Portland Pilots,1.92,3.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,totals,Over,1.85,156.5,Portland Pilots,N Colorado Bears
+CBB,,a5dd03d0556177f5bda93860fde81b74,2025-11-22 19:00:00 CST,Pinnacle,totals,Under,1.96,156.5,Portland Pilots,N Colorado Bears
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,h2h,North Florida Ospreys,5.0,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,h2h,Southern Miss Golden Eagles,1.18,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,spreads,North Florida Ospreys,1.91,9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,spreads,Southern Miss Golden Eagles,1.91,-9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,totals,Over,1.87,154.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,FanDuel,totals,Under,1.95,154.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,h2h,North Florida Ospreys,5.01,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,h2h,Southern Miss Golden Eagles,1.18,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,spreads,North Florida Ospreys,1.85,9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,spreads,Southern Miss Golden Eagles,1.97,-9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,totals,Over,1.89,155.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,Pinnacle,totals,Under,1.85,155.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,h2h,North Florida Ospreys,5.4,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,h2h,Southern Miss Golden Eagles,1.17,,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,spreads,North Florida Ospreys,1.87,9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,spreads,Southern Miss Golden Eagles,1.95,-9.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,totals,Over,1.93,154.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,102d64a69800e805e2cf2f13f4dfed8e,2025-11-22 19:00:00 CST,DraftKings,totals,Under,1.89,154.5,North Florida Ospreys,Southern Miss Golden Eagles
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,h2h,UT-Arlington Mavericks,2.36,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,h2h,Weber State Wildcats,1.61,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,spreads,UT-Arlington Mavericks,1.96,2.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,spreads,Weber State Wildcats,1.85,-2.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,totals,Over,1.91,151.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,FanDuel,totals,Under,1.91,151.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,h2h,UT-Arlington Mavericks,2.42,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,h2h,Weber State Wildcats,1.59,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,spreads,UT-Arlington Mavericks,1.87,3.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,spreads,Weber State Wildcats,1.95,-3.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,totals,Over,1.95,151.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,DraftKings,totals,Under,1.87,151.5,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,h2h,UT-Arlington Mavericks,2.29,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,h2h,Weber State Wildcats,1.66,,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,spreads,UT-Arlington Mavericks,1.83,3.0,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,spreads,Weber State Wildcats,1.99,-3.0,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,totals,Over,1.89,151.0,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,d731dde0fce18b8419463f7f1587f3b3,2025-11-22 20:00:00 CST,Pinnacle,totals,Under,1.93,151.0,Weber State Wildcats,UT-Arlington Mavericks
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,h2h,Northern Iowa Panthers,2.12,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,h2h,UC Irvine Anteaters,1.75,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,spreads,Northern Iowa Panthers,1.95,1.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,spreads,UC Irvine Anteaters,1.87,-1.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,totals,Over,1.91,137.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,FanDuel,totals,Under,1.91,137.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,h2h,Northern Iowa Panthers,2.14,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,h2h,UC Irvine Anteaters,1.74,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,spreads,Northern Iowa Panthers,2.0,1.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,spreads,UC Irvine Anteaters,1.83,-1.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,totals,Over,1.87,137.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,DraftKings,totals,Under,1.95,137.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,h2h,Northern Iowa Panthers,2.11,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,h2h,UC Irvine Anteaters,1.77,,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,spreads,Northern Iowa Panthers,1.92,2.0,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,spreads,UC Irvine Anteaters,1.93,-2.0,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,totals,Over,1.95,138.5,UC Irvine Anteaters,Northern Iowa Panthers
+CBB,,e4039c727ed3f9b6e78f7cc5b76059fd,2025-11-22 21:30:07 CST,Pinnacle,totals,Under,1.86,138.5,UC Irvine Anteaters,Northern Iowa Panthers
