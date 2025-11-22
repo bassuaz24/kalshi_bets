@@ -40,7 +40,7 @@ class CONFIG:
     ALLOWED_STATUSES = {"active", "open"}   # set to None to accept any status
 
     # --- Behavior toggles ---
-    DRY_RUN = False               # simulate by default; use --live flag to send real orders
+    DRY_RUN = True              # simulate by default; use --live flag to send real orders
     POLL_INTERVAL_SEC = 4        # seconds between loops
     REQ_TIMEOUT = 15             # HTTP timeout
     MAX_RETRIES = 3
@@ -61,8 +61,14 @@ class CONFIG:
         BUY_EDGE = 0.01            # edge to consider buy YES
         SELL_EDGE = 0.01           # edge to consider sell YES (via NO order)
         CROSS_EDGE = 0.02          # cross when edge >= this; else post maker
-        SIZE = 2                   # size per intent (kept small for DRY_RUN)
+        SIZE = 2                   # legacy fixed size per intent
+        SIZE_PCT_OF_CASH = 0.05    # target % of cash balance per order (0 to keep fixed size)
+        SIZE_PCT_OF_PORTFOLIO = SIZE_PCT_OF_CASH  # alias for older configs
+        MIN_SIZE = 1               # enforce a floor so we always send something
+        MAX_SIZE = 50              # hard cap to avoid oversized orders
         ALWAYS_POST_MAKER = True   # if no edge triggers, still post a small maker for visibility
+        USE_BOOK_ODDS = False      # when True, load fair values from BOOK_ODDS_FILE; otherwise use default heuristic
+        BOOK_ODDS_FILE = "book_odds.csv"
 
     # --- Logging ---
     LOG_DIR = "live_betting"
@@ -446,6 +452,179 @@ def best_prices_from_sources(market: dict, orderbook: dict) -> Dict[str, Optiona
 
 
 # =========================
+# === FAIR VALUE (ODDS) ===
+# =========================
+
+def implied_prob_decimal(decimal_odds: Optional[float]) -> Optional[float]:
+    """Return implied probability from decimal odds (European format)."""
+    try:
+        o = float(decimal_odds)
+        return 1.0 / o if o > 0 else None
+    except Exception:
+        return None
+
+def no_vig_probability(yes_odds: Optional[float], no_odds: Optional[float]) -> Optional[float]:
+    """
+    Compute no-vig probability for YES using paired decimal odds.
+    If odds are 1.77 (yes) and 2.0 (no), implieds are ~0.565/0.5,
+    so no-vig yes prob is 0.565 / (0.565+0.5).
+    """
+    p_yes = implied_prob_decimal(yes_odds)
+    p_no = implied_prob_decimal(no_odds)
+    if p_yes is None or p_no is None:
+        return None
+    total = p_yes + p_no
+    if total <= 0:
+        return None
+    return round(p_yes / total, 6)
+
+def fair_value_from_books(book_quotes: List[Dict[str, Any]], weights: Optional[List[float]] = None) -> Optional[float]:
+    """
+    Given multiple sportsbook quotes, compute weighted average of no-vig YES probabilities.
+    book_quotes: list of dicts with keys {"yes_odds": float, "no_odds": float}
+    weights: optional list of floats aligned with book_quotes; defaults to even weighting.
+    """
+    if not book_quotes:
+        return None
+    probs = []
+    for q in book_quotes:
+        prob = no_vig_probability(q.get("yes_odds"), q.get("no_odds"))
+        if prob is not None:
+            probs.append(prob)
+    if not probs:
+        return None
+    if weights and len(weights) == len(probs):
+        try:
+            total_w = sum(weights)
+            if total_w <= 0:
+                return None
+            return round(sum(p * w for p, w in zip(probs, weights)) / total_w, 6)
+        except Exception:
+            return None
+    return round(sum(probs) / len(probs), 6)
+
+# Cache for sportsbook-derived fair values keyed by ticker.
+_book_odds_cache = {"path": None, "mtime": None, "fair": {}}
+
+def _load_book_fairs() -> Dict[str, float]:
+    """
+    Load sportsbook odds from a CSV and compute no-vig fair probabilities per ticker.
+    Expected columns (realistic assumption): ticker, yes_odds, no_odds, bookmaker (bookmaker optional).
+    Odds should be decimal (European) format.
+    """
+    path = getattr(CONFIG.STRAT, "BOOK_ODDS_FILE", "book_odds.csv")
+    if not path or not os.path.exists(path):
+        return {}
+    try:
+        mtime = os.path.getmtime(path)
+        if _book_odds_cache["path"] == path and _book_odds_cache["mtime"] == mtime:
+            return _book_odds_cache["fair"]
+
+        import csv
+        quotes_by_ticker: Dict[str, List[Dict[str, float]]] = {}
+        with open(path, newline="") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                tkr = (row.get("ticker") or row.get("market") or "").strip()
+                if not tkr:
+                    continue
+                yes_odds = to_f(row.get("yes_odds") or row.get("yes_price") or row.get("price_yes"))
+                no_odds  = to_f(row.get("no_odds")  or row.get("no_price")  or row.get("price_no"))
+                if yes_odds is None or no_odds is None:
+                    continue
+                quotes_by_ticker.setdefault(tkr, []).append({"yes_odds": yes_odds, "no_odds": no_odds})
+
+        fair_map = {}
+        for tkr, quotes in quotes_by_ticker.items():
+            fv = fair_value_from_books(quotes)
+            if fv is not None:
+                fair_map[tkr] = fv
+
+        _book_odds_cache.update({"path": path, "mtime": mtime, "fair": fair_map})
+        return fair_map
+    except Exception as e:
+        log_health("book_odds_load_error", error=str(e))
+        return {}
+
+def fair_from_books_for_ticker(ticker: str) -> Optional[float]:
+    if not getattr(CONFIG.STRAT, "USE_BOOK_ODDS", False):
+        return None
+    fairs = _load_book_fairs()
+    return fairs.get(ticker)
+
+
+# =========================
+# ======= SIZING ==========
+# =========================
+
+_balance_cache = {"ts": 0.0, "value": None}
+
+def get_cash_balance(cache_sec: int = 60) -> Optional[float]:
+    """
+    Fetch cash balance (fallback to portfolio_value) with a short cache to avoid hammering the API.
+    Returns None on failure so callers can fall back to fixed sizing.
+    """
+    now = time.time()
+    if now - _balance_cache["ts"] <= cache_sec and _balance_cache["value"] is not None:
+        return _balance_cache["value"]
+    try:
+        payload = http_request("GET", "portfolio/balance")
+        if payload and isinstance(payload, dict):
+            val = to_f(payload.get("balance") or payload.get("cash_balance") or payload.get("portfolio_value"))
+            if val is not None and val > 0:
+                _balance_cache.update({"ts": now, "value": val})
+                return val
+    except Exception as e:
+        log_health("balance_fetch_error", error=str(e))
+    _balance_cache.update({"ts": now, "value": None})
+    return None
+
+def _per_contract_risk(price: float, side: str, action: str) -> float:
+    """
+    Conservative estimate of capital at risk per contract:
+      - buying YES costs price
+      - selling YES risks 1 - price
+      - buying NO costs 1 - price
+      - selling NO risks price
+    """
+    if side == "yes":
+        return price if action == "buy" else max(CONFIG.MIN_PRICE, 1.0 - price)
+    if side == "no":
+        return max(CONFIG.MIN_PRICE, 1.0 - price) if action == "buy" else price
+    return price
+
+def size_for_order(price: Optional[float], side: str, action: str, available_qty: Optional[int] = None) -> int:
+    """
+    Compute order size using percent-of-cash sizing with sane fallbacks.
+    """
+    # Fallback to legacy fixed size if percent sizing is disabled or invalid inputs.
+    pct = getattr(CONFIG.STRAT, "SIZE_PCT_OF_CASH", None)
+    if pct is None:
+        pct = getattr(CONFIG.STRAT, "SIZE_PCT_OF_PORTFOLIO", 0)
+    pct = pct or 0
+    base = CONFIG.STRAT.SIZE
+    if price is None or pct <= 0:
+        return base
+
+    balance = get_cash_balance()
+    if balance is None or balance <= 0:
+        return base
+
+    per_risk = _per_contract_risk(price, side, action)
+    if per_risk <= 0:
+        return base
+
+    target_dollars = balance * pct
+    count = int(math.floor(target_dollars / per_risk))
+    if available_qty is not None:
+        count = min(count, max(available_qty, 0))
+
+    count = max(CONFIG.STRAT.MIN_SIZE, count)
+    count = min(CONFIG.STRAT.MAX_SIZE, count)
+    return count
+
+
+# =========================
 # ======= STRATEGY  =======
 # =========================
 
@@ -467,8 +646,9 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     Basic, inclusive strategy to ensure DRY-RUN produces visible decisions:
       - Accepts any status if CONFIG.ALLOWED_STATUSES is None; otherwise filters by it.
       - Builds BBO from market OR orderbook (dollars/cents) with parity fallback.
-      - Uses simple 'fair' (0.5 by default). If yes_ask <= fair - BUY_EDGE => buy YES;
-        if yes_bid >= fair + SELL_EDGE => sell YES (place NO).
+      - If CONFIG.STRAT.USE_BOOK_ODDS: pulls fair from sportsbook odds file; otherwise uses a simple heuristic.
+      - Uses fair: if yes_ask <= fair - BUY_EDGE => buy YES; if yes_bid >= fair + SELL_EDGE => sell YES.
+      - If no fair and USE_BOOK_ODDS is False, falls back to the simple cheap/rich heuristic (<=0.55 / >=0.45).
       - If no edge fires and ALWAYS_POST_MAKER is True: post small maker on both sides to show activity.
       - Applies a wide spread gate and no near-expiry gate (per CONFIG).
     """
@@ -514,44 +694,79 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     yes_levels, _ = parse_ob_yes_no(orderbook)
     best_yes_ask_qty = yes_levels[0][1] if yes_levels else CONFIG.STRAT.SIZE
 
-    # Moderately loose criteria:
-    # - Buy YES if ask <= 0.55 and spread not crazy
-    # - Sell YES if bid >= 0.45 and spread not crazy
-    if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
-        if CONFIG.DEBUG_SKIPS:
-            log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
-        # still evaluate to allow activity
+    fair_yes = fair_from_books_for_ticker(ticker)
 
-    # BUY YES (hit ask) when it's cheap-ish
-    if yes_ask is not None and yes_ask <= 0.55:
-        count = min(CONFIG.STRAT.SIZE, best_yes_ask_qty if best_yes_ask_qty > 0 else CONFIG.STRAT.SIZE)
-        if count > 0:
+    # Strategy branch: sportsbook fair or fallback heuristic
+    if fair_yes is not None:
+        # fair-based edges
+        buy_edge = fair_yes - yes_ask if yes_ask is not None else None
+        sell_edge = yes_bid - fair_yes if yes_bid is not None else None
+
+        if buy_edge is not None and buy_edge >= CONFIG.STRAT.BUY_EDGE:
+            avail_qty = best_yes_ask_qty if best_yes_ask_qty and best_yes_ask_qty > 0 else None
+            count = size_for_order(yes_ask, side="yes", action="buy", available_qty=avail_qty)
+            if count > 0:
+                intents.append({
+                    "intent_id": str(uuid.uuid4()),
+                    "ticker": ticker,
+                    "side": "yes",
+                    "action": "buy",
+                    "price": clamp_price(yes_ask),
+                    "count": count,
+                    "reason": "buy_yes_fair_edge"
+                })
+
+        if sell_edge is not None and sell_edge >= CONFIG.STRAT.SELL_EDGE:
+            count = size_for_order(yes_bid, side="yes", action="sell")
             intents.append({
                 "intent_id": str(uuid.uuid4()),
                 "ticker": ticker,
                 "side": "yes",
-                "action": "buy",
-                "price": clamp_price(yes_ask),
+                "action": "sell",
+                "price": clamp_price(yes_bid),
                 "count": count,
-                "reason": "buy_yes_le_055"
+                "reason": "sell_yes_fair_edge"
             })
+    else:
+        # Moderately loose criteria:
+        # - Buy YES if ask <= 0.55 and spread not crazy
+        # - Sell YES if bid >= 0.45 and spread not crazy
+        if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
+            if CONFIG.DEBUG_SKIPS:
+                log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
+            # still evaluate to allow activity
 
-    # SELL YES (hit bid) when it's rich-ish
-    if yes_bid is not None and yes_bid >= 0.45:
-        count = CONFIG.STRAT.SIZE
-        intents.append({
-            "intent_id": str(uuid.uuid4()),
-            "ticker": ticker,
-            "side": "yes",
-            "action": "sell",
-            "price": clamp_price(yes_bid),
-            "count": count,
-            "reason": "sell_yes_ge_045"
-        })
+        # BUY YES (hit ask) when it's cheap-ish
+        if yes_ask is not None and yes_ask <= 0.55:
+            avail_qty = best_yes_ask_qty if best_yes_ask_qty and best_yes_ask_qty > 0 else None
+            count = size_for_order(yes_ask, side="yes", action="buy", available_qty=avail_qty)
+            if count > 0:
+                intents.append({
+                    "intent_id": str(uuid.uuid4()),
+                    "ticker": ticker,
+                    "side": "yes",
+                    "action": "buy",
+                    "price": clamp_price(yes_ask),
+                    "count": count,
+                    "reason": "buy_yes_le_055"
+                })
+
+        # SELL YES (hit bid) when it's rich-ish
+        if yes_bid is not None and yes_bid >= 0.45:
+            count = size_for_order(yes_bid, side="yes", action="sell")
+            intents.append({
+                "intent_id": str(uuid.uuid4()),
+                "ticker": ticker,
+                "side": "yes",
+                "action": "sell",
+                "price": clamp_price(yes_bid),
+                "count": count,
+                "reason": "sell_yes_ge_045"
+            })
 
     for it in intents:
         log_decision(ticker, it, {
-            "fair_yes": None,
+            "fair_yes": fair_yes,
             "edge": None,
             "spread": spread,
             "yes_bid": yes_bid, "yes_ask": yes_ask, "no_bid": no_bid, "no_ask": no_ask

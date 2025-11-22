@@ -8615,3 +8615,6 @@ ts,msg,dry_run,tickers
 2025-11-22T04:43:28.299055Z,ready,False,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD,KXNCAAMBTOTAL",
 2025-11-22T04:43:35.730197Z,status_seen,active
 2025-11-22T04:43:37.174724Z,stopped
+2025-11-22T17:45:51.858770Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD,KXNCAAMBTOTAL",
+2025-11-22T17:46:05.609767Z,status_seen,active
+2025-11-22T17:46:07.232738Z,stopped
