@@ -31,7 +31,7 @@ class CONFIG:
     PRIVATE_KEY_PATH = None                           # set or use env KALSHI_PRIVATE_KEY_PATH
 
     # --- Discovery scope (college basketball spreads/totals only by default; edit to add more) ---
-    SERIES = ["KXNCAAMBSPREAD", "KXNCAAMBTOTAL"]   # adjust this list to include other markets if desired
+    SERIES = ["KXNCAAMBGAME", "KXNCAAMBSPREAD", "KXNCAAMBTOTAL"]   # adjust this list to include other markets if desired
     TICKERS = []                   # set explicit tickers to bypass series discovery
     MAX_DISCOVERY_PAGES = 20
     DISCOVERY_SAMPLE_ROWS = 10
@@ -40,7 +40,7 @@ class CONFIG:
     ALLOWED_STATUSES = {"active", "open"}   # set to None to accept any status
 
     # --- Behavior toggles ---
-    DRY_RUN = False              # live by default (use --live flag or set True to simulate)
+    DRY_RUN = False               # simulate by default; use --live flag to send real orders
     POLL_INTERVAL_SEC = 4        # seconds between loops
     REQ_TIMEOUT = 15             # HTTP timeout
     MAX_RETRIES = 3
@@ -48,7 +48,7 @@ class CONFIG:
     TICKERS_PER_LOOP = 60        # process at most this many tickers per loop (for visibility)
 
     # --- Trading policy & risk (very permissive for observation) ---
-    TIME_IN_FORCE = "immediate_or_cancel"        # allowed by Kalshi: immediate_or_cancel, fill_or_kill, good_til_cancel, day
+    TIME_IN_FORCE = "IOC"        # allowed by Kalshi: DAY, IOC, FOK, GTC (use env/flag to change)
     MIN_TICK = 0.01
     MIN_PRICE = 0.01
     MAX_PRICE = 0.99
@@ -512,38 +512,42 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
         # still allow evaluation below
 
     yes_levels, _ = parse_ob_yes_no(orderbook)
-    best_yes_ask_qty = yes_levels[0][1] if yes_levels else 0
+    best_yes_ask_qty = yes_levels[0][1] if yes_levels else CONFIG.STRAT.SIZE
 
-    # New strategy: take YES when ask is between 0.40-0.49 and cost < $3 total.
-    price = clamp_price(yes_ask)
-    if price is None or price < 0.40 or price > 0.49:
+    # Moderately loose criteria:
+    # - Buy YES if ask <= 0.55 and spread not crazy
+    # - Sell YES if bid >= 0.45 and spread not crazy
+    if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
         if CONFIG.DEBUG_SKIPS:
-            log_health("skip_price_band", ticker=ticker, yes_ask=yes_ask)
-        return intents
+            log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
+        # still evaluate to allow activity
 
-    max_affordable = int(math.floor(3.0 / price))
-    if max_affordable <= 0:
-        if CONFIG.DEBUG_SKIPS:
-            log_health("skip_afford", ticker=ticker, price=price)
-        return intents
+    # BUY YES (hit ask) when it's cheap-ish
+    if yes_ask is not None and yes_ask <= 0.55:
+        count = min(CONFIG.STRAT.SIZE, best_yes_ask_qty if best_yes_ask_qty > 0 else CONFIG.STRAT.SIZE)
+        if count > 0:
+            intents.append({
+                "intent_id": str(uuid.uuid4()),
+                "ticker": ticker,
+                "side": "yes",
+                "action": "buy",
+                "price": clamp_price(yes_ask),
+                "count": count,
+                "reason": "buy_yes_le_055"
+            })
 
-    desired = CONFIG.STRAT.SIZE
-    if best_yes_ask_qty > 0:
-        desired = min(desired, best_yes_ask_qty)
-    count = min(desired, max_affordable)
-    if count <= 0:
-        if CONFIG.DEBUG_SKIPS:
-            log_health("skip_count", ticker=ticker, price=price, desired=desired, max_affordable=max_affordable)
-        return intents
-
-    intents.append({
-        "intent_id": str(uuid.uuid4()),
-        "ticker": ticker,
-        "side": "yes",
-        "price": price,
-        "count": count,
-        "reason": "yes_in_band_cost_lt_3"
-    })
+    # SELL YES (hit bid) when it's rich-ish
+    if yes_bid is not None and yes_bid >= 0.45:
+        count = CONFIG.STRAT.SIZE
+        intents.append({
+            "intent_id": str(uuid.uuid4()),
+            "ticker": ticker,
+            "side": "yes",
+            "action": "sell",
+            "price": clamp_price(yes_bid),
+            "count": count,
+            "reason": "sell_yes_ge_045"
+        })
 
     for it in intents:
         log_decision(ticker, it, {
@@ -561,7 +565,7 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
 # =========================
 
 RUN = True
-ORDER_PLACED = False
+ORDERS_SENT = 0
 def _handle_sig(sig, frame):
     global RUN
     RUN = False
@@ -584,24 +588,21 @@ def submit_intent(intent: Dict[str,Any]):
     count = int(intent["count"])
     if count <= 0:
         return
-    tif_raw = (CONFIG.TIME_IN_FORCE or "").lower()
-    allowed_tif = {"immediate_or_cancel", "fill_or_kill", "good_til_cancel", "day"}
-    tif = tif_raw if tif_raw in allowed_tif else "immediate_or_cancel"
     payload = {
         "ticker": intent["ticker"],
         "side": intent["side"],          # "yes" or "no"
         "action": intent.get("action", "buy"),  # required by API
         "type": "limit",
         "count": count,
-        "time_in_force": tif,
+        "time_in_force": "immediate_or_cancel",
         "client_order_id": intent.get("intent_id"),
     }
-    # Kalshi expects exactly one of yes_price*/no_price*.
-    price_str = f"{price:.4f}"
+    # Kalshi expects exactly one price field; send cents.
+    price_cents = int(round(price * 100))
     if payload["side"] == "yes":
-        payload["yes_price_dollars"] = price_str
+        payload["yes_price"] = price_cents
     else:
-        payload["no_price_dollars"] = price_str
+        payload["no_price"] = price_cents
     resp = place_order(payload, idem_key(intent))
     log_order("place", payload, resp)
     success = False
@@ -610,13 +611,25 @@ def submit_intent(intent: Dict[str,Any]):
     if success:
         chosen_odds = price if payload["side"] == "yes" else max(CONFIG.MIN_PRICE, min(CONFIG.MAX_PRICE, round(1.0 - price, 4)))
         mode = "LIVE" if not CONFIG.DRY_RUN else "DRY-RUN"
-        print(f"🪙 {mode} order: {payload['ticker']} side={payload['side']} size={count} price={price:.2f} odds={chosen_odds:.2f}")
+        print(f"🪙 {mode} order: {payload['ticker']} side={payload['side']} action={payload['action']} size={count} price={price:.2f} odds={chosen_odds:.2f}")
     else:
         print(f"❌ order failed for {payload['ticker']} side={payload['side']} size={count} price={price}")
-    # Stop the run after the first order.
-    global RUN, ORDER_PLACED
-    ORDER_PLACED = True
-    RUN = False
+    # Stop if an order is immediately filled or after 5 placement attempts.
+    global RUN, ORDERS_SENT
+    ORDERS_SENT += 1
+    if resp:
+        order_obj = resp.get("order") if isinstance(resp, dict) else None
+        status = (order_obj or {}).get("status")
+        err_details = None
+        if isinstance(resp, dict) and "error" in resp:
+            err_details = resp["error"].get("details") or resp["error"].get("message")
+        if err_details and "TimeInForce" in str(err_details):
+            print("🛑 Fatal TIF validation error; shutting down to avoid repeats.")
+            RUN = False
+        if status == "filled" or ORDERS_SENT >= 5:
+            RUN = False
+    elif ORDERS_SENT >= 5:
+        RUN = False
 
 def parse_cli_args():
     parser = argparse.ArgumentParser(description="Kalshi live trader")
@@ -745,15 +758,15 @@ def main():
                 intents = decide_intents(t, mkt, ob)
                 for it in intents:
                     submit_intent(it)
-                    if ORDER_PLACED:
+                    if not RUN:
                         break
                 total_intents += len(intents)
-                if ORDER_PLACED:
+                if not RUN:
                     break
             except Exception as e:
                 log_health("decision_error", ticker=t, error=str(e))
                 continue
-        if ORDER_PLACED:
+        if not RUN:
             break
 
         elapsed = (now_utc() - loop_started).total_seconds()
