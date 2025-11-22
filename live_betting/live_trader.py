@@ -20,22 +20,27 @@ Run:
 
 class CONFIG:
     # --- API host & key ---
-    HOST = "https://api.elections.kalshi.com"    # elections environment
-    API_KEY = "e8b43912-6603-413c-b544-3ca7f47cd06b"      # <<< REQUIRED: paste your key here
-    AUTH_MODE = "bearer"                          # "bearer" or "x_api_key"
+    HOST = "https://api.elections.kalshi.com"    # default host (per migration notice)
+    HOST_FALLBACKS = [
+        "https://trading-api.kalshi.com",
+        "https://api.kalshi.com",
+        "https://trading.kalshi.com",
+    ]
+    API_KEY = "KALSHI_API_KEY"      # prefer env KALSHI_API_KEY or --api-key
+    AUTH_MODE = "kalshi_pss"                          # "kalshi_pss", "bearer" or "x_api_key"
+    PRIVATE_KEY_PATH = None                           # set or use env KALSHI_PRIVATE_KEY_PATH
 
-    # --- Discovery scope ---
-    SERIES = ["KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXTENNISMATCH", 
-    "KXEPLGAME", "KXUELGAME", "KXNFLTOTALS", "KXNFLSPREADS", "KXNBATOTALS",]   # add/remove series as desired
-    TICKERS = []                                       # leave empty to use discovery from SERIES
+    # --- Discovery scope (college basketball spreads/totals only by default; edit to add more) ---
+    SERIES = ["KXNCAAMBSPREAD", "KXNCAAMBTOTAL"]   # adjust this list to include other markets if desired
+    TICKERS = []                   # set explicit tickers to bypass series discovery
     MAX_DISCOVERY_PAGES = 20
     DISCOVERY_SAMPLE_ROWS = 10
 
-    # Client-side status allowlist — set to None to accept ANY status
-    ALLOWED_STATUSES = None   # e.g., {"active","open","trading","open_for_trading"}  or None
+    # Client-side status allowlist — only trade open markets
+    ALLOWED_STATUSES = {"active", "open"}   # set to None to accept any status
 
     # --- Behavior toggles ---
-    DRY_RUN = True               # safe by default
+    DRY_RUN = False              # live by default (use --live flag or set True to simulate)
     POLL_INTERVAL_SEC = 4        # seconds between loops
     REQ_TIMEOUT = 15             # HTTP timeout
     MAX_RETRIES = 3
@@ -43,7 +48,7 @@ class CONFIG:
     TICKERS_PER_LOOP = 60        # process at most this many tickers per loop (for visibility)
 
     # --- Trading policy & risk (very permissive for observation) ---
-    TIME_IN_FORCE = "GTC"        # "GTC" or "DAY"
+    TIME_IN_FORCE = "immediate_or_cancel"        # allowed by Kalshi: immediate_or_cancel, fill_or_kill, good_til_cancel, day
     MIN_TICK = 0.01
     MIN_PRICE = 0.01
     MAX_PRICE = 0.99
@@ -61,7 +66,7 @@ class CONFIG:
 
     # --- Logging ---
     LOG_DIR = "live_betting"
-    HEARTBEAT_PRINT = True         # print per loop summary to console
+    HEARTBEAT_PRINT = False        # suppress per-loop ticker prints; orders print when placed
     DEBUG_SKIPS = True             # write skip reasons to health_log.csv
 
 
@@ -77,6 +82,8 @@ import math
 import uuid
 import hashlib
 import signal
+import os
+import argparse
 import requests
 from datetime import datetime, timezone, timedelta
 from typing import Optional, Dict, Any, List, Tuple
@@ -168,21 +175,75 @@ def log_order(action: str, payload: Dict[str, Any], resp: Any):
 # ===== HTTP / CLIENT =====
 # =========================
 
-def _headers(extra: Optional[Dict[str,str]] = None) -> Dict[str,str]:
-    if not CONFIG.API_KEY or CONFIG.API_KEY == "PUT_YOUR_KALSHI_API_KEY_HERE":
-        sys.exit("❌ Please paste your real API key into CONFIG.API_KEY at the top of this file.")
-    h = {
+def _load_private_key(path: str):
+    try:
+        from cryptography.hazmat.primitives import serialization
+        from cryptography.hazmat.backends import default_backend
+    except ImportError:
+        sys.exit("❌ Missing dependency 'cryptography'. Install with: pip install cryptography")
+    with open(path, "rb") as key_file:
+        return serialization.load_pem_private_key(key_file.read(), password=None, backend=default_backend())
+
+def _sign_pss_text(private_key, text: str) -> str:
+    try:
+        from cryptography.hazmat.primitives import hashes
+        from cryptography.hazmat.primitives.asymmetric import padding
+    except ImportError:
+        sys.exit("❌ Missing dependency 'cryptography'. Install with: pip install cryptography")
+    message = text.encode("utf-8")
+    signature = private_key.sign(
+        message,
+        padding.PSS(mgf=padding.MGF1(hashes.SHA256()), salt_length=padding.PSS.DIGEST_LENGTH),
+        hashes.SHA256(),
+    )
+    import base64
+    return base64.b64encode(signature).decode("utf-8")
+
+def _headers(extra: Optional[Dict[str,str]] = None, method: Optional[str] = None, path: Optional[str] = None) -> Dict[str,str]:
+    base = {
         "Accept": "application/json",
         "Content-Type": "application/json",
         "User-Agent": "kalshi-live-trader-observed/1.0",
     }
-    if CONFIG.AUTH_MODE.lower() == "bearer":
-        h["Authorization"] = f"Bearer {CONFIG.API_KEY}"
-    else:
-        h["X-API-Key"] = CONFIG.API_KEY
+
+    mode = (CONFIG.AUTH_MODE or "").lower()
+    api_key_clean = (CONFIG.API_KEY or "").strip().replace("\n", "")
+
+    if mode == "kalshi_pss":
+        key_id = api_key_clean
+        priv_path = os.getenv("KALSHI_PRIVATE_KEY_PATH") or CONFIG.PRIVATE_KEY_PATH
+        if not key_id or key_id == "PUT_YOUR_KALSHI_API_KEY_HERE":
+            sys.exit("❌ Set key id via KALSHI_API_KEY or --api-key (used as KALSHI-ACCESS-KEY).")
+        if not priv_path:
+            sys.exit("❌ Set private key path via KALSHI_PRIVATE_KEY_PATH or CONFIG.PRIVATE_KEY_PATH.")
+        priv_path = os.path.expanduser(priv_path)
+        if not os.path.exists(priv_path):
+            sys.exit(f"❌ Private key file not found: {priv_path}")
+        if not method or not path:
+            sys.exit("❌ Internal error: method/path required for kalshi_pss signing.")
+        ts = str(int(time.time() * 1000))
+        # Kalshi expects the string to include the /trade-api/v2 prefix.
+        path_clean = "/trade-api/v2/" + path.lstrip("/").split("?")[0]
+        msg = ts + method.upper() + path_clean
+        priv = _load_private_key(priv_path)
+        sig = _sign_pss_text(priv, msg)
+        base.update({
+            "KALSHI-ACCESS-KEY": key_id,
+            "KALSHI-ACCESS-SIGNATURE": sig,
+            "KALSHI-ACCESS-TIMESTAMP": ts,
+        })
+    elif mode == "bearer":
+        if not api_key_clean or api_key_clean == "PUT_YOUR_KALSHI_API_KEY_HERE":
+            sys.exit("❌ Please set a valid bearer token via KALSHI_API_KEY or --api-key.")
+        base["Authorization"] = f"Bearer {api_key_clean}"
+    else:  # x_api_key
+        if not api_key_clean or api_key_clean == "PUT_YOUR_KALSHI_API_KEY_HERE":
+            sys.exit("❌ Please set a valid API key via KALSHI_API_KEY or --api-key.")
+        base["X-API-Key"] = api_key_clean
+
     if extra:
-        h.update(extra)
-    return h
+        base.update(extra)
+    return base
 
 def http_request(method: str, path: str, params: Optional[dict] = None,
                  body: Optional[dict] = None, extra_headers: Optional[dict] = None) -> Optional[dict]:
@@ -194,7 +255,7 @@ def http_request(method: str, path: str, params: Optional[dict] = None,
             if CONFIG.DRY_RUN and method.upper() in {"POST","DELETE"}:
                 # emulate success
                 return {"dry_run": True, "echo": {"path": path, "params": params, "body": body}}
-            r = requests.request(method.upper(), url, headers=_headers(extra_headers),
+            r = requests.request(method.upper(), url, headers=_headers(extra_headers, method=method, path=path),
                                  params=params, data=data, timeout=CONFIG.REQ_TIMEOUT)
             if r.status_code in (200, 201, 204):
                 if r.status_code == 204 or not r.text.strip():
@@ -230,7 +291,24 @@ def get_orderbook(ticker: str) -> dict:
     return http_request("GET", f"markets/{ticker}/orderbook") or {}
 
 def place_order(payload: Dict[str,Any], idem_key: str) -> Optional[dict]:
-    return http_request("POST", "orders", body=payload, extra_headers={"Idempotency-Key": idem_key})
+    """
+    Kalshi docs: POST https://{host}/trade-api/v2/portfolio/orders
+    """
+    return http_request("POST", "portfolio/orders", body=payload, extra_headers={"Idempotency-Key": idem_key})
+
+
+# =========================
+# ==== NORMALIZATION ======
+# =========================
+
+def normalize_market(market: dict) -> dict:
+    """
+    API responses for GET /markets/{ticker} wrap the market under a 'market' key.
+    Normalize so downstream logic can always expect the fields at top-level.
+    """
+    if isinstance(market, dict) and "market" in market and isinstance(market["market"], dict):
+        return market["market"]
+    return market or {}
 
 
 # =========================
@@ -396,6 +474,7 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     """
     intents: List[Dict[str,Any]] = []
 
+    market = normalize_market(market)
     status = (market.get("status") or "").lower()
     note_status_once(status)
     if CONFIG.ALLOWED_STATUSES is not None and status not in CONFIG.ALLOWED_STATUSES:
@@ -430,97 +509,46 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
         if CONFIG.DEBUG_SKIPS:
             log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
-        # not returning here; keep going to still post makers for visibility if configured
-        pass
+        # still allow evaluation below
 
-    yes_levels, no_levels = parse_ob_yes_no(orderbook)
+    yes_levels, _ = parse_ob_yes_no(orderbook)
     best_yes_ask_qty = yes_levels[0][1] if yes_levels else 0
-    best_no_ask_qty  = no_levels[0][1] if no_levels else 0
 
-    # fair selector
-    if CONFIG.STRAT.FAIR_MODE == "mid":
-        fair = round((yes_bid + yes_ask)/2.0, 4)
-    else:
-        fair = 0.50
+    # New strategy: take YES when ask is between 0.40-0.49 and cost < $3 total.
+    price = clamp_price(yes_ask)
+    if price is None or price < 0.40 or price > 0.49:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_price_band", ticker=ticker, yes_ask=yes_ask)
+        return intents
 
-    buy_edge  = round(fair - yes_ask, 4)
-    sell_edge = round(yes_bid - fair, 4)
+    max_affordable = int(math.floor(3.0 / price))
+    if max_affordable <= 0:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_afford", ticker=ticker, price=price)
+        return intents
 
-    # BUY YES
-    if buy_edge >= CONFIG.STRAT.BUY_EDGE:
-        if buy_edge >= CONFIG.STRAT.CROSS_EDGE and best_yes_ask_qty >= 1:
-            price = clamp_price(yes_ask)
-            if price is not None:
-                intents.append({
-                    "intent_id": str(uuid.uuid4()),
-                    "ticker": ticker, "side": "yes",
-                    "price": price,
-                    "count": min(CONFIG.STRAT.SIZE, max(1, best_yes_ask_qty)),
-                    "reason": f"buy_yes_cross edge={buy_edge}"
-                })
-        else:
-            # maker at yes_bid (join bid)
-            maker_price = clamp_price(yes_bid)
-            if maker_price is not None:
-                intents.append({
-                    "intent_id": str(uuid.uuid4()),
-                    "ticker": ticker, "side": "yes",
-                    "price": maker_price,
-                    "count": CONFIG.STRAT.SIZE,
-                    "reason": f"buy_yes_maker edge={buy_edge}"
-                })
+    desired = CONFIG.STRAT.SIZE
+    if best_yes_ask_qty > 0:
+        desired = min(desired, best_yes_ask_qty)
+    count = min(desired, max_affordable)
+    if count <= 0:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_count", ticker=ticker, price=price, desired=desired, max_affordable=max_affordable)
+        return intents
 
-    # SELL YES (place NO)
-    if sell_edge >= CONFIG.STRAT.SELL_EDGE:
-        if sell_edge >= CONFIG.STRAT.CROSS_EDGE:
-            price_no = clamp_price(1.0 - yes_bid)
-            if no_ask is not None and price_no < no_ask - 2*CONFIG.MIN_TICK:
-                if CONFIG.DEBUG_SKIPS:
-                    log_health("skip_parity_cross", ticker=ticker, price_no=price_no, no_ask=no_ask)
-            else:
-                intents.append({
-                    "intent_id": str(uuid.uuid4()),
-                    "ticker": ticker, "side": "no",
-                    "price": price_no,
-                    "count": CONFIG.STRAT.SIZE if best_no_ask_qty <= 0 else min(CONFIG.STRAT.SIZE, max(1, best_no_ask_qty)),
-                    "reason": f"sell_yes_cross edge={sell_edge}"
-                })
-        else:
-            maker_no = clamp_price(1.0 - yes_ask)
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker, "side": "no",
-                "price": maker_no,
-                "count": CONFIG.STRAT.SIZE,
-                "reason": f"sell_yes_maker edge={sell_edge}"
-            })
+    intents.append({
+        "intent_id": str(uuid.uuid4()),
+        "ticker": ticker,
+        "side": "yes",
+        "price": price,
+        "count": count,
+        "reason": "yes_in_band_cost_lt_3"
+    })
 
-    # If no edge intent, optionally post tiny makers to ensure visibility
-    if not intents and CONFIG.STRAT.ALWAYS_POST_MAKER:
-        maker_yes = clamp_price(yes_bid)
-        maker_no  = clamp_price(1.0 - yes_ask)
-        if maker_yes is not None:
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker, "side": "yes",
-                "price": maker_yes,
-                "count": 1,
-                "reason": "maker_heartbeat_yes"
-            })
-        if maker_no is not None:
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker, "side": "no",
-                "price": maker_no,
-                "count": 1,
-                "reason": "maker_heartbeat_no"
-            })
-
-    # decision log
     for it in intents:
         log_decision(ticker, it, {
-            "fair_yes": fair,
-            "edge": buy_edge if it["side"] == "yes" else sell_edge,
+            "fair_yes": None,
+            "edge": None,
             "spread": spread,
             "yes_bid": yes_bid, "yes_ask": yes_ask, "no_bid": no_bid, "no_ask": no_ask
         })
@@ -533,6 +561,7 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
 # =========================
 
 RUN = True
+ORDER_PLACED = False
 def _handle_sig(sig, frame):
     global RUN
     RUN = False
@@ -555,19 +584,129 @@ def submit_intent(intent: Dict[str,Any]):
     count = int(intent["count"])
     if count <= 0:
         return
+    tif_raw = (CONFIG.TIME_IN_FORCE or "").lower()
+    allowed_tif = {"immediate_or_cancel", "fill_or_kill", "good_til_cancel", "day"}
+    tif = tif_raw if tif_raw in allowed_tif else "immediate_or_cancel"
     payload = {
         "ticker": intent["ticker"],
         "side": intent["side"],          # "yes" or "no"
+        "action": intent.get("action", "buy"),  # required by API
         "type": "limit",
-        "price": price,
         "count": count,
-        "time_in_force": CONFIG.TIME_IN_FORCE,
+        "time_in_force": tif,
         "client_order_id": intent.get("intent_id"),
     }
+    # Kalshi expects exactly one of yes_price*/no_price*.
+    price_str = f"{price:.4f}"
+    if payload["side"] == "yes":
+        payload["yes_price_dollars"] = price_str
+    else:
+        payload["no_price_dollars"] = price_str
     resp = place_order(payload, idem_key(intent))
     log_order("place", payload, resp)
+    success = False
+    if resp and (resp.get("dry_run") or resp.get("ok") or resp.get("order")):
+        success = True
+    if success:
+        chosen_odds = price if payload["side"] == "yes" else max(CONFIG.MIN_PRICE, min(CONFIG.MAX_PRICE, round(1.0 - price, 4)))
+        mode = "LIVE" if not CONFIG.DRY_RUN else "DRY-RUN"
+        print(f"🪙 {mode} order: {payload['ticker']} side={payload['side']} size={count} price={price:.2f} odds={chosen_odds:.2f}")
+    else:
+        print(f"❌ order failed for {payload['ticker']} side={payload['side']} size={count} price={price}")
+    # Stop the run after the first order.
+    global RUN, ORDER_PLACED
+    ORDER_PLACED = True
+    RUN = False
+
+def parse_cli_args():
+    parser = argparse.ArgumentParser(description="Kalshi live trader")
+    parser.add_argument(
+        "--live",
+        action="store_true",
+        help="Send real orders (disable DRY_RUN). Without this flag, orders are simulated.",
+    )
+    parser.add_argument(
+        "--api-key",
+        dest="api_key",
+        help="Override CONFIG.API_KEY or use env KALSHI_API_KEY to avoid hardcoding.",
+    )
+    parser.add_argument(
+        "--host",
+        dest="host",
+        help="Override CONFIG.HOST or use env KALSHI_HOST to select a different API host.",
+    )
+    parser.add_argument(
+        "--auth-mode",
+        dest="auth_mode",
+        choices=["bearer", "x_api_key"],
+        help="Override CONFIG.AUTH_MODE or use env KALSHI_AUTH_MODE.",
+    )
+    return parser.parse_args()
+
+def select_working_host(preferred: Optional[str], require_order_host: bool) -> None:
+    """
+    Try host candidates until a markets call succeeds.
+    """
+    tried = []
+    candidates = []
+    if preferred:
+        candidates.append(preferred)
+    candidates.append(CONFIG.HOST)
+    candidates.extend(getattr(CONFIG, "HOST_FALLBACKS", []))
+    seen = set()
+    candidates = [h for h in candidates if not (h in seen or seen.add(h))]
+
+    for host in candidates:
+        CONFIG.HOST = host
+        tried.append(host)
+        payload = list_markets(status=None)
+        if payload and payload.get("markets"):
+            print(f"🌐 Using host: {host}")
+            return
+    print(f"⚠️ Tried hosts with no success: {', '.join(tried)}")
+    sys.exit("❌ Could not reach an order-capable host. Check DNS/VPN/host override.")
 
 def main():
+    args = parse_cli_args()
+
+    # Allow host override via CLI/env for environments where default hostname does not resolve.
+    env_host = os.getenv("KALSHI_HOST")
+    if args.host:
+        CONFIG.HOST = args.host
+    elif env_host:
+        CONFIG.HOST = env_host
+
+    # Allow environment/CLI overrides for API key so the script can actually place orders.
+    env_key = os.getenv("KALSHI_API_KEY")
+    if args.api_key:
+        CONFIG.API_KEY = args.api_key
+    elif env_key:
+        CONFIG.API_KEY = env_key
+
+    # Allow auth mode override via CLI/env.
+    env_auth = os.getenv("KALSHI_AUTH_MODE")
+    if args.auth_mode:
+        CONFIG.AUTH_MODE = args.auth_mode
+    elif env_auth:
+        CONFIG.AUTH_MODE = env_auth
+
+    # Debug auth/host inputs (avoid printing secrets).
+    key_id_preview = (CONFIG.API_KEY or "")[:6] + "…" if CONFIG.API_KEY else "None"
+    pem_path = os.getenv("KALSHI_PRIVATE_KEY_PATH") or CONFIG.PRIVATE_KEY_PATH
+    pem_exists = os.path.exists(os.path.expanduser(pem_path)) if pem_path else False
+    print(f"🔧 Host={CONFIG.HOST}  AuthMode={CONFIG.AUTH_MODE}  KeyId(prefix)={key_id_preview}  PEM={'yes' if pem_exists else 'missing'}")
+
+    # Pick a reachable host before proceeding (skip read-only host when live).
+    select_working_host(args.host or env_host, require_order_host=not CONFIG.DRY_RUN)
+
+    # Live toggle: default is live unless user explicitly keeps dry-run.
+    if args.live:
+        CONFIG.DRY_RUN = False
+    if CONFIG.DRY_RUN:
+        print("🧪 DRY-RUN mode: orders will be echoed locally and not sent.")
+    else:
+        print("🚨 LIVE mode: orders will be sent to Kalshi.")
+
     if not CONFIG.API_KEY or CONFIG.API_KEY == "PUT_YOUR_KALSHI_API_KEY_HERE":
         sys.exit("❌ Please paste your real API key into CONFIG.API_KEY at the top of this file.")
 
@@ -582,7 +721,7 @@ def main():
         if not all_tickers:
             sys.exit(f"⚠️ Discovery found 0 tickers for series={CONFIG.SERIES}. "
                      f"Adjust CONFIG.ALLOWED_STATUSES or series names.")
-        print(f"🧭 Discovered {len(all_tickers)} market(s). First 5: {all_tickers[:5]}")
+        print(f"🧭 Discovered {len(all_tickers)} market(s).")
 
     # Live loop
     idx = 0
@@ -606,10 +745,16 @@ def main():
                 intents = decide_intents(t, mkt, ob)
                 for it in intents:
                     submit_intent(it)
+                    if ORDER_PLACED:
+                        break
                 total_intents += len(intents)
+                if ORDER_PLACED:
+                    break
             except Exception as e:
                 log_health("decision_error", ticker=t, error=str(e))
                 continue
+        if ORDER_PLACED:
+            break
 
         elapsed = (now_utc() - loop_started).total_seconds()
         if CONFIG.HEARTBEAT_PRINT:
