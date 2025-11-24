@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,DraftKings,spreads,Los Angeles Rams,1.1,-26.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,DraftKings,spreads,Tampa Bay Buccaneers,7.0,26.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,DraftKings,totals,Over,6.2,41.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,DraftKings,totals,Under,1.12,41.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,FanDuel,totals,Over,8.0,41.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,FanDuel,totals,Under,1.06,41.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,Pinnacle,spreads,Los Angeles Rams,1.91,-27.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,Pinnacle,spreads,Tampa Bay Buccaneers,1.94,27.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,Pinnacle,totals,Over,1.95,54.5,Los Angeles Rams,Tampa Bay Buccaneers
+NFL,,9e7119f5a24471c39145663b84f100b2,2025-11-23 19:23:08 CST,Pinnacle,totals,Under,1.87,54.5,Los Angeles Rams,Tampa Bay Buccaneers

@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,FanDuel,spreads,Davidson Wildcats,1.77,27.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,FanDuel,spreads,Utah State Aggies,1.98,-27.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,FanDuel,totals,Over,1.94,152.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,FanDuel,totals,Under,1.8,152.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,Pinnacle,spreads,Davidson Wildcats,1.9,26.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,Pinnacle,spreads,Utah State Aggies,1.84,-26.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,Pinnacle,totals,Over,1.93,149.0,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,Pinnacle,totals,Under,1.81,149.0,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,DraftKings,spreads,Davidson Wildcats,1.8,27.5,Davidson Wildcats,Utah State Aggies
+CBB,,d5f1fd34ad82be8dc43253d60d61a4fb,2025-11-23 20:38:00 CST,DraftKings,spreads,Utah State Aggies,1.95,-27.5,Davidson Wildcats,Utah State Aggies
