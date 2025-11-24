@@ -1,0 +1,31 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,h2h,Carolina Panthers,4.2,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,h2h,San Francisco 49ers,1.24,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,spreads,Carolina Panthers,1.89,7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,spreads,San Francisco 49ers,1.93,-7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,totals,Over,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,DraftKings,totals,Under,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,h2h,Carolina Panthers,4.2,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,h2h,San Francisco 49ers,1.24,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,spreads,Carolina Panthers,1.87,7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,spreads,San Francisco 49ers,1.95,-7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,totals,Over,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,ESPN BET,totals,Under,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,h2h,Carolina Panthers,4.2,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,h2h,San Francisco 49ers,1.25,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,spreads,Carolina Panthers,1.85,7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,spreads,San Francisco 49ers,1.96,-7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,totals,Over,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,FanDuel,totals,Under,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,h2h,Carolina Panthers,4.1,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,h2h,San Francisco 49ers,1.25,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,spreads,Carolina Panthers,1.87,7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,spreads,San Francisco 49ers,1.95,-7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,totals,Over,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,BetMGM,totals,Under,1.91,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,h2h,Carolina Panthers,4.03,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,h2h,San Francisco 49ers,1.28,,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,spreads,Carolina Panthers,1.88,7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,spreads,San Francisco 49ers,2.02,-7.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,totals,Over,1.95,49.5,San Francisco 49ers,Carolina Panthers
+NFL,,90391be251d876bb41d36978a43c7ac2,2025-11-24 19:15:00 CST,Pinnacle,totals,Under,1.93,49.5,San Francisco 49ers,Carolina Panthers
