@@ -1,0 +1,9 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-11-25T17:38:17.748800Z,KXNCAAFGAME-25NOV25WMUEMU-WMU,Western Michigan at Eastern Michigan Winner?,active,binary,2025-12-09T19:30:00-05:00,0.73,,0.74,,0.26,,0.27,,0.01,0.01,0,0,0,0,5556861.86,141050.0
+2025-11-25T17:38:17.866017Z,KXNCAAFGAME-25NOV25WMUEMU-EMU,Western Michigan at Eastern Michigan Winner?,active,binary,2025-12-09T19:30:00-05:00,0.26,,0.27,,0.73,,0.74,,0.01,0.01,0,0,0,0,5031150.24,9270.0
+2025-11-25T17:38:17.978554Z,KXNCAAFGAME-25NOV25BGSUMASS-MASS,Bowling Green at UMass Winner?,active,binary,2025-12-09T16:30:00-05:00,0.15,,0.16,,0.84,,0.85,,0.01,0.01,0,0,0,0,4904429.71,64081.0
+2025-11-25T17:38:18.117458Z,KXNCAAFGAME-25NOV25BGSUMASS-BGSU,Bowling Green at UMass Winner?,active,binary,2025-12-09T16:30:00-05:00,0.84,,0.85,,0.15,,0.16,,0.01,0.01,0,0,0,0,6030946.83,160419.0
+2025-11-25T17:41:19.920570Z,KXNCAAFGAME-25NOV25WMUEMU-WMU,Western Michigan at Eastern Michigan Winner?,active,binary,2025-12-09T19:30:00-05:00,0.73,,0.74,,0.26,,0.27,,0.01,0.01,0,0,0,0,5556899.64,141050.0
+2025-11-25T17:41:20.023585Z,KXNCAAFGAME-25NOV25WMUEMU-EMU,Western Michigan at Eastern Michigan Winner?,active,binary,2025-12-09T19:30:00-05:00,0.26,,0.27,,0.73,,0.74,,0.01,0.01,0,0,0,0,5032047.54,9270.0
+2025-11-25T17:41:20.134011Z,KXNCAAFGAME-25NOV25BGSUMASS-MASS,Bowling Green at UMass Winner?,active,binary,2025-12-09T16:30:00-05:00,0.15,,0.16,,0.84,,0.85,,0.01,0.01,0,0,0,0,4916899.24,64081.0
+2025-11-25T17:41:20.257175Z,KXNCAAFGAME-25NOV25BGSUMASS-BGSU,Bowling Green at UMass Winner?,active,binary,2025-12-09T16:30:00-05:00,0.84,,0.85,,0.15,,0.16,,0.01,0.01,0,0,0,0,6037125.41,160419.0

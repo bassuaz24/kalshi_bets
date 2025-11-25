@@ -31,7 +31,7 @@ class CONFIG:
     PRIVATE_KEY_PATH = None                           # set or use env KALSHI_PRIVATE_KEY_PATH
 
     # --- Discovery scope (college basketball spreads/totals only by default; edit to add more) ---
-    SERIES = ["KXNCAAMBGAME", "KXNCAAMBSPREAD", "KXNCAAMBTOTAL"]   # adjust this list to include other markets if desired
+    SERIES = ["KXNCAAMBGAME", "KXNCAAMBSPREAD"]   # adjust this list to include other markets if desired
     TICKERS = []                   # set explicit tickers to bypass series discovery
     MAX_DISCOVERY_PAGES = 20
     DISCOVERY_SAMPLE_ROWS = 10
@@ -55,20 +55,32 @@ class CONFIG:
     MAX_SPREAD = 0.60            # allow wide books so we see activity
     NEAR_EXPIRY_MINS = 0         # disable near-expiry gate for testing
 
-    # --- Strategy (inclusive & observable) ---
-    class STRAT:
-        FAIR_MODE = "fifty_fifty"  # "fifty_fifty" or "mid"
-        BUY_EDGE = 0.01            # edge to consider buy YES
-        SELL_EDGE = 0.01           # edge to consider sell YES (via NO order)
-        CROSS_EDGE = 0.02          # cross when edge >= this; else post maker
-        SIZE = 2                   # legacy fixed size per intent
-        SIZE_PCT_OF_CASH = 0.05    # target % of cash balance per order (0 to keep fixed size)
-        SIZE_PCT_OF_PORTFOLIO = SIZE_PCT_OF_CASH  # alias for older configs
-        MIN_SIZE = 1               # enforce a floor so we always send something
-        MAX_SIZE = 50              # hard cap to avoid oversized orders
-        ALWAYS_POST_MAKER = True   # if no edge triggers, still post a small maker for visibility
-        USE_BOOK_ODDS = False      # when True, load fair values from BOOK_ODDS_FILE; otherwise use default heuristic
-        BOOK_ODDS_FILE = "book_odds.csv"
+    # --- Data-driven analysis (see data_analysis.ipynb) ---
+    class DATA:
+        DATE = "2025-11-25"                        # optional YYYY-MM-DD to lock to a folder; None picks latest
+        ODDS_SPORT = "cbb"                 # oddsapi sport prefix (e.g., cbb, cfb, nba, nfl)
+        KALSHI_SPORT = "ncaab"             # kalshi sport prefix (e.g., ncaab, ncaaf, nba, nfl)
+        ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
+        KALSHI_DIR = "data_collection/updated_scripts/kalshi_data_logs"
+        OUTPUT_DIR = "live_betting/analysis_outputs"
+        EDGE_WINNERS = 0.00
+        EDGE_SPREADS = 0.01
+        WINNERS_EV_THRESHOLD = 0.15
+        SPREADS_EV_THRESHOLD = 0.0
+        TOTAL_BANKROLL = None              # None => pull from account; else use this float
+        WINNERS_PROPORTION = 0.7
+        SPREADS_PROPORTION = 0.3
+        KELLY_CAP = 1.0
+        Q1_WEIGHT = 1.0
+        Q2_WEIGHT = 1.0
+        Q3_WEIGHT = 1.0
+        Q4_WEIGHT = 1.0
+
+    # --- Trade sizing clamps ---
+    class LIMITS:
+        DEFAULT_SIZE = 2
+        MIN_SIZE = 1
+        MAX_SIZE = 50
 
     # --- Logging ---
     LOG_DIR = "live_betting"
@@ -91,8 +103,16 @@ import signal
 import os
 import argparse
 import requests
+import re
+from collections import defaultdict
+from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from typing import Optional, Dict, Any, List, Tuple
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+ANALYSIS_SIGNALS: Dict[str, Dict[str, Any]] = {}
+ANALYSIS_SUMMARY: Dict[str, Dict[str, float]] = {}
+ANALYSIS_CSVS: Dict[str, str] = {}
 
 
 # =========================
@@ -303,6 +323,21 @@ def place_order(payload: Dict[str,Any], idem_key: str) -> Optional[dict]:
     return http_request("POST", "portfolio/orders", body=payload, extra_headers={"Idempotency-Key": idem_key})
 
 
+def fetch_total_bankroll() -> Optional[float]:
+    """
+    Pull cash balance from account. Returns None on failure.
+    """
+    try:
+        payload = http_request("GET", "portfolio/balance")
+        if payload and isinstance(payload, dict):
+            val = to_f(payload.get("balance") or payload.get("cash_balance") or payload.get("portfolio_value"))
+            if val is not None and val > 0:
+                return val
+    except Exception as e:
+        log_health("balance_fetch_error", error=str(e))
+    return None
+
+
 # =========================
 # ==== NORMALIZATION ======
 # =========================
@@ -452,176 +487,503 @@ def best_prices_from_sources(market: dict, orderbook: dict) -> Dict[str, Optiona
 
 
 # =========================
-# === FAIR VALUE (ODDS) ===
+# == DATA ANALYSIS LOGIC ==
 # =========================
 
-def implied_prob_decimal(decimal_odds: Optional[float]) -> Optional[float]:
-    """Return implied probability from decimal odds (European format)."""
+def _require_analysis_deps():
+    """
+    Import pandas/numpy and return a fuzzy matcher. Exits early with a helpful
+    message if the data-analysis stack is missing.
+    """
     try:
-        o = float(decimal_odds)
-        return 1.0 / o if o > 0 else None
-    except Exception:
-        return None
+        import pandas as pd
+        import numpy as np
+    except ImportError as e:
+        sys.exit(f"❌ Missing dependency for data analysis: {e}. Install pandas/numpy to continue.")
 
-def no_vig_probability(yes_odds: Optional[float], no_odds: Optional[float]) -> Optional[float]:
-    """
-    Compute no-vig probability for YES using paired decimal odds.
-    If odds are 1.77 (yes) and 2.0 (no), implieds are ~0.565/0.5,
-    so no-vig yes prob is 0.565 / (0.565+0.5).
-    """
-    p_yes = implied_prob_decimal(yes_odds)
-    p_no = implied_prob_decimal(no_odds)
-    if p_yes is None or p_no is None:
-        return None
-    total = p_yes + p_no
-    if total <= 0:
-        return None
-    return round(p_yes / total, 6)
+    try:
+        from rapidfuzz.fuzz import ratio as fuzz_ratio
+    except ImportError:
+        # Lightweight fallback to avoid hard-failing if rapidfuzz is absent.
+        from difflib import SequenceMatcher
+        def fuzz_ratio(a, b):
+            return int(100 * SequenceMatcher(None, str(a), str(b)).ratio())
 
-def fair_value_from_books(book_quotes: List[Dict[str, Any]], weights: Optional[List[float]] = None) -> Optional[float]:
+    return pd, np, fuzz_ratio
+
+
+def _latest_csv(base_dir: Path, sport_prefix: str, suffix: str, date_hint: Optional[str]) -> Optional[Path]:
     """
-    Given multiple sportsbook quotes, compute weighted average of no-vig YES probabilities.
-    book_quotes: list of dicts with keys {"yes_odds": float, "no_odds": float}
-    weights: optional list of floats aligned with book_quotes; defaults to even weighting.
+    Return the newest CSV for a specific date. If date_hint is provided, only
+    search that date subdirectory. If date_hint is None, search the whole tree.
     """
-    if not book_quotes:
+    search_base = base_dir / date_hint if date_hint else base_dir
+    if not search_base.exists():
         return None
-    probs = []
-    for q in book_quotes:
-        prob = no_vig_probability(q.get("yes_odds"), q.get("no_odds"))
-        if prob is not None:
-            probs.append(prob)
-    if not probs:
+    pattern = f"{sport_prefix}_{suffix}*.csv"
+    candidates = list(search_base.rglob(pattern))
+    if not candidates:
         return None
-    if weights and len(weights) == len(probs):
+    return max(candidates, key=lambda p: p.stat().st_mtime)
+
+
+def _clean_team_name(name: Optional[str]) -> Optional[str]:
+    if name is None or not isinstance(name, str):
+        return None
+    return re.sub(r"\bSt\.$", "St", name.strip())
+
+
+def build_filtered_frames(date_override: Optional[str], bankroll_winners: float, bankroll_spreads: float):
+    """
+    Rebuild filtered_winners_df and filtered_spreads_df inside the trader using
+    the notebook logic. Returns a tuple (filtered_winners_df, filtered_spreads_df).
+    """
+    pd, np, fuzz_ratio = _require_analysis_deps()
+
+    odds_dir = REPO_ROOT / CONFIG.DATA.ODDS_DIR
+    kalshi_dir = REPO_ROOT / CONFIG.DATA.KALSHI_DIR
+    date_str = date_override or CONFIG.DATA.DATE or now_utc().date().isoformat()
+
+    odds_path = _latest_csv(odds_dir, CONFIG.DATA.ODDS_SPORT, "odds", date_str)
+    winners_path = _latest_csv(kalshi_dir, CONFIG.DATA.KALSHI_SPORT, "winners", date_str)
+    spreads_path = _latest_csv(kalshi_dir, CONFIG.DATA.KALSHI_SPORT, "spreads", date_str)
+
+    if not odds_path or not winners_path:
+        log_health("analysis_missing_inputs",
+                   odds_path=str(odds_path) if odds_path else None,
+                   winners_path=str(winners_path) if winners_path else None,
+                   spreads_path=str(spreads_path) if spreads_path else None,
+                   date=date_str)
+        sys.exit(f"❌ Missing required CSVs for date={date_str}. odds={odds_path} winners={winners_path}")
+
+    odds_df = pd.read_csv(odds_path)
+    if "league" in odds_df.columns:
+        odds_df = odds_df.drop(columns=["league"])
+    odds_df = odds_df.rename(columns={"price": "odds"})
+    odds_df["odds"] = pd.to_numeric(odds_df["odds"], errors="coerce")
+    odds_df["point"] = pd.to_numeric(odds_df.get("point"), errors="coerce")
+    odds_df["vig_prob"] = 1 / odds_df["odds"]
+
+    def remove_vig_probs(df):
+        df = df.copy()
+        df["fair_prb"] = pd.NA
+        grouped = df.groupby(["game_id", "bookmaker", "market"])
+        for _, group in grouped:
+            if len(group) < 2:
+                continue
+            probs = group["vig_prob"]
+            total = probs.sum()
+            if total and total > 0:
+                fair_probs = (probs / total).round(4)
+                df.loc[group.index, "fair_prb"] = fair_probs
+        return df
+
+    odds_df = remove_vig_probs(odds_df)
+
+    odds_winners_df = odds_df[odds_df["market"] == "h2h"].copy()
+    odds_spreads_df = odds_df[odds_df["market"] == "spreads"].copy()
+    odds_spreads_df = odds_spreads_df.loc[(odds_spreads_df["point"].notna()) & (odds_spreads_df["point"] > 0)]
+    odds_totals_df = odds_df[odds_df["market"] == "totals"].copy()
+
+    # Ensure fair probability columns are numeric for downstream math.
+    for _df in (odds_winners_df, odds_spreads_df, odds_totals_df):
+        if "fair_prb" in _df.columns:
+            _df["fair_prb"] = pd.to_numeric(_df["fair_prb"], errors="coerce")
+
+    mask = odds_winners_df["fair_prb"].notna()
+    avg_by_team = (
+        odds_winners_df.loc[mask]
+        .groupby(["game_id", "team"])["fair_prb"]
+        .transform("median")
+        .round(4)
+    )
+    odds_winners_df.loc[mask, "avg_fair_prb"] = avg_by_team
+    odds_winners_df.loc[~mask, "avg_fair_prb"] = pd.NA
+
+    mask = odds_spreads_df["fair_prb"].notna()
+    avg_by_point = (
+        odds_spreads_df.loc[mask]
+        .groupby(["game_id", "point", "team"])["fair_prb"]
+        .transform("mean")
+        .round(4)
+    )
+    odds_spreads_df["avg_fair_prb"] = avg_by_point
+
+    mask = odds_totals_df["fair_prb"].notna()
+    avg_by_tot_point = (
+        odds_totals_df.loc[mask]
+        .groupby(["game_id", "point", "team"])["fair_prb"]
+        .transform("mean")
+        .round(4)
+    )
+    odds_totals_df["avg_fair_prb"] = avg_by_tot_point
+
+    kalshi_winners_df = pd.read_csv(winners_path)
+    kalshi_spreads_df = pd.read_csv(spreads_path) if spreads_path else pd.DataFrame()
+
+    if kalshi_spreads_df.empty and spreads_path:
+        log_health("analysis_empty_spreads", path=str(spreads_path))
+
+    columns_to_drop = [
+        "timestamp", "market_type", "yes_bid2", "yes_ask2", "no_bid2", "no_ask2",
+        "yes_depth_bids", "yes_depth_asks", "no_depth_bids", "no_depth_asks"
+    ]
+    kalshi_winners_df = kalshi_winners_df.drop(columns=[c for c in columns_to_drop if c in kalshi_winners_df.columns])
+    if not kalshi_spreads_df.empty:
+        kalshi_spreads_df = kalshi_spreads_df.drop(columns=[c for c in columns_to_drop if c in kalshi_spreads_df.columns])
+
+    for col in ["yes_bid", "yes_ask", "no_bid", "no_ask"]:
+        if col in kalshi_winners_df.columns:
+            kalshi_winners_df[col] = pd.to_numeric(kalshi_winners_df[col], errors="coerce")
+        if not kalshi_spreads_df.empty and col in kalshi_spreads_df.columns:
+            kalshi_spreads_df[col] = pd.to_numeric(kalshi_spreads_df[col], errors="coerce")
+
+    def extract_teams_from_winners(title):
+        if not isinstance(title, str):
+            return pd.Series([None, None])
+        title = title.replace(" Winner?", "")
+        if " at " in title:
+            right, left = title.split(" at ", 1)
+        elif " vs " in title:
+            right, left = title.split(" vs ", 1)
+        else:
+            return pd.Series([None, None])
+        return pd.Series([_clean_team_name(left), _clean_team_name(right)])
+
+    kalshi_winners_df[["home_team", "away_team"]] = kalshi_winners_df["title"].apply(extract_teams_from_winners)
+
+    kalshi_spreads_df["team"] = kalshi_spreads_df["title"].apply(
+        lambda t: _clean_team_name(t.split(" wins by ", 1)[0]) if isinstance(t, str) and " wins by " in t else None
+    ) if not kalshi_spreads_df.empty else pd.Series(dtype=object)
+
+    if CONFIG.DATA.KALSHI_SPORT == "ncaaf":
+        kalshi_spreads_df["points"] = kalshi_spreads_df["title"].str.extract(r"over ([\d.]+) points\?").astype(float) if not kalshi_spreads_df.empty else pd.Series(dtype=float)
+    elif CONFIG.DATA.KALSHI_SPORT in {"ncaab", "nba"}:
+        kalshi_spreads_df["points"] = kalshi_spreads_df["title"].str.extract(r"over ([\d.]+) Points\?").astype(float) if not kalshi_spreads_df.empty else pd.Series(dtype=float)
+
+    kalshi_winners_teams = pd.unique(
+        kalshi_winners_df.drop_duplicates(subset=["home_team", "away_team"])[["home_team", "away_team"]].values.ravel()
+    )
+    kalshi_spreads_teams = kalshi_spreads_df["team"].drop_duplicates().tolist() if not kalshi_spreads_df.empty else []
+
+    odds_teams_by_market = odds_df.groupby("market")["team"].unique().to_dict()
+
+    def fuzzy_match_kalshi_to_odds(kalshi_teams, odds_team_names):
+        matched_kalshi = []
+        matched_odds = []
+        candidates_dict = defaultdict(list)
+
+        kalshi_sorted = sorted([k for k in kalshi_teams if isinstance(k, str)], key=lambda x: x[0] if x else "")
+        remaining_odds = sorted([o for o in odds_team_names.tolist() if isinstance(o, str)])
+
+        for kalshi_name in kalshi_sorted:
+            candidates = []
+            for odds_name in remaining_odds:
+                if kalshi_name and kalshi_name in odds_name:
+                    candidates.append(odds_name)
+            if len(candidates) == 1:
+                candidates_dict[candidates[0]].append(kalshi_name)
+            elif len(candidates) > 1:
+                best_fit = candidates[0]
+                best_ratio = fuzz_ratio(best_fit, kalshi_name)
+                for name in candidates:
+                    curr_ratio = fuzz_ratio(name, kalshi_name)
+                    if curr_ratio > best_ratio:
+                        best_fit = name
+                        best_ratio = curr_ratio
+                candidates_dict[best_fit].append(kalshi_name)
+
+        for odd, kalsh in candidates_dict.items():
+            best_fit = kalsh[0]
+            best_ratio = fuzz_ratio(best_fit, odd)
+            if len(kalsh) > 1:
+                for name in kalsh:
+                    curr_ratio = fuzz_ratio(name, odd)
+                    if curr_ratio > best_ratio:
+                        best_fit = name
+                        best_ratio = curr_ratio
+            matched_odds.append(odd)
+            matched_kalshi.append(best_fit)
+        return matched_kalshi, matched_odds
+
+    matched_kalshi_h2h, matched_odds_h2h = fuzzy_match_kalshi_to_odds(
+        kalshi_winners_teams,
+        odds_teams_by_market.get("h2h", pd.Index([]))
+    )
+
+    matched_kalshi_spreads, matched_odds_spreads = fuzzy_match_kalshi_to_odds(
+        kalshi_spreads_teams,
+        odds_teams_by_market.get("spreads", pd.Index([]))
+    )
+
+    odds_winners_df = odds_winners_df[
+        odds_winners_df["home_team"].isin(matched_odds_h2h) | odds_winners_df["away_team"].isin(matched_odds_h2h)
+    ].drop_duplicates(subset="team").sort_values(by="home_team").reset_index(drop=True)
+
+    kalshi_winners_df = kalshi_winners_df[
+        kalshi_winners_df["home_team"].isin(matched_kalshi_h2h) | kalshi_winners_df["away_team"].isin(matched_kalshi_h2h)
+    ].sort_values(by="home_team").reset_index(drop=True)
+
+    odds_spreads_df = odds_spreads_df[odds_spreads_df["team"].isin(matched_odds_spreads)].reset_index(drop=True)
+    kalshi_spreads_df = kalshi_spreads_df[kalshi_spreads_df["team"].isin(matched_kalshi_spreads)].reset_index(drop=True) if not kalshi_spreads_df.empty else kalshi_spreads_df
+
+    kalshi_cols = ["ticker", "yes_bid", "yes_ask", "home_team", "away_team"]
+    odds_cols = ["market", "start_time", "team", "home_team", "away_team", "avg_fair_prb"]
+
+    kalshi_subset = kalshi_winners_df[kalshi_cols].rename(columns={
+        "home_team": "kalshi_home_team",
+        "away_team": "kalshi_away_team"
+    })
+    odds_subset = odds_winners_df[odds_cols].rename(columns={
+        "home_team": "odds_home_team",
+        "away_team": "odds_away_team"
+    })
+
+    combined_rows = []
+    len_matched = min(len(matched_odds_h2h), len(matched_kalshi_h2h))
+    for i in range(len_matched):
+        odds_name = matched_odds_h2h[i]
+        kalshi_name = matched_kalshi_h2h[i]
+        odds_row = odds_subset.loc[odds_subset["team"] == odds_name]
+        if odds_row.empty:
+            continue
+        kalshi_rows = kalshi_subset.loc[
+            (kalshi_subset["kalshi_home_team"] == kalshi_name) | (kalshi_subset["kalshi_away_team"] == kalshi_name)
+        ]
+        if kalshi_rows.empty:
+            continue
+        k1 = kalshi_rows.iloc[0]
+        if len(kalshi_rows) > 1:
+            k2 = kalshi_rows.iloc[1]
+        else:
+            k2 = kalshi_rows.iloc[0]
+        midprice1 = (k1["yes_bid"] + k1["yes_ask"]) / 2
+        midprice2 = (k2["yes_bid"] + k2["yes_ask"]) / 2
+        prb = odds_row["avg_fair_prb"].astype(float).item()
+        combined_row = pd.concat([k1, odds_row.iloc[0]])
+        if pd.notna(prb):
+            if ((midprice1 - prb) ** 2) >= ((midprice2 - prb) ** 2):
+                combined_row = pd.concat([k2, odds_row.iloc[0]])
+        combined_rows.append(combined_row)
+
+    combined_winners_df = pd.DataFrame(combined_rows).reset_index(drop=True)
+
+    EDGE = CONFIG.DATA.EDGE_WINNERS
+    KELLY_UPPERBOUND = CONFIG.DATA.KELLY_CAP
+    BANKROLL = bankroll_winners
+    Q1_WEIGHT = CONFIG.DATA.Q1_WEIGHT
+    Q2_WEIGHT = CONFIG.DATA.Q2_WEIGHT
+    Q3_WEIGHT = CONFIG.DATA.Q3_WEIGHT
+    Q4_WEIGHT = CONFIG.DATA.Q4_WEIGHT
+
+    edge_winners_df = combined_winners_df.loc[
+        (combined_winners_df["avg_fair_prb"] >= combined_winners_df["yes_ask"] + EDGE) |
+        (combined_winners_df["avg_fair_prb"] <= combined_winners_df["yes_bid"] - EDGE)
+    ].reset_index(drop=True)
+
+    if not edge_winners_df.empty:
+        midprice = (edge_winners_df["yes_bid"] + edge_winners_df["yes_ask"]) / 2
+        q = edge_winners_df["avg_fair_prb"]
+        p = midprice
+
+        edge_winners_df["raw_kelly"] = np.where(
+            q > p,
+            (q - p) / (1 - p),
+            (p - q) / p
+        )
+
+        total_kelly = edge_winners_df["raw_kelly"].sum()
+        if total_kelly:
+            edge_winners_df["raw_kelly"] = pd.DataFrame({
+                "original": edge_winners_df["raw_kelly"],
+                "normalized": (edge_winners_df["raw_kelly"] / total_kelly)
+            }).min(axis=1)
+
+        def scale_kelly(row):
+            k = row["raw_kelly"]
+            p_val = row["avg_fair_prb"]
+            if k == 0 or pd.isna(k):
+                return 0
+            if 0.05 <= p_val < 0.25:
+                return min(Q1_WEIGHT * k, KELLY_UPPERBOUND)
+            elif 0.25 <= p_val < 0.5:
+                return min(Q2_WEIGHT * k, KELLY_UPPERBOUND)
+            elif 0.5 <= p_val < 0.75:
+                return min(Q3_WEIGHT * k, KELLY_UPPERBOUND)
+            elif 0.75 <= p_val < 0.95:
+                return min(Q4_WEIGHT * k, KELLY_UPPERBOUND)
+            else:
+                return 0
+
+        edge_winners_df["real_kelly"] = edge_winners_df.apply(scale_kelly, axis=1)
+        edge_winners_df["optimal_bet"] = edge_winners_df["real_kelly"] * BANKROLL
+
+        num_contracts = edge_winners_df["optimal_bet"] // edge_winners_df["yes_bid"]
+        edge_winners_df["num_contracts"] = num_contracts
+        trading_cost = np.ceil(100 * (0.0175 * num_contracts * edge_winners_df["yes_bid"] * (1 - edge_winners_df["yes_bid"]))) / 100
+        edge_winners_df["trading_cost"] = trading_cost
+        profit = (1 - edge_winners_df["yes_bid"]) * num_contracts - trading_cost
+        edge_winners_df["profit"] = profit
+        edge_winners_df["ev"] = (profit * edge_winners_df["avg_fair_prb"] - edge_winners_df["optimal_bet"] * (1 - edge_winners_df["avg_fair_prb"])).round(2)
+        filtered_winners_df = edge_winners_df.loc[edge_winners_df["ev"] > CONFIG.DATA.WINNERS_EV_THRESHOLD].reset_index(drop=True)
+    else:
+        filtered_winners_df = pd.DataFrame()
+
+    filtered_spreads_df = pd.DataFrame()
+    if not kalshi_spreads_df.empty and not odds_spreads_df.empty:
+        kalshi_cols = ["ticker", "yes_bid", "yes_ask", "team", "points"]
+        odds_cols = ["market", "start_time", "team", "home_team", "away_team", "avg_fair_prb", "point"]
+
+        odds_subset = odds_spreads_df[odds_cols].rename(columns={
+            "home_team": "odds_home_team",
+            "away_team": "odds_away_team",
+            "team": "odds_team"
+        })
+
+        kalshi_subset = kalshi_spreads_df[kalshi_cols]
+        combined_rows = []
+
+        for _, kalshi_row in kalshi_subset.iterrows():
+            kalshi_home = kalshi_row["team"]
+            for _, odds_row in odds_subset.iterrows():
+                odds_home = odds_row["odds_team"]
+                if isinstance(kalshi_home, str) and isinstance(odds_home, str) and (kalshi_home in odds_home) and (kalshi_row["points"] == odds_row["point"]):
+                    combined_row = pd.concat([kalshi_row, odds_row])
+                    combined_rows.append(combined_row)
+
+        combined_spreads_df = pd.DataFrame(combined_rows).drop_duplicates(subset="ticker").reset_index(drop=True)
+
+        EDGE = CONFIG.DATA.EDGE_SPREADS
+        BANKROLL = bankroll_spreads
+
+        edge_spreads_df = combined_spreads_df.loc[
+            (combined_spreads_df["avg_fair_prb"] >= combined_spreads_df["yes_ask"] + EDGE) |
+            (combined_spreads_df["avg_fair_prb"] <= combined_spreads_df["yes_bid"] - EDGE)
+        ].reset_index(drop=True)
+
+        if not edge_spreads_df.empty:
+            midprice = (edge_spreads_df["yes_bid"] + edge_spreads_df["yes_ask"]) / 2
+            q = edge_spreads_df["avg_fair_prb"]
+            p = midprice
+
+            edge_spreads_df["raw_kelly"] = np.where(
+                q > p,
+                (q - p) / (1 - p),
+                (p - q) / p
+            )
+
+            total_kelly = edge_spreads_df["raw_kelly"].sum()
+            if total_kelly:
+                edge_spreads_df["raw_kelly"] = pd.DataFrame({
+                    "original": edge_spreads_df["raw_kelly"],
+                    "normalized": (edge_spreads_df["raw_kelly"] / total_kelly)
+                }).min(axis=1)
+
+            def scale_kelly_spreads(row):
+                k = row["raw_kelly"]
+                p_val = row["avg_fair_prb"]
+                if k == 0 or pd.isna(k):
+                    return 0
+                if 0.1 <= p_val < 0.25:
+                    return min(Q1_WEIGHT * k, KELLY_UPPERBOUND)
+                elif 0.25 <= p_val < 0.5:
+                    return min(Q2_WEIGHT * k, KELLY_UPPERBOUND)
+                elif 0.5 <= p_val < 0.75:
+                    return min(Q3_WEIGHT * k, KELLY_UPPERBOUND)
+                elif 0.75 <= p_val < 0.9:
+                    return min(Q4_WEIGHT * k, KELLY_UPPERBOUND)
+                else:
+                    return 0
+
+            edge_spreads_df["real_kelly"] = edge_spreads_df.apply(scale_kelly_spreads, axis=1)
+            edge_spreads_df["optimal_bet"] = edge_spreads_df["real_kelly"] * BANKROLL
+
+            num_contracts = edge_spreads_df["optimal_bet"] // edge_spreads_df["yes_bid"]
+            edge_spreads_df["num_contracts"] = num_contracts
+            trading_cost = np.ceil(100 * (0.0175 * num_contracts * edge_spreads_df["yes_bid"] * (1 - edge_spreads_df["yes_bid"]))) / 100
+            edge_spreads_df["trading_cost"] = trading_cost
+            profit = (1 - edge_spreads_df["yes_bid"]) * num_contracts - trading_cost
+            edge_spreads_df["profit"] = profit
+            edge_spreads_df["ev"] = (profit * edge_spreads_df["avg_fair_prb"] - edge_spreads_df["optimal_bet"] * (1 - edge_spreads_df["avg_fair_prb"])).round(2)
+            filtered_spreads_df = edge_spreads_df.loc[edge_spreads_df["ev"] > CONFIG.DATA.SPREADS_EV_THRESHOLD].reset_index(drop=True)
+
+    return filtered_winners_df, filtered_spreads_df
+
+
+def _summarize_portfolio(df) -> Dict[str, float]:
+    if df is None or df.empty:
+        return {"max_loss": 0.0, "max_profit": 0.0, "portfolio_ev": 0.0, "count": 0}
+    total_loss = float(df["optimal_bet"].sum())
+    total_profit = float(df["profit"].sum())
+    total_ev = float(df["ev"].sum())
+    return {
+        "max_loss": -total_loss,
+        "max_profit": total_profit,
+        "portfolio_ev": total_ev,
+        "count": int(len(df)),
+    }
+
+
+def build_analysis_signals(date_override: Optional[str], bankroll_winners: float, bankroll_spreads: float) -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, float]], Dict[str, str]]:
+    """
+    Rebuild filtered frames, write them to CSVs, and return signals + summaries + csv paths.
+    """
+    winners_df, spreads_df = build_filtered_frames(date_override, bankroll_winners, bankroll_spreads)
+    summaries = {
+        "winners": _summarize_portfolio(winners_df),
+        "spreads": _summarize_portfolio(spreads_df),
+    }
+
+    csv_paths: Dict[str, str] = {}
+    signals: Dict[str, Dict[str, Any]] = {}
+
+    def _safe_count(val: Any) -> int:
         try:
-            total_w = sum(weights)
-            if total_w <= 0:
-                return None
-            return round(sum(p * w for p, w in zip(probs, weights)) / total_w, 6)
+            num = int(float(val))
+            return max(CONFIG.LIMITS.MIN_SIZE, min(CONFIG.LIMITS.MAX_SIZE, num))
         except Exception:
-            return None
-    return round(sum(probs) / len(probs), 6)
+            return CONFIG.LIMITS.DEFAULT_SIZE
 
-# Cache for sportsbook-derived fair values keyed by ticker.
-_book_odds_cache = {"path": None, "mtime": None, "fair": {}}
+    def direction_for_row(row, edge):
+        return "buy_yes" if row["avg_fair_prb"] >= row["yes_ask"] + edge else "sell_yes"
 
-def _load_book_fairs() -> Dict[str, float]:
-    """
-    Load sportsbook odds from a CSV and compute no-vig fair probabilities per ticker.
-    Expected columns (realistic assumption): ticker, yes_odds, no_odds, bookmaker (bookmaker optional).
-    Odds should be decimal (European) format.
-    """
-    path = getattr(CONFIG.STRAT, "BOOK_ODDS_FILE", "book_odds.csv")
-    if not path or not os.path.exists(path):
-        return {}
-    try:
-        mtime = os.path.getmtime(path)
-        if _book_odds_cache["path"] == path and _book_odds_cache["mtime"] == mtime:
-            return _book_odds_cache["fair"]
-
-        import csv
-        quotes_by_ticker: Dict[str, List[Dict[str, float]]] = {}
-        with open(path, newline="") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                tkr = (row.get("ticker") or row.get("market") or "").strip()
-                if not tkr:
+    def write_csv(label: str, df):
+        if df is None:
+            return
+        out_dir = REPO_ROOT / CONFIG.DATA.OUTPUT_DIR
+        out_dir.mkdir(parents=True, exist_ok=True)
+        date_str = date_override or CONFIG.DATA.DATE or now_utc().date().isoformat()
+        path = out_dir / f"filtered_{label}_{date_str}.csv"
+        file_exists = path.exists()
+        with open(path, "a", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=list(df.columns))
+            if not file_exists:
+                writer.writeheader()
+            for _, row in df.iterrows():
+                row_dict = {col: row[col] for col in df.columns}
+                writer.writerow(row_dict)
+                ticker = row_dict.get("ticker")
+                if not isinstance(ticker, str) or not ticker:
                     continue
-                yes_odds = to_f(row.get("yes_odds") or row.get("yes_price") or row.get("price_yes"))
-                no_odds  = to_f(row.get("no_odds")  or row.get("no_price")  or row.get("price_no"))
-                if yes_odds is None or no_odds is None:
-                    continue
-                quotes_by_ticker.setdefault(tkr, []).append({"yes_odds": yes_odds, "no_odds": no_odds})
+                edge_use = CONFIG.DATA.EDGE_WINNERS if label == "winners" else CONFIG.DATA.EDGE_SPREADS
+                signals[ticker] = {
+                    "source": label.rstrip("s"),
+                    "direction": direction_for_row(row, edge_use),
+                    "fair_prob": float(row["avg_fair_prb"]),
+                    "edge": edge_use,
+                    "ev": float(row["ev"]),
+                    "num_contracts": _safe_count(row.get("num_contracts")),
+                    "row": row_dict,
+                }
+        csv_paths[label] = str(path)
 
-        fair_map = {}
-        for tkr, quotes in quotes_by_ticker.items():
-            fv = fair_value_from_books(quotes)
-            if fv is not None:
-                fair_map[tkr] = fv
+    write_csv("winners", winners_df)
+    write_csv("spreads", spreads_df)
 
-        _book_odds_cache.update({"path": path, "mtime": mtime, "fair": fair_map})
-        return fair_map
-    except Exception as e:
-        log_health("book_odds_load_error", error=str(e))
-        return {}
+    if not signals:
+        log_health("analysis_no_signals", date=date_override or CONFIG.DATA.DATE)
+    return signals, summaries, csv_paths
 
-def fair_from_books_for_ticker(ticker: str) -> Optional[float]:
-    if not getattr(CONFIG.STRAT, "USE_BOOK_ODDS", False):
-        return None
-    fairs = _load_book_fairs()
-    return fairs.get(ticker)
-
-
-# =========================
-# ======= SIZING ==========
-# =========================
-
-_balance_cache = {"ts": 0.0, "value": None}
-
-def get_cash_balance(cache_sec: int = 60) -> Optional[float]:
-    """
-    Fetch cash balance (fallback to portfolio_value) with a short cache to avoid hammering the API.
-    Returns None on failure so callers can fall back to fixed sizing.
-    """
-    now = time.time()
-    if now - _balance_cache["ts"] <= cache_sec and _balance_cache["value"] is not None:
-        return _balance_cache["value"]
-    try:
-        payload = http_request("GET", "portfolio/balance")
-        if payload and isinstance(payload, dict):
-            val = to_f(payload.get("balance") or payload.get("cash_balance") or payload.get("portfolio_value"))
-            if val is not None and val > 0:
-                _balance_cache.update({"ts": now, "value": val})
-                return val
-    except Exception as e:
-        log_health("balance_fetch_error", error=str(e))
-    _balance_cache.update({"ts": now, "value": None})
-    return None
-
-def _per_contract_risk(price: float, side: str, action: str) -> float:
-    """
-    Conservative estimate of capital at risk per contract:
-      - buying YES costs price
-      - selling YES risks 1 - price
-      - buying NO costs 1 - price
-      - selling NO risks price
-    """
-    if side == "yes":
-        return price if action == "buy" else max(CONFIG.MIN_PRICE, 1.0 - price)
-    if side == "no":
-        return max(CONFIG.MIN_PRICE, 1.0 - price) if action == "buy" else price
-    return price
-
-def size_for_order(price: Optional[float], side: str, action: str, available_qty: Optional[int] = None) -> int:
-    """
-    Compute order size using percent-of-cash sizing with sane fallbacks.
-    """
-    # Fallback to legacy fixed size if percent sizing is disabled or invalid inputs.
-    pct = getattr(CONFIG.STRAT, "SIZE_PCT_OF_CASH", None)
-    if pct is None:
-        pct = getattr(CONFIG.STRAT, "SIZE_PCT_OF_PORTFOLIO", 0)
-    pct = pct or 0
-    base = CONFIG.STRAT.SIZE
-    if price is None or pct <= 0:
-        return base
-
-    balance = get_cash_balance()
-    if balance is None or balance <= 0:
-        return base
-
-    per_risk = _per_contract_risk(price, side, action)
-    if per_risk <= 0:
-        return base
-
-    target_dollars = balance * pct
-    count = int(math.floor(target_dollars / per_risk))
-    if available_qty is not None:
-        count = min(count, max(available_qty, 0))
-
-    count = max(CONFIG.STRAT.MIN_SIZE, count)
-    count = min(CONFIG.STRAT.MAX_SIZE, count)
-    return count
 
 
 # =========================
@@ -643,14 +1005,9 @@ def note_status_once(status: str):
 
 def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,Any]]:
     """
-    Basic, inclusive strategy to ensure DRY-RUN produces visible decisions:
-      - Accepts any status if CONFIG.ALLOWED_STATUSES is None; otherwise filters by it.
-      - Builds BBO from market OR orderbook (dollars/cents) with parity fallback.
-      - If CONFIG.STRAT.USE_BOOK_ODDS: pulls fair from sportsbook odds file; otherwise uses a simple heuristic.
-      - Uses fair: if yes_ask <= fair - BUY_EDGE => buy YES; if yes_bid >= fair + SELL_EDGE => sell YES.
-      - If no fair and USE_BOOK_ODDS is False, falls back to the simple cheap/rich heuristic (<=0.55 / >=0.45).
-      - If no edge fires and ALWAYS_POST_MAKER is True: post small maker on both sides to show activity.
-      - Applies a wide spread gate and no near-expiry gate (per CONFIG).
+    Data-driven strategy that only trades tickers surfaced by the notebook
+    analysis (filtered_winners_df / filtered_spreads_df). The live orderbook is
+    checked to ensure the edge still exists before sending the sized order.
     """
     intents: List[Dict[str,Any]] = []
 
@@ -679,95 +1036,81 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     bbo = best_prices_from_sources(market, orderbook)
     yes_bid, yes_ask, no_bid, no_ask = bbo["yes_bid"], bbo["yes_ask"], bbo["no_bid"], bbo["no_ask"]
 
-    if yes_bid is None or yes_ask is None:
+    signal = ANALYSIS_SIGNALS.get(ticker)
+    if not signal:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_no_analysis_signal", ticker=ticker)
+        return intents
+
+    if yes_bid is None and yes_ask is None:
         if CONFIG.DEBUG_SKIPS:
             ob = (orderbook or {}).get("orderbook") or {}
             log_health("skip_no_bbo", ticker=ticker, ob_keys=",".join(sorted(ob.keys())))
         return intents
 
-    spread = round(yes_ask - yes_bid, 4)
-    if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
-        if CONFIG.DEBUG_SKIPS:
-            log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
-        # still allow evaluation below
-
+    fair_yes = signal.get("fair_prob")
+    direction = signal.get("direction")
+    edge_threshold = signal.get("edge", 0)
     yes_levels, _ = parse_ob_yes_no(orderbook)
-    best_yes_ask_qty = yes_levels[0][1] if yes_levels else CONFIG.STRAT.SIZE
+    best_yes_ask_qty = yes_levels[0][1] if yes_levels else None
 
-    fair_yes = fair_from_books_for_ticker(ticker)
+    base_count = signal.get("num_contracts") or CONFIG.LIMITS.DEFAULT_SIZE
+    try:
+        base_count = int(base_count)
+    except Exception:
+        base_count = CONFIG.LIMITS.DEFAULT_SIZE
+    base_count = max(CONFIG.LIMITS.MIN_SIZE, min(CONFIG.LIMITS.MAX_SIZE, base_count))
 
-    # Strategy branch: sportsbook fair or fallback heuristic
-    if fair_yes is not None:
-        # fair-based edges
-        buy_edge = fair_yes - yes_ask if yes_ask is not None else None
-        sell_edge = yes_bid - fair_yes if yes_bid is not None else None
+    spread = round(yes_ask - yes_bid, 4) if yes_bid is not None and yes_ask is not None else None
 
-        if buy_edge is not None and buy_edge >= CONFIG.STRAT.BUY_EDGE:
-            avail_qty = best_yes_ask_qty if best_yes_ask_qty and best_yes_ask_qty > 0 else None
-            count = size_for_order(yes_ask, side="yes", action="buy", available_qty=avail_qty)
-            if count > 0:
-                intents.append({
-                    "intent_id": str(uuid.uuid4()),
-                    "ticker": ticker,
-                    "side": "yes",
-                    "action": "buy",
-                    "price": clamp_price(yes_ask),
-                    "count": count,
-                    "reason": "buy_yes_fair_edge"
-                })
-
-        if sell_edge is not None and sell_edge >= CONFIG.STRAT.SELL_EDGE:
-            count = size_for_order(yes_bid, side="yes", action="sell")
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker,
-                "side": "yes",
-                "action": "sell",
-                "price": clamp_price(yes_bid),
-                "count": count,
-                "reason": "sell_yes_fair_edge"
-            })
-    else:
-        # Moderately loose criteria:
-        # - Buy YES if ask <= 0.55 and spread not crazy
-        # - Sell YES if bid >= 0.45 and spread not crazy
-        if spread is None or spread < 0 or spread > CONFIG.MAX_SPREAD:
+    if direction == "buy_yes":
+        if yes_ask is None:
             if CONFIG.DEBUG_SKIPS:
-                log_health("skip_spread", ticker=ticker, spread=spread, max_spread=CONFIG.MAX_SPREAD)
-            # still evaluate to allow activity
-
-        # BUY YES (hit ask) when it's cheap-ish
-        if yes_ask is not None and yes_ask <= 0.55:
-            avail_qty = best_yes_ask_qty if best_yes_ask_qty and best_yes_ask_qty > 0 else None
-            count = size_for_order(yes_ask, side="yes", action="buy", available_qty=avail_qty)
-            if count > 0:
+                log_health("skip_no_ask", ticker=ticker)
+        else:
+            edge_now = fair_yes - yes_ask if fair_yes is not None else None
+            if edge_now is not None and edge_now >= edge_threshold:
+                count = base_count
+                if best_yes_ask_qty:
+                    count = min(count, best_yes_ask_qty)
+                if count > 0:
+                    intents.append({
+                        "intent_id": str(uuid.uuid4()),
+                        "ticker": ticker,
+                        "side": "yes",
+                        "action": "buy",
+                        "price": clamp_price(yes_ask),
+                        "count": count,
+                        "reason": f"analysis_buy_{signal.get('source')}"
+                    })
+            else:
+                if CONFIG.DEBUG_SKIPS:
+                    log_health("skip_edge_not_met", ticker=ticker, edge=edge_now, threshold=edge_threshold)
+    elif direction == "sell_yes":
+        if yes_bid is None:
+            if CONFIG.DEBUG_SKIPS:
+                log_health("skip_no_bid", ticker=ticker)
+        else:
+            edge_now = yes_bid - fair_yes if fair_yes is not None else None
+            if edge_now is not None and edge_now >= edge_threshold:
+                count = base_count
                 intents.append({
                     "intent_id": str(uuid.uuid4()),
                     "ticker": ticker,
                     "side": "yes",
-                    "action": "buy",
-                    "price": clamp_price(yes_ask),
+                    "action": "sell",
+                    "price": clamp_price(yes_bid),
                     "count": count,
-                    "reason": "buy_yes_le_055"
+                    "reason": f"analysis_sell_{signal.get('source')}"
                 })
-
-        # SELL YES (hit bid) when it's rich-ish
-        if yes_bid is not None and yes_bid >= 0.45:
-            count = size_for_order(yes_bid, side="yes", action="sell")
-            intents.append({
-                "intent_id": str(uuid.uuid4()),
-                "ticker": ticker,
-                "side": "yes",
-                "action": "sell",
-                "price": clamp_price(yes_bid),
-                "count": count,
-                "reason": "sell_yes_ge_045"
-            })
+            else:
+                if CONFIG.DEBUG_SKIPS:
+                    log_health("skip_edge_not_met", ticker=ticker, edge=edge_now, threshold=edge_threshold)
 
     for it in intents:
         log_decision(ticker, it, {
             "fair_yes": fair_yes,
-            "edge": None,
+            "edge": edge_threshold,
             "spread": spread,
             "yes_bid": yes_bid, "yes_ask": yes_ask, "no_bid": no_bid, "no_ask": no_ask
         })
@@ -818,6 +1161,10 @@ def submit_intent(intent: Dict[str,Any]):
         payload["yes_price"] = price_cents
     else:
         payload["no_price"] = price_cents
+
+    mode = "LIVE" if not CONFIG.DRY_RUN else "DRY-RUN"
+    print(f"🪙 {mode} submitting: {payload['ticker']} side={payload['side']} action={payload['action']} size={count} price={price:.2f}")
+
     resp = place_order(payload, idem_key(intent))
     log_order("place", payload, resp)
     success = False
@@ -825,7 +1172,6 @@ def submit_intent(intent: Dict[str,Any]):
         success = True
     if success:
         chosen_odds = price if payload["side"] == "yes" else max(CONFIG.MIN_PRICE, min(CONFIG.MAX_PRICE, round(1.0 - price, 4)))
-        mode = "LIVE" if not CONFIG.DRY_RUN else "DRY-RUN"
         print(f"🪙 {mode} order: {payload['ticker']} side={payload['side']} action={payload['action']} size={count} price={price:.2f} odds={chosen_odds:.2f}")
     else:
         print(f"❌ order failed for {payload['ticker']} side={payload['side']} size={count} price={price}")
@@ -940,54 +1286,51 @@ def main():
 
     bootstrap_readiness()
 
-    # Discover tickers (or use hardcoded)
-    if CONFIG.TICKERS:
-        all_tickers = list(sorted(set(CONFIG.TICKERS)))
-        print(f"🧭 Using hardcoded {len(all_tickers)} tickers. First 5: {all_tickers[:5]}")
-    else:
-        all_tickers = discover_market_tickers(CONFIG.SERIES)
-        if not all_tickers:
-            sys.exit(f"⚠️ Discovery found 0 tickers for series={CONFIG.SERIES}. "
-                     f"Adjust CONFIG.ALLOWED_STATUSES or series names.")
-        print(f"🧭 Discovered {len(all_tickers)} market(s).")
+    # Bankroll allocation
+    total_bankroll = CONFIG.DATA.TOTAL_BANKROLL
+    if total_bankroll is None:
+        total_bankroll = fetch_total_bankroll()
+        if total_bankroll is None:
+            sys.exit("❌ Could not fetch total bankroll from account and no override provided.")
+    winners_bankroll = total_bankroll * CONFIG.DATA.WINNERS_PROPORTION
+    spreads_bankroll = total_bankroll * CONFIG.DATA.SPREADS_PROPORTION
 
-    # Live loop
-    idx = 0
-    while RUN:
-        loop_started = now_utc()
+    # Build analysis outputs and CSVs (filtered_winners / filtered_spreads).
+    global ANALYSIS_SIGNALS, ANALYSIS_SUMMARY, ANALYSIS_CSVS
+    ANALYSIS_SIGNALS, ANALYSIS_SUMMARY, ANALYSIS_CSVS = build_analysis_signals(CONFIG.DATA.DATE, winners_bankroll, spreads_bankroll)
+    target_tickers = set(ANALYSIS_SIGNALS.keys())
+    all_tickers = list(target_tickers)
 
-        if not all_tickers:
-            time.sleep(CONFIG.POLL_INTERVAL_SEC)
+    def _print_summary(label: str, summary: Dict[str, float]):
+        print(f"{label} summary:")
+        print(f"  Count: {summary.get('count', 0)}")
+        print(f"  Max Loss: {summary.get('max_loss', 0.0):.2f}")
+        print(f"  Max Profit: {summary.get('max_profit', 0.0):.2f}")
+        print(f"  Portfolio EV: {summary.get('portfolio_ev', 0.0):.2f}")
+
+    _print_summary("Winners", ANALYSIS_SUMMARY.get("winners", {}))
+    _print_summary("Spreads", ANALYSIS_SUMMARY.get("spreads", {}))
+
+    if not target_tickers:
+        print("⚠️ No analysis signals were built; trader will not place orders.")
+        return
+
+    print(f"🎯 Trading on {len(all_tickers)} tickers from analysis signals.")
+    if ANALYSIS_CSVS:
+        for label, path in ANALYSIS_CSVS.items():
+            print(f"🗒️ {label} CSV written to: {path}")
+
+    # Single pass: place trades from the analysis signals and exit.
+    for t in all_tickers:
+        try:
+            mkt = get_market(t) or {}
+            ob = get_orderbook(t) or {}
+            intents = decide_intents(t, mkt, ob)
+            for it in intents:
+                submit_intent(it)
+        except Exception as e:
+            log_health("decision_error", ticker=t, error=str(e))
             continue
-
-        # Slice a window of tickers per loop for visibility
-        end = min(idx + CONFIG.TICKERS_PER_LOOP, len(all_tickers))
-        batch = all_tickers[idx:end]
-        idx = 0 if end >= len(all_tickers) else end
-
-        total_intents = 0
-        for t in batch:
-            try:
-                mkt = get_market(t) or {}
-                ob  = get_orderbook(t) or {}
-                intents = decide_intents(t, mkt, ob)
-                for it in intents:
-                    submit_intent(it)
-                    if not RUN:
-                        break
-                total_intents += len(intents)
-                if not RUN:
-                    break
-            except Exception as e:
-                log_health("decision_error", ticker=t, error=str(e))
-                continue
-        if not RUN:
-            break
-
-        elapsed = (now_utc() - loop_started).total_seconds()
-        if CONFIG.HEARTBEAT_PRINT:
-            print(f"⏱ processed {len(batch)}/{len(all_tickers)} tickers, intents={total_intents} @ {now_iso()} (loop {elapsed:.2f}s)")
-        time.sleep(max(0.0, CONFIG.POLL_INTERVAL_SEC - elapsed))
 
     log_health("stopped")
 
