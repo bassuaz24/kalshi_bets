@@ -1,0 +1,91 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,h2h,Atlanta Hawks,1.2,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,h2h,Washington Wizards,4.8,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,spreads,Atlanta Hawks,1.89,-10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,spreads,Washington Wizards,1.93,10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,totals,Over,1.91,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,FanDuel,totals,Under,1.91,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,h2h,Atlanta Hawks,1.2,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,h2h,Washington Wizards,4.8,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,spreads,Atlanta Hawks,1.83,-10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,spreads,Washington Wizards,2.0,10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,totals,Over,1.89,235.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,DraftKings,totals,Under,1.93,235.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,h2h,Atlanta Hawks,1.2,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,h2h,Washington Wizards,4.75,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,spreads,Atlanta Hawks,1.91,-10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,spreads,Washington Wizards,1.91,10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,totals,Over,1.95,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,BetMGM,totals,Under,1.87,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,h2h,Atlanta Hawks,1.17,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,h2h,Washington Wizards,5.0,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,spreads,Atlanta Hawks,1.87,-10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,spreads,Washington Wizards,1.95,10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,totals,Over,1.95,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,ESPN BET,totals,Under,1.87,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,h2h,Atlanta Hawks,1.21,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,h2h,Washington Wizards,4.95,,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,spreads,Atlanta Hawks,1.89,-10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,spreads,Washington Wizards,2.01,10.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,totals,Over,2.0,236.5,Washington Wizards,Atlanta Hawks
+NBA,,9ad9826a5e6c2de97a7596b87f1e3c76,2025-11-25 18:10:00 CST,Pinnacle,totals,Under,1.88,236.5,Washington Wizards,Atlanta Hawks
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,h2h,Orlando Magic,1.82,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,h2h,Philadelphia 76ers,2.02,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,spreads,Orlando Magic,1.98,-2.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,spreads,Philadelphia 76ers,1.85,2.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,totals,Over,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,DraftKings,totals,Under,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,h2h,Orlando Magic,1.79,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,h2h,Philadelphia 76ers,2.08,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,spreads,Orlando Magic,1.94,-2.0,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,spreads,Philadelphia 76ers,1.88,2.0,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,totals,Over,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,FanDuel,totals,Under,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,h2h,Orlando Magic,1.77,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,h2h,Philadelphia 76ers,2.1,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,spreads,Orlando Magic,1.87,-1.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,spreads,Philadelphia 76ers,1.95,1.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,totals,Over,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,ESPN BET,totals,Under,1.91,228.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,h2h,Orlando Magic,1.77,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,h2h,Philadelphia 76ers,2.05,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,spreads,Orlando Magic,1.87,-1.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,spreads,Philadelphia 76ers,1.95,1.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,totals,Over,1.91,229.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,BetMGM,totals,Under,1.91,229.5,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,h2h,Orlando Magic,1.75,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,h2h,Philadelphia 76ers,2.21,,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,spreads,Orlando Magic,1.91,-2.0,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,spreads,Philadelphia 76ers,2.0,2.0,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,totals,Over,1.97,229.0,Philadelphia 76ers,Orlando Magic
+NBA,,a43d5e85ccdf728d56f44bfda12b9d06,2025-11-25 19:10:00 CST,Pinnacle,totals,Under,1.91,229.0,Philadelphia 76ers,Orlando Magic
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,h2h,Los Angeles Clippers,2.9,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,h2h,Los Angeles Lakers,1.43,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,spreads,Los Angeles Clippers,1.91,5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,spreads,Los Angeles Lakers,1.91,-5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,totals,Over,1.89,228.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,DraftKings,totals,Under,1.93,228.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,h2h,Los Angeles Clippers,2.84,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,h2h,Los Angeles Lakers,1.45,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,spreads,Los Angeles Clippers,1.93,5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,spreads,Los Angeles Lakers,1.89,-5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,totals,Over,1.94,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,FanDuel,totals,Under,1.88,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,h2h,Los Angeles Clippers,2.85,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,h2h,Los Angeles Lakers,1.44,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,spreads,Los Angeles Clippers,1.91,5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,spreads,Los Angeles Lakers,1.91,-5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,totals,Over,1.95,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,BetMGM,totals,Under,1.87,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,h2h,Los Angeles Clippers,2.75,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,h2h,Los Angeles Lakers,1.48,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,spreads,Los Angeles Clippers,1.91,5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,spreads,Los Angeles Lakers,1.91,-5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,totals,Over,1.95,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,ESPN BET,totals,Under,1.87,229.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,h2h,Los Angeles Clippers,2.98,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,h2h,Los Angeles Lakers,1.44,,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,spreads,Los Angeles Clippers,1.94,5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,spreads,Los Angeles Lakers,1.96,-5.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,totals,Over,1.93,228.5,Los Angeles Lakers,Los Angeles Clippers
+NBA,,b7209d3aae71bb2dc1ca8f9412a95a4a,2025-11-25 22:10:00 CST,Pinnacle,totals,Under,1.95,228.5,Los Angeles Lakers,Los Angeles Clippers

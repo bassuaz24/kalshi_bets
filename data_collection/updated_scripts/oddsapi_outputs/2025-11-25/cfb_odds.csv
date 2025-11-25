@@ -1,0 +1,61 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,h2h,Bowling Green Falcons,1.15,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,h2h,UMass Minutemen,5.7,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,spreads,Bowling Green Falcons,1.91,-14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,spreads,UMass Minutemen,1.91,14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,totals,Over,1.89,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,DraftKings,totals,Under,1.93,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,h2h,Bowling Green Falcons,1.14,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,h2h,UMass Minutemen,6.0,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,spreads,Bowling Green Falcons,1.93,-14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,spreads,UMass Minutemen,1.89,14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,totals,Over,1.91,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,FanDuel,totals,Under,1.91,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,h2h,Bowling Green Falcons,1.12,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,h2h,UMass Minutemen,6.0,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,spreads,Bowling Green Falcons,1.95,-15.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,spreads,UMass Minutemen,1.87,15.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,totals,Over,1.91,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,ESPN BET,totals,Under,1.91,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,h2h,Bowling Green Falcons,1.16,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,h2h,UMass Minutemen,5.5,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,spreads,Bowling Green Falcons,1.91,-14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,spreads,UMass Minutemen,1.91,14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,totals,Over,1.87,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,BetMGM,totals,Under,1.95,44.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,h2h,Bowling Green Falcons,1.17,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,h2h,UMass Minutemen,5.43,,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,spreads,Bowling Green Falcons,1.94,-14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,spreads,UMass Minutemen,1.94,14.5,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,totals,Over,2.01,45.0,UMass Minutemen,Bowling Green Falcons
+CFB,,7058d3392573bc5d3b2802b1c3cb8c34,2025-11-25 15:30:00 CST,Pinnacle,totals,Under,1.85,45.0,UMass Minutemen,Bowling Green Falcons
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,h2h,Eastern Michigan Eagles,3.45,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,h2h,Western Michigan Broncos,1.33,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,spreads,Eastern Michigan Eagles,1.91,7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,spreads,Western Michigan Broncos,1.91,-7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,totals,Over,1.91,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,DraftKings,totals,Under,1.91,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,h2h,Eastern Michigan Eagles,3.45,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,h2h,Western Michigan Broncos,1.33,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,spreads,Eastern Michigan Eagles,1.94,7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,spreads,Western Michigan Broncos,1.88,-7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,totals,Over,1.87,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,FanDuel,totals,Under,1.95,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,h2h,Eastern Michigan Eagles,3.5,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,h2h,Western Michigan Broncos,1.33,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,spreads,Eastern Michigan Eagles,1.95,7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,spreads,Western Michigan Broncos,1.87,-7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,totals,Over,1.95,47.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,ESPN BET,totals,Under,1.87,47.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,h2h,Eastern Michigan Eagles,3.3,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,h2h,Western Michigan Broncos,1.35,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,spreads,Eastern Michigan Eagles,1.91,7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,spreads,Western Michigan Broncos,1.91,-7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,totals,Over,1.87,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,BetMGM,totals,Under,1.95,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,h2h,Eastern Michigan Eagles,3.42,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,h2h,Western Michigan Broncos,1.35,,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,spreads,Eastern Michigan Eagles,1.94,7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,spreads,Western Michigan Broncos,1.94,-7.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,totals,Over,1.92,46.5,Eastern Michigan Eagles,Western Michigan Broncos
+CFB,,36f13df92e5c272f20ed7d541c8cf2d4,2025-11-25 18:30:00 CST,Pinnacle,totals,Under,1.93,46.5,Eastern Michigan Eagles,Western Michigan Broncos
