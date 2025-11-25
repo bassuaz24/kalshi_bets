@@ -47,13 +47,9 @@ class CONFIG:
     RETRY_SLEEP = 1.0            # backoff base seconds
     TICKERS_PER_LOOP = 60        # process at most this many tickers per loop (for visibility)
 
-    # --- Trading policy & risk (very permissive for observation) ---
-    TIME_IN_FORCE = "IOC"        # allowed by Kalshi: DAY, IOC, FOK, GTC (use env/flag to change)
     MIN_TICK = 0.01
     MIN_PRICE = 0.01
     MAX_PRICE = 0.99
-    MAX_SPREAD = 0.60            # allow wide books so we see activity
-    NEAR_EXPIRY_MINS = 0         # disable near-expiry gate for testing
 
     # --- Data-driven analysis (see data_analysis.ipynb) ---
     class DATA:
@@ -75,12 +71,6 @@ class CONFIG:
         Q2_WEIGHT = 1.0
         Q3_WEIGHT = 1.0
         Q4_WEIGHT = 1.0
-
-    # --- Trade sizing clamps ---
-    class LIMITS:
-        DEFAULT_SIZE = 2
-        MIN_SIZE = 1
-        MAX_SIZE = 50
 
     # --- Logging ---
     LOG_DIR = "live_betting"
@@ -352,6 +342,21 @@ def normalize_market(market: dict) -> dict:
     return market or {}
 
 
+def parse_event_start(market: dict) -> Optional[datetime]:
+    """
+    Try to parse the scheduled event start time from the market payload.
+    """
+    if not market:
+        return None
+    raw = market.get("event_start_time") or market.get("event_expiration_time") or market.get("close_time") or market.get("expiry")
+    if not isinstance(raw, str):
+        return None
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+
 # =========================
 # ======= DISCOVERY =======
 # =========================
@@ -563,6 +568,16 @@ def build_filtered_frames(date_override: Optional[str], bankroll_winners: float,
     odds_df["odds"] = pd.to_numeric(odds_df["odds"], errors="coerce")
     odds_df["point"] = pd.to_numeric(odds_df.get("point"), errors="coerce")
     odds_df["vig_prob"] = 1 / odds_df["odds"]
+
+    # Filter out games that have already started based on odds start_time.
+    def _future_only(df):
+        if "start_time" not in df.columns:
+            return df
+        ts = pd.to_datetime(df["start_time"], utc=True, errors="coerce")
+        mask = ts.isna() | (ts > pd.Timestamp.utcnow())
+        return df.loc[mask].copy()
+
+    odds_df = _future_only(odds_df)
 
     def remove_vig_probs(df):
         df = df.copy()
@@ -939,10 +954,9 @@ def build_analysis_signals(date_override: Optional[str], bankroll_winners: float
 
     def _safe_count(val: Any) -> int:
         try:
-            num = int(float(val))
-            return max(CONFIG.LIMITS.MIN_SIZE, min(CONFIG.LIMITS.MAX_SIZE, num))
+            return int(float(val))
         except Exception:
-            return CONFIG.LIMITS.DEFAULT_SIZE
+            return 0
 
     def direction_for_row(row, edge):
         return "buy_yes" if row["avg_fair_prb"] >= row["yes_ask"] + edge else "sell_yes"
@@ -1019,18 +1033,12 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
             log_health("skip_status", ticker=ticker, status=status)
         return intents
 
-    # near-expiry (disabled by default with NEAR_EXPIRY_MINS=0)
-    if CONFIG.NEAR_EXPIRY_MINS > 0:
-        expiry = market.get("event_expiration_time") or market.get("close_time") or market.get("expiry")
-        try:
-            if isinstance(expiry, str):
-                exp = datetime.fromisoformat(expiry.replace("Z","+00:00")) if "Z" in expiry else datetime.fromisoformat(expiry)
-                if (exp - now_utc()) <= timedelta(minutes=CONFIG.NEAR_EXPIRY_MINS):
-                    if CONFIG.DEBUG_SKIPS:
-                        log_health("skip_near_expiry", ticker=ticker)
-                    return intents
-        except Exception:
-            pass
+    # Skip games that have already started.
+    event_start = parse_event_start(market)
+    if event_start and now_utc() >= event_start:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_already_started", ticker=ticker, start=event_start.isoformat())
+        return intents
 
     # robust BBO
     bbo = best_prices_from_sources(market, orderbook)
@@ -1054,12 +1062,15 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
     yes_levels, _ = parse_ob_yes_no(orderbook)
     best_yes_ask_qty = yes_levels[0][1] if yes_levels else None
 
-    base_count = signal.get("num_contracts") or CONFIG.LIMITS.DEFAULT_SIZE
+    base_count = signal.get("num_contracts") or 0
     try:
         base_count = int(base_count)
     except Exception:
-        base_count = CONFIG.LIMITS.DEFAULT_SIZE
-    base_count = max(CONFIG.LIMITS.MIN_SIZE, min(CONFIG.LIMITS.MAX_SIZE, base_count))
+        base_count = 0
+    if base_count <= 0:
+        if CONFIG.DEBUG_SKIPS:
+            log_health("skip_non_positive_size", ticker=ticker, size=base_count)
+        return intents
 
     spread = round(yes_ask - yes_bid, 4) if yes_bid is not None and yes_ask is not None else None
 
@@ -1081,7 +1092,8 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
                         "action": "buy",
                         "price": clamp_price(yes_ask),
                         "count": count,
-                        "reason": f"analysis_buy_{signal.get('source')}"
+                        "reason": f"analysis_buy_{signal.get('source')}",
+                        "expires_at": event_start.isoformat() if event_start else None
                     })
             else:
                 if CONFIG.DEBUG_SKIPS:
@@ -1101,7 +1113,8 @@ def decide_intents(ticker: str, market: dict, orderbook: dict) -> List[Dict[str,
                     "action": "sell",
                     "price": clamp_price(yes_bid),
                     "count": count,
-                    "reason": f"analysis_sell_{signal.get('source')}"
+                    "reason": f"analysis_sell_{signal.get('source')}",
+                    "expires_at": event_start.isoformat() if event_start else None
                 })
             else:
                 if CONFIG.DEBUG_SKIPS:
@@ -1152,18 +1165,23 @@ def submit_intent(intent: Dict[str,Any]):
         "action": intent.get("action", "buy"),  # required by API
         "type": "limit",
         "count": count,
-        "time_in_force": "immediate_or_cancel",
+        "time_in_force": "good_til_cancel",
         "client_order_id": intent.get("intent_id"),
     }
+    exp = intent.get("expires_at")
+    if exp:
+        try:
+            # Kalshi expects milliseconds since epoch for expiration_time
+            exp_dt = datetime.fromisoformat(exp)
+            payload["expiration_time"] = int(exp_dt.timestamp() * 1000)
+        except Exception:
+            pass
     # Kalshi expects exactly one price field; send cents.
     price_cents = int(round(price * 100))
     if payload["side"] == "yes":
         payload["yes_price"] = price_cents
     else:
         payload["no_price"] = price_cents
-
-    mode = "LIVE" if not CONFIG.DRY_RUN else "DRY-RUN"
-    print(f"🪙 {mode} submitting: {payload['ticker']} side={payload['side']} action={payload['action']} size={count} price={price:.2f}")
 
     resp = place_order(payload, idem_key(intent))
     log_order("place", payload, resp)

@@ -9620,3 +9620,25 @@ ts,msg,dry_run,tickers
 2025-11-25T17:46:05.351508Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
 2025-11-25T17:46:07.218577Z,status_seen,active
 2025-11-25T17:46:11.426172Z,stopped
+2025-11-25T18:00:50.389301Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-25T18:00:52.763443Z,status_seen,active
+2025-11-25T18:00:58.356532Z,stopped
+2025-11-25T18:15:12.950729Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-25T18:15:17.599230Z,status_seen,active
+2025-11-25T18:15:23.798211Z,stopped
+2025-11-25T18:19:22.072160Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-25T18:19:27.887676Z,status_seen,active
+2025-11-25T18:19:32.986031Z,stopped
+2025-11-25T18:26:56.045269Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-25T18:26:57.990546Z,status_seen,active
+2025-11-25T18:26:57.991617Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25KSUIND-KSU
+2025-11-25T18:26:58.315362Z,decision_error,name 'mode' is not defined,KXNCAAMBSPREAD-25NOV25FAUGMU-FAU5
+2025-11-25T18:26:58.635152Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25MICHAUB-AUB
+2025-11-25T18:26:58.949395Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25UTSAGASO-UTSA
+2025-11-25T18:26:59.240723Z,decision_error,name 'mode' is not defined,KXNCAAMBSPREAD-25NOV25MISSIOWA-MISS4
+2025-11-25T18:26:59.558836Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25FAUGMU-FAU
+2025-11-25T18:27:00.041994Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25MISSIOWA-MISS
+2025-11-25T18:27:00.366835Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25UCLACAL-CAL
+2025-11-25T18:27:00.685820Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25EWUUNT-EWU
+2025-11-25T18:27:01.106233Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25WSUASU-WSU
+2025-11-25T18:27:01.106354Z,stopped
