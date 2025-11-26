@@ -66,7 +66,7 @@ class CONFIG:
     LOG_DIR = "live_betting"
 
     class DATA:
-        DATE = "2025-11-25"  # YYYY-MM-DD; if None, use today
+        DATE = "2025-11-26"  # YYYY-MM-DD; if None, use today
         ODDS_SPORT = "cbb"
         KALSHI_SPORT = "ncaab"
         ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
