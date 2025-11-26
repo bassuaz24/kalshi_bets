@@ -1,40 +1,40 @@
 sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,h2h,Boston Celtics,2.24,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,h2h,Detroit Pistons,1.68,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,h2h,Boston Celtics,2.2,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,h2h,Detroit Pistons,1.7,,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,spreads,Boston Celtics,1.93,2.5,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,spreads,Detroit Pistons,1.89,-2.5,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,totals,Over,1.93,232.5,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,DraftKings,totals,Under,1.89,232.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,h2h,Boston Celtics,2.24,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,h2h,Detroit Pistons,1.69,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,spreads,Boston Celtics,1.94,2.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,spreads,Detroit Pistons,1.88,-2.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,totals,Over,1.87,231.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,totals,Under,1.95,231.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,h2h,Boston Celtics,2.25,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,h2h,Detroit Pistons,1.65,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,spreads,Boston Celtics,1.95,2.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,spreads,Detroit Pistons,1.87,-2.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,totals,Over,1.95,232.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,totals,Under,1.87,232.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,h2h,Boston Celtics,2.25,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,h2h,Detroit Pistons,1.69,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,spreads,Boston Celtics,1.95,2.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,spreads,Detroit Pistons,1.87,-2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,h2h,Boston Celtics,2.14,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,h2h,Detroit Pistons,1.75,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,spreads,Boston Celtics,1.88,2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,spreads,Detroit Pistons,1.94,-2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,totals,Over,1.93,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,FanDuel,totals,Under,1.89,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,h2h,Boston Celtics,2.18,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,h2h,Detroit Pistons,1.69,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,spreads,Boston Celtics,1.91,2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,spreads,Detroit Pistons,1.91,-2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,totals,Over,1.91,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,BetMGM,totals,Under,1.91,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,h2h,Boston Celtics,2.15,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,h2h,Detroit Pistons,1.74,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,spreads,Boston Celtics,1.87,2.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,spreads,Detroit Pistons,1.95,-2.5,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,totals,Over,1.95,232.5,Boston Celtics,Detroit Pistons
 NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,ESPN BET,totals,Under,1.87,232.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,h2h,Boston Celtics,2.29,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,h2h,Detroit Pistons,1.7,,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,spreads,Boston Celtics,1.94,3.0,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,spreads,Detroit Pistons,1.96,-3.0,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,totals,Over,1.98,232.5,Boston Celtics,Detroit Pistons
-NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,totals,Under,1.91,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,h2h,Boston Celtics,2.12,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,h2h,Detroit Pistons,1.81,,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,spreads,Boston Celtics,1.93,2.0,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,spreads,Detroit Pistons,1.97,-2.0,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,totals,Over,1.92,232.5,Boston Celtics,Detroit Pistons
+NBA,,e69335f9f4054ca683c7219dabdeac53,2025-11-26 16:10:00 CST,Pinnacle,totals,Under,1.97,232.5,Boston Celtics,Detroit Pistons
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,h2h,Charlotte Hornets,3.15,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,h2h,New York Knicks,1.38,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,spreads,Charlotte Hornets,1.94,6.5,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,spreads,New York Knicks,1.88,-6.5,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,totals,Over,1.93,241.5,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,totals,Under,1.89,241.5,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,totals,Over,1.95,241.5,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,FanDuel,totals,Under,1.87,241.5,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,DraftKings,h2h,Charlotte Hornets,3.0,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,DraftKings,h2h,New York Knicks,1.41,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,DraftKings,spreads,Charlotte Hornets,1.93,6.5,Charlotte Hornets,New York Knicks
@@ -51,14 +51,14 @@ NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,h2h,Charl
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,h2h,New York Knicks,1.37,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,spreads,Charlotte Hornets,1.95,6.5,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,spreads,New York Knicks,1.87,-6.5,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,totals,Over,1.95,241.5,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,totals,Under,1.87,241.5,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,totals,Over,1.87,240.5,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,ESPN BET,totals,Under,1.95,240.5,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,h2h,Charlotte Hornets,3.18,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,h2h,New York Knicks,1.4,,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,spreads,Charlotte Hornets,1.97,6.5,Charlotte Hornets,New York Knicks
 NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,spreads,New York Knicks,1.93,-6.5,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,totals,Over,1.95,241.0,Charlotte Hornets,New York Knicks
-NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,totals,Under,1.93,241.0,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,totals,Over,1.94,241.0,Charlotte Hornets,New York Knicks
+NBA,,b054e05bbd0dadc5f4947032a332045e,2025-11-26 18:10:00 CST,Pinnacle,totals,Under,1.94,241.0,Charlotte Hornets,New York Knicks
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,FanDuel,h2h,Indiana Pacers,5.3,,Toronto Raptors,Indiana Pacers
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,FanDuel,h2h,Toronto Raptors,1.17,,Toronto Raptors,Indiana Pacers
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,FanDuel,spreads,Indiana Pacers,1.91,10.5,Toronto Raptors,Indiana Pacers
@@ -89,8 +89,8 @@ NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,Pinnacle,spreads,I
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,Pinnacle,spreads,Toronto Raptors,1.92,-10.5,Toronto Raptors,Indiana Pacers
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,Pinnacle,totals,Over,1.97,234.0,Toronto Raptors,Indiana Pacers
 NBA,,54ab67c4d54079c2044f6de8397ad072,2025-11-26 18:40:00 CST,Pinnacle,totals,Under,1.92,234.0,Toronto Raptors,Indiana Pacers
-NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,h2h,Miami Heat,1.3,,Miami Heat,Milwaukee Bucks
-NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,h2h,Milwaukee Bucks,3.7,,Miami Heat,Milwaukee Bucks
+NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,h2h,Miami Heat,1.29,,Miami Heat,Milwaukee Bucks
+NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,h2h,Milwaukee Bucks,3.75,,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,spreads,Miami Heat,1.88,-8.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,spreads,Milwaukee Bucks,1.94,8.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,FanDuel,totals,Over,1.88,237.5,Miami Heat,Milwaukee Bucks
@@ -103,8 +103,8 @@ NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,DraftKings,totals,
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,DraftKings,totals,Under,1.93,237.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,h2h,Miami Heat,1.29,,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,h2h,Milwaukee Bucks,3.7,,Miami Heat,Milwaukee Bucks
-NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,spreads,Miami Heat,1.91,-8.5,Miami Heat,Milwaukee Bucks
-NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,spreads,Milwaukee Bucks,1.91,8.5,Miami Heat,Milwaukee Bucks
+NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,spreads,Miami Heat,1.87,-8.5,Miami Heat,Milwaukee Bucks
+NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,spreads,Milwaukee Bucks,1.95,8.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,totals,Over,1.87,237.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,ESPN BET,totals,Under,1.95,237.5,Miami Heat,Milwaukee Bucks
 NBA,,932a6b46c8f41cd9df4a23db7aaf9988,2025-11-26 18:40:00 CST,BetMGM,h2h,Miami Heat,1.29,,Miami Heat,Milwaukee Bucks
@@ -129,26 +129,26 @@ NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,h2h,Minnes
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,h2h,Oklahoma City Thunder,1.22,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.91,10.0,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.91,-10.0,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,totals,Over,1.91,229.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,totals,Under,1.91,229.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,totals,Over,1.91,227.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,FanDuel,totals,Under,1.91,227.5,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,h2h,Minnesota Timberwolves,4.4,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,h2h,Oklahoma City Thunder,1.22,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,spreads,Minnesota Timberwolves,1.87,10.5,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,spreads,Oklahoma City Thunder,1.95,-10.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,totals,Over,1.91,229.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,totals,Under,1.91,229.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,totals,Over,1.91,227.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,ESPN BET,totals,Under,1.91,227.5,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,h2h,Minnesota Timberwolves,4.4,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,h2h,Oklahoma City Thunder,1.22,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,spreads,Minnesota Timberwolves,1.95,9.5,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,spreads,Oklahoma City Thunder,1.87,-9.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,totals,Over,1.87,229.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,totals,Under,1.95,229.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,h2h,Minnesota Timberwolves,4.29,,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,totals,Over,1.91,228.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,BetMGM,totals,Under,1.91,228.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,h2h,Minnesota Timberwolves,4.33,,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,h2h,Oklahoma City Thunder,1.25,,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,spreads,Minnesota Timberwolves,2.01,9.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,spreads,Oklahoma City Thunder,1.89,-9.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,totals,Over,1.94,229.5,Oklahoma City Thunder,Minnesota Timberwolves
-NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,totals,Under,1.94,229.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,spreads,Minnesota Timberwolves,2.02,9.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,spreads,Oklahoma City Thunder,1.88,-9.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,totals,Over,1.94,227.5,Oklahoma City Thunder,Minnesota Timberwolves
+NBA,,63748218430054c9c947b1beeab351c9,2025-11-26 18:40:00 CST,Pinnacle,totals,Under,1.91,227.5,Oklahoma City Thunder,Minnesota Timberwolves
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,FanDuel,h2h,Memphis Grizzlies,1.62,,New Orleans Pelicans,Memphis Grizzlies
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,FanDuel,h2h,New Orleans Pelicans,2.36,,New Orleans Pelicans,Memphis Grizzlies
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,FanDuel,spreads,Memphis Grizzlies,1.91,-3.5,New Orleans Pelicans,Memphis Grizzlies
@@ -177,8 +177,8 @@ NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,h2h,Memph
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,h2h,New Orleans Pelicans,2.42,,New Orleans Pelicans,Memphis Grizzlies
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,spreads,Memphis Grizzlies,1.88,-3.0,New Orleans Pelicans,Memphis Grizzlies
 NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,spreads,New Orleans Pelicans,2.03,3.0,New Orleans Pelicans,Memphis Grizzlies
-NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,totals,Over,1.96,235.5,New Orleans Pelicans,Memphis Grizzlies
-NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,totals,Under,1.93,235.5,New Orleans Pelicans,Memphis Grizzlies
+NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,totals,Over,2.0,235.5,New Orleans Pelicans,Memphis Grizzlies
+NBA,,7a866eae268b30cd60aacad8fd8f3786,2025-11-26 19:10:00 CST,Pinnacle,totals,Under,1.89,235.5,New Orleans Pelicans,Memphis Grizzlies
 NBA,,c728773fb406fb68e411f28e838ef9ed,2025-11-26 21:10:00 CST,DraftKings,h2h,Golden State Warriors,1.7,,Golden State Warriors,Houston Rockets
 NBA,,c728773fb406fb68e411f28e838ef9ed,2025-11-26 21:10:00 CST,DraftKings,h2h,Houston Rockets,2.2,,Golden State Warriors,Houston Rockets
 NBA,,c728773fb406fb68e411f28e838ef9ed,2025-11-26 21:10:00 CST,DraftKings,spreads,Golden State Warriors,1.95,-2.5,Golden State Warriors,Houston Rockets
@@ -225,8 +225,8 @@ NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,h2h,Phoenix
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,h2h,Sacramento Kings,2.5,,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,spreads,Phoenix Suns,1.91,-4.5,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,spreads,Sacramento Kings,1.91,4.5,Sacramento Kings,Phoenix Suns
-NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,totals,Over,1.87,233.5,Sacramento Kings,Phoenix Suns
-NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,totals,Under,1.95,233.5,Sacramento Kings,Phoenix Suns
+NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,totals,Over,1.91,233.5,Sacramento Kings,Phoenix Suns
+NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,BetMGM,totals,Under,1.91,233.5,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,ESPN BET,h2h,Phoenix Suns,1.57,,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,ESPN BET,h2h,Sacramento Kings,2.5,,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,ESPN BET,spreads,Phoenix Suns,1.95,-4.5,Sacramento Kings,Phoenix Suns
@@ -235,16 +235,16 @@ NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,ESPN BET,totals,Ov
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,ESPN BET,totals,Under,1.91,233.5,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,h2h,Phoenix Suns,1.57,,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,h2h,Sacramento Kings,2.58,,Sacramento Kings,Phoenix Suns
-NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,spreads,Phoenix Suns,1.9,-4.0,Sacramento Kings,Phoenix Suns
+NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,spreads,Phoenix Suns,1.89,-4.0,Sacramento Kings,Phoenix Suns
 NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,spreads,Sacramento Kings,2.01,4.0,Sacramento Kings,Phoenix Suns
-NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,totals,Over,2.0,234.0,Sacramento Kings,Phoenix Suns
-NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,totals,Under,1.89,234.0,Sacramento Kings,Phoenix Suns
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,h2h,Portland Trail Blazers,1.85,,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,h2h,San Antonio Spurs,2.0,,Portland Trail Blazers,San Antonio Spurs
+NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,totals,Over,1.97,234.0,Sacramento Kings,Phoenix Suns
+NBA,,640a3b0d618c26bd0e462da74aad454f,2025-11-26 21:10:00 CST,Pinnacle,totals,Under,1.92,234.0,Sacramento Kings,Phoenix Suns
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,h2h,Portland Trail Blazers,1.86,,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,h2h,San Antonio Spurs,1.98,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,spreads,Portland Trail Blazers,1.91,-1.0,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,1.0,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,totals,Over,1.91,239.5,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,totals,Under,1.91,239.5,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,totals,Over,1.94,239.5,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,FanDuel,totals,Under,1.88,239.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,DraftKings,h2h,Portland Trail Blazers,1.87,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,DraftKings,h2h,San Antonio Spurs,1.95,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,DraftKings,spreads,Portland Trail Blazers,1.98,-1.5,Portland Trail Blazers,San Antonio Spurs
@@ -255,17 +255,17 @@ NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,h2h,Portl
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,h2h,San Antonio Spurs,1.95,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,spreads,Portland Trail Blazers,1.95,-1.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,spreads,San Antonio Spurs,1.87,1.5,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,totals,Over,1.91,239.5,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,totals,Under,1.91,239.5,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,totals,Over,1.95,239.5,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,ESPN BET,totals,Under,1.87,239.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,h2h,Portland Trail Blazers,1.87,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,h2h,San Antonio Spurs,1.95,,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,spreads,Portland Trail Blazers,2.0,-1.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,spreads,San Antonio Spurs,1.83,1.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,totals,Over,1.91,240.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,BetMGM,totals,Under,1.91,240.5,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,h2h,Portland Trail Blazers,1.92,,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,h2h,San Antonio Spurs,1.99,,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,spreads,Portland Trail Blazers,1.96,-1.0,Portland Trail Blazers,San Antonio Spurs
-NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,spreads,San Antonio Spurs,1.94,1.0,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,h2h,Portland Trail Blazers,1.93,,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,h2h,San Antonio Spurs,1.98,,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,spreads,Portland Trail Blazers,1.98,-1.0,Portland Trail Blazers,San Antonio Spurs
+NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,spreads,San Antonio Spurs,1.93,1.0,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,totals,Over,1.87,239.5,Portland Trail Blazers,San Antonio Spurs
 NBA,,9d56baa432e13e1879c5a7e08ac23e79,2025-11-26 21:10:00 CST,Pinnacle,totals,Under,2.03,239.5,Portland Trail Blazers,San Antonio Spurs
