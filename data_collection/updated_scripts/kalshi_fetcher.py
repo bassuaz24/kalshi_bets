@@ -7,13 +7,26 @@ import pandas as pd
 from datetime import datetime, timezone, timedelta
 from wakepy import keep
 import pytz
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from requests.adapters import HTTPAdapter
 
 # --- Configuration (Same as before) ---
 API_KEY = "e8b43912-6603-413c-b544-3ca7f47cd06b"
 API_DOMAIN = "https://api.elections.kalshi.com"
+ORDERBOOK_WORKERS = 12
 HEADERS = {"Accept": "application/json"}
 if API_KEY and API_KEY != "e8b43912-6603-413c-b544-3ca7f47cd06b":
     HEADERS["Authorization"] = f"Bearer {API_KEY}"
+
+def _build_session():
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    adapter = HTTPAdapter(pool_connections=ORDERBOOK_WORKERS, pool_maxsize=ORDERBOOK_WORKERS + 4)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+SESSION = _build_session()
 
 OUTPUT_DIR = "kalshi_data_logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -66,7 +79,7 @@ def get_markets_page(cursor=None, series_ticker=None, status=None):
     if cursor: params["cursor"] = cursor
     if series_ticker: params["series_ticker"] = series_ticker
     if status: params["status"] = status
-    r = requests.get(url, headers=HEADERS, params=params, timeout=20)
+    r = SESSION.get(url, params=params, timeout=20)
     if r.status_code != 200: return None, None
     data = r.json()
     return data.get("markets", []), data.get("cursor")
@@ -82,14 +95,23 @@ def get_all_markets():
                 all_markets.extend(markets)
                 if not cursor or pages >= PAGINATION_PAGE_LIMIT: break
     return all_markets
-def fetch_orderbook(ticker):
+def fetch_orderbook(ticker, retries=3, backoff=0.4):
     url = f"{API_DOMAIN}/trade-api/v2/markets/{ticker}/orderbook/"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=12)
-        if r.status_code == 200: return r.json()
-        if r.status_code == 429: time.sleep(2)
-        return None
-    except Exception: return None
+    session = SESSION
+    for attempt in range(retries):
+        try:
+            r = session.get(url, timeout=12)
+            if r.status_code == 200: return r.json()
+            if r.status_code == 429:
+                time.sleep(backoff * (attempt + 1))
+                continue
+            if 500 <= r.status_code < 600:
+                time.sleep(backoff * (attempt + 1))
+                continue
+            return None
+        except requests.RequestException:
+            time.sleep(backoff * (attempt + 1))
+    return None
 
 # =============================
 # 🔎 Selection (Same as before)
@@ -188,6 +210,29 @@ def build_row_from_listing_and_ob(listing_row, ob_json):
     }
     return row
 
+def build_rows_concurrently(listing_df):
+    if listing_df.empty: return []
+    records = list(enumerate(listing_df.to_dict("records")))
+    workers = min(ORDERBOOK_WORKERS, len(records)) or 1
+    results = []
+
+    def _fetch(idx, record):
+        ob = fetch_orderbook(record.get("ticker"))
+        return idx, build_row_from_listing_and_ob(record, ob)
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_map = {executor.submit(_fetch, idx, record): (idx, record) for idx, record in records}
+        for future in as_completed(future_map):
+            idx, record = future_map[future]
+            try:
+                results.append(future.result())
+            except Exception as exc:
+                ticker = record.get("ticker")
+                print(f"⚠️ Failed to fetch/orderbook for {ticker}: {exc}")
+
+    results.sort(key=lambda item: item[0])
+    return [row for _, row in results if row is not None]
+
 # =============================
 # 💾 Write Function (Date Fix Applied)
 # =============================
@@ -212,8 +257,7 @@ def write_rows_by_series(rows):
         filename = SERIES_TO_FILENAME.get(series_ticker, f"{series_ticker.lower()}.csv")
         path = os.path.join(dated_dir, filename)
         df = pd.DataFrame(rows_list)
-        write_header = not os.path.exists(path)
-        df.to_csv(path, index=False, mode="a", header=write_header)
+        df.to_csv(path, index=False)
 
 
 # =============================
@@ -259,12 +303,8 @@ def main():
             print(listing_df.head(10)[["ticker", "title", "market_type", "event_time"]].to_string(index=False))
 
             # 3) For each, fetch orderbook once to get second-best asks
-            rows = []
-            for i, m in listing_df.head(MAX_TICKERS).iterrows() if MAX_TICKERS else listing_df.iterrows():
-                ticker = m["ticker"]
-                ob = fetch_orderbook(ticker)
-                row = build_row_from_listing_and_ob(m, ob)
-                rows.append(row)
+            target_df = listing_df.head(MAX_TICKERS) if MAX_TICKERS else listing_df
+            rows = build_rows_concurrently(target_df)
 
             # 4) Write batch to unified CSV
             write_rows_by_series(rows)
