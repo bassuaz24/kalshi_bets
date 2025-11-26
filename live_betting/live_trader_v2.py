@@ -76,9 +76,9 @@ class CONFIG:
         EDGE_SPREADS = 0.01
         WINNERS_EV_THRESHOLD = 0.15
         SPREADS_EV_THRESHOLD = 0.0
-        TOTAL_BANKROLL = None  # None => pull from account
-        WINNERS_PROPORTION = 0.7
-        SPREADS_PROPORTION = 0.3
+        TOTAL_BANKROLL = 200  # None => pull from account
+        WINNERS_PROPORTION = 0.75
+        SPREADS_PROPORTION = 1.0 - WINNERS_PROPORTION
         KELLY_CAP = 1.0
         Q1_WEIGHT = 1.0
         Q2_WEIGHT = 1.0
@@ -632,6 +632,39 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
             edge_spreads_df["profit"] = profit
             edge_spreads_df["ev"] = (profit * edge_spreads_df["avg_fair_prb"] - edge_spreads_df["optimal_bet"] * (1 - edge_spreads_df["avg_fair_prb"])).round(2)
             filtered_spreads_df = edge_spreads_df.loc[edge_spreads_df["ev"] > CONFIG.DATA.SPREADS_EV_THRESHOLD].reset_index(drop=True)
+
+    # Drop events that have already started using odds start_time, after all filtering.
+    def _drop_started(df: pd.DataFrame) -> pd.DataFrame:
+        if df is None or df.empty or "start_time" not in df.columns:
+            return df
+        start_clean = df["start_time"].astype(str)
+        def _clean_ts(s: str):
+            s = s.strip()
+            if s.endswith(" CST"):
+                return s[:-4] + " -06:00"
+            if s.endswith(" CDT"):
+                return s[:-4] + " -05:00"
+            if s.endswith(" EST"):
+                return s[:-4] + " -05:00"
+            if s.endswith(" EDT"):
+                return s[:-4] + " -04:00"
+            if s.endswith(" PST"):
+                return s[:-4] + " -08:00"
+            if s.endswith(" PDT"):
+                return s[:-4] + " -07:00"
+            return s
+        start_clean = start_clean.apply(_clean_ts)
+        ts = pd.to_datetime(start_clean, utc=True, errors="coerce")
+        start_float = ts.view("int64") / 1e9
+        now_float = pd.Timestamp.utcnow().timestamp()
+        print(start_float)
+        print(now_float)
+        mask = ts.isna() | (start_float > now_float)
+        print(mask)
+        return df.loc[mask].reset_index(drop=True)
+
+    filtered_winners_df = _drop_started(filtered_winners_df)
+    filtered_spreads_df = _drop_started(filtered_spreads_df)
 
     return filtered_winners_df, filtered_spreads_df
 

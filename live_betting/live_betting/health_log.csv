@@ -9642,3 +9642,12 @@ ts,msg,dry_run,tickers
 2025-11-25T18:27:00.685820Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25EWUUNT-EWU
 2025-11-25T18:27:01.106233Z,decision_error,name 'mode' is not defined,KXNCAAMBGAME-25NOV25WSUASU-WSU
 2025-11-25T18:27:01.106354Z,stopped
+2025-11-26T21:40:01.748205Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-26T21:41:29.332661Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-26T21:41:29.729073Z,analysis_no_signals,2025-11-25
+2025-11-26T21:45:50.245727Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-26T21:45:50.512203Z,analysis_no_signals,2025-11-25
+2025-11-26T21:47:40.191000Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-26T21:47:40.522904Z,analysis_no_signals,2025-11-26
+2025-11-26T21:50:42.027680Z,ready,True,https://api.elections.kalshi.com,"KXNCAAMBGAME,KXNCAAMBSPREAD",
+2025-11-26T21:50:42.390275Z,analysis_no_signals,2025-11-26
