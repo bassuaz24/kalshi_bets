@@ -1,0 +1,3 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-11-24T17:05:07.466840Z,KXNFLGAME-25NOV24CARSF-SF,Carolina at San Francisco Winner?,active,binary,2025-12-08T20:15:00-05:00,0.76,,0.77,,0.23,,0.24,,0.01,0.01,0,0,0,0,12423807.93,818697.0
+2025-11-24T17:05:07.616817Z,KXNFLGAME-25NOV24CARSF-CAR,Carolina at San Francisco Winner?,active,binary,2025-12-08T20:15:00-05:00,0.23,,0.24,,0.76,,0.77,,0.01,0.01,0,0,0,0,8384031.42,903865.0

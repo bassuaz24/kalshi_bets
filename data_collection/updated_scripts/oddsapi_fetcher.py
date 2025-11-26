@@ -155,6 +155,8 @@ def main():
             df = df[CSV_COLUMNS]
             filename = f"{sport_name.lower()}_odds.csv"
             output_path = os.path.join(dated_output_dir, filename)
+            if os.path.exists(output_path):
+                os.remove(output_path)
             df.to_csv(output_path, index=False)
             print(f"✅ Saved {len(df)} rows to {output_path}")
             all_data.extend(rows)

@@ -1,0 +1,5 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-11-15T00:46:17.576158Z,KXNCAAFGAME-25NOV14MINNORE-ORE,Minnesota at Oregon Winner?,active,binary,2025-11-28T21:00:00-05:00,0.94,,0.95,,0.05,,0.06,,0.01,0.01,0,0,0,0,4285100.97,505877.0
+2025-11-15T00:46:17.670467Z,KXNCAAFGAME-25NOV14MINNORE-MINN,Minnesota at Oregon Winner?,active,binary,2025-11-28T21:00:00-05:00,0.04,,0.05,,0.95,,0.96,,0.01,0.01,0,0,0,0,3186257.12,965792.0
+2025-11-15T00:46:17.782585Z,KXNCAAFGAME-25NOV14CLEMLOU-LOU,Clemson at Louisville Winner?,active,binary,2025-11-28T19:30:00-05:00,0.45,,0.47,,0.53,,0.55,,0.02,0.02,0,0,0,0,4146703.97,3137416.0
+2025-11-15T00:46:17.902812Z,KXNCAAFGAME-25NOV14CLEMLOU-CLEM,Clemson at Louisville Winner?,active,binary,2025-11-28T19:30:00-05:00,0.54,,0.55,,0.45,,0.46,,0.01,0.01,0,0,0,0,4153693.85,1678785.0
