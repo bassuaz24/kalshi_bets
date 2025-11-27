@@ -1,0 +1,91 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,h2h,Detroit Lions,1.65,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,h2h,Green Bay Packers,2.3,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,spreads,Detroit Lions,1.8,-2.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,spreads,Green Bay Packers,2.05,2.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,totals,Over,1.91,48.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,DraftKings,totals,Under,1.91,48.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,h2h,Detroit Lions,1.6,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,h2h,Green Bay Packers,2.44,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,spreads,Detroit Lions,1.93,-3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,spreads,Green Bay Packers,1.94,3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,totals,Over,1.89,47.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,ESPN BET,totals,Under,1.98,47.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,h2h,Detroit Lions,1.62,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,h2h,Green Bay Packers,2.35,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,spreads,Detroit Lions,1.95,-3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,spreads,Green Bay Packers,1.95,3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,totals,Over,1.95,48.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,BetMGM,totals,Under,1.87,48.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,h2h,Detroit Lions,1.61,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,h2h,Green Bay Packers,2.38,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,spreads,Detroit Lions,1.91,-3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,spreads,Green Bay Packers,1.91,3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,totals,Over,1.85,47.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,FanDuel,totals,Under,1.96,47.5,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,h2h,Detroit Lions,1.64,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,h2h,Green Bay Packers,2.41,,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,spreads,Detroit Lions,2.0,-3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,spreads,Green Bay Packers,1.91,3.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,totals,Over,1.98,48.0,Detroit Lions,Green Bay Packers
+NFL,,fe2eb07797580740af78037ab498198e,2025-11-27 12:03:00 CST,Pinnacle,totals,Under,1.91,48.0,Detroit Lions,Green Bay Packers
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,h2h,Dallas Cowboys,2.54,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,h2h,Kansas City Chiefs,1.54,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,spreads,Dallas Cowboys,1.87,3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,spreads,Kansas City Chiefs,1.95,-3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,totals,Over,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,DraftKings,totals,Under,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,h2h,Dallas Cowboys,2.62,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,h2h,Kansas City Chiefs,1.52,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,spreads,Dallas Cowboys,1.85,3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,spreads,Kansas City Chiefs,1.96,-3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,totals,Over,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,FanDuel,totals,Under,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,h2h,Dallas Cowboys,2.55,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,h2h,Kansas City Chiefs,1.56,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,spreads,Dallas Cowboys,1.85,3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,spreads,Kansas City Chiefs,2.02,-3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,totals,Over,2.0,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,ESPN BET,totals,Under,1.87,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,h2h,Dallas Cowboys,2.65,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,h2h,Kansas City Chiefs,1.5,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,spreads,Dallas Cowboys,1.91,3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,spreads,Kansas City Chiefs,2.0,-3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,totals,Over,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,BetMGM,totals,Under,1.91,53.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,h2h,Dallas Cowboys,2.59,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,h2h,Kansas City Chiefs,1.56,,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,spreads,Dallas Cowboys,1.85,3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,spreads,Kansas City Chiefs,2.07,-3.5,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,totals,Over,1.89,53.0,Dallas Cowboys,Kansas City Chiefs
+NFL,,de53b8a594fe830c5fd56484705cd756,2025-11-27 15:30:00 CST,Pinnacle,totals,Under,2.0,53.0,Dallas Cowboys,Kansas City Chiefs
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,h2h,Baltimore Ravens,1.26,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,h2h,Cincinnati Bengals,4.0,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,spreads,Baltimore Ravens,1.83,-7.0,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,spreads,Cincinnati Bengals,2.0,7.0,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,totals,Over,1.87,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,DraftKings,totals,Under,1.95,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,h2h,Baltimore Ravens,1.28,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,h2h,Cincinnati Bengals,4.0,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,spreads,Baltimore Ravens,2.0,-7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,spreads,Cincinnati Bengals,1.87,7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,totals,Over,1.89,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,ESPN BET,totals,Under,1.98,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,h2h,Baltimore Ravens,1.25,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,h2h,Cincinnati Bengals,4.1,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,spreads,Baltimore Ravens,2.0,-7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,spreads,Cincinnati Bengals,1.91,7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,totals,Over,1.91,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,BetMGM,totals,Under,1.91,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,h2h,Baltimore Ravens,1.27,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,h2h,Cincinnati Bengals,3.95,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,spreads,Baltimore Ravens,1.95,-7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,spreads,Cincinnati Bengals,1.87,7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,totals,Over,1.87,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,FanDuel,totals,Under,1.95,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,h2h,Baltimore Ravens,1.27,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,h2h,Cincinnati Bengals,4.08,,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,spreads,Baltimore Ravens,1.99,-7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,spreads,Cincinnati Bengals,1.92,7.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,totals,Over,1.91,51.5,Baltimore Ravens,Cincinnati Bengals
+NFL,,883a79a306b312fad75ebf04b441b4da,2025-11-27 19:20:00 CST,Pinnacle,totals,Under,1.98,51.5,Baltimore Ravens,Cincinnati Bengals
