@@ -153,7 +153,7 @@ def main():
         if rows:
             df = pd.DataFrame(rows)
             df = df[CSV_COLUMNS]
-            filename = f"{sport_name.lower()}_odds2.csv"
+            filename = f"{sport_name.lower()}_odds.csv"
             output_path = os.path.join(dated_output_dir, filename)
             if os.path.exists(output_path):
                 os.remove(output_path)

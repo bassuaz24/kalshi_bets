@@ -42,16 +42,16 @@ SERIES_TICKERS = BASE_SERIES_TICKERS
 SERIES_TO_FILENAME = {
     "KXNFLGAME": "nfl_winners.csv",
     "KXNBAGAME": "nba_winners.csv",
-    "KXNCAAFGAME": "ncaaf_winners2.csv",
-    "KXNCAAMBGAME": "ncaab_winners2.csv",
+    "KXNCAAFGAME": "ncaaf_winners.csv",
+    "KXNCAAMBGAME": "ncaab_winners.csv",
     "KXNFLTOTAL": "nfl_totals.csv",
     "KXNFLSPREAD": "nfl_spreads.csv",
     "KXNBATOTAL": "nba_totals.csv",
     "KXNBASPREAD": "nba_spreads.csv",
-    "KXNCAAFTOTAL": "ncaaf_totals2.csv",
-    "KXNCAAFSPREAD": "ncaaf_spreads2.csv",
-"KXNCAAMBTOTAL": "ncaab_totals2.csv",
-"KXNCAAMBSPREAD": "ncaab_spreads2.csv"
+    "KXNCAAFTOTAL": "ncaaf_totals.csv",
+    "KXNCAAFSPREAD": "ncaaf_spreads.csv",
+"KXNCAAMBTOTAL": "ncaab_totals.csv",
+"KXNCAAMBSPREAD": "ncaab_spreads.csv"
 }
 TICKER_DATE_RE = re.compile(r"-(\d{2}[A-Z]{3}\d{2})")
 
