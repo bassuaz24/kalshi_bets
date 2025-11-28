@@ -72,11 +72,11 @@ class CONFIG:
         ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
         KALSHI_DIR = "data_collection/updated_scripts/kalshi_data_logs"
         OUTPUT_DIR = "live_betting/analysis_outputs"
-        EDGE_WINNERS = 0.00
+        EDGE_WINNERS = 0.02
         EDGE_SPREADS = 0.01
-        WINNERS_EV_THRESHOLD = 0.15
+        WINNERS_EV_THRESHOLD = 0.10
         SPREADS_EV_THRESHOLD = 0.0
-        TOTAL_BANKROLL = 200  # None => pull from account
+        TOTAL_BANKROLL = 200.0  # None => pull from account
         WINNERS_PROPORTION = 1.0
         SPREADS_PROPORTION = 1.0 - WINNERS_PROPORTION
         KELLY_CAP = 1.0
@@ -411,7 +411,7 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
         return pd.Series([_clean_team_name(left), _clean_team_name(right)])
 
     kalshi_winners_df[["home_team", "away_team"]] = kalshi_winners_df["title"].apply(extract_teams_from_winners)
-
+    #missing unique rows...
     kalshi_spreads_df["team"] = (
         kalshi_spreads_df["title"].apply(
             lambda t: _clean_team_name(t.split(" wins by ", 1)[0]) if isinstance(t, str) and " wins by " in t else None
@@ -466,6 +466,20 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
     matched_odds_h2h = [o for _, o in pairs_h2h]
     matched_kalshi_spreads = [k for k, _ in pairs_spreads]
     matched_odds_spreads = [o for _, o in pairs_spreads]
+
+    matched_names = {
+    'h2h': {
+        'kalshi': matched_kalshi_h2h,
+        'odds': matched_odds_h2h
+    },
+    'spreads': {
+        'kalshi': matched_kalshi_spreads,
+        'odds': matched_odds_spreads
+    }
+}
+
+    assert(len(matched_names['h2h']['kalshi']) == len(matched_names['h2h']['odds']))
+    assert(len(matched_names['spreads']['kalshi']) == len(matched_names['spreads']['odds']))
 
     odds_winners_df = odds_winners_df[
         odds_winners_df["home_team"].isin(matched_odds_h2h) | odds_winners_df["away_team"].isin(matched_odds_h2h)
