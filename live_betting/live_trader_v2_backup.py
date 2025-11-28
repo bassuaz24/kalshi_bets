@@ -77,7 +77,7 @@ class CONFIG:
         WINNERS_EV_THRESHOLD = 0.15
         SPREADS_EV_THRESHOLD = 0.0
         TOTAL_BANKROLL = 200  # None => pull from account
-        WINNERS_PROPORTION = 1.0
+        WINNERS_PROPORTION = 0.75
         SPREADS_PROPORTION = 1.0 - WINNERS_PROPORTION
         KELLY_CAP = 1.0
         Q1_WEIGHT = 1.0
@@ -482,7 +482,7 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
         else kalshi_spreads_df
     )
 
-    kalshi_cols = ["ticker", "yes_bid", "yes_ask", "no_bid", "no_ask", "home_team", "away_team"]
+    kalshi_cols = ["ticker", "yes_bid", "yes_ask", "home_team", "away_team"]
     odds_cols = ["market", "start_time", "team", "home_team", "away_team", "avg_fair_prb"]
 
     kalshi_subset = kalshi_winners_df[kalshi_cols].rename(columns={"home_team": "kalshi_home_team", "away_team": "kalshi_away_team"})
@@ -523,25 +523,19 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
     Q4_WEIGHT = CONFIG.DATA.Q4_WEIGHT
 
     edge_winners_df = combined_winners_df.loc[
-        (combined_winners_df["avg_fair_prb"] >= combined_winners_df["yes_bid"] + EDGE)
-        | (combined_winners_df["avg_fair_prb"] <= combined_winners_df["yes_ask"] - EDGE)
+        (combined_winners_df["avg_fair_prb"] >= combined_winners_df["yes_ask"] + EDGE)
+        | (combined_winners_df["avg_fair_prb"] <= combined_winners_df["yes_bid"] - EDGE)
     ].reset_index(drop=True)
 
     if not edge_winners_df.empty:
         midprice = (edge_winners_df["yes_bid"] + edge_winners_df["yes_ask"]) / 2
-        q_yes = edge_winners_df["avg_fair_prb"]
-        q_no = 1 - edge_winners_df["avg_fair_prb"]
+        q = edge_winners_df["avg_fair_prb"]
+        p = midprice
 
-        edge_winners_df["edge"] = np.where(q_yes > midprice, q_yes - edge_winners_df["yes_bid"], q_no - edge_winners_df["no_bid"])
-        edge_winners_df["buy_direction"] = np.where(q_yes > midprice, "yes", "no")
-        edge_winners_df["raw_kelly"] = np.where(
-            q_yes > midprice,
-            edge_winners_df["edge"] / (1 - edge_winners_df["yes_bid"]),
-            edge_winners_df["edge"] / (1 - edge_winners_df["no_bid"]),
-        )
+        edge_winners_df["raw_kelly"] = np.where(q > p, (q - p) / (1 - p), (p - q) / p)
 
         total_kelly = edge_winners_df["raw_kelly"].sum()
-        if total_kelly >= 1:
+        if total_kelly:
             edge_winners_df["raw_kelly"] = pd.DataFrame(
                 {"original": edge_winners_df["raw_kelly"], "normalized": (edge_winners_df["raw_kelly"] / total_kelly)}
             ).min(axis=1)
@@ -564,39 +558,20 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
 
         edge_winners_df["real_kelly"] = edge_winners_df.apply(scale_kelly, axis=1)
         edge_winners_df["optimal_bet"] = edge_winners_df["real_kelly"] * BANKROLL
-        q = edge_winners_df["avg_fair_prb"]
-        p = midprice
-
-        num_contracts = np.where(
-            q > p,
-            edge_winners_df["optimal_bet"] // edge_winners_df["yes_bid"],
-            edge_winners_df["optimal_bet"] // edge_winners_df["no_bid"],
-        )
+        num_contracts = edge_winners_df["optimal_bet"] // edge_winners_df["yes_bid"]
         edge_winners_df["num_contracts"] = num_contracts
-        trading_cost = np.where(
-            q > p,
-            np.ceil(100 * (0.0175 * num_contracts * edge_winners_df["yes_bid"] * (1 - edge_winners_df["yes_bid"]))) / 100,
-            np.ceil(100 * (0.0175 * num_contracts * edge_winners_df["no_bid"] * (1 - edge_winners_df["no_bid"]))) / 100,
-        )
+        trading_cost = np.ceil(100 * (0.0175 * num_contracts * edge_winners_df["yes_bid"] * (1 - edge_winners_df["yes_bid"]))) / 100
         edge_winners_df["trading_cost"] = trading_cost
-        profit = np.where(
-            q > p,
-            (1 - edge_winners_df["yes_bid"]) * num_contracts - trading_cost,
-            (1 - edge_winners_df["no_bid"]) * num_contracts - trading_cost,
-        )
+        profit = (1 - edge_winners_df["yes_bid"]) * num_contracts - trading_cost
         edge_winners_df["profit"] = profit
-        edge_winners_df["ev"] = np.where(
-            q > p,
-            (profit * q_yes - edge_winners_df["optimal_bet"] * (1 - q_yes)).round(2),
-            (profit * q_no - edge_winners_df["optimal_bet"] * (1 - q_no)).round(2),
-        )
+        edge_winners_df["ev"] = (profit * edge_winners_df["avg_fair_prb"] - edge_winners_df["optimal_bet"] * (1 - edge_winners_df["avg_fair_prb"])).round(2)
         filtered_winners_df = edge_winners_df.loc[edge_winners_df["ev"] > CONFIG.DATA.WINNERS_EV_THRESHOLD].reset_index(drop=True)
     else:
         filtered_winners_df = pd.DataFrame()
 
     filtered_spreads_df = pd.DataFrame()
     if not kalshi_spreads_df.empty and not odds_spreads_df.empty:
-        kalshi_cols = ["ticker", "yes_bid", "yes_ask", "no_bid", "no_ask", "team", "points"]
+        kalshi_cols = ["ticker", "yes_bid", "yes_ask", "team", "points"]
         odds_cols = ["market", "start_time", "team", "home_team", "away_team", "avg_fair_prb", "point"]
         odds_subset = odds_spreads_df[odds_cols].rename(columns={"home_team": "odds_home_team", "away_team": "odds_away_team", "team": "odds_team"})
         kalshi_subset = kalshi_spreads_df[kalshi_cols]
@@ -614,23 +589,17 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
         BANKROLL = bankroll_spreads
 
         edge_spreads_df = combined_spreads_df.loc[
-            (combined_spreads_df["avg_fair_prb"] >= combined_spreads_df["yes_bid"] + EDGE)
-            | (combined_spreads_df["avg_fair_prb"] <= combined_spreads_df["yes_ask"] - EDGE)
+            (combined_spreads_df["avg_fair_prb"] >= combined_spreads_df["yes_ask"] + EDGE)
+            | (combined_spreads_df["avg_fair_prb"] <= combined_spreads_df["yes_bid"] - EDGE)
         ].reset_index(drop=True)
 
         if not edge_spreads_df.empty:
             midprice = (edge_spreads_df["yes_bid"] + edge_spreads_df["yes_ask"]) / 2
-            q_yes = edge_spreads_df["avg_fair_prb"]
-            q_no = 1 - edge_spreads_df["avg_fair_prb"]
-            edge_spreads_df["edge"] = np.where(q_yes > midprice, q_yes - edge_spreads_df["yes_bid"], q_no - edge_spreads_df["no_bid"])
-            edge_spreads_df["buy_direction"] = np.where(q_yes > midprice, "yes", "no")
-            edge_spreads_df["raw_kelly"] = np.where(
-                q_yes > midprice,
-                edge_spreads_df["edge"] / (1 - edge_spreads_df["yes_bid"]),
-                edge_spreads_df["edge"] / (1 - edge_spreads_df["no_bid"]),
-            )
+            q = edge_spreads_df["avg_fair_prb"]
+            p = midprice
+            edge_spreads_df["raw_kelly"] = np.where(q > p, (q - p) / (1 - p), (p - q) / p)
             total_kelly = edge_spreads_df["raw_kelly"].sum()
-            if total_kelly >= 1:
+            if total_kelly:
                 edge_spreads_df["raw_kelly"] = pd.DataFrame(
                     {"original": edge_spreads_df["raw_kelly"], "normalized": (edge_spreads_df["raw_kelly"] / total_kelly)}
                 ).min(axis=1)
@@ -653,32 +622,15 @@ def build_filtered_frames(date_str: str, bankroll_winners: float, bankroll_sprea
 
             edge_spreads_df["real_kelly"] = edge_spreads_df.apply(scale_kelly_spreads, axis=1)
             edge_spreads_df["optimal_bet"] = edge_spreads_df["real_kelly"] * BANKROLL
-            q = edge_spreads_df["avg_fair_prb"]
-            p = midprice
-
-            num_contracts = np.where(
-                q > p,
-                edge_spreads_df["optimal_bet"] // edge_spreads_df["yes_bid"],
-                edge_spreads_df["optimal_bet"] // edge_spreads_df["no_bid"],
-            )
+            num_contracts = edge_spreads_df["optimal_bet"] // edge_spreads_df["yes_bid"]
             edge_spreads_df["num_contracts"] = num_contracts
-            trading_cost = np.where(
-                q > p,
-                np.ceil(100 * (0.0175 * num_contracts * edge_spreads_df["yes_bid"] * (1 - edge_spreads_df["yes_bid"]))) / 100,
-                np.ceil(100 * (0.0175 * num_contracts * edge_spreads_df["no_bid"] * (1 - edge_spreads_df["no_bid"]))) / 100,
+            trading_cost = (
+                np.ceil(100 * (0.0175 * num_contracts * edge_spreads_df["yes_bid"] * (1 - edge_spreads_df["yes_bid"]))) / 100
             )
             edge_spreads_df["trading_cost"] = trading_cost
-            profit = np.where(
-                q > p,
-                (1 - edge_spreads_df["yes_bid"]) * num_contracts - trading_cost,
-                (1 - edge_spreads_df["no_bid"]) * num_contracts - trading_cost,
-            )
+            profit = (1 - edge_spreads_df["yes_bid"]) * num_contracts - trading_cost
             edge_spreads_df["profit"] = profit
-            edge_spreads_df["ev"] = np.where(
-                q > p,
-                (profit * q_yes - edge_spreads_df["optimal_bet"] * (1 - q_yes)).round(2),
-                (profit * q_no - edge_spreads_df["optimal_bet"] * (1 - q_no)).round(2),
-            )
+            edge_spreads_df["ev"] = (profit * edge_spreads_df["avg_fair_prb"] - edge_spreads_df["optimal_bet"] * (1 - edge_spreads_df["avg_fair_prb"])).round(2)
             filtered_spreads_df = edge_spreads_df.loc[edge_spreads_df["ev"] > CONFIG.DATA.SPREADS_EV_THRESHOLD].reset_index(drop=True)
 
     # Drop events that have already started using odds start_time, after all filtering.
@@ -747,8 +699,9 @@ def idem_key(ticker: str) -> str:
 
 def submit_order(row: pd.Series, direction: str):
     ticker = row.get("ticker")
+    price = row.get("yes_bid")
     contracts = row.get("num_contracts")
-    if ticker is None or contracts is None:
+    if ticker is None or contracts is None or price is None:
         return
     try:
         count = int(contracts)
@@ -757,12 +710,9 @@ def submit_order(row: pd.Series, direction: str):
     if count <= 0:
         return
 
-    buy_no = direction in {"buy_no", "no"}
-    sell_yes = direction == "sell_yes"
-    side = "no" if buy_no else "yes"
-    action = "sell" if sell_yes else "buy"
-    price_field = "no_bid" if buy_no else "yes_bid"
-    price = clamp_price(to_f(row.get(price_field)))
+    side = "yes"
+    action = "buy" if direction == "buy_yes" else "sell"
+    price = clamp_price(float(price))
     if price is None:
         return
 
@@ -776,10 +726,7 @@ def submit_order(row: pd.Series, direction: str):
         "client_order_id": str(uuid.uuid4()),
     }
     price_cents = int(round(price * 100))
-    if buy_no:
-        payload["no_price"] = price_cents
-    else:
-        payload["yes_price"] = price_cents
+    payload["yes_price"] = price_cents
 
     resp = place_order(payload, idem_key(ticker))
     log_order("place", payload, resp)
@@ -792,12 +739,6 @@ def submit_order(row: pd.Series, direction: str):
 
 def process_dataframe(df: pd.DataFrame, edge: float, source: str):
     for _, row in df.iterrows():
-        direction = row.get("buy_direction")
-        if isinstance(direction, str) and direction.lower() in {"yes", "no"}:
-            submit_order(row, f"buy_{direction.lower()}")
-            continue
-
-        # Fallback to legacy edge-based routing if buy_direction is missing.
         fair = row.get("avg_fair_prb")
         yes_bid = row.get("yes_bid")
         yes_ask = row.get("yes_ask")
