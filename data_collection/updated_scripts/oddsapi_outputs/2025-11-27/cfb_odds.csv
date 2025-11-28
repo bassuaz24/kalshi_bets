@@ -1,31 +1,31 @@
 sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,h2h,Memphis Tigers,1.6,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,h2h,Navy Midshipmen,2.4,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,h2h,Memphis Tigers,1.62,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,h2h,Navy Midshipmen,2.36,,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,spreads,Memphis Tigers,1.93,-3.5,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,spreads,Navy Midshipmen,1.89,3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,totals,Over,1.93,58.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,totals,Under,1.89,58.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,h2h,Memphis Tigers,1.6,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,h2h,Navy Midshipmen,2.42,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,spreads,Memphis Tigers,1.91,-3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,spreads,Navy Midshipmen,1.91,3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,totals,Over,1.95,58.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,totals,Under,1.87,58.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,totals,Over,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,DraftKings,totals,Under,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,h2h,Memphis Tigers,1.62,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,h2h,Navy Midshipmen,2.36,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,spreads,Memphis Tigers,1.95,-3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,spreads,Navy Midshipmen,1.87,3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,totals,Over,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,FanDuel,totals,Under,1.91,57.5,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,h2h,Memphis Tigers,1.61,,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,h2h,Navy Midshipmen,2.4,,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,spreads,Memphis Tigers,1.91,-3.5,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,spreads,Navy Midshipmen,1.91,3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,totals,Over,1.83,57.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,totals,Under,2.0,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,totals,Over,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,ESPN BET,totals,Under,1.91,57.5,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,h2h,Memphis Tigers,1.57,,Memphis Tigers,Navy Midshipmen
 CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,h2h,Navy Midshipmen,2.45,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,spreads,Memphis Tigers,1.87,-3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,spreads,Navy Midshipmen,1.95,3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,totals,Over,1.95,58.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,totals,Under,1.87,58.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,h2h,Memphis Tigers,1.6,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,h2h,Navy Midshipmen,2.47,,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,spreads,Memphis Tigers,1.93,-3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,spreads,Navy Midshipmen,1.95,3.5,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,totals,Over,1.9,58.0,Memphis Tigers,Navy Midshipmen
-CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,totals,Under,1.95,58.0,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,spreads,Memphis Tigers,1.91,-3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,spreads,Navy Midshipmen,1.91,3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,totals,Over,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,BetMGM,totals,Under,1.91,57.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,h2h,Memphis Tigers,1.61,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,h2h,Navy Midshipmen,2.45,,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,spreads,Memphis Tigers,1.95,-3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,spreads,Navy Midshipmen,1.93,3.5,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,totals,Over,2.01,58.0,Memphis Tigers,Navy Midshipmen
+CFB,,643198f60ea064a8030db080f2540513,2025-11-27 18:30:00 CST,Pinnacle,totals,Under,1.85,58.0,Memphis Tigers,Navy Midshipmen
