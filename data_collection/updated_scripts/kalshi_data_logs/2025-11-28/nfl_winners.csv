@@ -1,3 +1,3 @@
 timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
-2025-11-28T14:34:40.797675Z,KXNFLGAME-25NOV28CHIPHI-PHI,Chicago at Philadelphia Winner?,active,binary,2025-12-12T15:00:00-05:00,0.74,,0.75,,0.25,,0.26,,0.01,0.01,0,0,0,0,9491491.12,681707.0
-2025-11-28T14:34:40.785551Z,KXNFLGAME-25NOV28CHIPHI-CHI,Chicago at Philadelphia Winner?,active,binary,2025-12-12T15:00:00-05:00,0.25,,0.26,,0.74,,0.75,,0.01,0.01,0,0,0,0,8202871.2,1581264.0
+2025-11-28T15:12:03.835570Z,KXNFLGAME-25NOV28CHIPHI-PHI,Chicago at Philadelphia Winner?,active,binary,2025-12-12T15:00:00-05:00,0.74,,0.75,,0.25,,0.26,,0.01,0.01,0,0,0,0,9516337.53,681707.0
+2025-11-28T15:12:03.902783Z,KXNFLGAME-25NOV28CHIPHI-CHI,Chicago at Philadelphia Winner?,active,binary,2025-12-12T15:00:00-05:00,0.25,,0.26,,0.74,,0.75,,0.01,0.01,0,0,0,0,8160276.53,1581264.0
