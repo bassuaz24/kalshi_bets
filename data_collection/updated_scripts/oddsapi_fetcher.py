@@ -1,14 +1,14 @@
 import os
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 
 UTC = pytz.utc
 CST = pytz.timezone("America/Chicago") 
 
 # === CONFIGURATION ===
-API_KEY = os.getenv("ODDS_API_KEY") or "7c172c307d8c00a47ab126adc3d0a726"  # <-- Replace or use env var
+API_KEY = os.getenv("ODDS_API_KEY") or "c8596b4bd2b552cbf833c152ec3aade8"  # <-- Replace or use env var
 REGION = "us"
 MARKETS = "h2h,spreads,totals"
 BOOKMAKERS = ["draftkings", "fanduel", "pinnacle", "espnbet", "betmgm"]
@@ -61,6 +61,12 @@ def _as_cst_datetime(value) -> datetime:
 def convert_to_cst(value) -> str:
     return _as_cst_datetime(value).strftime("%Y-%m-%d %H:%M:%S %Z")
 
+
+def _write_csv(df: pd.DataFrame, path: str):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", newline="") as csvfile:
+        df.to_csv(csvfile, index=False)
+
 def fetch_odds(sport_key: str):
     url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds/"
     params = {
@@ -79,8 +85,8 @@ def fetch_odds(sport_key: str):
 
     return resp.json()
 
-def normalize_to_rows(sport_name: str, games: list, target_date) -> (list, set):
-    rows = []
+def normalize_to_rows(sport_name: str, games: list, target_dates) -> (dict, set):
+    rows_by_date = {}
     market_keys = set()
 
     for game in games:
@@ -97,7 +103,8 @@ def normalize_to_rows(sport_name: str, games: list, target_date) -> (list, set):
             game_time_cst = _as_cst_datetime(game_time)
         except Exception:
             continue
-        if game_time_cst.date() != target_date:
+        game_date = game_time_cst.date()
+        if game_date not in target_dates:
             continue
 
         home_team = game.get("home_team")
@@ -115,7 +122,7 @@ def normalize_to_rows(sport_name: str, games: list, target_date) -> (list, set):
                     if price is None:
                         continue
 
-                    rows.append({
+                    rows_by_date.setdefault(game_date, []).append({
                         "sport": sport_name,
                         "league": game.get("league", ""),
                         "game_id": game_id,
@@ -128,14 +135,16 @@ def normalize_to_rows(sport_name: str, games: list, target_date) -> (list, set):
                         "home_team": home_team,
                         "away_team": away_team
                     })
-    return rows, market_keys
+    return rows_by_date, market_keys
 
 
 def main():
     all_data = []
     today_cst = datetime.now(CST)
+    today_date = today_cst.date()
+    tomorrow_date = (today_cst + timedelta(days=1)).date()
     date_folder = today_cst.strftime("%Y-%m-%d")
-    target_date = today_cst.date()
+    target_dates = {today_date, tomorrow_date}
     dated_output_dir = os.path.join(OUTPUT_DIR, date_folder)
     os.makedirs(dated_output_dir, exist_ok=True)
 
@@ -145,22 +154,26 @@ def main():
         if not data:
             continue
 
-        rows, markets_found = normalize_to_rows(sport_name, data, target_date)
+        rows_by_date, markets_found = normalize_to_rows(sport_name, data, target_dates)
 
         if markets_found:
             print(f"🔎 Markets available for {sport_name}: {sorted(markets_found)}")
 
-        if rows:
-            df = pd.DataFrame(rows)
-            df = df[CSV_COLUMNS]
-            filename = f"{sport_name.lower()}_odds.csv"
+        daily_written = 0
+        for game_date in sorted(rows_by_date.keys()):
+            rows = rows_by_date[game_date]
+            if not rows:
+                continue
+            df = pd.DataFrame(rows)[CSV_COLUMNS]
+            suffix = "2" if game_date == tomorrow_date else ""
+            filename = f"{sport_name.lower()}{suffix}_odds.csv"
             output_path = os.path.join(dated_output_dir, filename)
-            if os.path.exists(output_path):
-                os.remove(output_path)
-            df.to_csv(output_path, index=False)
+            _write_csv(df, output_path)
             print(f"✅ Saved {len(df)} rows to {output_path}")
             all_data.extend(rows)
-        else:
+            daily_written += len(rows)
+
+        if daily_written == 0:
             print(f"⚠️ No odds data for {sport_name}")
 
     print(f"\n📊 Total odds rows collected: {len(all_data)}")

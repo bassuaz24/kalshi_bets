@@ -236,6 +236,12 @@ def build_rows_concurrently(listing_df):
 # =============================
 # 💾 Write Function (Date Fix Applied)
 # =============================
+def _write_csv(df, path):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", newline="") as csvfile:
+        df.to_csv(csvfile, index=False)
+
+
 def write_rows_by_series(rows):
     if not rows: return
 
@@ -257,7 +263,7 @@ def write_rows_by_series(rows):
         filename = SERIES_TO_FILENAME.get(series_ticker, f"{series_ticker.lower()}.csv")
         path = os.path.join(dated_dir, filename)
         df = pd.DataFrame(rows_list)
-        df.to_csv(path, index=False)
+        _write_csv(df, path)
 
 
 # =============================
