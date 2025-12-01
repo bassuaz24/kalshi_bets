@@ -11,7 +11,7 @@ CST = pytz.timezone("America/Chicago")
 API_KEY = os.getenv("ODDS_API_KEY") or "c8596b4bd2b552cbf833c152ec3aade8"  # <-- Replace or use env var
 REGION = "us"
 MARKETS = "h2h,spreads,totals"
-BOOKMAKERS = ["draftkings", "fanduel", "pinnacle", "espnbet", "betmgm"]
+BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
 
 SPORT_KEYS = {
     "NFL": "americanfootball_nfl",
