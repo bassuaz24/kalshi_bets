@@ -1,0 +1,51 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,h2h,Arkansas-Pine Bluff Golden Lions,15.0,,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,h2h,UIC Flames,1.02,,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,spreads,Arkansas-Pine Bluff Golden Lions,1.98,18.5,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,spreads,UIC Flames,1.83,-18.5,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,totals,Over,1.91,163.5,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,ffc616c4bbe31ee7815fb057a1330970,2025-12-03 11:00:00 CST,FanDuel,totals,Under,1.91,163.5,UIC Flames,Arkansas-Pine Bluff Golden Lions
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,h2h,Lipscomb Bisons,1.13,,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,h2h,Tennessee Tech Golden Eagles,6.3,,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,spreads,Lipscomb Bisons,1.83,-10.5,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,spreads,Tennessee Tech Golden Eagles,1.98,10.5,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,totals,Over,1.91,150.5,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,25ae5e0cd06f13daf547ffa4785f00ec,2025-12-03 11:00:00 CST,FanDuel,totals,Under,1.91,150.5,Lipscomb Bisons,Tennessee Tech Golden Eagles
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,h2h,Central Connecticut St Blue Devils,13.0,,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,h2h,Seton Hall Pirates,1.04,,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,spreads,Central Connecticut St Blue Devils,1.91,16.5,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,spreads,Seton Hall Pirates,1.91,-16.5,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,totals,Over,1.91,133.5,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,f5763819313a833c9ca289bc5e3d02c5,2025-12-03 18:00:00 CST,FanDuel,totals,Under,1.91,133.5,Seton Hall Pirates,Central Connecticut St Blue Devils
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,h2h,Alabama Crimson Tide,1.19,,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,h2h,Clemson Tigers,4.85,,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,spreads,Alabama Crimson Tide,1.95,-9.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,spreads,Clemson Tigers,1.87,9.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,totals,Over,1.91,164.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,FanDuel,totals,Under,1.91,164.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,BetOnline.ag,spreads,Alabama Crimson Tide,1.91,-9.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,BetOnline.ag,spreads,Clemson Tigers,1.91,9.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,BetOnline.ag,totals,Over,1.91,166.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,0cb87c121fc7476811adf2798a848941,2025-12-03 18:15:00 CST,BetOnline.ag,totals,Under,1.91,166.5,Alabama Crimson Tide,Clemson Tigers
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,h2h,Arkansas Razorbacks,2.55,,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,h2h,Louisville Cardinals,1.53,,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,spreads,Arkansas Razorbacks,1.91,3.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,spreads,Louisville Cardinals,1.91,-3.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,totals,Over,1.91,164.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,FanDuel,totals,Under,1.91,164.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,BetOnline.ag,spreads,Arkansas Razorbacks,1.91,3.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,BetOnline.ag,spreads,Louisville Cardinals,1.91,-3.5,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,BetOnline.ag,totals,Over,1.87,163.0,Arkansas Razorbacks,Louisville Cardinals
+CBB,,969a8d73e255d833ce0e29f7277787f0,2025-12-03 18:15:00 CST,BetOnline.ag,totals,Under,1.95,163.0,Arkansas Razorbacks,Louisville Cardinals
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,h2h,Auburn Tigers,1.36,,Auburn Tigers,NC State Wolfpack
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,h2h,NC State Wolfpack,3.2,,Auburn Tigers,NC State Wolfpack
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,spreads,Auburn Tigers,1.91,-5.5,Auburn Tigers,NC State Wolfpack
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,spreads,NC State Wolfpack,1.91,5.5,Auburn Tigers,NC State Wolfpack
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,totals,Over,1.91,163.5,Auburn Tigers,NC State Wolfpack
+CBB,,e92153d831a3c3b133b7d6971e8e18b0,2025-12-03 20:15:00 CST,FanDuel,totals,Under,1.91,163.5,Auburn Tigers,NC State Wolfpack
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,h2h,Texas Longhorns,1.61,,Texas Longhorns,Virginia Cavaliers
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,h2h,Virginia Cavaliers,2.36,,Texas Longhorns,Virginia Cavaliers
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,spreads,Texas Longhorns,1.88,-2.5,Texas Longhorns,Virginia Cavaliers
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,spreads,Virginia Cavaliers,1.94,2.5,Texas Longhorns,Virginia Cavaliers
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,totals,Over,1.91,151.5,Texas Longhorns,Virginia Cavaliers
+CBB,,fe2e3ebc386609f4a1d5f76398d3fad7,2025-12-03 20:15:00 CST,FanDuel,totals,Under,1.91,151.5,Texas Longhorns,Virginia Cavaliers
