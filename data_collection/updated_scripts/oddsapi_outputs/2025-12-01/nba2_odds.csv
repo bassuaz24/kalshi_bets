@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,h2h,Boston Celtics,2.1,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,h2h,New York Knicks,1.77,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,spreads,Boston Celtics,1.88,2.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,spreads,New York Knicks,1.94,-2.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,totals,Over,1.91,229.5,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,totals,Under,1.91,229.5,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,Boston Celtics,1.91,1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,New York Knicks,1.91,-1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Over,1.91,230.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Under,1.91,230.0,Boston Celtics,New York Knicks

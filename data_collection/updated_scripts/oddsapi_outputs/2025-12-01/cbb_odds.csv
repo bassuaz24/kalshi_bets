@@ -1,200 +1,200 @@
 sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,h2h,Temple Owls,8.2,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,h2h,Villanova Wildcats,1.08,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,spreads,Temple Owls,1.98,12.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,spreads,Villanova Wildcats,1.83,-12.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,totals,Over,1.93,148.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,FanDuel,totals,Under,1.89,148.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,h2h,Temple Owls,8.09,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,h2h,Villanova Wildcats,1.09,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,spreads,Temple Owls,1.88,13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,spreads,Villanova Wildcats,1.93,-13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,totals,Over,1.91,149.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetOnline.ag,totals,Under,1.91,149.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,h2h,Temple Owls,8.45,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,h2h,Villanova Wildcats,1.09,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,spreads,Temple Owls,1.93,13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,spreads,Villanova Wildcats,1.93,-13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,totals,Over,1.9,148.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,Pinnacle,totals,Under,1.92,148.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,h2h,Temple Owls,8.0,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,h2h,Villanova Wildcats,1.09,,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,spreads,Temple Owls,1.91,13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,spreads,Villanova Wildcats,1.91,-13.0,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,totals,Over,1.91,148.5,Villanova Wildcats,Temple Owls
-CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:30:00 CST,BetUS,totals,Under,1.91,148.5,Villanova Wildcats,Temple Owls
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,h2h,Cincinnati Bearcats,1.02,,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,h2h,Tarleton State Texans,17.0,,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,spreads,Cincinnati Bearcats,1.91,-19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,spreads,Tarleton State Texans,1.91,19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.89,146.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.93,146.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,h2h,Temple Owls,9.0,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,h2h,Villanova Wildcats,1.06,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,spreads,Temple Owls,1.93,13.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,spreads,Villanova Wildcats,1.82,-13.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,totals,Over,1.85,146.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,FanDuel,totals,Under,1.89,146.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,h2h,Temple Owls,10.1,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,h2h,Villanova Wildcats,1.06,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,spreads,Temple Owls,1.87,14.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,spreads,Villanova Wildcats,1.95,-14.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,totals,Over,1.93,147.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetOnline.ag,totals,Under,1.88,147.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,h2h,Temple Owls,10.05,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,h2h,Villanova Wildcats,1.06,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,spreads,Temple Owls,1.89,14.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,spreads,Villanova Wildcats,1.96,-14.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,totals,Over,1.93,147.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,Pinnacle,totals,Under,1.89,147.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,h2h,Temple Owls,10.0,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,h2h,Villanova Wildcats,1.06,,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,spreads,Temple Owls,1.91,14.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,spreads,Villanova Wildcats,1.91,-14.0,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,totals,Over,1.91,146.5,Villanova Wildcats,Temple Owls
+CBB,,b6be0a1ef5f8d1c16a1d6c96e3092e11,2025-12-01 17:33:00 CST,BetUS,totals,Under,1.91,146.5,Villanova Wildcats,Temple Owls
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,h2h,Cincinnati Bearcats,1.01,,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,h2h,Tarleton State Texans,25.0,,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,spreads,Cincinnati Bearcats,1.91,-23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,spreads,Tarleton State Texans,1.91,23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.87,141.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.95,141.5,Cincinnati Bearcats,Tarleton State Texans
 CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Cincinnati Bearcats,1.02,,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Tarleton State Texans,16.0,,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Cincinnati Bearcats,1.91,-19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Tarleton State Texans,1.91,19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.88,147.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.93,147.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,spreads,Cincinnati Bearcats,1.88,-19.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,spreads,Tarleton State Texans,1.97,19.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.93,147.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.88,147.0,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,spreads,Cincinnati Bearcats,1.91,-19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,spreads,Tarleton State Texans,1.91,19.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,totals,Over,1.91,146.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,totals,Under,1.91,146.5,Cincinnati Bearcats,Tarleton State Texans
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,h2h,Delaware Blue Hens,2.2,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,h2h,Iona Gaels,1.69,,Delaware Blue Hens,Iona Gaels
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Tarleton State Texans,16.67,,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Cincinnati Bearcats,1.87,-23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Tarleton State Texans,1.95,23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.96,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.86,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,spreads,Cincinnati Bearcats,1.95,-23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,spreads,Tarleton State Texans,1.9,23.5,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.9,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.92,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,spreads,Cincinnati Bearcats,1.91,-24.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,spreads,Tarleton State Texans,1.91,24.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,totals,Over,1.91,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,b8d824b2610f4d8cb1561a7212912366,2025-12-01 18:00:00 CST,BetUS,totals,Under,1.91,141.0,Cincinnati Bearcats,Tarleton State Texans
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,h2h,Delaware Blue Hens,2.18,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,h2h,Iona Gaels,1.7,,Delaware Blue Hens,Iona Gaels
 CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,spreads,Delaware Blue Hens,1.87,2.5,Delaware Blue Hens,Iona Gaels
 CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,spreads,Iona Gaels,1.95,-2.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Delaware Blue Hens,2.15,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Iona Gaels,1.74,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Delaware Blue Hens,1.93,2.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Iona Gaels,1.89,-2.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,h2h,Delaware Blue Hens,2.1,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,h2h,Iona Gaels,1.78,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,spreads,Delaware Blue Hens,1.89,2.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,spreads,Iona Gaels,1.96,-2.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.94,152.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.88,152.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,h2h,Delaware Blue Hens,2.15,,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,h2h,Iona Gaels,1.74,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.87,148.5,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.95,148.5,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Delaware Blue Hens,2.2,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,h2h,Iona Gaels,1.71,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Delaware Blue Hens,1.95,2.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Iona Gaels,1.87,-2.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.88,149.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.93,149.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,h2h,Delaware Blue Hens,2.21,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,h2h,Iona Gaels,1.7,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,spreads,Delaware Blue Hens,1.99,2.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,spreads,Iona Gaels,1.87,-2.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.89,148.5,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.93,148.5,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,h2h,Delaware Blue Hens,2.2,,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,h2h,Iona Gaels,1.71,,Delaware Blue Hens,Iona Gaels
 CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,spreads,Delaware Blue Hens,1.91,2.0,Delaware Blue Hens,Iona Gaels
 CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,spreads,Iona Gaels,1.91,-2.0,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,totals,Over,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,totals,Under,1.91,151.5,Delaware Blue Hens,Iona Gaels
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,h2h,Jacksonville St Gamecocks,1.39,,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,h2h,North Alabama Lions,3.05,,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,spreads,Jacksonville St Gamecocks,1.95,-5.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,spreads,North Alabama Lions,1.87,5.5,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,totals,Over,1.91,149.0,Delaware Blue Hens,Iona Gaels
+CBB,,26fb9a1a0897783a6e65a8c796e1a025,2025-12-01 18:00:00 CST,BetUS,totals,Under,1.91,149.0,Delaware Blue Hens,Iona Gaels
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,h2h,Jacksonville St Gamecocks,1.32,,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,h2h,North Alabama Lions,3.5,,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,spreads,Jacksonville St Gamecocks,1.93,-6.5,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,spreads,North Alabama Lions,1.89,6.5,Jacksonville St Gamecocks,North Alabama Lions
 CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.91,134.5,Jacksonville St Gamecocks,North Alabama Lions
 CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.91,134.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Jacksonville St Gamecocks,1.93,-5.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,North Alabama Lions,1.89,5.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.91,134.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.91,134.5,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,h2h,Jacksonville St Gamecocks,1.45,,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,h2h,North Alabama Lions,2.79,,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,spreads,Jacksonville St Gamecocks,1.94,-5.0,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,spreads,North Alabama Lions,1.88,5.0,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.88,135.0,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.86,135.0,Jacksonville St Gamecocks,North Alabama Lions
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,spreads,St. Francis (PA) Red Flash,1.88,27.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,spreads,Xavier Musketeers,1.94,-27.5,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Jacksonville St Gamecocks,1.91,-6.5,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,North Alabama Lions,1.91,6.5,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.95,135.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.87,135.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,h2h,Jacksonville St Gamecocks,1.4,,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,h2h,North Alabama Lions,2.99,,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,spreads,Jacksonville St Gamecocks,1.84,-5.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,spreads,North Alabama Lions,1.99,5.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.91,135.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,0d0dd22b679c484fa2ea1997c20e90ea,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.83,135.0,Jacksonville St Gamecocks,North Alabama Lions
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,spreads,St. Francis (PA) Red Flash,1.88,28.5,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,spreads,Xavier Musketeers,1.94,-28.5,Xavier Musketeers,St. Francis (PA) Red Flash
 CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.87,150.5,Xavier Musketeers,St. Francis (PA) Red Flash
 CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.95,150.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,St. Francis (PA) Red Flash,1.87,27.0,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Xavier Musketeers,1.95,-27.0,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.87,150.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.95,150.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,spreads,St. Francis (PA) Red Flash,1.99,26.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,spreads,Xavier Musketeers,1.83,-26.5,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.87,151.0,Xavier Musketeers,St. Francis (PA) Red Flash
-CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.87,151.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,St. Francis (PA) Red Flash,1.89,28.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Xavier Musketeers,1.93,-28.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.91,152.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.91,152.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,spreads,St. Francis (PA) Red Flash,1.87,28.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,spreads,Xavier Musketeers,1.95,-28.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.83,151.0,Xavier Musketeers,St. Francis (PA) Red Flash
+CBB,,c98b3c690645457e9f36e6ff72390393,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.91,151.0,Xavier Musketeers,St. Francis (PA) Red Flash
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,h2h,Troy Trojans,1.03,,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,h2h,West Georgia Wolves,13.8,,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,spreads,Troy Trojans,1.88,-17.5,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,spreads,West Georgia Wolves,1.94,17.5,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,totals,Over,1.87,147.5,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,FanDuel,totals,Under,1.95,147.5,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Troy Trojans,1.88,-18.0,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,West Georgia Wolves,1.93,18.0,Troy Trojans,West Georgia Wolves
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,Troy Trojans,1.91,-17.5,Troy Trojans,West Georgia Wolves
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,spreads,West Georgia Wolves,1.91,17.5,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Over,1.87,148.0,Troy Trojans,West Georgia Wolves
 CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,BetOnline.ag,totals,Under,1.95,148.0,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,spreads,Troy Trojans,1.9,-17.5,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,spreads,West Georgia Wolves,1.92,17.5,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.9,149.0,Troy Trojans,West Georgia Wolves
-CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.84,149.0,Troy Trojans,West Georgia Wolves
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,h2h,Incarnate Word Cardinals,5.3,,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,h2h,McNeese Cowboys,1.17,,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,spreads,Troy Trojans,1.94,-17.0,Troy Trojans,West Georgia Wolves
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,spreads,West Georgia Wolves,1.88,17.0,Troy Trojans,West Georgia Wolves
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,totals,Over,1.93,149.0,Troy Trojans,West Georgia Wolves
+CBB,,2824b0eee01ab1fc4155185a69980d39,2025-12-01 18:00:00 CST,Pinnacle,totals,Under,1.81,149.0,Troy Trojans,West Georgia Wolves
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,h2h,Incarnate Word Cardinals,5.4,,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,h2h,McNeese Cowboys,1.16,,Incarnate Word Cardinals,McNeese Cowboys
 CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,spreads,Incarnate Word Cardinals,1.88,10.5,Incarnate Word Cardinals,McNeese Cowboys
 CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,spreads,McNeese Cowboys,1.94,-10.5,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,totals,Over,1.91,144.5,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,totals,Under,1.91,144.5,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,Incarnate Word Cardinals,1.87,10.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,McNeese Cowboys,1.95,-10.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Over,1.91,144.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Under,1.91,144.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,h2h,Incarnate Word Cardinals,5.28,,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,h2h,McNeese Cowboys,1.17,,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,spreads,Incarnate Word Cardinals,1.97,9.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,spreads,McNeese Cowboys,1.85,-9.0,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,totals,Over,1.83,143.5,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,totals,Under,1.92,143.5,Incarnate Word Cardinals,McNeese Cowboys
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,h2h,Middle Tennessee Blue Raiders,2.16,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,h2h,UAB Blazers,1.71,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,spreads,Middle Tennessee Blue Raiders,1.87,2.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,spreads,UAB Blazers,1.95,-2.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,totals,Over,1.87,144.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,FanDuel,totals,Under,1.95,144.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,Incarnate Word Cardinals,1.93,10.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,McNeese Cowboys,1.88,-10.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Over,1.91,145.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Under,1.91,145.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,h2h,Incarnate Word Cardinals,5.51,,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,h2h,McNeese Cowboys,1.15,,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,spreads,Incarnate Word Cardinals,1.91,9.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,spreads,McNeese Cowboys,1.91,-9.5,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,totals,Over,1.88,145.0,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,dfa14435c548538aa49edf0bc0389cd2,2025-12-01 18:30:00 CST,Pinnacle,totals,Under,1.85,145.0,Incarnate Word Cardinals,McNeese Cowboys
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,h2h,Middle Tennessee Blue Raiders,1.98,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,h2h,UAB Blazers,1.85,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,spreads,Middle Tennessee Blue Raiders,1.91,1.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,spreads,UAB Blazers,1.91,-1.5,Middle Tennessee Blue Raiders,UAB Blazers
 CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,totals,Over,1.95,153.5,Middle Tennessee Blue Raiders,UAB Blazers
 CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,FanDuel,totals,Under,1.87,153.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,h2h,Middle Tennessee Blue Raiders,2.2,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,h2h,UAB Blazers,1.71,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,Middle Tennessee Blue Raiders,1.91,2.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,UAB Blazers,1.91,-2.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Over,1.95,154.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Under,1.87,154.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,h2h,Middle Tennessee Blue Raiders,2.16,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,h2h,UAB Blazers,1.74,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,spreads,Middle Tennessee Blue Raiders,1.89,2.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,spreads,UAB Blazers,1.96,-2.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,totals,Over,1.92,153.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,totals,Under,1.9,153.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,h2h,Middle Tennessee Blue Raiders,2.15,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,h2h,UAB Blazers,1.74,,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,spreads,Middle Tennessee Blue Raiders,1.91,2.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,spreads,UAB Blazers,1.91,-2.0,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,totals,Over,1.91,153.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,totals,Under,1.91,153.5,Middle Tennessee Blue Raiders,UAB Blazers
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,h2h,Bowling Green Falcons,7.6,,Kansas St Wildcats,Bowling Green Falcons
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,h2h,Middle Tennessee Blue Raiders,1.98,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,h2h,UAB Blazers,1.85,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,Middle Tennessee Blue Raiders,1.87,1.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,spreads,UAB Blazers,1.95,-1.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Over,1.91,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetOnline.ag,totals,Under,1.91,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,h2h,Middle Tennessee Blue Raiders,2.0,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,h2h,UAB Blazers,1.85,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,spreads,Middle Tennessee Blue Raiders,1.92,1.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,spreads,UAB Blazers,1.93,-1.5,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,totals,Over,1.93,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,Pinnacle,totals,Under,1.89,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,h2h,Middle Tennessee Blue Raiders,1.98,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,h2h,UAB Blazers,1.85,,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,spreads,Middle Tennessee Blue Raiders,1.91,1.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,spreads,UAB Blazers,1.91,-1.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,totals,Over,1.91,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,5a3b706cbbd970c3615a2ed6a2730ff0,2025-12-01 18:30:00 CST,BetUS,totals,Under,1.91,153.0,Middle Tennessee Blue Raiders,UAB Blazers
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,h2h,Bowling Green Falcons,7.4,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,h2h,Kansas St Wildcats,1.1,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,spreads,Bowling Green Falcons,1.87,12.5,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,spreads,Kansas St Wildcats,1.95,-12.5,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,totals,Over,1.95,160.5,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,totals,Under,1.87,160.5,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,totals,Over,1.91,159.5,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,FanDuel,totals,Under,1.91,159.5,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,h2h,Bowling Green Falcons,7.24,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,h2h,Kansas St Wildcats,1.11,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,spreads,Bowling Green Falcons,1.91,12.5,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,spreads,Kansas St Wildcats,1.91,-12.5,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,totals,Over,1.96,160.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,totals,Under,1.86,160.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,h2h,Bowling Green Falcons,7.3,,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,totals,Over,1.93,159.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetOnline.ag,totals,Under,1.89,159.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,h2h,Bowling Green Falcons,7.37,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,h2h,Kansas St Wildcats,1.11,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,spreads,Bowling Green Falcons,1.95,12.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,spreads,Kansas St Wildcats,1.89,-12.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,totals,Over,1.93,160.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,totals,Under,1.89,160.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,spreads,Kansas St Wildcats,1.9,-12.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,totals,Over,1.93,159.5,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,Pinnacle,totals,Under,1.88,159.5,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,h2h,Bowling Green Falcons,7.0,,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,h2h,Kansas St Wildcats,1.11,,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,spreads,Bowling Green Falcons,1.91,12.5,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,spreads,Kansas St Wildcats,1.91,-12.5,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,totals,Over,1.91,160.0,Kansas St Wildcats,Bowling Green Falcons
-CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,totals,Under,1.91,160.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,spreads,Bowling Green Falcons,1.91,12.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,spreads,Kansas St Wildcats,1.91,-12.0,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,totals,Over,1.91,159.5,Kansas St Wildcats,Bowling Green Falcons
+CBB,,d01619674aceb2208be27928b1bf0a9e,2025-12-01 19:00:00 CST,BetUS,totals,Under,1.91,159.5,Kansas St Wildcats,Bowling Green Falcons
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,h2h,Cal Baptist Lancers,7.4,,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,h2h,Colorado Buffaloes,1.1,,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,spreads,Cal Baptist Lancers,1.88,12.5,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,spreads,Colorado Buffaloes,1.94,-12.5,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,totals,Over,1.93,148.5,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,totals,Under,1.89,148.5,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,totals,Over,1.88,148.5,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,FanDuel,totals,Under,1.94,148.5,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,h2h,Cal Baptist Lancers,6.86,,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,h2h,Colorado Buffaloes,1.12,,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,spreads,Cal Baptist Lancers,1.91,12.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,spreads,Colorado Buffaloes,1.91,-12.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,totals,Over,1.91,149.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,totals,Under,1.91,149.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,h2h,Cal Baptist Lancers,6.62,,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,h2h,Colorado Buffaloes,1.13,,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,spreads,Cal Baptist Lancers,1.91,12.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,spreads,Colorado Buffaloes,1.94,-12.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,totals,Over,1.88,147.5,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,totals,Under,1.93,147.5,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,spreads,Cal Baptist Lancers,1.88,12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,spreads,Colorado Buffaloes,1.93,-12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,totals,Over,1.89,148.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetOnline.ag,totals,Under,1.93,148.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,h2h,Cal Baptist Lancers,6.89,,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,h2h,Colorado Buffaloes,1.12,,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,spreads,Cal Baptist Lancers,1.96,12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,spreads,Colorado Buffaloes,1.89,-12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,totals,Over,1.83,148.5,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,Pinnacle,totals,Under,1.99,148.5,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,h2h,Cal Baptist Lancers,7.0,,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,h2h,Colorado Buffaloes,1.11,,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,spreads,Cal Baptist Lancers,1.91,12.0,Colorado Buffaloes,Cal Baptist Lancers
-CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,spreads,Colorado Buffaloes,1.91,-12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,spreads,Cal Baptist Lancers,1.87,12.0,Colorado Buffaloes,Cal Baptist Lancers
+CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,spreads,Colorado Buffaloes,1.95,-12.0,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,totals,Over,1.91,148.5,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,d9387e434610ce38658620ed1cb70b33,2025-12-01 20:00:00 CST,BetUS,totals,Under,1.91,148.5,Colorado Buffaloes,Cal Baptist Lancers
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,FanDuel,h2h,Portland Pilots,13.8,,Stanford Cardinal,Portland Pilots
@@ -205,14 +205,14 @@ CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,FanDuel,totals,Ove
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,FanDuel,totals,Under,1.89,155.5,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,h2h,Portland Pilots,13.56,,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,h2h,Stanford Cardinal,1.03,,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,spreads,Portland Pilots,1.95,18.0,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,spreads,Stanford Cardinal,1.87,-18.0,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,spreads,Portland Pilots,1.93,18.0,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,spreads,Stanford Cardinal,1.88,-18.0,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,totals,Over,1.87,155.0,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetOnline.ag,totals,Under,1.95,155.0,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,spreads,Portland Pilots,2.01,17.5,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,spreads,Stanford Cardinal,1.85,-17.5,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,totals,Over,1.87,154.5,Stanford Cardinal,Portland Pilots
-CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,totals,Under,1.95,154.5,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,spreads,Portland Pilots,1.86,18.0,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,spreads,Stanford Cardinal,1.99,-18.0,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,totals,Over,1.93,155.5,Stanford Cardinal,Portland Pilots
+CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,Pinnacle,totals,Under,1.89,155.5,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetUS,h2h,Portland Pilots,14.0,,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetUS,h2h,Stanford Cardinal,1.03,,Stanford Cardinal,Portland Pilots
 CBB,,60f57e865ecdde340e095a4c1c834e69,2025-12-01 21:00:00 CST,BetUS,spreads,Portland Pilots,1.91,18.0,Stanford Cardinal,Portland Pilots

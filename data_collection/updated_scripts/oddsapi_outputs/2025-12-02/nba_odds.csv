@@ -1,0 +1,135 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,h2h,Philadelphia 76ers,1.13,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,h2h,Washington Wizards,6.3,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,spreads,Philadelphia 76ers,1.89,-13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,spreads,Washington Wizards,1.93,13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,totals,Over,1.88,234.5,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,FanDuel,totals,Under,1.94,234.5,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,h2h,Philadelphia 76ers,1.12,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,h2h,Washington Wizards,6.61,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,spreads,Philadelphia 76ers,1.88,-13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,spreads,Washington Wizards,1.93,13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,totals,Over,1.91,235.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetOnline.ag,totals,Under,1.91,235.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,h2h,Philadelphia 76ers,1.12,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,h2h,Washington Wizards,6.5,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,spreads,Philadelphia 76ers,1.87,-13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,spreads,Washington Wizards,1.95,13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,totals,Over,1.91,235.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,BetUS,totals,Under,1.91,235.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,h2h,Philadelphia 76ers,1.13,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,h2h,Washington Wizards,6.8,,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,spreads,Philadelphia 76ers,1.92,-13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,spreads,Washington Wizards,1.99,13.0,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,totals,Over,1.91,234.5,Philadelphia 76ers,Washington Wizards
+NBA,,82945fcefbdab5eff92ea10d50b8b9ed,2025-12-02 18:10:00 CST,Pinnacle,totals,Under,1.98,234.5,Philadelphia 76ers,Washington Wizards
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,h2h,Portland Trail Blazers,2.8,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,h2h,Toronto Raptors,1.45,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,spreads,Portland Trail Blazers,1.91,5.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,spreads,Toronto Raptors,1.91,-5.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,totals,Over,1.94,232.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,FanDuel,totals,Under,1.88,232.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,h2h,Portland Trail Blazers,2.83,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,h2h,Toronto Raptors,1.47,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,spreads,Portland Trail Blazers,1.96,5.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,spreads,Toronto Raptors,1.86,-5.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,totals,Over,1.93,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetOnline.ag,totals,Under,1.88,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,h2h,Portland Trail Blazers,2.89,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,h2h,Toronto Raptors,1.47,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,spreads,Portland Trail Blazers,2.04,5.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,spreads,Toronto Raptors,1.87,-5.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,totals,Over,2.0,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,Pinnacle,totals,Under,1.89,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,h2h,Portland Trail Blazers,2.83,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,h2h,Toronto Raptors,1.47,,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,spreads,Portland Trail Blazers,1.91,5.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,spreads,Toronto Raptors,1.91,-5.5,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,totals,Over,1.91,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,ff9201c6fd745a1a31bee1cbc13dd384,2025-12-02 18:40:00 CST,BetUS,totals,Under,1.91,232.0,Toronto Raptors,Portland Trail Blazers
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,h2h,Boston Celtics,1.93,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,h2h,New York Knicks,1.93,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,spreads,Boston Celtics,1.94,-1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,spreads,New York Knicks,1.88,1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,totals,Over,1.91,230.5,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,FanDuel,totals,Under,1.91,230.5,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,Boston Celtics,1.91,0.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,New York Knicks,1.91,0.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Over,1.91,231.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Under,1.91,231.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,h2h,Boston Celtics,1.98,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,h2h,New York Knicks,1.93,,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,spreads,Boston Celtics,1.95,1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,spreads,New York Knicks,1.95,-1.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,totals,Over,1.91,231.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,Pinnacle,totals,Under,1.97,231.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetUS,spreads,Boston Celtics,1.91,0.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetUS,spreads,New York Knicks,1.91,0.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetUS,totals,Over,1.91,231.0,Boston Celtics,New York Knicks
+NBA,,a96eb37cc51deec2f9e98a274c081b4e,2025-12-02 19:10:00 CST,BetUS,totals,Under,1.91,231.0,Boston Celtics,New York Knicks
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,h2h,Memphis Grizzlies,2.76,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,h2h,San Antonio Spurs,1.48,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,spreads,Memphis Grizzlies,1.91,5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,-5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,totals,Over,1.88,231.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,FanDuel,totals,Under,1.94,231.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,h2h,Memphis Grizzlies,2.77,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,h2h,San Antonio Spurs,1.49,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,Memphis Grizzlies,1.91,5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.91,-5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Over,1.91,232.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Under,1.91,232.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,h2h,Memphis Grizzlies,2.75,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,h2h,San Antonio Spurs,1.51,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,spreads,Memphis Grizzlies,1.89,5.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,spreads,San Antonio Spurs,2.01,-5.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,totals,Over,1.88,232.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,Pinnacle,totals,Under,2.02,232.5,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,h2h,Memphis Grizzlies,2.75,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,h2h,San Antonio Spurs,1.49,,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,spreads,Memphis Grizzlies,1.91,5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,spreads,San Antonio Spurs,1.91,-5.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,totals,Over,1.91,232.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,c8fb3e3641461ee52981c6d8c8ee12f8,2025-12-02 19:10:00 CST,BetUS,totals,Under,1.91,232.0,San Antonio Spurs,Memphis Grizzlies
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,h2h,Minnesota Timberwolves,1.2,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,h2h,New Orleans Pelicans,4.85,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.88,-10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,spreads,New Orleans Pelicans,1.94,10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,totals,Over,1.89,234.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,FanDuel,totals,Under,1.93,234.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,h2h,Minnesota Timberwolves,1.21,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,h2h,New Orleans Pelicans,4.67,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,Minnesota Timberwolves,1.88,-10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,spreads,New Orleans Pelicans,1.93,10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Over,1.91,235.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetOnline.ag,totals,Under,1.91,235.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,h2h,Minnesota Timberwolves,1.21,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,h2h,New Orleans Pelicans,4.75,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,spreads,Minnesota Timberwolves,1.91,-10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,spreads,New Orleans Pelicans,1.91,10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,totals,Over,1.91,235.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,BetUS,totals,Under,1.91,235.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,h2h,Minnesota Timberwolves,1.21,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,h2h,New Orleans Pelicans,4.81,,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,spreads,Minnesota Timberwolves,1.88,-10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,spreads,New Orleans Pelicans,2.02,10.0,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,totals,Over,1.89,234.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,a9330ca996e7fd641237adcfa998259f,2025-12-02 19:10:00 CST,Pinnacle,totals,Under,1.99,234.5,New Orleans Pelicans,Minnesota Timberwolves
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,h2h,Golden State Warriors,5.5,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,h2h,Oklahoma City Thunder,1.17,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,spreads,Golden State Warriors,1.96,11.5,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.85,-11.5,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,totals,Over,1.91,222.5,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,FanDuel,totals,Under,1.91,222.5,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,h2h,Golden State Warriors,5.46,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,h2h,Oklahoma City Thunder,1.17,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,spreads,Golden State Warriors,1.91,12.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,spreads,Oklahoma City Thunder,1.91,-12.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,totals,Over,1.91,222.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,BetOnline.ag,totals,Under,1.91,222.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,h2h,Golden State Warriors,5.53,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,h2h,Oklahoma City Thunder,1.18,,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,spreads,Golden State Warriors,1.93,12.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,spreads,Oklahoma City Thunder,1.98,-12.0,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,totals,Over,1.92,222.5,Golden State Warriors,Oklahoma City Thunder
+NBA,,4372c5c8b6de02e12518da9a10ae76c3,2025-12-02 22:10:00 CST,Pinnacle,totals,Under,1.97,222.5,Golden State Warriors,Oklahoma City Thunder
