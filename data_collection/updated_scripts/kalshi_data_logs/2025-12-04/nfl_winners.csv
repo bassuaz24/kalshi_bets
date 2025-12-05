@@ -1,0 +1,3 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-04T15:56:52.402207Z,KXNFLGAME-25DEC04DALDET-DET,Dallas at Detroit Winner?,active,binary,2025-12-18T20:15:00-05:00,0.59,,0.6,,0.4,,0.41,,0.01,0.01,0,0,0,0,14160113.16,357197.0
+2025-12-04T15:56:52.431749Z,KXNFLGAME-25DEC04DALDET-DAL,Dallas at Detroit Winner?,active,binary,2025-12-18T20:15:00-05:00,0.4,,0.41,,0.59,,0.6,,0.01,0.01,0,0,0,0,13170329.27,1130147.0

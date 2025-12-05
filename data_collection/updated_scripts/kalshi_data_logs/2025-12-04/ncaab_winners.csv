@@ -1,0 +1,5 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-04T15:56:52.431645Z,KXNCAAMBGAME-25DEC04USUUSF-USU,Utah St. at South Florida Winner?,active,binary,2025-12-18T19:00:00-05:00,0.57,,0.58,,0.42,,0.43,,0.01,0.01,0,0,0,0,3762418.88,82465.0
+2025-12-04T15:56:52.447035Z,KXNCAAMBGAME-25DEC04USUUSF-USF,Utah St. at South Florida Winner?,active,binary,2025-12-18T19:00:00-05:00,0.44,,0.45,,0.55,,0.56,,0.01,0.01,0,0,0,0,3536095.41,8646.0
+2025-12-04T15:56:52.462454Z,KXNCAAMBGAME-25DEC04CITDAV-DAV,The Citadel at Davidson Winner?,active,binary,2025-12-18T19:00:00-05:00,0.95,,0.97,,0.03,,0.05,,0.02,0.02,0,0,0,0,1625440.75,9523.0
+2025-12-04T15:56:52.462341Z,KXNCAAMBGAME-25DEC04CITDAV-CIT,The Citadel at Davidson Winner?,active,binary,2025-12-18T19:00:00-05:00,0.04,,0.05,,0.95,,0.96,,0.01,0.01,0,0,0,0,1412618.26,30574.0

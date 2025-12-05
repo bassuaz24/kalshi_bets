@@ -1,0 +1,121 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,h2h,BYU Cougars,4.85,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,h2h,Texas Tech Red Raiders,1.2,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,spreads,BYU Cougars,1.91,12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,spreads,Texas Tech Red Raiders,1.91,-12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.93,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.89,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,h2h,BYU Cougars,4.83,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,h2h,Texas Tech Red Raiders,1.19,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,spreads,BYU Cougars,1.93,12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,spreads,Texas Tech Red Raiders,1.93,-12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,totals,Over,1.95,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,Pinnacle,totals,Under,1.9,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,h2h,BYU Cougars,4.9,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,h2h,Texas Tech Red Raiders,1.2,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,BYU Cougars,1.88,12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Texas Tech Red Raiders,1.93,-12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Over,1.91,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Under,1.91,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,h2h,BYU Cougars,4.9,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,h2h,Texas Tech Red Raiders,1.2,,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,spreads,BYU Cougars,1.91,12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,spreads,Texas Tech Red Raiders,1.91,-12.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,totals,Over,1.91,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,87fe86f5fa1edd149d6cc5f8bcb82be2,2025-12-06 11:00:00 CST,BetUS,totals,Under,1.91,49.5,Texas Tech Red Raiders,BYU Cougars
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,h2h,Miami (OH) RedHawks,2.12,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,h2h,Western Michigan Broncos,1.76,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,spreads,Miami (OH) RedHawks,1.95,1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,spreads,Western Michigan Broncos,1.87,-1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.87,42.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.95,42.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,h2h,Miami (OH) RedHawks,2.07,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,h2h,Western Michigan Broncos,1.82,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,spreads,Miami (OH) RedHawks,1.86,2.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,spreads,Western Michigan Broncos,2.02,-2.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,totals,Over,1.95,43.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,Pinnacle,totals,Under,1.9,43.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,h2h,Miami (OH) RedHawks,2.05,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,h2h,Western Michigan Broncos,1.8,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Miami (OH) RedHawks,1.91,1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Western Michigan Broncos,1.91,-1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Over,1.91,43.0,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Under,1.91,43.0,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,h2h,Miami (OH) RedHawks,2.05,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,h2h,Western Michigan Broncos,1.8,,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,spreads,Miami (OH) RedHawks,1.91,1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,spreads,Western Michigan Broncos,1.91,-1.5,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,totals,Over,1.91,43.0,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,825ab37366030db2e15565370bfc0104,2025-12-06 11:00:00 CST,BetUS,totals,Under,1.91,43.0,Western Michigan Broncos,Miami (OH) RedHawks
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,h2h,Alabama Crimson Tide,2.14,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,h2h,Georgia Bulldogs,1.75,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,spreads,Alabama Crimson Tide,1.95,2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,spreads,Georgia Bulldogs,1.87,-2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,totals,Over,1.94,48.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,FanDuel,totals,Under,1.88,48.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,h2h,Alabama Crimson Tide,2.15,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,h2h,Georgia Bulldogs,1.74,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,spreads,Alabama Crimson Tide,1.91,2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,spreads,Georgia Bulldogs,1.91,-2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,totals,Over,1.87,47.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetOnline.ag,totals,Under,1.95,47.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,h2h,Alabama Crimson Tide,2.15,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,h2h,Georgia Bulldogs,1.74,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,spreads,Alabama Crimson Tide,1.91,2.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,spreads,Georgia Bulldogs,1.91,-2.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,totals,Over,1.91,48.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,BetUS,totals,Under,1.91,48.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,h2h,Alabama Crimson Tide,2.11,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,h2h,Georgia Bulldogs,1.79,,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,spreads,Alabama Crimson Tide,1.93,2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,spreads,Georgia Bulldogs,1.94,-2.5,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,totals,Over,1.89,48.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,aa6121f597f3dd0a363e477797cd13f0,2025-12-06 15:00:00 CST,Pinnacle,totals,Under,1.96,48.0,Alabama Crimson Tide,Georgia Bulldogs
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,h2h,Duke Blue Devils,2.56,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,h2h,Virginia Cavaliers,1.54,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,spreads,Duke Blue Devils,1.98,3.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,spreads,Virginia Cavaliers,1.83,-3.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,totals,Over,1.87,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,FanDuel,totals,Under,1.95,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,h2h,Duke Blue Devils,2.61,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,h2h,Virginia Cavaliers,1.54,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,spreads,Duke Blue Devils,1.91,4.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,spreads,Virginia Cavaliers,1.91,-4.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,totals,Over,1.87,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetOnline.ag,totals,Under,1.95,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,h2h,Duke Blue Devils,2.55,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,h2h,Virginia Cavaliers,1.56,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,spreads,Duke Blue Devils,1.91,4.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,spreads,Virginia Cavaliers,1.91,-4.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,totals,Over,1.91,58.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,BetUS,totals,Under,1.91,58.0,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,h2h,Duke Blue Devils,2.56,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,h2h,Virginia Cavaliers,1.55,,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,spreads,Duke Blue Devils,1.87,4.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,spreads,Virginia Cavaliers,2.0,-4.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,totals,Over,1.87,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,cb3db4cd7e1781ff0fa5e3caaf2d74e4,2025-12-06 19:00:00 CST,Pinnacle,totals,Under,1.99,57.5,Virginia Cavaliers,Duke Blue Devils
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,h2h,Indiana Hoosiers,2.56,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,h2h,Ohio State Buckeyes,1.54,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,spreads,Indiana Hoosiers,1.87,4.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,spreads,Ohio State Buckeyes,1.95,-4.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,totals,Over,1.88,47.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,FanDuel,totals,Under,1.94,47.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,h2h,Indiana Hoosiers,2.55,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,h2h,Ohio State Buckeyes,1.55,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,spreads,Indiana Hoosiers,1.92,4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,spreads,Ohio State Buckeyes,1.95,-4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,totals,Over,1.92,47.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,Pinnacle,totals,Under,1.93,47.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,h2h,Indiana Hoosiers,2.68,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,h2h,Ohio State Buckeyes,1.52,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,spreads,Indiana Hoosiers,1.91,4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,spreads,Ohio State Buckeyes,1.91,-4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,totals,Over,1.91,48.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetOnline.ag,totals,Under,1.91,48.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,h2h,Indiana Hoosiers,2.63,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,h2h,Ohio State Buckeyes,1.53,,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,spreads,Indiana Hoosiers,1.91,4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,spreads,Ohio State Buckeyes,1.91,-4.0,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,totals,Over,1.91,47.5,Ohio State Buckeyes,Indiana Hoosiers
+CFB,,ed821485171f0486828ac8bfae9537a3,2025-12-06 19:00:00 CST,BetUS,totals,Under,1.91,47.5,Ohio State Buckeyes,Indiana Hoosiers

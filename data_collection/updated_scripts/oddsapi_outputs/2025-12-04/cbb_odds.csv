@@ -1,0 +1,207 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,h2h,Davidson Wildcats,1.02,,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,h2h,The Citadel Bulldogs,17.0,,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,spreads,Davidson Wildcats,1.91,-21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,spreads,The Citadel Bulldogs,1.91,21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,totals,Over,1.87,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,FanDuel,totals,Under,1.95,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Davidson Wildcats,1.93,-21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,The Citadel Bulldogs,1.88,21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Over,1.91,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Under,1.91,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,Pinnacle,spreads,Davidson Wildcats,1.94,-21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,Pinnacle,spreads,The Citadel Bulldogs,1.91,21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,Pinnacle,totals,Over,1.97,140.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,Pinnacle,totals,Under,1.85,140.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetUS,spreads,Davidson Wildcats,1.91,-21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetUS,spreads,The Citadel Bulldogs,1.91,21.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetUS,totals,Over,1.91,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,09e0655ffe00704fa4a2ccd6aadb1ea5,2025-12-04 18:00:00 CST,BetUS,totals,Under,1.91,139.5,Davidson Wildcats,The Citadel Bulldogs
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,h2h,Green Bay Phoenix,1.98,,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,h2h,Robert Morris Colonials,1.85,,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,spreads,Green Bay Phoenix,1.83,1.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,spreads,Robert Morris Colonials,1.98,-1.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,totals,Over,1.87,137.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,FanDuel,totals,Under,1.95,137.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Green Bay Phoenix,1.91,0.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Robert Morris Colonials,1.91,0.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Over,1.95,138.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Under,1.87,138.5,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,h2h,Green Bay Phoenix,1.91,,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,h2h,Robert Morris Colonials,1.94,,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,spreads,Green Bay Phoenix,1.95,-1.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,spreads,Robert Morris Colonials,1.9,1.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,totals,Over,1.9,138.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,Pinnacle,totals,Under,1.92,138.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetUS,spreads,Green Bay Phoenix,1.91,0.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetUS,spreads,Robert Morris Colonials,1.91,0.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetUS,totals,Over,1.91,138.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,80250dea32e423c15b92daf153adf22b,2025-12-04 18:00:00 CST,BetUS,totals,Under,1.91,138.0,Green Bay Phoenix,Robert Morris Colonials
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,h2h,Merrimack Warriors,1.18,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,h2h,Rider Broncs,5.0,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,spreads,Merrimack Warriors,1.91,-9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,spreads,Rider Broncs,1.91,9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,totals,Over,1.91,135.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,FanDuel,totals,Under,1.91,135.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,h2h,Merrimack Warriors,1.22,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,h2h,Rider Broncs,4.5,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Merrimack Warriors,1.85,-9.0,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Rider Broncs,1.97,9.0,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Over,1.95,135.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Under,1.87,135.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,h2h,Merrimack Warriors,1.23,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,h2h,Rider Broncs,4.46,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,spreads,Merrimack Warriors,1.92,-9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,spreads,Rider Broncs,1.93,9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,totals,Over,1.89,136.0,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,Pinnacle,totals,Under,1.93,136.0,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,h2h,Merrimack Warriors,1.22,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,h2h,Rider Broncs,4.55,,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,spreads,Merrimack Warriors,1.91,-9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,spreads,Rider Broncs,1.91,9.5,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,totals,Over,1.91,136.0,Merrimack Warriors,Rider Broncs
+CBB,,7fd83262b6e29f036af77f9b90fe8a91,2025-12-04 18:00:00 CST,BetUS,totals,Under,1.91,136.0,Merrimack Warriors,Rider Broncs
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,h2h,South Florida Bulls,2.12,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,h2h,Utah State Aggies,1.75,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,spreads,South Florida Bulls,1.83,2.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,spreads,Utah State Aggies,1.98,-2.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,totals,Over,1.91,162.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,FanDuel,totals,Under,1.91,162.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,h2h,South Florida Bulls,2.08,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,h2h,Utah State Aggies,1.78,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,South Florida Bulls,1.91,1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,spreads,Utah State Aggies,1.91,-1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Over,1.95,163.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetOnline.ag,totals,Under,1.87,163.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,h2h,South Florida Bulls,2.09,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,h2h,Utah State Aggies,1.79,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,spreads,South Florida Bulls,1.98,1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,spreads,Utah State Aggies,1.87,-1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,totals,Over,1.9,162.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,Pinnacle,totals,Under,1.92,162.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,h2h,South Florida Bulls,2.1,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,h2h,Utah State Aggies,1.77,,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,spreads,South Florida Bulls,1.91,1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,spreads,Utah State Aggies,1.91,-1.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,totals,Over,1.91,162.5,South Florida Bulls,Utah State Aggies
+CBB,,8565b968f8f53311a0bda1a6ff12cfdc,2025-12-04 18:00:00 CST,BetUS,totals,Under,1.91,162.5,South Florida Bulls,Utah State Aggies
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,h2h,Long Beach St 49ers,6.8,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,h2h,UC Santa Barbara Gauchos,1.11,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,spreads,Long Beach St 49ers,1.91,12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,spreads,UC Santa Barbara Gauchos,1.91,-12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,totals,Over,1.91,144.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,FanDuel,totals,Under,1.91,144.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,h2h,Long Beach St 49ers,7.13,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,h2h,UC Santa Barbara Gauchos,1.11,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,spreads,Long Beach St 49ers,1.91,12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,spreads,UC Santa Barbara Gauchos,1.91,-12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,totals,Over,1.87,143.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetOnline.ag,totals,Under,1.95,143.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,h2h,Long Beach St 49ers,7.21,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,h2h,UC Santa Barbara Gauchos,1.11,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,spreads,Long Beach St 49ers,1.91,12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,spreads,UC Santa Barbara Gauchos,1.94,-12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,totals,Over,1.92,144.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,Pinnacle,totals,Under,1.9,144.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,h2h,Long Beach St 49ers,7.0,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,h2h,UC Santa Barbara Gauchos,1.11,,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,spreads,Long Beach St 49ers,1.91,12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,spreads,UC Santa Barbara Gauchos,1.91,-12.5,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,totals,Over,1.91,144.0,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ecc90a90744f8d49293f9d667fe4e372,2025-12-04 20:00:00 CST,BetUS,totals,Under,1.91,144.0,UC Santa Barbara Gauchos,Long Beach St 49ers
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,h2h,CSU Bakersfield Roadrunners,2.55,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,h2h,CSU Northridge Matadors,1.53,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,spreads,CSU Bakersfield Roadrunners,1.98,3.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,spreads,CSU Northridge Matadors,1.83,-3.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,totals,Over,1.87,154.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,FanDuel,totals,Under,1.95,154.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,CSU Bakersfield Roadrunners,2.65,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,CSU Northridge Matadors,1.53,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,CSU Bakersfield Roadrunners,1.91,4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,CSU Northridge Matadors,1.91,-4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Over,1.95,155.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Under,1.87,155.5,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,h2h,CSU Bakersfield Roadrunners,2.72,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,h2h,CSU Northridge Matadors,1.49,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,spreads,CSU Bakersfield Roadrunners,1.98,4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,spreads,CSU Northridge Matadors,1.88,-4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,totals,Over,1.91,155.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,Pinnacle,totals,Under,1.91,155.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,h2h,CSU Bakersfield Roadrunners,2.63,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,h2h,CSU Northridge Matadors,1.53,,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,spreads,CSU Bakersfield Roadrunners,1.91,4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,spreads,CSU Northridge Matadors,1.91,-4.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,totals,Over,1.91,155.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,ee7e4c2fa31265a12b618624c1390436,2025-12-04 21:00:00 CST,BetUS,totals,Under,1.91,155.0,CSU Northridge Matadors,CSU Bakersfield Roadrunners
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,h2h,Cal Poly Mustangs,1.9,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,h2h,CSU Fullerton Titans,1.93,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,spreads,Cal Poly Mustangs,2.0,-1.5,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,spreads,CSU Fullerton Titans,1.82,1.5,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,totals,Over,1.91,178.5,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,FanDuel,totals,Under,1.91,178.5,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,Cal Poly Mustangs,1.98,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,CSU Fullerton Titans,1.85,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,Cal Poly Mustangs,1.95,1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,CSU Fullerton Titans,1.87,-1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Over,1.87,178.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Under,1.95,178.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,h2h,Cal Poly Mustangs,1.98,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,h2h,CSU Fullerton Titans,1.88,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,spreads,Cal Poly Mustangs,1.93,1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,spreads,CSU Fullerton Titans,1.92,-1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,totals,Over,1.97,179.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,Pinnacle,totals,Under,1.85,179.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,h2h,Cal Poly Mustangs,2.0,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,h2h,CSU Fullerton Titans,1.83,,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,spreads,Cal Poly Mustangs,1.91,1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,spreads,CSU Fullerton Titans,1.91,-1.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,totals,Over,1.91,179.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,dba0f3938721d2b7599b154272b9113b,2025-12-04 21:00:00 CST,BetUS,totals,Under,1.91,179.0,CSU Fullerton Titans,Cal Poly Mustangs
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,h2h,UC Irvine Anteaters,1.11,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,h2h,UC Riverside Highlanders,7.1,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,spreads,UC Irvine Anteaters,1.88,-12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,spreads,UC Riverside Highlanders,1.94,12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,totals,Over,1.91,140.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,FanDuel,totals,Under,1.91,140.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,UC Irvine Anteaters,1.11,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,h2h,UC Riverside Highlanders,7.13,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,UC Irvine Anteaters,1.87,-12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,spreads,UC Riverside Highlanders,1.95,12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Over,1.88,139.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetOnline.ag,totals,Under,1.93,139.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,h2h,UC Irvine Anteaters,1.12,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,h2h,UC Riverside Highlanders,6.96,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,spreads,UC Irvine Anteaters,1.91,-12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,spreads,UC Riverside Highlanders,1.94,12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,totals,Over,1.93,140.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,Pinnacle,totals,Under,1.88,140.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,h2h,UC Irvine Anteaters,1.11,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,h2h,UC Riverside Highlanders,7.0,,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,spreads,UC Irvine Anteaters,1.91,-12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,spreads,UC Riverside Highlanders,1.91,12.5,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,totals,Over,1.91,140.0,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,a64b452972ebb31845d4843f67702904,2025-12-04 21:00:00 CST,BetUS,totals,Under,1.91,140.0,UC Irvine Anteaters,UC Riverside Highlanders
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,h2h,Hawai'i Rainbow Warriors,1.24,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,h2h,UC Davis Aggies,4.15,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,spreads,Hawai'i Rainbow Warriors,1.83,-7.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,spreads,UC Davis Aggies,1.98,7.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,totals,Over,1.87,146.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,FanDuel,totals,Under,1.95,146.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,h2h,Hawai'i Rainbow Warriors,1.25,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,h2h,UC Davis Aggies,4.16,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,spreads,Hawai'i Rainbow Warriors,1.95,-8.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,spreads,UC Davis Aggies,1.87,8.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,totals,Over,1.91,146.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetOnline.ag,totals,Under,1.91,146.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,h2h,Hawai'i Rainbow Warriors,1.24,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,h2h,UC Davis Aggies,4.37,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,spreads,Hawai'i Rainbow Warriors,1.94,-8.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,spreads,UC Davis Aggies,1.91,8.5,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,totals,Over,1.93,146.0,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,Pinnacle,totals,Under,1.88,146.0,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,h2h,Hawai'i Rainbow Warriors,1.26,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,h2h,UC Davis Aggies,4.05,,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,spreads,Hawai'i Rainbow Warriors,1.91,-8.0,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,spreads,UC Davis Aggies,1.91,8.0,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,totals,Over,1.91,146.0,Hawai'i Rainbow Warriors,UC Davis Aggies
+CBB,,ec44d694728cf6472761aed1025db7b9,2025-12-04 23:00:00 CST,BetUS,totals,Under,1.91,146.0,Hawai'i Rainbow Warriors,UC Davis Aggies

@@ -1,0 +1,97 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,h2h,Jacksonville State Gamecocks,2.2,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,h2h,Kennesaw State Owls,1.71,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,spreads,Jacksonville State Gamecocks,1.91,2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,spreads,Kennesaw State Owls,1.91,-2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,totals,Over,1.8,59.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetOnline.ag,totals,Under,2.05,59.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,h2h,Jacksonville State Gamecocks,2.14,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,h2h,Kennesaw State Owls,1.75,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,spreads,Jacksonville State Gamecocks,1.91,2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,spreads,Kennesaw State Owls,1.91,-2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,totals,Over,1.91,60.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,FanDuel,totals,Under,1.91,60.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,h2h,Jacksonville State Gamecocks,2.15,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,h2h,Kennesaw State Owls,1.74,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,spreads,Jacksonville State Gamecocks,1.91,2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,spreads,Kennesaw State Owls,1.91,-2.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,totals,Over,1.91,59.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,BetUS,totals,Under,1.91,59.5,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,h2h,Jacksonville State Gamecocks,2.12,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,h2h,Kennesaw State Owls,1.78,,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,spreads,Jacksonville State Gamecocks,1.97,2.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,spreads,Kennesaw State Owls,1.89,-2.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,totals,Over,1.93,60.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,855b4b7959efc4b7309d16b8b17dd708,2025-12-05 18:00:00 CST,Pinnacle,totals,Under,1.92,60.0,Jacksonville State Gamecocks,Kennesaw State Owls
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,h2h,James Madison Dukes,1.04,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,h2h,Troy Trojans,13.0,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,spreads,James Madison Dukes,1.94,-23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,spreads,Troy Trojans,1.88,23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,totals,Over,1.91,47.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,FanDuel,totals,Under,1.91,47.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,h2h,James Madison Dukes,1.04,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,h2h,Troy Trojans,12.96,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,spreads,James Madison Dukes,1.89,-23.0,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,spreads,Troy Trojans,1.93,23.0,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,totals,Over,1.91,47.0,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetOnline.ag,totals,Under,1.91,47.0,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,h2h,James Madison Dukes,1.04,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,h2h,Troy Trojans,12.75,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,spreads,James Madison Dukes,1.91,-23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,spreads,Troy Trojans,1.91,23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,totals,Over,1.91,47.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,BetUS,totals,Under,1.91,47.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,h2h,James Madison Dukes,1.05,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,h2h,Troy Trojans,11.0,,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,spreads,James Madison Dukes,1.93,-23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,spreads,Troy Trojans,1.93,23.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,totals,Over,1.94,47.5,James Madison Dukes,Troy Trojans
+CFB,,34fe27e86b995ea9e3cdc015d1ff5a46,2025-12-05 18:00:00 CST,Pinnacle,totals,Under,1.9,47.5,James Madison Dukes,Troy Trojans
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,h2h,North Texas Mean Green,1.72,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,h2h,Tulane Green Wave,2.18,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,spreads,North Texas Mean Green,1.91,-2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,spreads,Tulane Green Wave,1.91,2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,totals,Over,1.91,67.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,FanDuel,totals,Under,1.91,67.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,h2h,North Texas Mean Green,1.71,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,h2h,Tulane Green Wave,2.2,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,spreads,North Texas Mean Green,1.88,-2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,spreads,Tulane Green Wave,1.93,2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,totals,Over,1.83,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetOnline.ag,totals,Under,2.0,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,h2h,North Texas Mean Green,1.71,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,h2h,Tulane Green Wave,2.2,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,spreads,North Texas Mean Green,1.91,-2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,spreads,Tulane Green Wave,1.91,2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,totals,Over,1.91,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,BetUS,totals,Under,1.91,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,h2h,North Texas Mean Green,1.71,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,h2h,Tulane Green Wave,2.22,,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,spreads,North Texas Mean Green,1.86,-2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,spreads,Tulane Green Wave,2.01,2.5,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,totals,Over,1.87,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,bcda84050f6f1fe4756756124d40f116,2025-12-05 19:00:00 CST,Pinnacle,totals,Under,1.98,67.0,Tulane Green Wave,North Texas Mean Green
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,h2h,Boise State Broncos,1.49,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,h2h,UNLV Rebels,2.72,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,spreads,Boise State Broncos,1.87,-4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,spreads,UNLV Rebels,1.95,4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,totals,Over,1.95,59.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,FanDuel,totals,Under,1.87,59.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,h2h,Boise State Broncos,1.53,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,h2h,UNLV Rebels,2.65,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,spreads,Boise State Broncos,1.95,-4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,spreads,UNLV Rebels,1.87,4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,totals,Over,1.89,58.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetOnline.ag,totals,Under,1.93,58.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,h2h,Boise State Broncos,1.53,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,h2h,UNLV Rebels,2.63,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,spreads,Boise State Broncos,1.91,-4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,spreads,UNLV Rebels,1.91,4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,totals,Over,1.91,59.0,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,BetUS,totals,Under,1.91,59.0,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,h2h,Boise State Broncos,1.49,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,h2h,UNLV Rebels,2.72,,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,spreads,Boise State Broncos,1.93,-4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,spreads,UNLV Rebels,1.93,4.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,totals,Over,1.89,58.5,Boise State Broncos,UNLV Rebels
+CFB,,05574125db5d3bc8c0a9f0ce97971957,2025-12-05 19:01:00 CST,Pinnacle,totals,Under,1.96,58.5,Boise State Broncos,UNLV Rebels

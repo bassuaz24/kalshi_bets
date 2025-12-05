@@ -1,0 +1,7 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,h2h,Duke Blue Devils,1.91,,Michigan St Spartans,Duke Blue Devils
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,h2h,Michigan St Spartans,1.91,,Michigan St Spartans,Duke Blue Devils
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,spreads,Duke Blue Devils,1.78,1.5,Michigan St Spartans,Duke Blue Devils
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,spreads,Michigan St Spartans,2.04,-1.5,Michigan St Spartans,Duke Blue Devils
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,totals,Over,1.91,139.5,Michigan St Spartans,Duke Blue Devils
+CBB,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,totals,Under,1.91,139.5,Michigan St Spartans,Duke Blue Devils
