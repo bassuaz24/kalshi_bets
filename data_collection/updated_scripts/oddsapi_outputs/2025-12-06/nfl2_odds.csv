@@ -1,0 +1,289 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,h2h,Atlanta Falcons,3.8,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,h2h,Seattle Seahawks,1.29,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,spreads,Atlanta Falcons,1.95,6.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,spreads,Seattle Seahawks,1.87,-6.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.93,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.89,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Atlanta Falcons,3.7,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Seattle Seahawks,1.3,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Atlanta Falcons,1.83,7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Seattle Seahawks,2.0,-7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.95,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.87,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,h2h,Atlanta Falcons,3.7,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,h2h,Seattle Seahawks,1.3,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,spreads,Atlanta Falcons,1.83,7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,spreads,Seattle Seahawks,2.0,-7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,h2h,Atlanta Falcons,3.65,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,h2h,Seattle Seahawks,1.3,,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,spreads,Atlanta Falcons,1.86,7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,spreads,Seattle Seahawks,2.03,-7.0,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.96,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,f0bdd27bbed46dfc3d0657500c95a96c,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.91,44.5,Atlanta Falcons,Seattle Seahawks
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,h2h,Baltimore Ravens,1.35,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,h2h,Pittsburgh Steelers,3.38,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,spreads,Baltimore Ravens,1.91,-6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,spreads,Pittsburgh Steelers,1.91,6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,42.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,42.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,h2h,Baltimore Ravens,1.34,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,h2h,Pittsburgh Steelers,3.35,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,spreads,Baltimore Ravens,1.85,-5.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,spreads,Pittsburgh Steelers,1.96,5.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.95,43.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.87,43.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Baltimore Ravens,1.36,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Pittsburgh Steelers,3.3,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Baltimore Ravens,1.91,-6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Pittsburgh Steelers,1.91,6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.88,42.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.93,42.5,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,h2h,Baltimore Ravens,1.36,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,h2h,Pittsburgh Steelers,3.3,,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,spreads,Baltimore Ravens,1.94,-6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,spreads,Pittsburgh Steelers,1.94,6.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.88,43.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,4fead7bd0592ec121cc3baf72e3e21e0,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,2.0,43.0,Baltimore Ravens,Pittsburgh Steelers
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,h2h,Buffalo Bills,1.37,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,h2h,Cincinnati Bengals,3.2,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,spreads,Buffalo Bills,1.83,-5.5,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,spreads,Cincinnati Bengals,1.98,5.5,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.89,52.5,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.93,52.5,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,h2h,Buffalo Bills,1.36,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,h2h,Cincinnati Bengals,3.3,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,spreads,Buffalo Bills,1.91,-6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,spreads,Cincinnati Bengals,1.91,6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,h2h,Buffalo Bills,1.35,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,h2h,Cincinnati Bengals,3.32,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,spreads,Buffalo Bills,1.91,-6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,spreads,Cincinnati Bengals,1.98,6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.91,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.96,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Buffalo Bills,1.36,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Cincinnati Bengals,3.26,,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Buffalo Bills,1.91,-6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Cincinnati Bengals,1.91,6.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.93,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,c67c327076a98a3a1c4a5eb32e5a80c2,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.89,53.0,Buffalo Bills,Cincinnati Bengals
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,h2h,Cleveland Browns,1.5,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,h2h,Tennessee Titans,2.7,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,spreads,Cleveland Browns,1.91,-3.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,spreads,Tennessee Titans,1.91,3.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,34.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,34.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,h2h,Cleveland Browns,1.5,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,h2h,Tennessee Titans,2.68,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,spreads,Cleveland Browns,1.87,-3.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,spreads,Tennessee Titans,1.95,3.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.87,33.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.95,33.5,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Cleveland Browns,1.5,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Tennessee Titans,2.74,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Cleveland Browns,1.95,-4.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Tennessee Titans,1.87,4.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.91,34.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.91,34.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,h2h,Cleveland Browns,1.5,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,h2h,Tennessee Titans,2.69,,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,spreads,Cleveland Browns,2.02,-4.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,spreads,Tennessee Titans,1.87,4.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.91,34.0,Cleveland Browns,Tennessee Titans
+NFL,,f95be6b9bd8ce1208f766cbaae8a4822,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.96,34.0,Cleveland Browns,Tennessee Titans
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,h2h,Indianapolis Colts,1.77,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,h2h,Jacksonville Jaguars,2.1,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,spreads,Indianapolis Colts,1.83,-1.0,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,spreads,Jacksonville Jaguars,2.0,1.0,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,h2h,Indianapolis Colts,1.82,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,h2h,Jacksonville Jaguars,2.04,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,spreads,Indianapolis Colts,1.89,-1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,spreads,Jacksonville Jaguars,1.93,1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.87,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.95,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Indianapolis Colts,1.77,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Jacksonville Jaguars,2.1,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Indianapolis Colts,1.91,-1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Jacksonville Jaguars,1.91,1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.95,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.87,46.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,h2h,Indianapolis Colts,1.79,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,h2h,Jacksonville Jaguars,2.1,,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,spreads,Indianapolis Colts,1.9,-1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,spreads,Jacksonville Jaguars,1.99,1.5,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.95,47.0,Jacksonville Jaguars,Indianapolis Colts
+NFL,,4e289ac7d9b5663fd5a06881f2b1424d,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.92,47.0,Jacksonville Jaguars,Indianapolis Colts
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,h2h,Miami Dolphins,1.65,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,h2h,New York Jets,2.3,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,spreads,Miami Dolphins,2.0,-3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,spreads,New York Jets,1.82,3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.98,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.83,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Miami Dolphins,1.68,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,New York Jets,2.28,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Miami Dolphins,1.83,-2.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,New York Jets,2.0,2.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.93,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.88,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,h2h,Miami Dolphins,1.67,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,h2h,New York Jets,2.29,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,spreads,Miami Dolphins,2.0,-3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,spreads,New York Jets,1.83,3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,41.5,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,h2h,Miami Dolphins,1.68,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,h2h,New York Jets,2.28,,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,spreads,Miami Dolphins,2.07,-3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,spreads,New York Jets,1.83,3.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.99,42.0,New York Jets,Miami Dolphins
+NFL,,c86a0783216d21040c87fce3aadd3336,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.88,42.0,New York Jets,Miami Dolphins
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,h2h,Minnesota Vikings,2.05,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,h2h,Washington Commanders,1.8,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,spreads,Minnesota Vikings,1.95,1.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,spreads,Washington Commanders,1.87,-1.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,44.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,44.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,h2h,Minnesota Vikings,2.04,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,h2h,Washington Commanders,1.82,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,spreads,Minnesota Vikings,1.91,1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,spreads,Washington Commanders,1.91,-1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.87,43.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.95,43.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Minnesota Vikings,2.05,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Washington Commanders,1.8,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Minnesota Vikings,1.91,1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Washington Commanders,1.91,-1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.91,44.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.91,44.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,h2h,Minnesota Vikings,2.02,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,h2h,Washington Commanders,1.85,,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,spreads,Minnesota Vikings,1.9,1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,spreads,Washington Commanders,1.99,-1.5,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,1.92,44.0,Minnesota Vikings,Washington Commanders
+NFL,,58b16c4033587f5662ff365bce2dbb92,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.95,44.0,Minnesota Vikings,Washington Commanders
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,h2h,New Orleans Saints,4.3,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,h2h,Tampa Bay Buccaneers,1.24,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,spreads,New Orleans Saints,1.83,9.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,spreads,Tampa Bay Buccaneers,2.0,-9.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,totals,Over,1.91,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetUS,totals,Under,1.91,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,h2h,New Orleans Saints,4.6,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,h2h,Tampa Bay Buccaneers,1.22,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,spreads,New Orleans Saints,1.89,8.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,spreads,Tampa Bay Buccaneers,1.93,-8.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.87,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.95,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,New Orleans Saints,4.37,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,h2h,Tampa Bay Buccaneers,1.23,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,New Orleans Saints,1.83,9.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,spreads,Tampa Bay Buccaneers,2.0,-9.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Over,1.89,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,BetOnline.ag,totals,Under,1.93,41.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,h2h,New Orleans Saints,4.25,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,h2h,Tampa Bay Buccaneers,1.24,,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,spreads,New Orleans Saints,1.93,8.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,spreads,Tampa Bay Buccaneers,1.96,-8.5,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,totals,Over,2.02,42.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,15555b4c7283dc6553e011dd6c8aea8d,2025-12-07 12:00:00 CST,Pinnacle,totals,Under,1.85,42.0,Tampa Bay Buccaneers,New Orleans Saints
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,h2h,Denver Broncos,1.26,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,h2h,Las Vegas Raiders,4.1,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,spreads,Denver Broncos,1.98,-7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,spreads,Las Vegas Raiders,1.83,7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,totals,Over,1.94,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,FanDuel,totals,Under,1.88,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,h2h,Denver Broncos,1.25,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,h2h,Las Vegas Raiders,4.16,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,spreads,Denver Broncos,2.0,-7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,spreads,Las Vegas Raiders,1.83,7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,totals,Over,1.91,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetOnline.ag,totals,Under,1.91,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,h2h,Denver Broncos,1.25,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,h2h,Las Vegas Raiders,4.2,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,spreads,Denver Broncos,1.95,-7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,spreads,Las Vegas Raiders,1.87,7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,totals,Over,1.91,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,BetUS,totals,Under,1.91,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,h2h,Denver Broncos,1.26,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,h2h,Las Vegas Raiders,4.02,,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,spreads,Denver Broncos,2.06,-7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,spreads,Las Vegas Raiders,1.84,7.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,totals,Over,1.93,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,d5fd126cbfea2ccd79962a17f0ef4463,2025-12-07 15:05:00 CST,Pinnacle,totals,Under,1.93,40.5,Las Vegas Raiders,Denver Broncos
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,h2h,Arizona Cardinals,4.55,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,h2h,Los Angeles Rams,1.22,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,spreads,Arizona Cardinals,1.83,9.0,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,spreads,Los Angeles Rams,2.0,-9.0,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,totals,Over,1.91,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetUS,totals,Under,1.91,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,h2h,Arizona Cardinals,4.85,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,h2h,Los Angeles Rams,1.2,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,spreads,Arizona Cardinals,1.95,8.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,spreads,Los Angeles Rams,1.87,-8.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,totals,Over,1.87,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,FanDuel,totals,Under,1.95,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,h2h,Arizona Cardinals,4.5,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,h2h,Los Angeles Rams,1.22,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,spreads,Arizona Cardinals,1.87,9.0,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,spreads,Los Angeles Rams,1.95,-9.0,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,totals,Over,1.91,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,BetOnline.ag,totals,Under,1.91,47.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,h2h,Arizona Cardinals,4.33,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,h2h,Los Angeles Rams,1.23,,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,spreads,Arizona Cardinals,2.02,8.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,spreads,Los Angeles Rams,1.88,-8.5,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,totals,Over,1.98,48.0,Arizona Cardinals,Los Angeles Rams
+NFL,,12bbffdcd65d53436b56c68a811ca610,2025-12-07 15:25:00 CST,Pinnacle,totals,Under,1.89,48.0,Arizona Cardinals,Los Angeles Rams
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,h2h,Chicago Bears,3.65,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,h2h,Green Bay Packers,1.3,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,spreads,Chicago Bears,1.95,6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,spreads,Green Bay Packers,1.87,-6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,totals,Over,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,FanDuel,totals,Under,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,h2h,Chicago Bears,3.52,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,h2h,Green Bay Packers,1.32,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,spreads,Chicago Bears,1.96,6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,spreads,Green Bay Packers,1.86,-6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,totals,Over,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetOnline.ag,totals,Under,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,h2h,Chicago Bears,3.55,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,h2h,Green Bay Packers,1.32,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,spreads,Chicago Bears,1.95,6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,spreads,Green Bay Packers,1.87,-6.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,totals,Over,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,BetUS,totals,Under,1.91,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,h2h,Chicago Bears,3.61,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,h2h,Green Bay Packers,1.31,,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,spreads,Chicago Bears,1.92,7.0,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,spreads,Green Bay Packers,1.97,-7.0,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,totals,Over,1.93,44.5,Green Bay Packers,Chicago Bears
+NFL,,5b1211b476d0afa2b57133c9603583b6,2025-12-07 15:25:00 CST,Pinnacle,totals,Under,1.94,44.5,Green Bay Packers,Chicago Bears
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,h2h,Houston Texans,2.58,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,h2h,Kansas City Chiefs,1.53,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,spreads,Houston Texans,1.93,3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,spreads,Kansas City Chiefs,1.89,-3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,totals,Over,1.85,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,FanDuel,totals,Under,1.96,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,h2h,Houston Texans,2.64,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,h2h,Kansas City Chiefs,1.53,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,spreads,Houston Texans,1.91,3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,spreads,Kansas City Chiefs,1.91,-3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,totals,Over,1.91,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetOnline.ag,totals,Under,1.91,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,h2h,Houston Texans,2.63,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,h2h,Kansas City Chiefs,1.53,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,spreads,Houston Texans,1.91,3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,spreads,Kansas City Chiefs,1.91,-3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,totals,Over,1.91,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,BetUS,totals,Under,1.91,41.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,h2h,Houston Texans,2.63,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,h2h,Kansas City Chiefs,1.52,,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,spreads,Houston Texans,1.96,3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,spreads,Kansas City Chiefs,1.93,-3.5,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,totals,Over,2.01,42.0,Kansas City Chiefs,Houston Texans
+NFL,,4727a6cfcd3d604dbfcb898c5a4d40a6,2025-12-07 19:20:00 CST,Pinnacle,totals,Under,1.86,42.0,Kansas City Chiefs,Houston Texans

@@ -1,0 +1,97 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,h2h,Dayton Flyers,3.15,,Virginia Cavaliers,Dayton Flyers
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,h2h,Virginia Cavaliers,1.38,,Virginia Cavaliers,Dayton Flyers
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,spreads,Dayton Flyers,1.91,5.5,Virginia Cavaliers,Dayton Flyers
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,spreads,Virginia Cavaliers,1.91,-5.5,Virginia Cavaliers,Dayton Flyers
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.87,144.5,Virginia Cavaliers,Dayton Flyers
+CBBM,,011c25d5034ff908edaf55002e365fbf,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.95,144.5,Virginia Cavaliers,Dayton Flyers
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,h2h,Iowa State Cyclones,2.9,,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,h2h,Purdue Boilermakers,1.43,,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,spreads,Iowa State Cyclones,1.95,4.5,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,spreads,Purdue Boilermakers,1.87,-4.5,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.91,149.5,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,cc9fc7f11137cc182b595a5ddd8d392f,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.91,149.5,Purdue Boilermakers,Iowa State Cyclones
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,h2h,Duke Blue Devils,1.93,,Michigan St Spartans,Duke Blue Devils
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,h2h,Michigan St Spartans,1.9,,Michigan St Spartans,Duke Blue Devils
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,spreads,Duke Blue Devils,1.78,1.5,Michigan St Spartans,Duke Blue Devils
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,spreads,Michigan St Spartans,2.04,-1.5,Michigan St Spartans,Duke Blue Devils
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,totals,Over,1.91,138.5,Michigan St Spartans,Duke Blue Devils
+CBBM,,a7f71171dcb62609a3a6f2df23a28632,2025-12-06 11:00:01 CST,FanDuel,totals,Under,1.91,138.5,Michigan St Spartans,Duke Blue Devils
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,h2h,Indiana Hoosiers,2.98,,Indiana Hoosiers,Louisville Cardinals
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,h2h,Louisville Cardinals,1.41,,Indiana Hoosiers,Louisville Cardinals
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,spreads,Indiana Hoosiers,1.83,5.5,Indiana Hoosiers,Louisville Cardinals
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,spreads,Louisville Cardinals,1.98,-5.5,Indiana Hoosiers,Louisville Cardinals
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,totals,Over,1.91,157.5,Indiana Hoosiers,Louisville Cardinals
+CBBM,,f29b0f71b8f9e2dac4f682cb7b3aae96,2025-12-06 13:00:00 CST,FanDuel,totals,Under,1.91,157.5,Indiana Hoosiers,Louisville Cardinals
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,h2h,Marquette Golden Eagles,5.8,,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,h2h,Wisconsin Badgers,1.14,,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,spreads,Marquette Golden Eagles,1.91,10.5,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,spreads,Wisconsin Badgers,1.91,-10.5,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,totals,Over,1.95,157.5,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,eb9cc15be7d3e50efed9dd100a66aef4,2025-12-06 13:00:00 CST,FanDuel,totals,Under,1.87,157.5,Wisconsin Badgers,Marquette Golden Eagles
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,h2h,Arkansas Razorbacks,1.04,,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,h2h,Fresno St Bulldogs,12.6,,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,spreads,Arkansas Razorbacks,1.91,-16.5,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,spreads,Fresno St Bulldogs,1.91,16.5,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,totals,Over,1.91,157.5,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,95142a35401556c814d6165a5e0f2294,2025-12-06 15:00:00 CST,FanDuel,totals,Under,1.91,157.5,Arkansas Razorbacks,Fresno St Bulldogs
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,h2h,Kansas St Wildcats,1.45,,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,h2h,Seton Hall Pirates,2.8,,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,spreads,Kansas St Wildcats,1.91,-4.5,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,spreads,Seton Hall Pirates,1.91,4.5,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,totals,Over,1.91,147.5,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,2f11fccae332438d60e55e6494d77f31,2025-12-06 15:00:00 CST,FanDuel,totals,Under,1.91,147.5,Kansas St Wildcats,Seton Hall Pirates
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,h2h,Michigan Wolverines,1.01,,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,h2h,Rutgers Scarlet Knights,26.0,,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,spreads,Michigan Wolverines,1.91,-24.5,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,spreads,Rutgers Scarlet Knights,1.91,24.5,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,totals,Over,1.91,145.5,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,c0c29a7aa2a99b9d07f5c89f565153c6,2025-12-06 15:00:00 CST,FanDuel,totals,Under,1.91,145.5,Michigan Wolverines,Rutgers Scarlet Knights
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,h2h,Iowa Hawkeyes,1.17,,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,h2h,Maryland Terrapins,5.2,,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,spreads,Iowa Hawkeyes,1.91,-9.5,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,spreads,Maryland Terrapins,1.91,9.5,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,totals,Over,1.91,135.5,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,8e810179cbe5f0bd38fc8f17d57ca6db,2025-12-06 15:00:36 CST,FanDuel,totals,Under,1.91,135.5,Iowa Hawkeyes,Maryland Terrapins
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,h2h,Baylor Bears,1.79,,Memphis Tigers,Baylor Bears
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,h2h,Memphis Tigers,2.05,,Memphis Tigers,Baylor Bears
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,spreads,Baylor Bears,1.91,-1.5,Memphis Tigers,Baylor Bears
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,spreads,Memphis Tigers,1.91,1.5,Memphis Tigers,Baylor Bears
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,totals,Over,1.91,156.5,Memphis Tigers,Baylor Bears
+CBBM,,a9e3c5df02005c33a68e6d0648df1fe9,2025-12-06 15:30:00 CST,FanDuel,totals,Under,1.91,156.5,Memphis Tigers,Baylor Bears
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,h2h,USC Trojans,1.27,,USC Trojans,Washington Huskies
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,h2h,Washington Huskies,3.85,,USC Trojans,Washington Huskies
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,spreads,USC Trojans,1.91,-7.5,USC Trojans,Washington Huskies
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,spreads,Washington Huskies,1.91,7.5,USC Trojans,Washington Huskies
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,totals,Over,1.91,155.5,USC Trojans,Washington Huskies
+CBBM,,2bcc630c8141f3efce340afefc38b570,2025-12-06 17:00:00 CST,FanDuel,totals,Under,1.91,155.5,USC Trojans,Washington Huskies
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,h2h,Florida St Seminoles,12.6,,Houston Cougars,Florida St Seminoles
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,h2h,Houston Cougars,1.04,,Houston Cougars,Florida St Seminoles
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,spreads,Florida St Seminoles,1.91,16.5,Houston Cougars,Florida St Seminoles
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,spreads,Houston Cougars,1.91,-16.5,Houston Cougars,Florida St Seminoles
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,totals,Over,1.91,148.5,Houston Cougars,Florida St Seminoles
+CBBM,,a0e65ee48003259147b4d6befa8d486e,2025-12-06 19:00:00 CST,FanDuel,totals,Under,1.91,148.5,Houston Cougars,Florida St Seminoles
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,h2h,Illinois Fighting Illini,2.22,,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,h2h,Tennessee Volunteers,1.68,,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,spreads,Illinois Fighting Illini,1.89,2.5,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,spreads,Tennessee Volunteers,1.93,-2.5,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,totals,Over,1.91,151.5,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,aa2bddc6b12617bac9132132ed0b1b39,2025-12-06 19:00:00 CST,FanDuel,totals,Under,1.91,151.5,Tennessee Volunteers,Illinois Fighting Illini
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,h2h,Ole Miss Rebels,5.9,,St. John's Red Storm,Ole Miss Rebels
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,h2h,St. John's Red Storm,1.14,,St. John's Red Storm,Ole Miss Rebels
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,spreads,Ole Miss Rebels,1.91,10.5,St. John's Red Storm,Ole Miss Rebels
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,spreads,St. John's Red Storm,1.91,-10.5,St. John's Red Storm,Ole Miss Rebels
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,totals,Over,1.91,155.5,St. John's Red Storm,Ole Miss Rebels
+CBBM,,a0c57b302d95ed947b51aa29963748de,2025-12-06 19:00:00 CST,FanDuel,totals,Under,1.91,155.5,St. John's Red Storm,Ole Miss Rebels
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,h2h,Arizona St Sun Devils,2.95,,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,h2h,Oklahoma Sooners,1.42,,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,spreads,Arizona St Sun Devils,1.95,4.5,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,spreads,Oklahoma Sooners,1.87,-4.5,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,totals,Over,1.91,158.5,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,4b8ab70f7c3d9669d69c97098102c447,2025-12-06 21:00:00 CST,FanDuel,totals,Under,1.91,158.5,Arizona St Sun Devils,Oklahoma Sooners
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,h2h,Arizona Wildcats,1.25,,Arizona Wildcats,Auburn Tigers
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,h2h,Auburn Tigers,4.1,,Arizona Wildcats,Auburn Tigers
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,spreads,Arizona Wildcats,1.87,-7.5,Arizona Wildcats,Auburn Tigers
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,spreads,Auburn Tigers,1.95,7.5,Arizona Wildcats,Auburn Tigers
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,totals,Over,1.91,160.5,Arizona Wildcats,Auburn Tigers
+CBBM,,cf96c94dc768db7280bc5344ed523534,2025-12-06 21:00:00 CST,FanDuel,totals,Under,1.91,160.5,Arizona Wildcats,Auburn Tigers

@@ -33,9 +33,10 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 local_tz = pytz.timezone("US/Eastern")
 
 BASE_SERIES_TICKERS = [
-    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", 
+    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
     "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL","KXNBASPREAD", 
-    "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"
+    "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD",
+    
 ]
 SERIES_TICKERS = BASE_SERIES_TICKERS 
 
@@ -43,15 +44,16 @@ SERIES_TO_FILENAME = {
     "KXNFLGAME": "nfl_winners.csv",
     "KXNBAGAME": "nba_winners.csv",
     "KXNCAAFGAME": "ncaaf_winners.csv",
-    "KXNCAAMBGAME": "ncaab_winners.csv",
+    "KXNCAAMBGAME": "ncaabm_winners.csv",
+    "KXNCAAWBGAME": "ncaabw_winners.csv",
     "KXNFLTOTAL": "nfl_totals.csv",
     "KXNFLSPREAD": "nfl_spreads.csv",
     "KXNBATOTAL": "nba_totals.csv",
     "KXNBASPREAD": "nba_spreads.csv",
     "KXNCAAFTOTAL": "ncaaf_totals.csv",
     "KXNCAAFSPREAD": "ncaaf_spreads.csv",
-"KXNCAAMBTOTAL": "ncaab_totals.csv",
-"KXNCAAMBSPREAD": "ncaab_spreads.csv"
+"KXNCAAMBTOTAL": "ncaabm_totals.csv",
+"KXNCAAMBSPREAD": "ncaabm_spreads.csv"
 }
 TICKER_DATE_RE = re.compile(r"-(\d{2}[A-Z]{3}\d{2})")
 
@@ -241,6 +243,25 @@ def _write_csv(df, path):
     with open(path, "w", newline="") as csvfile:
         df.to_csv(csvfile, index=False)
 
+def _resolve_filename(series_ticker: str) -> str:
+    """
+    Ensure KXNCAAMB* markets always write to ncaabm_* files regardless of the
+    caller that triggered the fetch (prevents duplicate ncaab_* outputs).
+    """
+    default_name = SERIES_TO_FILENAME.get(series_ticker, f"{series_ticker.lower()}.csv")
+    if not series_ticker:
+        return default_name
+
+    normalized = series_ticker.upper()
+    if normalized.startswith("KXNCAAMB"):
+        if "TOTAL" in normalized:
+            return "ncaabm_totals.csv"
+        if "SPREAD" in normalized:
+            return "ncaabm_spreads.csv"
+        return "ncaabm_winners.csv"
+
+    return default_name
+
 
 def write_rows_by_series(rows):
     if not rows: return
@@ -260,7 +281,7 @@ def write_rows_by_series(rows):
         by_series.setdefault(series, []).append(row)
 
     for series_ticker, rows_list in by_series.items():
-        filename = SERIES_TO_FILENAME.get(series_ticker, f"{series_ticker.lower()}.csv")
+        filename = _resolve_filename(series_ticker)
         path = os.path.join(dated_dir, filename)
         df = pd.DataFrame(rows_list)
         _write_csv(df, path)

@@ -17,15 +17,10 @@ SPORT_KEYS = {
     "NFL": "americanfootball_nfl",
     "CFB": "americanfootball_ncaaf",
     "NBA": "basketball_nba",
-    "CBB": "basketball_ncaab",
-    "Tennis": "tennis",
-    "Soccer": "soccer"  
+    "CBBM": "basketball_ncaab",
+    "CBBW": "basketball_wncaab"
 }
 
-SOCCER_LEAGUES = {
-    "English Premier League",
-    "UEFA Champions League"
-}
 
 CSV_COLUMNS = [
     "sport",
