@@ -1,16 +1,16 @@
 sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Illinois Fighting Illini,1.87,-5.5,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Indiana Hoosiers,1.87,5.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Illinois Fighting Illini,1.83,-6.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,spreads,Indiana Hoosiers,1.91,6.5,Illinois Fighting Illini,Indiana Hoosiers
 CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Over,1.91,132.0,Illinois Fighting Illini,Indiana Hoosiers
 CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,BetOnline.ag,totals,Under,1.83,132.0,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,h2h,Illinois Fighting Illini,1.51,,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,h2h,Indiana Hoosiers,2.58,,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,spreads,Illinois Fighting Illini,1.91,-4.5,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,spreads,Indiana Hoosiers,1.91,4.5,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.91,132.5,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.91,132.5,Illinois Fighting Illini,Indiana Hoosiers
-CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,spreads,Miss Valley St Delta Devilettes,1.91,58.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
-CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,spreads,Oklahoma St Cowgirls,1.91,-58.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,h2h,Illinois Fighting Illini,1.47,,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,h2h,Indiana Hoosiers,2.72,,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,spreads,Illinois Fighting Illini,1.89,-5.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,spreads,Indiana Hoosiers,1.93,5.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,totals,Over,1.93,132.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,ff37fc9e75f45fa5547be8c5e6b530a7,2025-12-06 11:00:00 CST,FanDuel,totals,Under,1.89,132.5,Illinois Fighting Illini,Indiana Hoosiers
+CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,spreads,Miss Valley St Delta Devilettes,1.91,60.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
+CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,spreads,Oklahoma St Cowgirls,1.91,-60.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
 CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,totals,Over,1.91,150.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
 CBBW,,2496b6121649aeeeeb704f91ccf227b5,2025-12-06 14:00:00 CST,FanDuel,totals,Under,1.91,150.5,Oklahoma St Cowgirls,Miss Valley St Delta Devilettes
 CBBW,,332d76582ba259c3db8d967d78802a88,2025-12-06 15:30:00 CST,FanDuel,spreads,South Carolina Upstate Spartans,1.91,6.5,South Carolina Upstate Spartans,UNC Greensboro Spartans

@@ -1,0 +1,1 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h

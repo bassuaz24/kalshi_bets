@@ -1,0 +1,25 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,5ce3dc62ef349f90a89f437f79554b10,2025-12-07 11:00:00 CST,FanDuel,totals,Over,2.0,121.5,North Carolina Tar Heels,Boston Univ. Terriers
+CBBW,,5ce3dc62ef349f90a89f437f79554b10,2025-12-07 11:00:00 CST,FanDuel,totals,Under,1.82,121.5,North Carolina Tar Heels,Boston Univ. Terriers
+CBBW,,faffad4523382c427f626ea366421362,2025-12-07 11:00:00 CST,FanDuel,spreads,Central Michigan Chippewas,1.91,40.5,Kentucky Wildcats,Central Michigan Chippewas
+CBBW,,faffad4523382c427f626ea366421362,2025-12-07 11:00:00 CST,FanDuel,spreads,Kentucky Wildcats,1.91,-40.5,Kentucky Wildcats,Central Michigan Chippewas
+CBBW,,faffad4523382c427f626ea366421362,2025-12-07 11:00:00 CST,FanDuel,totals,Over,1.91,127.5,Kentucky Wildcats,Central Michigan Chippewas
+CBBW,,faffad4523382c427f626ea366421362,2025-12-07 11:00:00 CST,FanDuel,totals,Under,1.91,127.5,Kentucky Wildcats,Central Michigan Chippewas
+CBBW,,cc3c7b0fe866b59916fe9a25f799e040,2025-12-07 11:00:00 CST,FanDuel,totals,Over,1.91,134.5,Louisville Cardinals,New Hampshire Wildcats
+CBBW,,cc3c7b0fe866b59916fe9a25f799e040,2025-12-07 11:00:00 CST,FanDuel,totals,Under,1.91,134.5,Louisville Cardinals,New Hampshire Wildcats
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,BetOnline.ag,spreads,Michigan Wolverines,1.83,-37.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,BetOnline.ag,spreads,Purdue Boilermakers,1.91,37.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,BetOnline.ag,totals,Over,1.87,143.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,BetOnline.ag,totals,Under,1.87,143.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,FanDuel,spreads,Michigan Wolverines,1.91,-37.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,FanDuel,spreads,Purdue Boilermakers,1.91,37.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,FanDuel,totals,Over,1.91,143.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,b7b0e242bde6ae97e3e0ec181715881c,2025-12-07 11:00:00 CST,FanDuel,totals,Under,1.91,143.5,Michigan Wolverines,Purdue Boilermakers
+CBBW,,04f6e0a0e06d472af035d5df48d73c22,2025-12-07 11:00:00 CST,FanDuel,spreads,North Carolina Central Eagles,1.91,71.5,South Carolina Gamecocks,North Carolina Central Eagles
+CBBW,,04f6e0a0e06d472af035d5df48d73c22,2025-12-07 11:00:00 CST,FanDuel,spreads,South Carolina Gamecocks,1.91,-71.5,South Carolina Gamecocks,North Carolina Central Eagles
+CBBW,,04f6e0a0e06d472af035d5df48d73c22,2025-12-07 11:00:00 CST,FanDuel,totals,Over,1.91,151.5,South Carolina Gamecocks,North Carolina Central Eagles
+CBBW,,04f6e0a0e06d472af035d5df48d73c22,2025-12-07 11:00:00 CST,FanDuel,totals,Under,1.91,151.5,South Carolina Gamecocks,North Carolina Central Eagles
+CBBW,,c8e739661d62d895000158cc87b8e57a,2025-12-07 12:00:00 CST,FanDuel,spreads,DePaul Blue Demons,1.91,62.5,UConn Huskies,DePaul Blue Demons
+CBBW,,c8e739661d62d895000158cc87b8e57a,2025-12-07 12:00:00 CST,FanDuel,spreads,UConn Huskies,1.91,-62.5,UConn Huskies,DePaul Blue Demons
+CBBW,,c8e739661d62d895000158cc87b8e57a,2025-12-07 12:00:00 CST,FanDuel,totals,Over,1.91,142.5,UConn Huskies,DePaul Blue Demons
+CBBW,,c8e739661d62d895000158cc87b8e57a,2025-12-07 12:00:00 CST,FanDuel,totals,Under,1.91,142.5,UConn Huskies,DePaul Blue Demons
