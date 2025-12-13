@@ -1,0 +1,5 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-10T19:14:45.777693Z,KXNBAGAME-25DEC10SASLAL-SAS,San Antonio vs Los Angeles L Winner?,active,binary,2025-12-24T22:00:00-05:00,0.28,,0.29,,0.71,,0.72,,0.01,0.01,0,0,0,0,6551580.44,280533.0
+2025-12-10T19:14:45.770651Z,KXNBAGAME-25DEC10SASLAL-LAL,San Antonio vs Los Angeles L Winner?,active,binary,2025-12-24T22:00:00-05:00,0.71,,0.72,,0.28,,0.29,,0.01,0.01,0,0,0,0,7114363.39,637609.0
+2025-12-10T19:14:45.771502Z,KXNBAGAME-25DEC10PHXOKC-PHX,Phoenix vs Oklahoma City Winner?,active,binary,2025-12-24T19:30:00-05:00,0.12,,0.13,,0.87,,0.88,,0.01,0.01,0,0,0,0,3665606.8,903076.0
+2025-12-10T19:14:45.778323Z,KXNBAGAME-25DEC10PHXOKC-OKC,Phoenix vs Oklahoma City Winner?,active,binary,2025-12-24T19:30:00-05:00,0.88,,0.89,,0.11,,0.12,,0.01,0.01,0,0,0,0,4780160.57,504240.0

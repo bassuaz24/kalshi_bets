@@ -1,0 +1,7 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-08T17:14:34.067368Z,KXNBAGAME-25DEC08SASNOP-SAS,San Antonio vs New Orleans Winner?,active,binary,2025-12-22T20:00:00-05:00,0.78,,0.8,,0.2,,0.22,,0.02,0.02,0,0,0,0,4225915.07,9364.0
+2025-12-08T17:14:34.068944Z,KXNBAGAME-25DEC08SASNOP-NOP,San Antonio vs New Orleans Winner?,active,binary,2025-12-22T20:00:00-05:00,0.21,,0.22,,0.78,,0.79,,0.01,0.01,0,0,0,0,3999410.59,3886.0
+2025-12-08T17:14:34.064736Z,KXNBAGAME-25DEC08PHXMIN-PHX,Phoenix vs Minnesota Winner?,active,binary,2025-12-22T19:30:00-05:00,0.2,,0.21,,0.79,,0.8,,0.01,0.01,0,0,0,0,4235693.7,9202.0
+2025-12-08T17:14:34.069499Z,KXNBAGAME-25DEC08PHXMIN-MIN,Phoenix vs Minnesota Winner?,active,binary,2025-12-22T19:30:00-05:00,0.79,,0.8,,0.2,,0.21,,0.01,0.01,0,0,0,0,4578939.64,1673.0
+2025-12-08T17:14:36.692127Z,KXNBAGAME-25DEC08SACIND-SAC,Sacramento vs Indiana Winner?,active,binary,2025-12-22T19:00:00-05:00,0.38,,0.4,,0.6,,0.62,,0.02,0.02,0,0,0,0,4350195.17,2734.0
+2025-12-08T17:14:34.065256Z,KXNBAGAME-25DEC08SACIND-IND,Sacramento vs Indiana Winner?,active,binary,2025-12-22T19:00:00-05:00,0.61,,0.62,,0.38,,0.39,,0.01,0.01,0,0,0,0,4684600.56,1043.0

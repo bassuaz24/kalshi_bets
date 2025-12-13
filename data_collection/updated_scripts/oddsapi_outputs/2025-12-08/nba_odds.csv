@@ -1,0 +1,73 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,h2h,Indiana Pacers,1.6,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,h2h,Sacramento Kings,2.42,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,spreads,Indiana Pacers,1.91,-4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,spreads,Sacramento Kings,1.91,4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,totals,Over,1.94,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,FanDuel,totals,Under,1.88,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,h2h,Indiana Pacers,1.57,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,h2h,Sacramento Kings,2.53,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,spreads,Indiana Pacers,1.91,-4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,spreads,Sacramento Kings,1.91,4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,totals,Over,1.91,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetOnline.ag,totals,Under,1.91,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,h2h,Indiana Pacers,1.57,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,h2h,Sacramento Kings,2.5,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,spreads,Indiana Pacers,1.91,-4.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,spreads,Sacramento Kings,1.91,4.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,totals,Over,1.91,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,BetUS,totals,Under,1.91,234.5,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,h2h,Indiana Pacers,1.6,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,h2h,Sacramento Kings,2.5,,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,spreads,Indiana Pacers,1.93,-4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,spreads,Sacramento Kings,1.97,4.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,totals,Over,1.93,235.0,Indiana Pacers,Sacramento Kings
+NBA,,fe5ab84f0f63d8819da2233645bc68d5,2025-12-08 18:10:00 CST,Pinnacle,totals,Under,1.96,235.0,Indiana Pacers,Sacramento Kings
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,h2h,Minnesota Timberwolves,1.22,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,h2h,Phoenix Suns,4.6,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.88,-10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,spreads,Phoenix Suns,1.94,10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,totals,Over,1.91,224.5,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,FanDuel,totals,Under,1.91,224.5,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,h2h,Minnesota Timberwolves,1.22,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,h2h,Phoenix Suns,4.5,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,spreads,Minnesota Timberwolves,1.91,-10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,spreads,Phoenix Suns,1.91,10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,totals,Over,1.91,224.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetOnline.ag,totals,Under,1.91,224.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,h2h,Minnesota Timberwolves,1.22,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,h2h,Phoenix Suns,4.55,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,spreads,Minnesota Timberwolves,1.91,-10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,spreads,Phoenix Suns,1.91,10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,totals,Over,1.91,224.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,BetUS,totals,Under,1.91,224.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,h2h,Minnesota Timberwolves,1.22,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,h2h,Phoenix Suns,4.78,,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,spreads,Minnesota Timberwolves,1.95,-10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,spreads,Phoenix Suns,1.95,10.0,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,totals,Over,1.91,223.5,Minnesota Timberwolves,Phoenix Suns
+NBA,,fa9c13de1b6188669ed5766355bc2d17,2025-12-08 18:40:00 CST,Pinnacle,totals,Under,1.97,223.5,Minnesota Timberwolves,Phoenix Suns
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,h2h,New Orleans Pelicans,4.15,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,h2h,San Antonio Spurs,1.25,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,spreads,New Orleans Pelicans,1.91,9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,-9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,totals,Over,1.93,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,FanDuel,totals,Under,1.89,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,h2h,New Orleans Pelicans,4.34,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,h2h,San Antonio Spurs,1.24,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,spreads,New Orleans Pelicans,1.91,9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.91,-9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,totals,Over,1.95,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetOnline.ag,totals,Under,1.87,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,h2h,New Orleans Pelicans,4.33,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,h2h,San Antonio Spurs,1.24,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,spreads,New Orleans Pelicans,1.91,9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,spreads,San Antonio Spurs,1.91,-9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,totals,Over,1.91,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,BetUS,totals,Under,1.91,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,h2h,New Orleans Pelicans,4.47,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,h2h,San Antonio Spurs,1.24,,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,spreads,New Orleans Pelicans,1.93,9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,spreads,San Antonio Spurs,1.97,-9.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,totals,Over,1.95,236.5,New Orleans Pelicans,San Antonio Spurs
+NBA,,67f638076c2d1263eaa0b9b5689ac18e,2025-12-08 19:10:00 CST,Pinnacle,totals,Under,1.93,236.5,New Orleans Pelicans,San Antonio Spurs

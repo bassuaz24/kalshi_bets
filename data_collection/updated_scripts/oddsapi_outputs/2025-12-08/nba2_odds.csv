@@ -1,0 +1,13 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,h2h,Miami Heat,1.83,,Orlando Magic,Miami Heat
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,h2h,Orlando Magic,2.02,,Orlando Magic,Miami Heat
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,spreads,Miami Heat,1.91,-1.5,Orlando Magic,Miami Heat
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,spreads,Orlando Magic,1.91,1.5,Orlando Magic,Miami Heat
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,totals,Over,1.93,237.5,Orlando Magic,Miami Heat
+NBA,,099fbdb7f4738db6e1f5b7889ab3d707,2025-12-09 17:10:00 CST,FanDuel,totals,Under,1.89,237.5,Orlando Magic,Miami Heat
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,h2h,New York Knicks,1.56,,Toronto Raptors,New York Knicks
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,h2h,Toronto Raptors,2.52,,Toronto Raptors,New York Knicks
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,spreads,New York Knicks,1.91,-4.5,Toronto Raptors,New York Knicks
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,spreads,Toronto Raptors,1.91,4.5,Toronto Raptors,New York Knicks
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,totals,Over,1.91,231.5,Toronto Raptors,New York Knicks
+NBA,,582a77bcdc5401a29e263ffed5d26609,2025-12-09 19:30:00 CST,FanDuel,totals,Under,1.91,231.5,Toronto Raptors,New York Knicks

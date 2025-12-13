@@ -1,0 +1,5 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-08T17:14:35.489778Z,KXNCAAMBGAME-25DEC08SOUTEX-TEX,Southern University at Texas Winner?,active,binary,2025-12-22T20:00:00-05:00,0.96,,0.97,,0.03,,0.04,,0.01,0.01,0,0,0,0,1789344.13,298.0
+2025-12-08T17:14:34.066652Z,KXNCAAMBGAME-25DEC08SOUTEX-SOU,Southern University at Texas Winner?,active,binary,2025-12-22T20:00:00-05:00,0.03,,0.04,,0.96,,0.97,,0.01,0.01,0,0,0,0,1757195.92,219.0
+2025-12-08T17:14:34.610855Z,KXNCAAMBGAME-25DEC08MVSUKSU-MVSU,Mississippi Valley St. at Kansas St. Winner?,active,binary,2025-12-22T20:00:00-05:00,0.0,,0.01,,0.99,,1.0,,0.01,0.01,0,0,0,0,426358.31,35376.0
+2025-12-08T17:14:34.558173Z,KXNCAAMBGAME-25DEC08MVSUKSU-KSU,Mississippi Valley St. at Kansas St. Winner?,active,binary,2025-12-22T20:00:00-05:00,0.99,,1.0,,0.0,,0.01,,0.01,0.01,0,0,0,0,552604.71,2201.0

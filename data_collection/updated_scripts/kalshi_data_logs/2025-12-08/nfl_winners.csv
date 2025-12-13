@@ -1,0 +1,3 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-08T17:24:46.084000Z,KXNFLGAME-25DEC08PHILAC-PHI,Philadelphia at Los Angeles C Winner?,active,binary,2025-12-22T20:15:00-05:00,0.56,,0.57,,0.43,,0.44,,0.01,0.01,0,0,0,0,13029045.61,88089.0
+2025-12-08T17:24:46.082515Z,KXNFLGAME-25DEC08PHILAC-LAC,Philadelphia at Los Angeles C Winner?,active,binary,2025-12-22T20:15:00-05:00,0.44,,0.45,,0.55,,0.56,,0.01,0.01,0,0,0,0,12201343.15,53932.0

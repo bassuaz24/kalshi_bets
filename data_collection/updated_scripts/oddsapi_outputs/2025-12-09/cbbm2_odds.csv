@@ -1,0 +1,5 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,,1cdf59bddf203a746c2f03cd6b307596,2025-12-10 18:00:00 CST,BetOnline.ag,spreads,Minnesota Golden Gophers,1.91,19.0,Purdue Boilermakers,Minnesota Golden Gophers
+CBBM,,1cdf59bddf203a746c2f03cd6b307596,2025-12-10 18:00:00 CST,BetOnline.ag,spreads,Purdue Boilermakers,1.91,-19.0,Purdue Boilermakers,Minnesota Golden Gophers
+CBBM,,1cdf59bddf203a746c2f03cd6b307596,2025-12-10 18:00:00 CST,BetOnline.ag,totals,Over,1.91,142.0,Purdue Boilermakers,Minnesota Golden Gophers
+CBBM,,1cdf59bddf203a746c2f03cd6b307596,2025-12-10 18:00:00 CST,BetOnline.ag,totals,Under,1.91,142.0,Purdue Boilermakers,Minnesota Golden Gophers
