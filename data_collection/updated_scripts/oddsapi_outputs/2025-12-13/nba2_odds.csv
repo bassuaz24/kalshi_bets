@@ -1,0 +1,61 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,h2h,Indiana Pacers,1.3,,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,h2h,Washington Wizards,3.7,,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,spreads,Indiana Pacers,1.91,-9.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,spreads,Washington Wizards,1.91,9.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,totals,Over,1.91,234.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,FanDuel,totals,Under,1.91,234.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,BetOnline.ag,spreads,Indiana Pacers,1.91,-9.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,BetOnline.ag,spreads,Washington Wizards,1.91,9.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,BetOnline.ag,totals,Over,1.91,235.5,Indiana Pacers,Washington Wizards
+NBA,,c4e08dc18ebcb540203efc3b261b0f12,2025-12-14 14:10:00 CST,BetOnline.ag,totals,Under,1.91,235.5,Indiana Pacers,Washington Wizards
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,h2h,Charlotte Hornets,4.6,,Cleveland Cavaliers,Charlotte Hornets
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,h2h,Cleveland Cavaliers,1.22,,Cleveland Cavaliers,Charlotte Hornets
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,spreads,Charlotte Hornets,1.88,11.5,Cleveland Cavaliers,Charlotte Hornets
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,spreads,Cleveland Cavaliers,1.94,-11.5,Cleveland Cavaliers,Charlotte Hornets
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,totals,Over,1.91,236.5,Cleveland Cavaliers,Charlotte Hornets
+NBA,,3a7d3279d992ce5c56534a4b42a7bdf8,2025-12-14 14:40:00 CST,FanDuel,totals,Under,1.91,236.5,Cleveland Cavaliers,Charlotte Hornets
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,h2h,Atlanta Hawks,1.72,,Atlanta Hawks,Philadelphia 76ers
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,h2h,Philadelphia 76ers,2.18,,Atlanta Hawks,Philadelphia 76ers
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,spreads,Atlanta Hawks,1.91,-2.5,Atlanta Hawks,Philadelphia 76ers
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,spreads,Philadelphia 76ers,1.91,2.5,Atlanta Hawks,Philadelphia 76ers
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,totals,Over,1.91,232.5,Atlanta Hawks,Philadelphia 76ers
+NBA,,b26645968edf7bf48d50c748e4107fb3,2025-12-14 17:10:00 CST,FanDuel,totals,Under,1.91,232.5,Atlanta Hawks,Philadelphia 76ers
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,h2h,Brooklyn Nets,2.1,,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,h2h,Milwaukee Bucks,1.77,,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,spreads,Brooklyn Nets,1.94,1.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,spreads,Milwaukee Bucks,1.88,-1.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,totals,Over,1.93,218.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,FanDuel,totals,Under,1.89,218.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,BetOnline.ag,spreads,Brooklyn Nets,1.91,1.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,BetOnline.ag,spreads,Milwaukee Bucks,1.91,-1.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,BetOnline.ag,totals,Over,1.91,217.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9d716f72748acc7e1841a6526baebf20,2025-12-14 17:10:00 CST,BetOnline.ag,totals,Under,1.91,217.5,Brooklyn Nets,Milwaukee Bucks
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,h2h,Chicago Bulls,1.51,,Chicago Bulls,New Orleans Pelicans
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,h2h,New Orleans Pelicans,2.66,,Chicago Bulls,New Orleans Pelicans
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,spreads,Chicago Bulls,1.91,-5.0,Chicago Bulls,New Orleans Pelicans
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,spreads,New Orleans Pelicans,1.91,5.0,Chicago Bulls,New Orleans Pelicans
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,totals,Over,1.91,244.5,Chicago Bulls,New Orleans Pelicans
+NBA,,9a401a5d01d50dd4667da88d3fd2c0d5,2025-12-14 18:10:00 CST,FanDuel,totals,Under,1.91,244.5,Chicago Bulls,New Orleans Pelicans
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,h2h,Minnesota Timberwolves,1.16,,Minnesota Timberwolves,Sacramento Kings
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,h2h,Sacramento Kings,5.6,,Minnesota Timberwolves,Sacramento Kings
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.89,-11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,spreads,Sacramento Kings,1.93,11.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,totals,Over,1.91,229.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,787d069f8664c6efc2c87087e15eca28,2025-12-14 18:10:00 CST,FanDuel,totals,Under,1.91,229.5,Minnesota Timberwolves,Sacramento Kings
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,h2h,Los Angeles Lakers,1.75,,Phoenix Suns,Los Angeles Lakers
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,h2h,Phoenix Suns,2.14,,Phoenix Suns,Los Angeles Lakers
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,spreads,Los Angeles Lakers,1.94,-2.5,Phoenix Suns,Los Angeles Lakers
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,spreads,Phoenix Suns,1.88,2.5,Phoenix Suns,Los Angeles Lakers
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,totals,Over,1.85,228.5,Phoenix Suns,Los Angeles Lakers
+NBA,,248d1ebfe78ef5cfe690e8d95677bac1,2025-12-14 19:10:00 CST,FanDuel,totals,Under,1.96,228.5,Phoenix Suns,Los Angeles Lakers
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,h2h,Golden State Warriors,1.49,,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,h2h,Portland Trail Blazers,2.72,,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,spreads,Golden State Warriors,1.88,-5.0,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,spreads,Portland Trail Blazers,1.94,5.0,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,totals,Over,1.89,235.5,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,FanDuel,totals,Under,1.93,235.5,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,BetOnline.ag,spreads,Golden State Warriors,1.95,-4.5,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,BetOnline.ag,spreads,Portland Trail Blazers,1.87,4.5,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,BetOnline.ag,totals,Over,1.91,235.5,Portland Trail Blazers,Golden State Warriors
+NBA,,5c6a0c60d6f983cf2b5e02ae26ce5b40,2025-12-14 20:10:00 CST,BetOnline.ag,totals,Under,1.91,235.5,Portland Trail Blazers,Golden State Warriors

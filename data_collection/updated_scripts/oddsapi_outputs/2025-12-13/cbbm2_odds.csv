@@ -1,0 +1,53 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,,77bcaedbd30114c7a6e58229df19c56a,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,Buffalo Bulls,1.91,0.0,East Carolina Pirates,Buffalo Bulls
+CBBM,,77bcaedbd30114c7a6e58229df19c56a,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,East Carolina Pirates,1.91,0.0,East Carolina Pirates,Buffalo Bulls
+CBBM,,77bcaedbd30114c7a6e58229df19c56a,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Over,1.91,145.5,East Carolina Pirates,Buffalo Bulls
+CBBM,,77bcaedbd30114c7a6e58229df19c56a,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Under,1.91,145.5,East Carolina Pirates,Buffalo Bulls
+CBBM,,2dd2c36323879f35affaf440279af6a4,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,Eastern Illinois Panthers,1.95,42.0,Iowa State Cyclones,Eastern Illinois Panthers
+CBBM,,2dd2c36323879f35affaf440279af6a4,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,Iowa State Cyclones,1.87,-42.0,Iowa State Cyclones,Eastern Illinois Panthers
+CBBM,,2dd2c36323879f35affaf440279af6a4,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Over,1.91,141.0,Iowa State Cyclones,Eastern Illinois Panthers
+CBBM,,2dd2c36323879f35affaf440279af6a4,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Under,1.91,141.0,Iowa State Cyclones,Eastern Illinois Panthers
+CBBM,,335481403c8d14f16014c08c997a3f45,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Ball State Cardinals,1.95,7.5,Campbell Fighting Camels,Ball State Cardinals
+CBBM,,335481403c8d14f16014c08c997a3f45,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Campbell Fighting Camels,1.87,-7.5,Campbell Fighting Camels,Ball State Cardinals
+CBBM,,335481403c8d14f16014c08c997a3f45,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Over,1.91,141.0,Campbell Fighting Camels,Ball State Cardinals
+CBBM,,335481403c8d14f16014c08c997a3f45,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Under,1.91,141.0,Campbell Fighting Camels,Ball State Cardinals
+CBBM,,4ba4f88a64fbf06f3b88232751bba4ac,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Fairfield Stags,1.91,2.0,Fairfield Stags,Monmouth Hawks
+CBBM,,4ba4f88a64fbf06f3b88232751bba4ac,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Monmouth Hawks,1.91,-2.0,Fairfield Stags,Monmouth Hawks
+CBBM,,4ba4f88a64fbf06f3b88232751bba4ac,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Over,1.91,147.5,Fairfield Stags,Monmouth Hawks
+CBBM,,4ba4f88a64fbf06f3b88232751bba4ac,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Under,1.91,147.5,Fairfield Stags,Monmouth Hawks
+CBBM,,26b5a494ee56783a426670f543de0683,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Indiana St Sycamores,1.91,4.5,Milwaukee Panthers,Indiana St Sycamores
+CBBM,,26b5a494ee56783a426670f543de0683,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Milwaukee Panthers,1.91,-4.5,Milwaukee Panthers,Indiana St Sycamores
+CBBM,,26b5a494ee56783a426670f543de0683,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Over,1.91,154.5,Milwaukee Panthers,Indiana St Sycamores
+CBBM,,26b5a494ee56783a426670f543de0683,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Under,1.91,154.5,Milwaukee Panthers,Indiana St Sycamores
+CBBM,,bb69e2f7de0fbf8aeac7215965fac092,2025-12-14 14:00:00 CST,BetOnline.ag,spreads,Iowa Hawkeyes,1.91,-28.5,Iowa Hawkeyes,Western Michigan Broncos
+CBBM,,bb69e2f7de0fbf8aeac7215965fac092,2025-12-14 14:00:00 CST,BetOnline.ag,spreads,Western Michigan Broncos,1.91,28.5,Iowa Hawkeyes,Western Michigan Broncos
+CBBM,,bb69e2f7de0fbf8aeac7215965fac092,2025-12-14 14:00:00 CST,BetOnline.ag,totals,Over,1.95,146.0,Iowa Hawkeyes,Western Michigan Broncos
+CBBM,,bb69e2f7de0fbf8aeac7215965fac092,2025-12-14 14:00:00 CST,BetOnline.ag,totals,Under,1.87,146.0,Iowa Hawkeyes,Western Michigan Broncos
+CBBM,,4d0aa138ca9400470cb662197f99c590,2025-12-14 14:00:00 CST,BetOnline.ag,spreads,Troy Trojans,1.91,7.0,UAB Blazers,Troy Trojans
+CBBM,,4d0aa138ca9400470cb662197f99c590,2025-12-14 14:00:00 CST,BetOnline.ag,spreads,UAB Blazers,1.91,-7.0,UAB Blazers,Troy Trojans
+CBBM,,4d0aa138ca9400470cb662197f99c590,2025-12-14 14:00:00 CST,BetOnline.ag,totals,Over,1.91,149.5,UAB Blazers,Troy Trojans
+CBBM,,4d0aa138ca9400470cb662197f99c590,2025-12-14 14:00:00 CST,BetOnline.ag,totals,Under,1.91,149.5,UAB Blazers,Troy Trojans
+CBBM,,4dd427b86083a98b006c2a7c3ce3be3c,2025-12-14 15:00:00 CST,BetOnline.ag,spreads,Charleston Cougars,1.95,-5.5,Charleston Cougars,Charlotte 49ers
+CBBM,,4dd427b86083a98b006c2a7c3ce3be3c,2025-12-14 15:00:00 CST,BetOnline.ag,spreads,Charlotte 49ers,1.87,5.5,Charleston Cougars,Charlotte 49ers
+CBBM,,4dd427b86083a98b006c2a7c3ce3be3c,2025-12-14 15:00:00 CST,BetOnline.ag,totals,Over,1.91,142.0,Charleston Cougars,Charlotte 49ers
+CBBM,,4dd427b86083a98b006c2a7c3ce3be3c,2025-12-14 15:00:00 CST,BetOnline.ag,totals,Under,1.91,142.0,Charleston Cougars,Charlotte 49ers
+CBBM,,34c347500379aaf636c732eb0efb8251,2025-12-14 16:00:00 CST,BetOnline.ag,spreads,Detroit Mercy Titans,1.91,7.0,Fort Wayne Mastodons,Detroit Mercy Titans
+CBBM,,34c347500379aaf636c732eb0efb8251,2025-12-14 16:00:00 CST,BetOnline.ag,spreads,Fort Wayne Mastodons,1.91,-7.0,Fort Wayne Mastodons,Detroit Mercy Titans
+CBBM,,34c347500379aaf636c732eb0efb8251,2025-12-14 16:00:00 CST,BetOnline.ag,totals,Over,1.91,156.0,Fort Wayne Mastodons,Detroit Mercy Titans
+CBBM,,34c347500379aaf636c732eb0efb8251,2025-12-14 16:00:00 CST,BetOnline.ag,totals,Under,1.91,156.0,Fort Wayne Mastodons,Detroit Mercy Titans
+CBBM,,7276ea48989506792ffff9fd6892daac,2025-12-14 16:00:00 CST,BetOnline.ag,spreads,Kent State Golden Flashes,1.91,-7.5,Portland Pilots,Kent State Golden Flashes
+CBBM,,7276ea48989506792ffff9fd6892daac,2025-12-14 16:00:00 CST,BetOnline.ag,spreads,Portland Pilots,1.91,7.5,Portland Pilots,Kent State Golden Flashes
+CBBM,,7276ea48989506792ffff9fd6892daac,2025-12-14 16:00:00 CST,BetOnline.ag,totals,Over,1.95,165.5,Portland Pilots,Kent State Golden Flashes
+CBBM,,7276ea48989506792ffff9fd6892daac,2025-12-14 16:00:00 CST,BetOnline.ag,totals,Under,1.87,165.5,Portland Pilots,Kent State Golden Flashes
+CBBM,,553f9e08bc1a8d1d0882be056bc9cfeb,2025-12-14 16:30:00 CST,BetOnline.ag,spreads,North Texas Mean Green,1.91,1.5,South Alabama Jaguars,North Texas Mean Green
+CBBM,,553f9e08bc1a8d1d0882be056bc9cfeb,2025-12-14 16:30:00 CST,BetOnline.ag,spreads,South Alabama Jaguars,1.91,-1.5,South Alabama Jaguars,North Texas Mean Green
+CBBM,,553f9e08bc1a8d1d0882be056bc9cfeb,2025-12-14 16:30:00 CST,BetOnline.ag,totals,Over,1.91,130.5,South Alabama Jaguars,North Texas Mean Green
+CBBM,,553f9e08bc1a8d1d0882be056bc9cfeb,2025-12-14 16:30:00 CST,BetOnline.ag,totals,Under,1.91,130.5,South Alabama Jaguars,North Texas Mean Green
+CBBM,,153a1f89b0781d8336c1b217460034f2,2025-12-14 17:00:00 CST,BetOnline.ag,spreads,Boise State Broncos,1.91,2.0,Boise State Broncos,Saint Mary's Gaels
+CBBM,,153a1f89b0781d8336c1b217460034f2,2025-12-14 17:00:00 CST,BetOnline.ag,spreads,Saint Mary's Gaels,1.91,-2.0,Boise State Broncos,Saint Mary's Gaels
+CBBM,,153a1f89b0781d8336c1b217460034f2,2025-12-14 17:00:00 CST,BetOnline.ag,totals,Over,1.91,137.0,Boise State Broncos,Saint Mary's Gaels
+CBBM,,153a1f89b0781d8336c1b217460034f2,2025-12-14 17:00:00 CST,BetOnline.ag,totals,Under,1.91,137.0,Boise State Broncos,Saint Mary's Gaels
+CBBM,,8a3270a86e9e96b3eeabc57d432a8418,2025-12-14 18:30:00 CST,BetOnline.ag,spreads,USC Trojans,1.87,-14.5,USC Trojans,Washington St Cougars
+CBBM,,8a3270a86e9e96b3eeabc57d432a8418,2025-12-14 18:30:00 CST,BetOnline.ag,spreads,Washington St Cougars,1.95,14.5,USC Trojans,Washington St Cougars
+CBBM,,8a3270a86e9e96b3eeabc57d432a8418,2025-12-14 18:30:00 CST,BetOnline.ag,totals,Over,1.95,160.5,USC Trojans,Washington St Cougars
+CBBM,,8a3270a86e9e96b3eeabc57d432a8418,2025-12-14 18:30:00 CST,BetOnline.ag,totals,Under,1.87,160.5,USC Trojans,Washington St Cougars

@@ -1,0 +1,49 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,h2h,New York Knicks,1.53,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,h2h,Orlando Magic,2.6,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,spreads,New York Knicks,1.91,-5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,spreads,Orlando Magic,1.91,5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,totals,Over,1.89,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,FanDuel,totals,Under,1.93,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,h2h,New York Knicks,1.52,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,h2h,Orlando Magic,2.72,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,spreads,New York Knicks,1.95,-5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,spreads,Orlando Magic,1.95,5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,totals,Over,1.9,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,Pinnacle,totals,Under,1.99,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,h2h,New York Knicks,1.53,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,h2h,Orlando Magic,2.65,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,spreads,New York Knicks,1.95,-5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,spreads,Orlando Magic,1.87,5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,totals,Over,1.87,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetOnline.ag,totals,Under,1.95,224.5,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,h2h,New York Knicks,1.5,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,h2h,Orlando Magic,2.7,,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,spreads,New York Knicks,1.95,-5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,spreads,Orlando Magic,1.87,5.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,totals,Over,1.91,225.0,Orlando Magic,New York Knicks
+NBA,,a5415e46c5fcbe0d07e9354d57ac89f5,2025-12-13 16:30:00 CST,BetUS,totals,Under,1.91,225.0,Orlando Magic,New York Knicks
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,h2h,Oklahoma City Thunder,1.17,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,h2h,San Antonio Spurs,5.3,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.88,-11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,spreads,San Antonio Spurs,1.94,11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,totals,Over,1.88,231.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,FanDuel,totals,Under,1.94,231.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,h2h,Oklahoma City Thunder,1.21,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,h2h,San Antonio Spurs,4.87,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,spreads,Oklahoma City Thunder,2.0,-11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,spreads,San Antonio Spurs,1.9,11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,totals,Over,1.89,231.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,Pinnacle,totals,Under,2.0,231.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,h2h,Oklahoma City Thunder,1.2,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,h2h,San Antonio Spurs,4.8,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,spreads,Oklahoma City Thunder,1.95,-11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.87,11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,totals,Over,1.89,232.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetOnline.ag,totals,Under,1.93,232.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,h2h,Oklahoma City Thunder,1.18,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,h2h,San Antonio Spurs,5.35,,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,spreads,Oklahoma City Thunder,1.91,-11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,spreads,San Antonio Spurs,1.91,11.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,totals,Over,1.91,232.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,,2bb4fb503eee5d6ccee6f70bb183ba0f,2025-12-13 20:00:00 CST,BetUS,totals,Under,1.91,232.0,Oklahoma City Thunder,San Antonio Spurs
