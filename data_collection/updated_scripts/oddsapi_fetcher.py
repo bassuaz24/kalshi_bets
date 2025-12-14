@@ -85,11 +85,6 @@ def normalize_to_rows(sport_name: str, games: list, target_dates) -> (dict, set)
     market_keys = set()
 
     for game in games:
-        # Skip non-EPL/UCL games if sport is Soccer
-        if sport_name == "Soccer":
-            league_name = game.get("league", "")
-            if league_name not in SOCCER_LEAGUES:
-                continue  
 
         game_time = game.get("commence_time")
         if not game_time:

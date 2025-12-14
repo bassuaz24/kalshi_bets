@@ -1,0 +1,7 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_ask,no_bid,no_ask,yes_spread,no_spread,liquidity_dollars,volume_24h
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13SCSTPV-SCST,South Carolina St. at Prairie View A&M Winner?,active,binary,,0.26,0.43,0.57,0.74,0.17,0.17,1754122.09,183471.0
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13SCSTPV-PV,South Carolina St. at Prairie View A&M Winner?,active,binary,,0.61,0.73,0.27,0.39,0.12,0.12,1753580.09,128941.0
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13BSUWASH-WASH,Boise St. at Washington Winner?,active,binary,,0.75,0.76,0.24,0.25,0.01,0.01,8201514.54,82967.0
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13BSUWASH-BSU,Boise St. at Washington Winner?,active,binary,,0.23,0.25,0.75,0.77,0.02,0.02,7861294.85,63721.0
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13ARMYNAVY-NAVY,Army at Navy Winner?,active,binary,,0.7,0.71,0.29,0.3,0.01,0.01,8629856.62,1026463.0
+2025-12-13T14:43:23.871894-05:00,KXNCAAFGAME-25DEC13ARMYNAVY-ARMY,Army at Navy Winner?,active,binary,,0.29,0.3,0.7,0.71,0.01,0.01,8002239.04,474530.0

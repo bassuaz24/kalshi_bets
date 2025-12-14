@@ -1,0 +1,5 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_bid2,yes_ask,yes_ask2,no_bid,no_bid2,no_ask,no_ask2,yes_spread,no_spread,yes_depth_bids,yes_depth_asks,no_depth_bids,no_depth_asks,liquidity_dollars,volume_24h
+2025-12-08T17:24:28.299142Z,KXNCAAWBGAME-25DEC08NORFGT-NORF,Norfolk St. at Georgia Tech Winner?,active,binary,2025-12-22T19:00:00-05:00,0.14,,0.15,,0.85,,0.86,,0.01,0.01,0,0,0,0,1620606.69,8.0
+2025-12-08T17:24:29.623888Z,KXNCAAWBGAME-25DEC08NORFGT-GT,Norfolk St. at Georgia Tech Winner?,active,binary,2025-12-22T19:00:00-05:00,0.85,,0.87,,0.13,,0.15,,0.02,0.02,0,0,0,0,1624449.39,1.0
+2025-12-08T17:24:28.315529Z,KXNCAAWBGAME-25DEC08TXSOWVU-WVU,Texas Southern at West Virginia Winner?,active,binary,2025-12-22T19:00:00-05:00,0.99,,1.0,,0.0,,0.01,,0.01,0.01,0,0,0,0,1488329.26,1442.0
+2025-12-08T17:24:29.624525Z,KXNCAAWBGAME-25DEC08TXSOWVU-TXSO,Texas Southern at West Virginia Winner?,active,binary,2025-12-22T19:00:00-05:00,0.0,,0.01,,0.99,,1.0,,0.01,0.01,0,0,0,0,1598910.06,3711.0

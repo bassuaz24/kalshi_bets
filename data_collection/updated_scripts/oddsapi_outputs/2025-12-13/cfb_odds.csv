@@ -1,0 +1,67 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,h2h,Tarleton State Texans,3.5,,Tarleton State Texans,Villanova Wildcats
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,h2h,Villanova Wildcats,1.29,,Tarleton State Texans,Villanova Wildcats
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,spreads,Tarleton State Texans,2.64,4.5,Tarleton State Texans,Villanova Wildcats
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,spreads,Villanova Wildcats,1.44,-4.5,Tarleton State Texans,Villanova Wildcats
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,totals,Over,1.68,53.5,Tarleton State Texans,Villanova Wildcats
+CFB,,c695958689b3796d12dad3093131d869,2025-12-13 11:00:00 CST,FanDuel,totals,Under,2.1,53.5,Tarleton State Texans,Villanova Wildcats
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,h2h,Prairie View A&M Panthers,1.47,,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,h2h,South Carolina State Bulldogs,2.64,,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,spreads,Prairie View A&M Panthers,2.0,-3.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,spreads,South Carolina State Bulldogs,1.76,3.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,totals,Over,1.88,65.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,FanDuel,totals,Under,1.88,65.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,h2h,Prairie View A&M Panthers,1.64,,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,h2h,South Carolina State Bulldogs,2.28,,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,spreads,Prairie View A&M Panthers,1.82,-2.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,spreads,South Carolina State Bulldogs,2.01,2.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,totals,Over,1.87,61.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,d304fd63fe96db01c37adc6a89ae4405,2025-12-13 11:08:00 CST,Pinnacle,totals,Under,1.95,61.5,Prairie View A&M Panthers,South Carolina State Bulldogs
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,h2h,Army Black Knights,3.15,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,h2h,Navy Midshipmen,1.38,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,spreads,Army Black Knights,1.9,6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,spreads,Navy Midshipmen,1.92,-6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,totals,Over,1.91,38.0,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetOnline.ag,totals,Under,1.91,38.0,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,h2h,Army Black Knights,2.9,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,h2h,Navy Midshipmen,1.43,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,spreads,Army Black Knights,1.87,6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,spreads,Navy Midshipmen,1.95,-6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,totals,Over,1.95,38.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,FanDuel,totals,Under,1.87,38.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,h2h,Army Black Knights,3.18,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,h2h,Navy Midshipmen,1.38,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,spreads,Army Black Knights,1.91,6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,spreads,Navy Midshipmen,1.91,-6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,totals,Over,1.91,38.0,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,BetUS,totals,Under,1.91,38.0,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,h2h,Army Black Knights,3.03,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,h2h,Navy Midshipmen,1.42,,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,spreads,Army Black Knights,1.89,6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,spreads,Navy Midshipmen,2.0,-6.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,totals,Over,1.86,37.5,Navy Midshipmen,Army Black Knights
+CFB,,86b2f11373631509f973bd3e72f5732d,2025-12-13 14:00:00 CST,Pinnacle,totals,Under,2.0,37.5,Navy Midshipmen,Army Black Knights
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,h2h,Boise State Broncos,3.8,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,h2h,Washington Huskies,1.29,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,spreads,Boise State Broncos,1.93,9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,spreads,Washington Huskies,1.89,-9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,totals,Over,1.91,53.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetOnline.ag,totals,Under,1.91,53.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,h2h,Boise State Broncos,3.85,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,h2h,Washington Huskies,1.28,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,spreads,Boise State Broncos,1.91,9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,spreads,Washington Huskies,1.91,-9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,totals,Over,1.91,53.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,FanDuel,totals,Under,1.91,53.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,h2h,Boise State Broncos,3.9,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,h2h,Washington Huskies,1.28,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,spreads,Boise State Broncos,1.87,10.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,spreads,Washington Huskies,1.95,-10.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,totals,Over,1.91,53.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,BetUS,totals,Under,1.91,53.0,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,h2h,Boise State Broncos,3.82,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,h2h,Washington Huskies,1.29,,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,spreads,Boise State Broncos,1.95,9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,spreads,Washington Huskies,1.93,-9.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,totals,Over,1.9,52.5,Washington Huskies,Boise State Broncos
+CFB,,a12597fe519a345d8bfdb3f8bd37fc2d,2025-12-13 19:00:00 CST,Pinnacle,totals,Under,1.95,52.5,Washington Huskies,Boise State Broncos

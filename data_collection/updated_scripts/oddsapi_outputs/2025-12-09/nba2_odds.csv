@@ -1,0 +1,21 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,h2h,Oklahoma City Thunder,1.07,,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,h2h,Phoenix Suns,9.7,,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.88,-15.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,spreads,Phoenix Suns,1.94,15.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,totals,Over,1.88,226.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,FanDuel,totals,Under,1.94,226.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,BetOnline.ag,spreads,Oklahoma City Thunder,1.95,-15.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,BetOnline.ag,spreads,Phoenix Suns,1.87,15.5,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,BetOnline.ag,totals,Over,1.87,227.0,Oklahoma City Thunder,Phoenix Suns
+NBA,,9373b84d11358f66f18562222dbf5f42,2025-12-10 18:30:00 CST,BetOnline.ag,totals,Under,1.95,227.0,Oklahoma City Thunder,Phoenix Suns
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,h2h,Los Angeles Lakers,1.53,,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,h2h,San Antonio Spurs,2.58,,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,spreads,Los Angeles Lakers,1.91,-4.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,4.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,totals,Over,1.88,235.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,FanDuel,totals,Under,1.94,235.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,BetOnline.ag,spreads,Los Angeles Lakers,1.91,-4.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.91,4.5,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,BetOnline.ag,totals,Over,1.91,236.0,Los Angeles Lakers,San Antonio Spurs
+NBA,,2031f79c4dd229576855fb346449a8d4,2025-12-10 21:00:00 CST,BetOnline.ag,totals,Under,1.91,236.0,Los Angeles Lakers,San Antonio Spurs

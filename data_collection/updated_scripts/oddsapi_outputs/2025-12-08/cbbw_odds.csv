@@ -1,0 +1,5 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,51b55a6076b42f5d552291bb64393a44,2025-12-08 18:00:00 CST,FanDuel,spreads,Texas Southern Tigers,1.91,48.5,West Virginia Mountaineers,Texas Southern Tigers
+CBBW,,51b55a6076b42f5d552291bb64393a44,2025-12-08 18:00:00 CST,FanDuel,spreads,West Virginia Mountaineers,1.91,-48.5,West Virginia Mountaineers,Texas Southern Tigers
+CBBW,,51b55a6076b42f5d552291bb64393a44,2025-12-08 18:00:00 CST,FanDuel,totals,Over,1.89,143.5,West Virginia Mountaineers,Texas Southern Tigers
+CBBW,,51b55a6076b42f5d552291bb64393a44,2025-12-08 18:00:00 CST,FanDuel,totals,Under,1.93,143.5,West Virginia Mountaineers,Texas Southern Tigers

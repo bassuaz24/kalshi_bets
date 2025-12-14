@@ -1,0 +1,23 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,h2h,New York Knicks,1.64,,New York Knicks,Orlando Magic
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,h2h,Orlando Magic,2.32,,New York Knicks,Orlando Magic
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,spreads,New York Knicks,1.91,-3.5,New York Knicks,Orlando Magic
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,spreads,Orlando Magic,1.91,3.5,New York Knicks,Orlando Magic
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,totals,Over,1.89,232.5,New York Knicks,Orlando Magic
+NBA,,ae4bc3a7ccbb03047bf9c84a2da60b5a,2025-12-07 11:10:00 CST,FanDuel,totals,Under,1.93,232.5,New York Knicks,Orlando Magic
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,h2h,Boston Celtics,1.75,,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,h2h,Toronto Raptors,2.14,,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,spreads,Boston Celtics,1.94,-2.5,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,spreads,Toronto Raptors,1.88,2.5,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,totals,Over,1.94,227.5,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,FanDuel,totals,Under,1.88,227.5,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,BetOnline.ag,spreads,Boston Celtics,1.95,-3.0,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,BetOnline.ag,spreads,Toronto Raptors,1.87,3.0,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,BetOnline.ag,totals,Over,1.91,227.5,Toronto Raptors,Boston Celtics
+NBA,,79f85d1f3db80d57737a7e21fe18f923,2025-12-07 14:40:00 CST,BetOnline.ag,totals,Under,1.91,227.5,Toronto Raptors,Boston Celtics
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,h2h,Los Angeles Lakers,1.6,,Philadelphia 76ers,Los Angeles Lakers
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,h2h,Philadelphia 76ers,2.42,,Philadelphia 76ers,Los Angeles Lakers
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,spreads,Los Angeles Lakers,1.91,-4.0,Philadelphia 76ers,Los Angeles Lakers
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,spreads,Philadelphia 76ers,1.91,4.0,Philadelphia 76ers,Los Angeles Lakers
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,totals,Over,1.91,235.5,Philadelphia 76ers,Los Angeles Lakers
+NBA,,6a9bd086351afd60d1912cbfccbe56b4,2025-12-07 18:40:00 CST,FanDuel,totals,Under,1.91,235.5,Philadelphia 76ers,Los Angeles Lakers

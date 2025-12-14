@@ -1,0 +1,59 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,h2h,Lafayette Leopards,3.35,,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,h2h,Pennsylvania Quakers,1.34,,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,spreads,Lafayette Leopards,1.98,5.5,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,spreads,Pennsylvania Quakers,1.83,-5.5,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,totals,Over,1.87,152.5,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,FanDuel,totals,Under,1.95,152.5,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,BetOnline.ag,spreads,Lafayette Leopards,1.91,7.0,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,BetOnline.ag,spreads,Pennsylvania Quakers,1.91,-7.0,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,BetOnline.ag,totals,Over,1.91,153.0,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,4aad97e094688744824efdf58d7c9565,2025-12-08 17:00:00 CST,BetOnline.ag,totals,Under,1.91,153.0,Pennsylvania Quakers,Lafayette Leopards
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,h2h,Charleston Southern Buccaneers,1.16,,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,h2h,South Carolina St Bulldogs,5.4,,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,spreads,Charleston Southern Buccaneers,1.83,-9.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,spreads,South Carolina St Bulldogs,1.98,9.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,totals,Over,1.87,150.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,FanDuel,totals,Under,1.95,150.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,BetOnline.ag,spreads,Charleston Southern Buccaneers,1.91,-10.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,BetOnline.ag,spreads,South Carolina St Bulldogs,1.91,10.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,BetOnline.ag,totals,Over,1.87,152.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,9aced47f69e22d6259e3b6f72c4512cb,2025-12-08 18:00:00 CST,BetOnline.ag,totals,Under,1.95,152.5,Charleston Southern Buccaneers,South Carolina St Bulldogs
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,h2h,Grambling St Tigers,3.85,,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,h2h,Southern Miss Golden Eagles,1.27,,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,spreads,Grambling St Tigers,1.91,7.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,spreads,Southern Miss Golden Eagles,1.91,-7.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,totals,Over,1.87,139.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,FanDuel,totals,Under,1.95,139.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Grambling St Tigers,1.95,7.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Southern Miss Golden Eagles,1.87,-7.5,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Over,1.91,139.0,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,6c57b4ca2e6a5a614aae803284e20085,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Under,1.91,139.0,Southern Miss Golden Eagles,Grambling St Tigers
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,h2h,Incarnate Word Cardinals,1.98,,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,h2h,New Orleans Privateers,1.85,,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,spreads,Incarnate Word Cardinals,1.82,1.5,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,spreads,New Orleans Privateers,2.0,-1.5,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,totals,Over,1.87,150.5,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,FanDuel,totals,Under,1.95,150.5,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Incarnate Word Cardinals,1.87,-1.0,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,New Orleans Privateers,1.95,1.0,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Over,1.91,151.0,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,e376767087aa37a69853cab09dfd8759,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Under,1.91,151.0,New Orleans Privateers,Incarnate Word Cardinals
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,FanDuel,spreads,Kansas St Wildcats,1.91,-30.5,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,FanDuel,spreads,Miss Valley St Delta Devils,1.91,30.5,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,FanDuel,totals,Over,1.87,153.5,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,FanDuel,totals,Under,1.95,153.5,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Kansas St Wildcats,1.95,-30.0,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Miss Valley St Delta Devils,1.87,30.0,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Over,1.87,155.0,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,1f65cf2314a8279af67ac7bedbb04fe7,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Under,1.95,155.0,Kansas St Wildcats,Miss Valley St Delta Devils
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,h2h,Southern Jaguars,23.0,,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,h2h,Texas Longhorns,1.01,,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,spreads,Southern Jaguars,1.91,22.5,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,spreads,Texas Longhorns,1.91,-22.5,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,totals,Over,1.91,155.5,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,FanDuel,totals,Under,1.91,155.5,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Southern Jaguars,1.95,23.0,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,BetOnline.ag,spreads,Texas Longhorns,1.87,-23.0,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Over,1.91,154.5,Texas Longhorns,Southern Jaguars
+CBBM,,b9e1fcdb9cb4b3338870c228adbd02b3,2025-12-08 19:00:00 CST,BetOnline.ag,totals,Under,1.91,154.5,Texas Longhorns,Southern Jaguars
