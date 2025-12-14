@@ -1,0 +1,67 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,h2h,Dayton Flyers,9.8,,Purdue Boilermakers,Dayton Flyers
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,h2h,Purdue Boilermakers,1.03,,Purdue Boilermakers,Dayton Flyers
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,spreads,Dayton Flyers,1.93,15.5,Purdue Boilermakers,Dayton Flyers
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,spreads,Purdue Boilermakers,1.82,-15.5,Purdue Boilermakers,Dayton Flyers
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,totals,Over,1.82,120.5,Purdue Boilermakers,Dayton Flyers
+CBBW,,ff684f6845295c43e6ab97b699ae9f63,2025-12-14 11:00:00 CST,FanDuel,totals,Under,1.93,120.5,Purdue Boilermakers,Dayton Flyers
+CBBW,,48791a68ab4aa14c41d28a129a968906,2025-12-14 11:00:00 CST,FanDuel,spreads,Illinois St Redbirds,1.87,31.5,Nebraska Cornhuskers,Illinois St Redbirds
+CBBW,,48791a68ab4aa14c41d28a129a968906,2025-12-14 11:00:00 CST,FanDuel,spreads,Nebraska Cornhuskers,1.95,-31.5,Nebraska Cornhuskers,Illinois St Redbirds
+CBBW,,48791a68ab4aa14c41d28a129a968906,2025-12-14 11:00:00 CST,FanDuel,totals,Over,1.91,143.5,Nebraska Cornhuskers,Illinois St Redbirds
+CBBW,,48791a68ab4aa14c41d28a129a968906,2025-12-14 11:00:00 CST,FanDuel,totals,Under,1.91,143.5,Nebraska Cornhuskers,Illinois St Redbirds
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,h2h,Baylor Bears,12.2,,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,h2h,Texas Longhorns,1.03,,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,spreads,Baylor Bears,1.91,20.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,spreads,Texas Longhorns,1.91,-20.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,totals,Over,1.91,137.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,FanDuel,totals,Under,1.91,137.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,Baylor Bears,2.05,18.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,BetOnline.ag,spreads,Texas Longhorns,1.74,-18.5,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Over,1.91,137.0,Texas Longhorns,Baylor Bears
+CBBW,,8ca70128b2cc30b348850f27e7af0beb,2025-12-14 12:00:00 CST,BetOnline.ag,totals,Under,1.83,137.0,Texas Longhorns,Baylor Bears
+CBBW,,349cd12a5949c53285b328aa8edae561,2025-12-14 12:00:00 CST,FanDuel,spreads,Ohio State Buckeyes,1.91,-35.5,Ohio State Buckeyes,Toledo Rockets
+CBBW,,349cd12a5949c53285b328aa8edae561,2025-12-14 12:00:00 CST,FanDuel,spreads,Toledo Rockets,1.91,35.5,Ohio State Buckeyes,Toledo Rockets
+CBBW,,349cd12a5949c53285b328aa8edae561,2025-12-14 12:00:00 CST,FanDuel,totals,Over,1.91,143.5,Ohio State Buckeyes,Toledo Rockets
+CBBW,,349cd12a5949c53285b328aa8edae561,2025-12-14 12:00:00 CST,FanDuel,totals,Under,1.91,143.5,Ohio State Buckeyes,Toledo Rockets
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,Miami Hurricanes,2.0,5.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,BetOnline.ag,spreads,NC State Wolfpack,1.77,-5.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Over,1.87,131.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,BetOnline.ag,totals,Under,1.87,131.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,h2h,Miami Hurricanes,3.25,,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,h2h,NC State Wolfpack,1.34,,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,spreads,Miami Hurricanes,1.91,6.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,spreads,NC State Wolfpack,1.91,-6.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,totals,Over,1.91,133.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,89c552c66bee41bf3633cb2ea6f25c3d,2025-12-14 13:00:00 CST,FanDuel,totals,Under,1.91,133.5,Miami Hurricanes,NC State Wolfpack
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,h2h,Belmont Bruins,16.0,,Belmont Bruins,Kentucky Wildcats
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,h2h,Kentucky Wildcats,1.02,,Belmont Bruins,Kentucky Wildcats
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,spreads,Belmont Bruins,1.91,18.5,Belmont Bruins,Kentucky Wildcats
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,spreads,Kentucky Wildcats,1.91,-18.5,Belmont Bruins,Kentucky Wildcats
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,totals,Over,1.87,129.5,Belmont Bruins,Kentucky Wildcats
+CBBW,,ea43b3b3fa83d60d330fab1c599b8aa5,2025-12-14 14:00:00 CST,FanDuel,totals,Under,1.95,129.5,Belmont Bruins,Kentucky Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,h2h,Creighton Bluejays,2.18,,Creighton Bluejays,Kansas St Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,h2h,Kansas St Wildcats,1.69,,Creighton Bluejays,Kansas St Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,spreads,Creighton Bluejays,1.91,2.5,Creighton Bluejays,Kansas St Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,spreads,Kansas St Wildcats,1.91,-2.5,Creighton Bluejays,Kansas St Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,totals,Over,1.91,130.5,Creighton Bluejays,Kansas St Wildcats
+CBBW,,10600050c7dd527aec0975abecd77955,2025-12-14 14:30:00 CST,FanDuel,totals,Under,1.91,130.5,Creighton Bluejays,Kansas St Wildcats
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,h2h,James Madison Dukes,7.1,,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,h2h,Notre Dame Fighting Irish,1.1,,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,spreads,James Madison Dukes,1.91,13.5,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,spreads,Notre Dame Fighting Irish,1.91,-13.5,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,totals,Over,1.89,139.5,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,b4e8dc3c0c9d68b5a9ea39dd12eac38d,2025-12-14 15:00:00 CST,FanDuel,totals,Under,1.93,139.5,James Madison Dukes,Notre Dame Fighting Irish
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,BetOnline.ag,spreads,Louisville Cardinals,1.87,4.0,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,BetOnline.ag,spreads,North Carolina Tar Heels,1.87,-4.0,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,BetOnline.ag,totals,Over,1.8,138.0,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,BetOnline.ag,totals,Under,1.95,138.0,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,h2h,Louisville Cardinals,2.6,,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,h2h,North Carolina Tar Heels,1.49,,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,spreads,Louisville Cardinals,1.85,5.5,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,spreads,North Carolina Tar Heels,1.96,-5.5,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,totals,Over,1.91,137.5,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,08d5425a0a970b6b81fa3db1e0ec9cdd,2025-12-14 15:00:00 CST,FanDuel,totals,Under,1.91,137.5,North Carolina Tar Heels,Louisville Cardinals
+CBBW,,bfa1b8d0c77c4b9ffc8e364653ea5053,2025-12-14 17:00:00 CST,FanDuel,spreads,Iowa State Cyclones,1.93,-33.5,Iowa State Cyclones,Northern Iowa Panthers
+CBBW,,bfa1b8d0c77c4b9ffc8e364653ea5053,2025-12-14 17:00:00 CST,FanDuel,spreads,Northern Iowa Panthers,1.89,33.5,Iowa State Cyclones,Northern Iowa Panthers
+CBBW,,bfa1b8d0c77c4b9ffc8e364653ea5053,2025-12-14 17:00:00 CST,FanDuel,totals,Over,1.94,139.5,Iowa State Cyclones,Northern Iowa Panthers
+CBBW,,bfa1b8d0c77c4b9ffc8e364653ea5053,2025-12-14 17:00:00 CST,FanDuel,totals,Under,1.88,139.5,Iowa State Cyclones,Northern Iowa Panthers

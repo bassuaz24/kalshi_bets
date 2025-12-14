@@ -1,0 +1,25 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,h2h,Miami Dolphins,2.54,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,h2h,Pittsburgh Steelers,1.54,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,spreads,Miami Dolphins,1.96,3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,spreads,Pittsburgh Steelers,1.85,-3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,totals,Over,1.89,41.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,FanDuel,totals,Under,1.93,41.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,h2h,Miami Dolphins,2.5,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,h2h,Pittsburgh Steelers,1.57,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,spreads,Miami Dolphins,1.95,3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,spreads,Pittsburgh Steelers,1.87,-3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,totals,Over,1.91,42.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetUS,totals,Under,1.91,42.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,h2h,Miami Dolphins,2.53,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,h2h,Pittsburgh Steelers,1.57,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,spreads,Miami Dolphins,1.95,3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,spreads,Pittsburgh Steelers,1.87,-3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,totals,Over,1.91,42.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,BetOnline.ag,totals,Under,1.91,42.5,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,h2h,Miami Dolphins,2.55,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,h2h,Pittsburgh Steelers,1.57,,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,spreads,Miami Dolphins,2.03,3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,spreads,Pittsburgh Steelers,1.87,-3.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,totals,Over,1.88,42.0,Pittsburgh Steelers,Miami Dolphins
+NFL,,ba5d065a7e9ea9afe54642036f2ec83a,2025-12-15 19:15:00 CST,Pinnacle,totals,Under,1.99,42.0,Pittsburgh Steelers,Miami Dolphins
