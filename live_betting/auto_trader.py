@@ -50,9 +50,9 @@ class CONFIG:
 
     LOG_DIR = "live_betting/orders_log"
     
-    DATE = '2025-12-14'
-    ODDS_SPORT = 'cbbm' #cbbm, cbbm2, cbbw2, cfb, cfb2, nba, nfl
-    KALSHI_SPORT = 'ncaab' #ncaabm, ncaabw, ncaaf, nba, nfl
+    DATE = '2025-12-15'
+    ODDS_SPORT = 'nba' #cbbm, cbbm2, cbbw2, cfb, cfb2, nba, nfl
+    KALSHI_SPORT = 'nba' #ncaabm, ncaabw, ncaaf, nba, nfl
     ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
     KALSHI_DIR = "data_collection/updated_scripts/kalshi_data_logs"
     OUTPUT_DIR = "live_betting/analysis_outputs"
@@ -63,7 +63,7 @@ class CONFIG:
     WINNERS_EV_THRESHOLD = 0.10
     SPREADS_EV_THRESHOLD = 0.10
     KELLY_UPPERBOUND = 1
-    TOTAL_BANKROLL = 350.00
+    TOTAL_BANKROLL = 300.00
     WINNERS_PROPORTION = 0.75
     SPREADS_PROPORTION = 1 - WINNERS_PROPORTION
     Q1_WEIGHT = 1.00

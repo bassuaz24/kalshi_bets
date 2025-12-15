@@ -1,0 +1,3 @@
+timestamp,ticker,title,status,market_type,event_start_time,yes_bid,yes_ask,no_bid,no_ask,yes_spread,no_spread,liquidity_dollars,volume_24h
+2025-12-15T12:51:03.805806-05:00,KXNFLGAME-25DEC15MIAPIT-PIT,Miami at Pittsburgh Winner?,active,binary,,0.61,0.62,0.38,0.39,0.01,0.01,13845357.92,798514.0
+2025-12-15T12:51:03.805806-05:00,KXNFLGAME-25DEC15MIAPIT-MIA,Miami at Pittsburgh Winner?,active,binary,,0.38,0.39,0.61,0.62,0.01,0.01,11896585.75,1072354.0

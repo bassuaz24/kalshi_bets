@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,eb81b33cd06ff3ab3428d02488520b84,2025-12-15 18:30:00 CST,FanDuel,spreads,Oklahoma St Cowgirls,1.91,-27.5,Oklahoma St Cowgirls,Tulsa Golden Hurricane
+CBBW,,eb81b33cd06ff3ab3428d02488520b84,2025-12-15 18:30:00 CST,FanDuel,spreads,Tulsa Golden Hurricane,1.91,27.5,Oklahoma St Cowgirls,Tulsa Golden Hurricane
+CBBW,,eb81b33cd06ff3ab3428d02488520b84,2025-12-15 18:30:00 CST,FanDuel,totals,Over,1.89,147.5,Oklahoma St Cowgirls,Tulsa Golden Hurricane
+CBBW,,eb81b33cd06ff3ab3428d02488520b84,2025-12-15 18:30:00 CST,FanDuel,totals,Under,1.93,147.5,Oklahoma St Cowgirls,Tulsa Golden Hurricane
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,h2h,South Florida Bulls,13.6,,Vanderbilt Commodores,South Florida Bulls
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,h2h,Vanderbilt Commodores,1.02,,Vanderbilt Commodores,South Florida Bulls
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,spreads,South Florida Bulls,1.91,16.5,Vanderbilt Commodores,South Florida Bulls
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,spreads,Vanderbilt Commodores,1.91,-16.5,Vanderbilt Commodores,South Florida Bulls
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,totals,Over,1.91,143.5,Vanderbilt Commodores,South Florida Bulls
+CBBW,,f18dddf01afb69167d809c69a54087c4,2025-12-15 18:30:00 CST,FanDuel,totals,Under,1.91,143.5,Vanderbilt Commodores,South Florida Bulls

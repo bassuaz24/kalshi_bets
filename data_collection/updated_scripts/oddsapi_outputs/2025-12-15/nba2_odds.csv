@@ -1,0 +1,19 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,h2h,New York Knicks,1.74,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,h2h,San Antonio Spurs,2.16,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,spreads,New York Knicks,1.91,-2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,totals,Over,1.94,228.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,FanDuel,totals,Under,1.88,228.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,h2h,New York Knicks,1.77,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,h2h,San Antonio Spurs,2.15,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,spreads,New York Knicks,1.97,-2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,spreads,San Antonio Spurs,1.92,2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,totals,Over,1.98,228.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,Pinnacle,totals,Under,1.88,228.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,h2h,New York Knicks,1.75,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,h2h,San Antonio Spurs,2.13,,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,spreads,New York Knicks,1.89,-2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.93,2.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,totals,Over,1.95,228.5,New York Knicks,San Antonio Spurs
+NBA,,42db7e7ed193f516e561773b04b56eca,2025-12-16 19:40:00 CST,BetOnline.ag,totals,Under,1.87,228.5,New York Knicks,San Antonio Spurs
