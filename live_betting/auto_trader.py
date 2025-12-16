@@ -51,8 +51,8 @@ class CONFIG:
     LOG_DIR = "live_betting/orders_log"
     
     DATE = '2025-12-15'
-    ODDS_SPORT = 'nba' #cbbm, cbbm2, cbbw2, cfb, cfb2, nba, nfl
-    KALSHI_SPORT = 'nba' #ncaabm, ncaabw, ncaaf, nba, nfl
+    ODDS_SPORT = 'nba' #cbbm, cbbw, cfb, nba, nfl
+    KALSHI_SPORT = 'nba' #ncaab, ncaabw, ncaaf, nba, nfl
     ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
     KALSHI_DIR = "data_collection/updated_scripts/kalshi_data_logs"
     OUTPUT_DIR = "live_betting/analysis_outputs"
