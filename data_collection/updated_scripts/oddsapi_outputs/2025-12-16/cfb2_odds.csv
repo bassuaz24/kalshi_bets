@@ -1,0 +1,49 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,h2h,Old Dominion Monarchs,2.28,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,h2h,South Florida Bulls,1.66,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,spreads,Old Dominion Monarchs,2.0,2.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,spreads,South Florida Bulls,1.82,-2.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,totals,Over,1.91,53.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,FanDuel,totals,Under,1.91,53.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,h2h,Old Dominion Monarchs,2.22,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,h2h,South Florida Bulls,1.7,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,spreads,Old Dominion Monarchs,1.97,2.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,spreads,South Florida Bulls,1.85,-2.5,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,totals,Over,1.91,53.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetOnline.ag,totals,Under,1.91,53.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,h2h,Old Dominion Monarchs,2.2,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,h2h,South Florida Bulls,1.71,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,spreads,Old Dominion Monarchs,1.87,3.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,spreads,South Florida Bulls,1.95,-3.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,totals,Over,1.91,53.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,BetUS,totals,Under,1.91,53.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,h2h,Old Dominion Monarchs,2.21,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,h2h,South Florida Bulls,1.71,,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,spreads,Old Dominion Monarchs,1.88,3.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,spreads,South Florida Bulls,1.97,-3.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,totals,Over,1.99,54.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,ed11cbf3b02850670bf213622cf4517b,2025-12-17 16:00:00 CST,Pinnacle,totals,Under,1.85,54.0,South Florida Bulls,Old Dominion Monarchs
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,h2h,Delaware Blue Hens,2.22,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,h2h,Louisiana Ragin Cajuns,1.7,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,spreads,Delaware Blue Hens,1.85,3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,spreads,Louisiana Ragin Cajuns,1.97,-3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,totals,Over,1.87,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetOnline.ag,totals,Under,1.95,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,h2h,Delaware Blue Hens,2.24,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,h2h,Louisiana Ragin Cajuns,1.68,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,spreads,Delaware Blue Hens,1.98,2.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,spreads,Louisiana Ragin Cajuns,1.83,-2.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,totals,Over,1.91,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,FanDuel,totals,Under,1.91,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,h2h,Delaware Blue Hens,2.2,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,h2h,Louisiana Ragin Cajuns,1.71,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,spreads,Delaware Blue Hens,1.91,3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,spreads,Louisiana Ragin Cajuns,1.91,-3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,totals,Over,1.91,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,BetUS,totals,Under,1.91,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,h2h,Delaware Blue Hens,2.28,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,h2h,Louisiana Ragin Cajuns,1.66,,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,spreads,Delaware Blue Hens,1.9,3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,spreads,Louisiana Ragin Cajuns,1.95,-3.0,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,totals,Over,1.92,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns
+CFB,,91a751096545f6c70dca0595cd243ac9,2025-12-17 19:30:00 CST,Pinnacle,totals,Under,1.92,61.5,Delaware Blue Hens,Louisiana Ragin Cajuns

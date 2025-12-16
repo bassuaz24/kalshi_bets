@@ -1,0 +1,5 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,7b5245b71a5fc3f107a276ae12a39933,2025-12-16 11:00:00 CST,FanDuel,spreads,LSU Tigers,1.87,-72.5,LSU Tigers,Morgan St Bears
+CBBW,,7b5245b71a5fc3f107a276ae12a39933,2025-12-16 11:00:00 CST,FanDuel,spreads,Morgan St Bears,1.95,72.5,LSU Tigers,Morgan St Bears
+CBBW,,7b5245b71a5fc3f107a276ae12a39933,2025-12-16 11:00:00 CST,FanDuel,totals,Over,1.91,157.5,LSU Tigers,Morgan St Bears
+CBBW,,7b5245b71a5fc3f107a276ae12a39933,2025-12-16 11:00:00 CST,FanDuel,totals,Under,1.91,157.5,LSU Tigers,Morgan St Bears

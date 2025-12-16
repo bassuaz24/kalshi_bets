@@ -39,7 +39,7 @@ class CONFIG:
     AUTH_MODE = "kalshi_pss"
     PRIVATE_KEY_PATH = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
 
-    DRY_RUN = True
+    DRY_RUN = False
     REQ_TIMEOUT = 15
     MAX_RETRIES = 3
     RETRY_SLEEP = 1.0
@@ -50,9 +50,9 @@ class CONFIG:
 
     LOG_DIR = "live_betting/orders_log"
     
-    DATE = '2025-12-15'
-    ODDS_SPORT = 'nba' #cbbm, cbbw, cfb, nba, nfl
-    KALSHI_SPORT = 'nba' #ncaab, ncaabw, ncaaf, nba, nfl
+    DATE = '2025-12-16'
+    ODDS_SPORT = 'cbbm' #cbbm, cbbw, cfb, nba, nfl
+    KALSHI_SPORT = 'ncaab' #ncaab, ncaabw, ncaaf, nba, nfl
     ODDS_DIR = "data_collection/updated_scripts/oddsapi_outputs"
     KALSHI_DIR = "data_collection/updated_scripts/kalshi_data_logs"
     OUTPUT_DIR = "live_betting/analysis_outputs"
@@ -63,9 +63,8 @@ class CONFIG:
     WINNERS_EV_THRESHOLD = 0.10
     SPREADS_EV_THRESHOLD = 0.10
     KELLY_UPPERBOUND = 1
-    TOTAL_BANKROLL = 300.00
-    WINNERS_PROPORTION = 0.75
-    SPREADS_PROPORTION = 1 - WINNERS_PROPORTION
+    TOTAL_BANKROLL = 225.0
+    WINNERS_PROPORTION = 1.0
     Q1_WEIGHT = 1.00
     Q2_WEIGHT = 1.00
     Q3_WEIGHT = 1.00
@@ -73,8 +72,9 @@ class CONFIG:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+SPREADS_PROPORTION = 1.0 - CONFIG.WINNERS_PROPORTION
 WINNERS_BANKROLL = CONFIG.WINNERS_PROPORTION * CONFIG.TOTAL_BANKROLL
-SPREADS_BANKROLL = CONFIG.TOTAL_BANKROLL - CONFIG.WINNERS_PROPORTION
+SPREADS_BANKROLL = SPREADS_PROPORTION * CONFIG.TOTAL_BANKROLL
 
 try:
     from cryptography.hazmat.primitives import serialization

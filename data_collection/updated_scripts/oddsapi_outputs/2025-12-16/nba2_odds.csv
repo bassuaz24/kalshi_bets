@@ -1,0 +1,13 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,h2h,Chicago Bulls,2.64,,Chicago Bulls,Cleveland Cavaliers
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,h2h,Cleveland Cavaliers,1.51,,Chicago Bulls,Cleveland Cavaliers
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,spreads,Chicago Bulls,1.88,5.0,Chicago Bulls,Cleveland Cavaliers
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,spreads,Cleveland Cavaliers,1.94,-5.0,Chicago Bulls,Cleveland Cavaliers
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,totals,Over,1.91,240.5,Chicago Bulls,Cleveland Cavaliers
+NBA,,a9cbe798da439bd9d012976f7738591b,2025-12-17 19:10:00 CST,FanDuel,totals,Under,1.91,240.5,Chicago Bulls,Cleveland Cavaliers
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,h2h,Memphis Grizzlies,3.15,,Minnesota Timberwolves,Memphis Grizzlies
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,h2h,Minnesota Timberwolves,1.38,,Minnesota Timberwolves,Memphis Grizzlies
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,spreads,Memphis Grizzlies,1.89,7.5,Minnesota Timberwolves,Memphis Grizzlies
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,spreads,Minnesota Timberwolves,1.93,-7.5,Minnesota Timberwolves,Memphis Grizzlies
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,totals,Over,1.91,236.5,Minnesota Timberwolves,Memphis Grizzlies
+NBA,,3dfcf87c4c788368e199e9d23b2c1831,2025-12-17 19:10:00 CST,FanDuel,totals,Under,1.91,236.5,Minnesota Timberwolves,Memphis Grizzlies

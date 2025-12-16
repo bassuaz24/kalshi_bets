@@ -1,0 +1,23 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,h2h,Jacksonville State Gamecocks,1.91,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,h2h,Troy Trojans,1.94,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,spreads,Jacksonville State Gamecocks,1.98,-1.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,spreads,Troy Trojans,1.83,1.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,totals,Over,1.93,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,FanDuel,totals,Under,1.89,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,h2h,Jacksonville State Gamecocks,1.87,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,h2h,Troy Trojans,1.95,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,spreads,Jacksonville State Gamecocks,1.91,-1.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,spreads,Troy Trojans,1.91,1.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,totals,Over,1.91,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetOnline.ag,totals,Under,1.91,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetUS,spreads,Jacksonville State Gamecocks,1.91,0.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetUS,spreads,Troy Trojans,1.91,0.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetUS,totals,Over,1.91,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,BetUS,totals,Under,1.91,49.5,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,h2h,Jacksonville State Gamecocks,1.95,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,h2h,Troy Trojans,1.93,,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,spreads,Jacksonville State Gamecocks,1.89,1.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,spreads,Troy Trojans,2.0,-1.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,totals,Over,1.88,49.0,Jacksonville State Gamecocks,Troy Trojans
+CFB,,7d7ebd0ca1068c66f895b2c1d9c346e9,2025-12-16 20:00:00 CST,Pinnacle,totals,Under,1.98,49.0,Jacksonville State Gamecocks,Troy Trojans
