@@ -23,9 +23,12 @@ from requests.adapters import HTTPAdapter
 # -------------
 # Configuration
 # -------------
+RUN_DURATION_SECONDS = 300  # Run indefinitely. Set to a number for a fixed duration.
+SLEEP_TIME_SECONDS = 20      # Time to sleep between fetch cycles.
+
 API_DOMAIN = "https://api.elections.kalshi.com"
 API_KEY = "95ebf414-44b0-43fa-af17-36221039f78c"  # Hardcoded API Key
-DEFAULT_OUTPUT_DIR = "kalshi_data_logs"
+DEFAULT_OUTPUT_DIR = "volatility_data_logs"
 DEFAULT_SERIES: List[str] = [
     "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
     "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
@@ -200,7 +203,7 @@ def process_markets_to_rows(markets: List[Dict[str, Any]]) -> List[Dict[str, Any
 
 
 def write_rows(all_rows: List[Dict[str, Any]], target_date: datetime.date, output_dir: str):
-    """Groups rows by series and writes them to dated CSV files."""
+    """Groups rows by series and appends them to dated CSV files."""
     if not all_rows:
         print("↩️ No rows to write for this run.")
         return
@@ -224,15 +227,19 @@ def write_rows(all_rows: List[Dict[str, Any]], target_date: datetime.date, outpu
 
         path = os.path.join(dated_dir, filename)
         df = pd.DataFrame(rows_list, columns=OUTPUT_COLUMNS)
-        df.to_csv(path, index=False)
-        print(f"💾 Wrote {len(df)} rows to {path}")
+        
+        # Append to CSV, write header only if file doesn't exist
+        header = not os.path.exists(path)
+        df.to_csv(path, mode='a', index=False, header=header)
+        
+        print(f"💾 Appended {len(df)} rows to {path}")
 
 
 # -------------
 # Main
 # -------------
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Targeted Kalshi market fetcher (v2).")
+    parser = argparse.ArgumentParser(description="Continuously fetch Kalshi market data for volatility analysis.")
     parser.add_argument(
         "--date",
         help=f"Event date to fetch (YYYY-MM-DD). Defaults to today ({LOCAL_TZ.zone}).",
@@ -261,51 +268,69 @@ def main() -> None:
         if args.series
         else DEFAULT_SERIES
     )
+    
     print(f"🎯 Target date: {target_date.isoformat()}")
     print(f"🎯 Series: {series_list}")
+    if RUN_DURATION_SECONDS:
+        print(f"⏳ Running for a total of {RUN_DURATION_SECONDS} seconds.")
+    else:
+        print("⏳ Running indefinitely.")
+    print(f"😴 Sleep time between cycles: {SLEEP_TIME_SECONDS} seconds.")
 
-    all_rows: List[Dict[str, Any]] = []
-    for series in series_list:
-        series_markets_for_date = []
-        cursor = None
-        max_pages = 20
-        pages = 0
 
-        try:
-            while pages < max_pages:
-                markets_page, cursor = get_markets_page(series, cursor=cursor)
+    start_time = time.time()
+    while True:
+        if RUN_DURATION_SECONDS and (time.time() - start_time > RUN_DURATION_SECONDS):
+            break
 
-                if markets_page:
-                    # Client-side filtering
-                    active_markets = [m for m in markets_page if m.get("status") == "active"]
-                    date_filtered_markets = [
-                        m for m in active_markets if _infer_event_date(m) == target_date
-                    ]
+        print(f"\n--- Starting new fetch cycle at {datetime.now(LOCAL_TZ).isoformat()} ---")
+        all_rows: List[Dict[str, Any]] = []
+        for series in series_list:
+            series_markets_for_date = []
+            cursor = None
+            max_pages = 20
+            pages = 0
 
-                    if date_filtered_markets:
-                        series_markets_for_date.extend(date_filtered_markets)
+            try:
+                while pages < max_pages:
+                    markets_page, cursor = get_markets_page(series, cursor=cursor)
 
-                pages += 1
-                if not cursor:
-                    break
-                time.sleep(0.1)
+                    if markets_page:
+                        # Client-side filtering
+                        active_markets = [m for m in markets_page if m.get("status") == "active"]
+                        date_filtered_markets = [
+                            m for m in active_markets if _infer_event_date(m) == target_date
+                        ]
 
-            if series_markets_for_date:
-                rows = process_markets_to_rows(series_markets_for_date)
-                all_rows.extend(rows)
-                print(f"✅ Found and processed {len(rows)} markets for {series} on {target_date.isoformat()}.")
-            else:
-                print(f"ℹ️ No matching markets for {series} on {target_date.isoformat()}.")
+                        if date_filtered_markets:
+                            series_markets_for_date.extend(date_filtered_markets)
 
-        except Exception as exc:
-            print(f"⚠️ Skipping {series} due to error: {exc}")
-            time.sleep(1.0)
-            continue
+                    pages += 1
+                    if not cursor:
+                        break
+                    time.sleep(0.1)
 
-        # Pause between different series to avoid bursting the API rate limit
-        time.sleep(0.5)
+                if series_markets_for_date:
+                    rows = process_markets_to_rows(series_markets_for_date)
+                    all_rows.extend(rows)
+                    print(f"✅ Found and processed {len(rows)} markets for {series} on {target_date.isoformat()}.")
+                else:
+                    print(f"ℹ️ No matching markets for {series} on {target_date.isoformat()}.")
 
-    write_rows(all_rows, target_date, args.output_dir)
+            except Exception as exc:
+                print(f"⚠️ Skipping {series} due to error: {exc}")
+                time.sleep(1.0)
+                continue
+
+            # Pause between different series to avoid bursting the API rate limit
+            time.sleep(0.5)
+
+        write_rows(all_rows, target_date, args.output_dir)
+        
+        print(f"--- Cycle complete. Sleeping for {SLEEP_TIME_SECONDS} seconds. ---")
+        time.sleep(SLEEP_TIME_SECONDS)
+
+    print(f"\n🏁 Run duration of {RUN_DURATION_SECONDS} seconds complete. Exiting.")
 
 
 if __name__ == "__main__":
