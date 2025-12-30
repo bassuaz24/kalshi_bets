@@ -8,7 +8,8 @@ UTC = pytz.utc
 CST = pytz.timezone("America/Chicago") 
 
 # === CONFIGURATION ===
-API_KEY = os.getenv("ODDS_API_KEY") or "c8596b4bd2b552cbf833c152ec3aade8"  # <-- Replace or use env var
+#os.getenv("ODDS_API_KEY") or "c8596b4bd2b552cbf833c152ec3aade8" 
+API_KEY = "c8596b4bd2b552cbf833c152ec3aade8"  # <-- Replace or use env var
 REGION = "us"
 MARKETS = "h2h,spreads,totals"
 BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
