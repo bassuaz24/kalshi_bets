@@ -1,0 +1,19 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,BetOnline.ag,spreads,Ohio State Buckeyes,1.87,-11.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,BetOnline.ag,spreads,Purdue Boilermakers,1.87,11.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,BetOnline.ag,totals,Over,1.83,150.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,BetOnline.ag,totals,Under,1.91,150.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,h2h,Ohio State Buckeyes,1.12,,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,h2h,Purdue Boilermakers,6.2,,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,spreads,Ohio State Buckeyes,1.88,-12.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,spreads,Purdue Boilermakers,1.88,12.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,totals,Over,1.88,150.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,78edcacb98a962e13271e630dc055b0e,2025-12-31 11:30:00 CST,FanDuel,totals,Under,1.88,150.5,Purdue Boilermakers,Ohio State Buckeyes
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,FanDuel,spreads,Houston Cougars,1.88,28.5,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,FanDuel,spreads,Iowa State Cyclones,1.88,-28.5,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,FanDuel,totals,Over,1.88,144.5,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,FanDuel,totals,Under,1.88,144.5,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,BetOnline.ag,spreads,Houston Cougars,1.87,27.0,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,BetOnline.ag,spreads,Iowa State Cyclones,1.87,-27.0,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,BetOnline.ag,totals,Over,1.87,144.5,Houston Cougars,Iowa State Cyclones
+CBBW,,0fc4db2202433cae95315f8520230767,2025-12-31 13:00:00 CST,BetOnline.ag,totals,Under,1.87,144.5,Houston Cougars,Iowa State Cyclones

@@ -42,6 +42,18 @@ class CONFIG:
     PRIVATE_KEY_PATH = os.environ.get("KALSHI_PRIVATE_KEY_PATH")
     AUTH_MODE = "kalshi_pss"
     DRY_RUN = True # Set to False to place real trades
+
+    DATE = '2025-12-31'
+    ODDS_SPORT = 'cbbm'  #cbbm, cbbw, cfb, nba, nfl
+    KALSHI_SPORT = 'ncaab' #ncaab, ncaabw, ncaaf, nba, nfl
+
+    EDGE = 0.01
+    KELLY_UPPERBOUND = 1
+    BANKROLL = 350.00
+    Q1_WEIGHT = 1.00
+    Q2_WEIGHT = 1.00
+    Q3_WEIGHT = 1.00
+    Q4_WEIGHT = 1.00
     
     @classmethod
     def get_date(cls):
@@ -140,17 +152,17 @@ def submit_order(row: pd.Series, date: str):
     else:
         print(f"❌ order failed for {row.get('ticker')}")
 
-date = '2025-12-16'
-odds_sport = 'cbbm' #cbbm, cbbm2, cbbw2, cfb, cfb2, nba, nfl
-kalshi_sport = 'ncaab' #ncaab, ncaabw, ncaaf, nba, nfl
+date = CONFIG.DATE
+odds_sport = CONFIG.ODDS_SPORT #cbbm, cbbm2, cbbw2, cfb, cfb2, nba, nfl
+kalshi_sport = CONFIG.KALSHI_SPORT #ncaab, ncaabw, ncaaf, nba, nfl
 
-EDGE = 0.01
-KELLY_UPPERBOUND = 1
-BANKROLL = 400.00
-Q1_WEIGHT = 1.00
-Q2_WEIGHT = 1.00
-Q3_WEIGHT = 1.00
-Q4_WEIGHT = 1.00
+EDGE = CONFIG.EDGE
+KELLY_UPPERBOUND = CONFIG.KELLY_UPPERBOUND
+BANKROLL = CONFIG.BANKROLL
+Q1_WEIGHT = CONFIG.Q1_WEIGHT
+Q2_WEIGHT = CONFIG.Q2_WEIGHT
+Q3_WEIGHT = CONFIG.Q3_WEIGHT
+Q4_WEIGHT = CONFIG.Q4_WEIGHT
 
 #betus good for nba, pinnacle, betonline best for everything, fanduel pretty good
 

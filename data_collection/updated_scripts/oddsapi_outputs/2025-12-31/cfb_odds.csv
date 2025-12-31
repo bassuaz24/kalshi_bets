@@ -1,0 +1,119 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,h2h,Iowa Hawkeyes,2.38,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,h2h,Vanderbilt Commodores,1.61,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,spreads,Iowa Hawkeyes,1.87,3.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,spreads,Vanderbilt Commodores,1.95,-3.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,totals,Over,1.91,46.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,FanDuel,totals,Under,1.91,46.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetOnline.ag,spreads,Iowa Hawkeyes,3.37,-3.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetOnline.ag,spreads,Vanderbilt Commodores,1.33,3.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetOnline.ag,totals,Over,1.4,38.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetOnline.ag,totals,Under,2.97,38.5,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,h2h,Iowa Hawkeyes,2.38,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,h2h,Vanderbilt Commodores,1.62,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,spreads,Iowa Hawkeyes,1.95,3.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,spreads,Vanderbilt Commodores,1.87,-3.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,totals,Over,1.91,47.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,BetUS,totals,Under,1.91,47.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,h2h,Iowa Hawkeyes,2.38,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,h2h,Vanderbilt Commodores,1.64,,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,spreads,Iowa Hawkeyes,2.0,3.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,spreads,Vanderbilt Commodores,1.89,-3.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,totals,Over,1.84,46.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,e4eae563eb44ef3d6809bf83c6f022ed,2025-12-31 11:00:00 CST,Pinnacle,totals,Under,2.02,46.0,Vanderbilt Commodores,Iowa Hawkeyes
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,h2h,Arizona State Sun Devils,2.4,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,h2h,Duke Blue Devils,1.6,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,spreads,Arizona State Sun Devils,1.87,3.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,spreads,Duke Blue Devils,1.95,-3.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,totals,Over,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,FanDuel,totals,Under,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,h2h,Arizona State Sun Devils,2.38,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,h2h,Duke Blue Devils,1.63,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,spreads,Arizona State Sun Devils,1.96,3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,spreads,Duke Blue Devils,1.86,-3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,totals,Over,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetOnline.ag,totals,Under,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,h2h,Arizona State Sun Devils,2.42,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,h2h,Duke Blue Devils,1.61,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,spreads,Arizona State Sun Devils,2.0,3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,spreads,Duke Blue Devils,1.83,-3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,totals,Over,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,BetUS,totals,Under,1.91,47.5,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,h2h,Arizona State Sun Devils,2.37,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,h2h,Duke Blue Devils,1.65,,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,spreads,Arizona State Sun Devils,1.97,3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,spreads,Duke Blue Devils,1.92,-3.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,totals,Over,1.99,48.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,be58b6906c480e3440f3c4b65a068f3e,2025-12-31 13:00:00 CST,Pinnacle,totals,Under,1.87,48.0,Duke Blue Devils,Arizona State Sun Devils
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,h2h,Michigan Wolverines,3.0,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,h2h,Texas Longhorns,1.42,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,spreads,Michigan Wolverines,1.93,6.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,spreads,Texas Longhorns,1.89,-6.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,totals,Over,1.87,48.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetOnline.ag,totals,Under,1.95,48.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,h2h,Michigan Wolverines,2.98,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,h2h,Texas Longhorns,1.42,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,spreads,Michigan Wolverines,1.91,6.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,spreads,Texas Longhorns,1.91,-6.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,totals,Over,1.95,48.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,FanDuel,totals,Under,1.87,48.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,h2h,Michigan Wolverines,3.03,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,h2h,Texas Longhorns,1.42,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,spreads,Michigan Wolverines,1.91,6.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,spreads,Texas Longhorns,1.91,-6.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,totals,Over,1.91,48.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,BetUS,totals,Under,1.91,48.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,h2h,Michigan Wolverines,3.04,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,h2h,Texas Longhorns,1.42,,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,spreads,Michigan Wolverines,1.92,6.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,spreads,Texas Longhorns,1.97,-6.5,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,totals,Over,1.92,48.0,Texas Longhorns,Michigan Wolverines
+CFB,,19a577346818332b03e9737e6aadf808,2025-12-31 14:00:00 CST,Pinnacle,totals,Under,1.93,48.0,Texas Longhorns,Michigan Wolverines
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,h2h,Nebraska Cornhuskers,5.8,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,h2h,Utah Utes,1.15,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,spreads,Nebraska Cornhuskers,1.87,14.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,spreads,Utah Utes,1.95,-14.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,totals,Over,1.95,51.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,FanDuel,totals,Under,1.87,51.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,h2h,Nebraska Cornhuskers,5.28,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,h2h,Utah Utes,1.18,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,spreads,Nebraska Cornhuskers,1.94,14.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,spreads,Utah Utes,1.88,-14.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,totals,Over,1.95,51.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetOnline.ag,totals,Under,1.87,51.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,h2h,Nebraska Cornhuskers,5.35,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,h2h,Utah Utes,1.18,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,spreads,Nebraska Cornhuskers,1.91,14.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,spreads,Utah Utes,1.91,-14.0,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,totals,Over,1.91,50.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,BetUS,totals,Under,1.91,50.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,h2h,Nebraska Cornhuskers,5.27,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,h2h,Utah Utes,1.18,,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,spreads,Nebraska Cornhuskers,1.86,14.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,spreads,Utah Utes,2.03,-14.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,totals,Over,1.9,50.5,Utah Utes,Nebraska Cornhuskers
+CFB,,6f364b2f9038410b7cfedad799afddfb,2025-12-31 14:30:00 CST,Pinnacle,totals,Under,1.95,50.5,Utah Utes,Nebraska Cornhuskers
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,h2h,Miami Hurricanes,3.92,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,h2h,Ohio State Buckeyes,1.27,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,spreads,Miami Hurricanes,1.93,9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,spreads,Ohio State Buckeyes,1.88,-9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,totals,Over,1.85,40.0,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetOnline.ag,totals,Under,1.97,40.0,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,h2h,Miami Hurricanes,3.9,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,h2h,Ohio State Buckeyes,1.28,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,spreads,Miami Hurricanes,1.91,9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,spreads,Ohio State Buckeyes,1.91,-9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,totals,Over,1.89,40.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,FanDuel,totals,Under,1.93,40.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,h2h,Miami Hurricanes,3.83,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,h2h,Ohio State Buckeyes,1.29,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,spreads,Miami Hurricanes,1.98,9.0,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,spreads,Ohio State Buckeyes,1.91,-9.0,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,totals,Over,1.91,40.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,Pinnacle,totals,Under,1.94,40.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,h2h,Miami Hurricanes,3.9,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,h2h,Ohio State Buckeyes,1.28,,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,spreads,Miami Hurricanes,1.95,9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,spreads,Ohio State Buckeyes,1.87,-9.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,totals,Over,1.91,40.5,Ohio State Buckeyes,Miami Hurricanes
+CFB,,d05ae1f8060582994d6d724ccbb5e21a,2025-12-31 18:30:00 CST,BetUS,totals,Under,1.91,40.5,Ohio State Buckeyes,Miami Hurricanes
