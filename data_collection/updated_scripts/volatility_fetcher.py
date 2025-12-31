@@ -30,25 +30,28 @@ API_DOMAIN = "https://api.elections.kalshi.com"
 API_KEY = "95ebf414-44b0-43fa-af17-36221039f78c"  # Hardcoded API Key
 DEFAULT_OUTPUT_DIR = "volatility_data_logs"
 DEFAULT_SERIES: List[str] = [
-    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
-    "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
-    "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD",
+    "KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME"
 ]
+
+""""KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
+    "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD","""
+
 SERIES_TO_FILENAME = {
     "KXNFLGAME": "nfl_winners.csv",
     "KXNBAGAME": "nba_winners.csv",
     "KXNCAAFGAME": "ncaaf_winners.csv",
     "KXNCAAMBGAME": "ncaab_winners.csv",
-    "KXNCAAWBGAME": "ncaabw_winners.csv",
-    "KXNFLTOTAL": "nfl_totals.csv",
+    "KXNCAAWBGAME": "ncaabw_winners.csv"
+}
+
+""""KXNFLTOTAL": "nfl_totals.csv",
     "KXNFLSPREAD": "nfl_spreads.csv",
     "KXNBATOTAL": "nba_totals.csv",
     "KXNBASPREAD": "nba_spreads.csv",
     "KXNCAAFTOTAL": "ncaaf_totals.csv",
     "KXNCAAFSPREAD": "ncaaf_spreads.csv",
     "KXNCAAMBTOTAL": "ncaab_totals.csv",
-    "KXNCAAMBSPREAD": "ncaab_spreads.csv",
-}
+    "KXNCAAMBSPREAD": "ncaab_spreads.csv","""
 TICKER_DATE_RE = re.compile(r"-(\d{2}[A-Z]{3}\d{2})")
 LOCAL_TZ = pytz.timezone("US/Eastern")
 
