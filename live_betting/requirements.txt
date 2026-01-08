@@ -1,7 +1,0 @@
-pandas
-numpy
-shin
-scipy
-rapidfuzz
-requests
-cryptography
