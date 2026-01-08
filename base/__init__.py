@@ -1,0 +1,1 @@
+# Base trading bot infrastructure
