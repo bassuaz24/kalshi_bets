@@ -125,49 +125,150 @@ def _extract_order_id(response) -> Optional[str]:
         return None
 
 
-def wait_for_fill_or_cancel(order_id: str, timeout_secs: float = 30.0) -> Tuple[bool, Optional[str]]:
-    """Wait for an order to fill or timeout and cancel it."""
-    if settings.PLACE_LIVE_KALSHI_ORDERS != "YES":
-        return True, None  # Sim mode: assume filled
-
-    start_time = time.time()
-    path = "/trade-api/v2/portfolio/orders"
-
-    while time.time() - start_time < timeout_secs:
-        headers = kalshi_headers("GET", path)
-        try:
-            res = SESSION.get(
-                f"{settings.KALSHI_BASE_URL}{path}?order_id={order_id}",
-                headers=headers,
-                timeout=5
-            )
-            if res.status_code == 200:
-                data = res.json()
-                order = data.get("order") or data
-                status = (order.get("status") or "").lower()
-                if status in ["filled", "closed"]:
-                    return True, status
-                if status in ["cancelled", "rejected"]:
-                    return False, status
-            time.sleep(1.0)
-        except Exception as e:
-            if settings.VERBOSE:
-                print(f"⚠️ Error checking order status: {e}")
-            time.sleep(1.0)
-
-    # Timeout: try to cancel
+def get_order(order_id: str) -> Tuple[Optional[Dict[str, Any]], Optional[int]]:
+    """Get order details from Kalshi API.
+    
+    Returns:
+        Tuple of (order_data, status_code)
+    """
+    path = f"/trade-api/v2/portfolio/orders/{order_id}"
+    headers = kalshi_headers("GET", path)
     try:
-        cancel_path = f"{path}/{order_id}"
-        cancel_headers = kalshi_headers("DELETE", cancel_path)
-        cancel_res = SESSION.delete(
-            f"{settings.KALSHI_BASE_URL}{cancel_path}",
-            headers=cancel_headers,
-            timeout=5
-        )
-        if cancel_res.status_code == 200:
-            return False, "timeout_cancelled"
+        res = SESSION.get(settings.KALSHI_BASE_URL + path, headers=headers, timeout=10)
+        try:
+            data = res.json()
+        except Exception:
+            data = {"order": {"status": f"http_{res.status_code}", "remaining_count": None, "filled_count": 0}}
+        return data, res.status_code
     except Exception as e:
         if settings.VERBOSE:
-            print(f"⚠️ Error cancelling order: {e}")
+            print(f"⚠️ Error getting order {order_id}: {e}")
+        return None, None
 
-    return False, "timeout"
+
+def get_order_fill_status(order_id: str) -> Tuple[bool, int, int]:
+    """Get fill status of an order.
+    
+    Returns:
+        Tuple of (is_filled, filled_count, remaining_count)
+    """
+    if not order_id:
+        return False, 0, 0
+    
+    data, status_code = get_order(order_id)
+    if not data or status_code != 200:
+        return False, 0, 0
+    
+    order = data.get("order") or data
+    status = str(order.get("status") or "").lower()
+    
+    # Extract filled count
+    filled_count = 0
+    for key in ("filled_count", "filled_qty", "count_filled", "taker_fill_count", "maker_fill_count"):
+        if key in order and order[key] is not None:
+            try:
+                filled_count = int(order[key])
+                break
+            except (ValueError, TypeError):
+                pass
+    
+    # Extract remaining count
+    remaining_count = 0
+    if "remaining_count" in order and order["remaining_count"] is not None:
+        try:
+            remaining_count = int(order["remaining_count"])
+        except (ValueError, TypeError):
+            pass
+    
+    # Check if fully filled
+    cancelled_like = {"cancelled", "canceled", "closed_cancelled", "rejected"}
+    is_filled = (
+        status in ("filled", "closed") and 
+        remaining_count == 0 and
+        filled_count > 0
+    ) or (
+        ("executed" in status or "filled" in status) and 
+        remaining_count == 0 and
+        filled_count > 0
+    )
+    
+    return is_filled, filled_count, remaining_count
+
+
+def wait_for_fill_or_cancel(
+    order_id: str, 
+    timeout_secs: float = 30.0,
+    require_full: bool = False
+) -> Tuple[str, int]:
+    """Wait for an order to fill (fully or partially) or timeout and cancel it.
+    
+    Args:
+        order_id: Order ID to monitor
+        timeout_secs: Timeout in seconds
+        require_full: If True, only return filled if fully filled. If False, return on any fill.
+    
+    Returns:
+        Tuple of (status, filled_count) where status is "filled", "cancelled", "timeout", or "partial"
+        and filled_count is the number of contracts filled.
+    """
+    if settings.PLACE_LIVE_KALSHI_ORDERS != "YES":
+        return "filled", 0  # Sim mode: assume filled
+
+    start_time = time.time()
+    
+    while time.time() - start_time < timeout_secs:
+        is_filled, filled_count, remaining_count = get_order_fill_status(order_id)
+        
+        if is_filled:
+            if settings.VERBOSE:
+                print(f"✅ Order fully filled: {order_id} (qty={filled_count})")
+            return "filled", filled_count
+        
+        # Check for partial fill if not requiring full fill
+        if not require_full and filled_count > 0:
+            if settings.VERBOSE:
+                print(f"📊 Partial fill detected: {order_id} (filled={filled_count}, remaining={remaining_count})")
+            return "partial", filled_count
+        
+        # Check if cancelled
+        data, status_code = get_order(order_id)
+        if data:
+            order = data.get("order") or data
+            status = str(order.get("status") or "").lower()
+            if status in ["cancelled", "canceled", "rejected"]:
+                return "cancelled", filled_count
+        
+        if settings.VERBOSE:
+            print(f"⌛ Waiting fill... order={order_id}, filled={filled_count}, remaining={remaining_count}, elapsed={time.time()-start_time:.1f}s")
+        
+        time.sleep(1.0)
+
+    # Timeout: try to cancel remaining
+    if settings.VERBOSE:
+        print(f"⏳ Order timeout after {timeout_secs}s: {order_id}, attempting to cancel remaining...")
+    
+    # Get final status before cancelling
+    is_filled, filled_count, remaining_count = get_order_fill_status(order_id)
+    
+    if filled_count > 0 and remaining_count > 0:
+        # Partial fill occurred, cancel remaining
+        try:
+            cancel_path = f"/trade-api/v2/portfolio/orders/{order_id}"
+            cancel_headers = kalshi_headers("DELETE", cancel_path)
+            cancel_res = SESSION.delete(
+                f"{settings.KALSHI_BASE_URL}{cancel_path}",
+                headers=cancel_headers,
+                timeout=5
+            )
+            if cancel_res.status_code == 200:
+                if settings.VERBOSE:
+                    print(f"✅ Cancelled remaining {remaining_count} contracts for order {order_id}")
+                return "partial", filled_count
+        except Exception as e:
+            if settings.VERBOSE:
+                print(f"⚠️ Error cancelling order: {e}")
+    
+    if filled_count > 0:
+        return "partial", filled_count
+    
+    return "timeout", 0

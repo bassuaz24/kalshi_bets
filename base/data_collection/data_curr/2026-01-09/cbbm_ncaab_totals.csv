@@ -1,0 +1,113 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,BetOnline.ag,totals,Over,1.95,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,BetOnline.ag,totals,Under,1.87,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,FanDuel,totals,Over,1.91,166.5,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,FanDuel,totals,Under,1.91,166.5,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,Pinnacle,totals,Over,1.86,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,Pinnacle,totals,Under,1.95,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,BetUS,totals,Over,1.91,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,d3d1735ff046ba91c0a8dbf87cc72b2f,2026-01-09 17:00:00 CST,BetUS,totals,Under,1.91,167.0,Toledo Rockets,Miami (OH) RedHawks
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,146.0,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,146.0,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.91,145.5,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.91,145.5,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.85,145.5,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.98,145.5,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,146.0,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,2be303f337047bc92374d0113f4d21e1,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,146.0,Manhattan Jaspers,Canisius Golden Griffins
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.88,171.0,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.93,171.0,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.87,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.95,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.91,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.91,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,4f3d92888e3039c40b878e2fab83c4c6,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,170.5,Oakland Golden Grizzlies,Cleveland St Vikings
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.91,147.5,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.91,147.5,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.94,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.88,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,ef0f1d7a04bc2ac0ba248976dc5bc94d,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,148.0,Detroit Mercy Titans,Wright St Raiders
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,143.0,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,143.0,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.91,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.91,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.92,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.9,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,0a1593c41d58105f5a876c8fdc4a71b5,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,142.5,Fairfield Stags,Rider Broncs
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.93,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.88,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.95,156.5,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.87,156.5,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.91,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.91,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,bea7ffd2523af60d81a618055ee89706,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,157.0,Green Bay Phoenix,IUPUI Jaguars
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.95,140.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.87,140.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.95,141.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.87,141.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.87,141.0,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.95,141.0,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,140.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,a2c3fb169a1377ae753636402704cb50,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,140.5,Iona Gaels,Niagara Purple Eagles
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.9,143.0,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.92,143.0,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,17b062b607d7c2f76c798a11166e5dba,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,142.5,Sacred Heart Pioneers,Marist Red Foxes
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.95,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.87,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.93,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.88,133.5,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,133.0,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,1eba358c75b6acd11d415b9556a5c77c,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,133.0,Siena Saints,Merrimack Warriors
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Over,1.91,139.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,BetOnline.ag,totals,Under,1.91,139.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,FanDuel,totals,Over,1.87,139.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,FanDuel,totals,Under,1.95,139.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,BetUS,totals,Over,1.91,139.0,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,BetUS,totals,Under,1.91,139.0,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,Pinnacle,totals,Over,1.88,138.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,b3db34f2e6f2d569fc7ed065138fcb4c,2026-01-09 18:00:00 CST,Pinnacle,totals,Under,1.93,138.5,Mt. St. Mary's Mountaineers,Saint Peter's Peacocks
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,BetOnline.ag,totals,Over,1.93,164.0,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,BetOnline.ag,totals,Under,1.89,164.0,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,FanDuel,totals,Over,1.87,163.5,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,FanDuel,totals,Under,1.95,163.5,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,BetUS,totals,Over,1.91,163.5,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,BetUS,totals,Under,1.91,163.5,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,Pinnacle,totals,Over,1.83,163.0,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,d2150747fc7fb3a566a2880338874f1c,2026-01-09 19:00:00 CST,Pinnacle,totals,Under,1.99,163.0,Bowling Green Falcons,Akron Zips
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,BetOnline.ag,totals,Over,1.91,158.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,BetOnline.ag,totals,Under,1.91,158.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,FanDuel,totals,Over,1.95,157.5,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,FanDuel,totals,Under,1.87,157.5,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,BetUS,totals,Over,1.91,158.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,BetUS,totals,Under,1.91,158.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,Pinnacle,totals,Over,1.93,157.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,c0e07a80ad5fed3e74d418deff9d243f,2026-01-09 19:00:00 CST,Pinnacle,totals,Under,1.89,157.0,Milwaukee Panthers,Northern Kentucky Norse
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,BetOnline.ag,totals,Over,1.87,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,BetOnline.ag,totals,Under,1.95,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,FanDuel,totals,Over,1.87,145.5,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,FanDuel,totals,Under,1.95,145.5,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,BetUS,totals,Over,1.91,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,BetUS,totals,Under,1.91,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,Pinnacle,totals,Over,1.85,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,e20b70c1aaf0e41f470a32dc1f961120,2026-01-09 19:30:00 CST,Pinnacle,totals,Under,1.97,146.0,Minnesota Golden Gophers,USC Trojans
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,BetOnline.ag,totals,Over,1.91,150.0,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,BetOnline.ag,totals,Under,1.91,150.0,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,FanDuel,totals,Over,1.91,149.5,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,FanDuel,totals,Under,1.91,149.5,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,BetUS,totals,Over,1.91,150.0,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,BetUS,totals,Under,1.91,150.0,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,Pinnacle,totals,Over,1.85,149.5,Colorado St Rams,UNLV Rebels
+CBBM,NCAAB,63b1eab0cfbf8547a1ef6938682eec95,2026-01-09 21:00:00 CST,Pinnacle,totals,Under,1.98,149.5,Colorado St Rams,UNLV Rebels

@@ -111,7 +111,7 @@ def run_engine(active_matches: List[Dict[str, Any]]):
                 print(f"⚠️ Skipping trade due to event exposure violation: {reason}")
                 continue
             
-            # Execute trade
+            # Execute trade (taking the ask - optimized for fast fills)
             try:
                 side = trade.get("side", "yes")
                 max_total_contracts = max_quantity_with_cap(
@@ -119,12 +119,14 @@ def run_engine(active_matches: List[Dict[str, Any]]):
                     exposure * 1.1  # Add 10% buffer
                 )
                 
+                # Place order at ask price (taking liquidity)
                 result = safe_prepare_kalshi_order(
                     market_ticker,
                     side,
-                    entry_price,
+                    entry_price,  # Should be ask price when taking the ask
                     quantity,
                     max_total_contracts=max_total_contracts,
+                    order_type="limit",  # Limit order at ask price
                     action="buy"
                 )
                 
@@ -132,7 +134,82 @@ def run_engine(active_matches: List[Dict[str, Any]]):
                     print(f"⚠️ Trade execution failed for {market_ticker}")
                     continue
                 
-                # Record position
+                # Extract order ID for tracking
+                from kalshi.orders import _extract_order_id, wait_for_fill_or_cancel, get_order_fill_status
+                import time
+                
+                order_id = _extract_order_id(result.get("response"))
+                
+                if not order_id:
+                    # If no order ID, fall back to reconciliation
+                    # But log as warning - we prefer order ID tracking
+                    print(f"⚠️ Could not extract order ID for {market_ticker}, will rely on reconciliation")
+                    # Still create position, but reconciliation will correct it
+                    position = {
+                        "match": match.get("match", ""),
+                        "side": side,
+                        "event_ticker": event_ticker,
+                        "market_ticker": market_ticker,
+                        "entry_price": entry_price,
+                        "effective_entry": entry_price,
+                        "stake": quantity,  # Assume full fill initially
+                        "entry_time": now_utc().isoformat(),
+                        "entry_order_id": None,  # No order ID tracked
+                        "original_order_quantity": quantity,
+                        "stop_loss": trade.get("stop_loss"),
+                        "take_profit": trade.get("take_profit"),
+                        "settled": False,
+                        "closing_in_progress": False,
+                        "odds_prob": 0.5,
+                    }
+                    state.positions.append(position)
+                    state.METRICS["orders_placed"] += 1
+                    continue
+                
+                # Quick initial check (asks typically fill in 1-2 seconds)
+                time.sleep(0.5)  # Brief pause for order to process
+                is_filled, filled_qty_immediate, remaining = get_order_fill_status(order_id)
+                
+                if is_filled and filled_qty_immediate >= quantity:
+                    # Fully filled immediately - common when taking ask
+                    actual_filled = filled_qty_immediate
+                    fill_status = "filled"
+                    if settings.VERBOSE:
+                        print(f"⚡ Entry order filled immediately: {market_ticker} ({actual_filled} contracts)")
+                elif filled_qty_immediate > 0:
+                    # Partial fill already occurred
+                    actual_filled = filled_qty_immediate
+                    fill_status = "partial"
+                    if settings.VERBOSE:
+                        print(f"📊 Partial fill detected immediately: {market_ticker} ({actual_filled}/{quantity})")
+                else:
+                    # Not filled yet - wait a bit more (optimized timeout for taking ask)
+                    fill_timeout = 5.0  # 5 seconds - asks typically fill in 1-2 seconds
+                    status, filled_qty = wait_for_fill_or_cancel(
+                        order_id,
+                        timeout_secs=fill_timeout,
+                        require_full=False  # Accept partial fills
+                    )
+                    
+                    if filled_qty <= 0:
+                        # Order didn't fill at ask - this can happen if:
+                        # 1. Ask moved up before order reached exchange
+                        # 2. Ask was filled by another order
+                        # 3. Insufficient liquidity
+                        print(f"⚠️ Entry order at ask did not fill for {market_ticker} (status: {status})")
+                        # Don't create position - retry on next iteration if strategy wants
+                        continue
+                    
+                    actual_filled = filled_qty
+                    fill_status = status
+                
+                # Check if partial fill occurred
+                if actual_filled < quantity:
+                    remaining_qty = quantity - actual_filled
+                    print(f"📊 Partial fill on entry (taking ask): {market_ticker} - {actual_filled}/{quantity} filled, {remaining_qty} remaining")
+                    # Note: Strategy can re-evaluate and place new order for remaining on next iteration
+                
+                # Only create position with ACTUAL filled quantity
                 position = {
                     "match": match.get("match", ""),
                     "side": side,
@@ -140,8 +217,11 @@ def run_engine(active_matches: List[Dict[str, Any]]):
                     "market_ticker": market_ticker,
                     "entry_price": entry_price,
                     "effective_entry": entry_price,
-                    "stake": quantity,
+                    "stake": actual_filled,  # ← Use actual filled quantity (not requested)
                     "entry_time": now_utc().isoformat(),
+                    "entry_order_id": order_id,  # ← Track order ID
+                    "original_order_quantity": quantity,  # ← Track what was ordered
+                    "entry_fill_status": fill_status,  # ← "filled" or "partial"
                     "stop_loss": trade.get("stop_loss"),
                     "take_profit": trade.get("take_profit"),
                     "settled": False,
@@ -151,9 +231,16 @@ def run_engine(active_matches: List[Dict[str, Any]]):
                 
                 state.positions.append(position)
                 state.METRICS["orders_placed"] += 1
+                state.METRICS["orders_filled"] += 1 if fill_status == "filled" else 0
+                if 0 < actual_filled < quantity:
+                    state.METRICS["orders_partial_filled"] += 1
                 
-                print(f"✅ Placed trade: {market_ticker} {side.upper()} x{quantity} @ {entry_price:.2%} | "
-                      f"SL: {trade.get('stop_loss'):.2%} | TP: {trade.get('take_profit'):.2%}")
+                if actual_filled == quantity:
+                    print(f"✅ Entry position created: {market_ticker} {side.upper()} x{actual_filled} @ {entry_price:.2%} (full fill) | "
+                          f"SL: {trade.get('stop_loss'):.2%} | TP: {trade.get('take_profit'):.2%}")
+                else:
+                    print(f"✅ Entry position created: {market_ticker} {side.upper()} x{actual_filled} @ {entry_price:.2%} (partial fill: {actual_filled}/{quantity}) | "
+                          f"SL: {trade.get('stop_loss'):.2%} | TP: {trade.get('take_profit'):.2%}")
                 
             except Exception as e:
                 print(f"❌ Error executing trade for {market_ticker}: {e}")

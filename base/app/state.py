@@ -32,6 +32,7 @@ algorithm_paused = False
 METRICS = {
     "orders_placed": 0,
     "orders_filled": 0,
+    "orders_partial_filled": 0,
     "orders_cancelled": 0,
     "orders_timeout_cancel": 0,
     "avg_slippage_bps_sum": 0.0,

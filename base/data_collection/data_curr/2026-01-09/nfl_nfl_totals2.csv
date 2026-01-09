@@ -1,0 +1,17 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,FanDuel,totals,Over,1.96,46.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,FanDuel,totals,Under,1.85,46.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetOnline.ag,totals,Over,1.91,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetOnline.ag,totals,Under,1.91,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,Pinnacle,totals,Over,1.97,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,Pinnacle,totals,Under,1.89,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetUS,totals,Over,1.91,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetUS,totals,Under,1.91,46.0,Carolina Panthers,Los Angeles Rams
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,totals,Over,1.87,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,totals,Under,1.95,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,totals,Over,1.91,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,totals,Under,1.91,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,totals,Over,1.95,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,totals,Under,1.92,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,totals,Over,1.95,44.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,totals,Under,1.87,44.5,Chicago Bears,Green Bay Packers

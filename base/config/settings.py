@@ -6,22 +6,33 @@ Loads from environment variables and .env file.
 import os
 from pathlib import Path
 
+# Calculate base directory first (before loading .env, in case BASE_DIR is in .env)
+_CONFIG_DIR = Path(os.path.dirname(os.path.abspath(__file__)))  # config/ directory
+_BASE_DIR = _CONFIG_DIR.parent  # base/ directory
+
 # Load environment variables from .env if present
+# Explicitly specify the path to ensure we load from the base directory
 try:
     from dotenv import load_dotenv
-    load_dotenv()
+    env_path = _BASE_DIR / ".env"
+    if env_path.exists():
+        load_dotenv(dotenv_path=env_path, override=True)
+    else:
+        # Fallback: search from current directory (for backward compatibility)
+        load_dotenv()
 except ImportError:
     pass
 
-# Base directories
-BASE_DIR = Path(os.getenv("BASE_DIR", os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+# Base directories (can be overridden by BASE_DIR env var)
+BASE_DIR = Path(os.getenv("BASE_DIR", str(_BASE_DIR)))
 DATA_DIR = Path(os.getenv("DATA_DIR", BASE_DIR / "data_collection" / "data_curr"))
 POSITIONS_FILE = BASE_DIR / "positions.json"
 
 # Kalshi API settings
 KALSHI_BASE_URL = os.getenv("KALSHI_BASE_URL", "https://trading-api.kalshi.com")
+KALSHI_WS_URL = os.getenv("KALSHI_WS_URL", "wss://api.elections.kalshi.com/trade-api/ws/v2")
 API_KEY_ID = os.getenv("KALSHI_API_KEY_ID") or os.getenv("KALSHI_ACCESS_KEY_ID")
-PRIVATE_KEY_PATH = os.getenv("KALSHI_PRIVATE_KEY_PATH", BASE_DIR / "private_key.pem")
+PRIVATE_KEY_PATH = os.getenv("KALSHI_PRIVATE_KEY_PATH", BASE_DIR / "kalshi_private_key.pem")
 
 # OddsAPI settings
 ODDS_API_KEY = os.getenv("ODDS_API_KEY") or os.getenv("API_BET_API")
@@ -32,14 +43,32 @@ PLACE_LIVE_KALSHI_ORDERS = os.getenv("PLACE_LIVE_KALSHI_ORDERS", "NO")
 CAPITAL_SIM = float(os.getenv("CAPITAL_SIM", "10000.0"))
 VERBOSE = os.getenv("VERBOSE", "False").lower() == "true"
 
-# Refresh intervals (seconds)
+# Main strategy loop timing (seconds)
+STRATEGY_LOOP_INTERVAL = float(os.getenv("STRATEGY_LOOP_INTERVAL", "30.0"))  # Fixed interval for strategy execution
+
+# Stop loss monitoring timing (seconds)
+STOP_LOSS_CHECK_INTERVAL = float(os.getenv("STOP_LOSS_CHECK_INTERVAL", "2.0"))  # High-frequency stop loss checks
+
+# UI/Performance update timing (seconds)
+UI_UPDATE_INTERVAL = float(os.getenv("UI_UPDATE_INTERVAL", "1.0"))  # Frequent UI updates
+
+# Position reconciliation timing (seconds)
+RECONCILE_INTERVAL = float(os.getenv("RECONCILE_INTERVAL", "10.0"))  # Full reconciliation interval
+
+# Legacy settings (kept for backward compatibility, but not used in new architecture)
 REFRESH_ACTIVE = float(os.getenv("REFRESH_ACTIVE", "10.0"))
 REFRESH_IDLE = float(os.getenv("REFRESH_IDLE", "60.0"))
 NO_OVERLAP_SLEEP_SECS = float(os.getenv("NO_OVERLAP_SLEEP_SECS", "300.0"))
 
 # Data collection settings
-DATA_COLLECTION_INTERVAL = float(os.getenv("DATA_COLLECTION_INTERVAL", "60.0"))
+DATA_COLLECTION_INTERVAL = float(os.getenv("DATA_COLLECTION_INTERVAL", "60.0"))  # Legacy, not used in new architecture
 DATA_SEPARATE_BY_LEAGUE = os.getenv("DATA_SEPARATE_BY_LEAGUE", "True").lower() == "true"
+
+# WebSocket settings
+WEBSOCKET_ENABLED = os.getenv("WEBSOCKET_ENABLED", "True").lower() == "true"
+WEBSOCKET_RECONNECT_DELAY = float(os.getenv("WEBSOCKET_RECONNECT_DELAY", "5.0"))  # Initial reconnect delay (exponential backoff)
+WEBSOCKET_MAX_RECONNECT_DELAY = float(os.getenv("WEBSOCKET_MAX_RECONNECT_DELAY", "60.0"))  # Max reconnect delay
+WEBSOCKET_PRICE_CACHE_STALE_SECS = float(os.getenv("WEBSOCKET_PRICE_CACHE_STALE_SECS", "60.0"))  # Consider price stale after N seconds
 
 # Order settings
 ORDER_FILL_TIME = float(os.getenv("ORDER_FILL_TIME", "30.0"))

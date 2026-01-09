@@ -1,0 +1,9 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,FanDuel,spreads,Indiana Hoosiers,1.98,-3.5,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,FanDuel,spreads,Oregon Ducks,1.83,3.5,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,BetOnline.ag,spreads,Indiana Hoosiers,1.87,-3.0,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,BetOnline.ag,spreads,Oregon Ducks,1.95,3.0,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,BetUS,spreads,Indiana Hoosiers,1.87,-3.0,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,BetUS,spreads,Oregon Ducks,1.95,3.0,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,Pinnacle,spreads,Indiana Hoosiers,1.88,-3.0,Indiana Hoosiers,Oregon Ducks
+CFB,NCAAF,cb32b2b0ea14036d2aa37918891ded69,2026-01-09 18:30:00 CST,Pinnacle,spreads,Oregon Ducks,2.01,3.0,Indiana Hoosiers,Oregon Ducks

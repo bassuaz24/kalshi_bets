@@ -1,0 +1,81 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,FanDuel,totals,Over,1.93,224.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,FanDuel,totals,Under,1.89,224.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Over,1.87,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Under,1.95,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,BetUS,totals,Over,1.91,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,BetUS,totals,Under,1.91,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,Pinnacle,totals,Over,1.93,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,a3c377edabf29f3f3c05c1cd03c2701c,2026-01-09 18:10:00 CST,Pinnacle,totals,Under,1.96,223.5,Boston Celtics,Toronto Raptors
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,FanDuel,totals,Over,1.93,242.5,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,FanDuel,totals,Under,1.89,242.5,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Over,1.91,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Under,1.91,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,BetUS,totals,Over,1.91,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,BetUS,totals,Under,1.91,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,Pinnacle,totals,Over,1.95,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,fd952e8cdfea032fd925806405cfaec3,2026-01-09 18:10:00 CST,Pinnacle,totals,Under,1.93,242.0,Washington Wizards,New Orleans Pelicans
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,FanDuel,totals,Over,1.88,226.5,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,FanDuel,totals,Under,1.94,226.5,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Over,1.91,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,BetOnline.ag,totals,Under,1.91,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,BetUS,totals,Over,1.91,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,BetUS,totals,Under,1.91,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,Pinnacle,totals,Over,1.93,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,9d66f595028bcd5407209c1aebd94b47,2026-01-09 18:10:00 CST,Pinnacle,totals,Under,1.95,227.0,Orlando Magic,Philadelphia 76ers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,FanDuel,totals,Over,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,FanDuel,totals,Under,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,BetOnline.ag,totals,Over,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,BetOnline.ag,totals,Under,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,BetUS,totals,Over,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,BetUS,totals,Under,1.91,214.5,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,Pinnacle,totals,Over,1.89,214.0,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,05bfb1a6d7e7db4c0e42dbbc1dc676c1,2026-01-09 18:40:00 CST,Pinnacle,totals,Under,2.0,214.0,Brooklyn Nets,Los Angeles Clippers
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,FanDuel,totals,Over,1.93,230.5,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,FanDuel,totals,Under,1.89,230.5,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,BetOnline.ag,totals,Over,1.91,230.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,BetOnline.ag,totals,Under,1.91,230.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,BetUS,totals,Over,1.91,229.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,BetUS,totals,Under,1.91,229.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,Pinnacle,totals,Over,1.96,230.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,1840ebef9d0886493c98e78806d93860,2026-01-09 19:10:00 CST,Pinnacle,totals,Under,1.93,230.0,Memphis Grizzlies,Oklahoma City Thunder
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,FanDuel,totals,Over,1.94,232.5,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,FanDuel,totals,Under,1.88,232.5,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,BetOnline.ag,totals,Over,1.91,232.5,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,BetOnline.ag,totals,Under,1.91,232.5,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,BetUS,totals,Over,1.91,232.0,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,BetUS,totals,Under,1.91,232.0,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,Pinnacle,totals,Over,2.0,233.0,Denver Nuggets,Atlanta Hawks
+NBA,NBA,7d75d96495d567163d01fdfe8e63cd04,2026-01-09 20:10:00 CST,Pinnacle,totals,Under,1.89,233.0,Denver Nuggets,Atlanta Hawks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,FanDuel,totals,Over,1.94,228.5,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,FanDuel,totals,Under,1.88,228.5,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,BetOnline.ag,totals,Over,1.91,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,BetOnline.ag,totals,Under,1.91,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,BetUS,totals,Over,1.91,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,BetUS,totals,Under,1.91,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,Pinnacle,totals,Over,1.99,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,f07172e17d482fc11918839f228a1b32,2026-01-09 20:10:00 CST,Pinnacle,totals,Under,1.9,228.0,Phoenix Suns,New York Knicks
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,FanDuel,totals,Over,1.88,230.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,FanDuel,totals,Under,1.94,230.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,BetOnline.ag,totals,Over,1.91,231.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,BetOnline.ag,totals,Under,1.91,231.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,BetUS,totals,Over,1.91,231.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,BetUS,totals,Under,1.91,231.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,Pinnacle,totals,Over,1.86,230.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,c61c079ee29eb667d4e178455338ea6f,2026-01-09 21:10:00 CST,Pinnacle,totals,Under,2.03,230.5,Golden State Warriors,Sacramento Kings
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,FanDuel,totals,Over,1.93,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,FanDuel,totals,Under,1.89,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,BetOnline.ag,totals,Over,1.87,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,BetOnline.ag,totals,Under,1.95,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,BetUS,totals,Over,1.91,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,BetUS,totals,Under,1.91,221.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,Pinnacle,totals,Over,1.88,220.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,8a5088f34ae01a11b3711cbdc527e1b2,2026-01-09 21:10:00 CST,Pinnacle,totals,Under,2.01,220.5,Portland Trail Blazers,Houston Rockets
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,FanDuel,totals,Over,1.88,230.5,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,FanDuel,totals,Under,1.94,230.5,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,BetOnline.ag,totals,Over,1.91,230.0,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,BetOnline.ag,totals,Under,1.91,230.0,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,Pinnacle,totals,Over,1.96,230.5,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,Pinnacle,totals,Under,1.93,230.5,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,BetUS,totals,Over,1.91,230.5,Los Angeles Lakers,Milwaukee Bucks
+NBA,NBA,a9857db3ddf26169b1e7cccd8e789eb0,2026-01-09 21:40:00 CST,BetUS,totals,Under,1.91,230.5,Los Angeles Lakers,Milwaukee Bucks

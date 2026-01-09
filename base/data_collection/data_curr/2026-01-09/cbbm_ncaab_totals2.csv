@@ -1,0 +1,67 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,NCAAB,1ad334a72c235691ca96d4076836e0b2,2026-01-10 11:00:00 CST,FanDuel,totals,Over,1.91,150.5,Louisville Cardinals,Boston College Eagles
+CBBM,NCAAB,1ad334a72c235691ca96d4076836e0b2,2026-01-10 11:00:00 CST,FanDuel,totals,Under,1.91,150.5,Louisville Cardinals,Boston College Eagles
+CBBM,NCAAB,182aa3b58886ab7d16a5f7d66e91e25a,2026-01-10 11:00:00 CST,FanDuel,totals,Over,1.91,149.5,George Mason Patriots,VCU Rams
+CBBM,NCAAB,182aa3b58886ab7d16a5f7d66e91e25a,2026-01-10 11:00:00 CST,FanDuel,totals,Under,1.91,149.5,George Mason Patriots,VCU Rams
+CBBM,NCAAB,886b682a8167977373fa81371c721e85,2026-01-10 11:00:00 CST,FanDuel,totals,Over,1.91,155.5,Miami Hurricanes,Georgia Tech Yellow Jackets
+CBBM,NCAAB,886b682a8167977373fa81371c721e85,2026-01-10 11:00:00 CST,FanDuel,totals,Under,1.91,155.5,Miami Hurricanes,Georgia Tech Yellow Jackets
+CBBM,NCAAB,cbe5ac720b3d87a2b97cb27f041a288d,2026-01-10 11:00:05 CST,FanDuel,totals,Over,1.91,153.5,Florida Gators,Tennessee Volunteers
+CBBM,NCAAB,cbe5ac720b3d87a2b97cb27f041a288d,2026-01-10 11:00:05 CST,FanDuel,totals,Under,1.91,153.5,Florida Gators,Tennessee Volunteers
+CBBM,NCAAB,381f3795b86f1b6cacbaccba80b3d21c,2026-01-10 11:00:20 CST,FanDuel,totals,Over,1.87,133.5,West Virginia Mountaineers,Kansas Jayhawks
+CBBM,NCAAB,381f3795b86f1b6cacbaccba80b3d21c,2026-01-10 11:00:20 CST,FanDuel,totals,Under,1.95,133.5,West Virginia Mountaineers,Kansas Jayhawks
+CBBM,NCAAB,2dbe937e061021d8311ff90d9c14f03f,2026-01-10 11:00:25 CST,FanDuel,totals,Over,1.91,149.5,Indiana Hoosiers,Nebraska Cornhuskers
+CBBM,NCAAB,2dbe937e061021d8311ff90d9c14f03f,2026-01-10 11:00:25 CST,FanDuel,totals,Under,1.91,149.5,Indiana Hoosiers,Nebraska Cornhuskers
+CBBM,NCAAB,2ec9b46bc61395387f6cf7a71c60bead,2026-01-10 11:30:00 CST,FanDuel,totals,Over,1.95,137.5,UConn Huskies,DePaul Blue Demons
+CBBM,NCAAB,2ec9b46bc61395387f6cf7a71c60bead,2026-01-10 11:30:00 CST,FanDuel,totals,Under,1.87,137.5,UConn Huskies,DePaul Blue Demons
+CBBM,NCAAB,bcaeab9006944c5d19e4d651f9aac30a,2026-01-10 12:00:34 CST,FanDuel,totals,Over,1.91,142.5,Baylor Bears,Houston Cougars
+CBBM,NCAAB,bcaeab9006944c5d19e4d651f9aac30a,2026-01-10 12:00:34 CST,FanDuel,totals,Under,1.91,142.5,Baylor Bears,Houston Cougars
+CBBM,NCAAB,4bdd39e2ff784698a354217d28e717b9,2026-01-10 12:00:46 CST,FanDuel,totals,Over,1.91,162.5,Vanderbilt Commodores,LSU Tigers
+CBBM,NCAAB,4bdd39e2ff784698a354217d28e717b9,2026-01-10 12:00:46 CST,FanDuel,totals,Under,1.91,162.5,Vanderbilt Commodores,LSU Tigers
+CBBM,NCAAB,95d431356f7749e4a35389497963f171,2026-01-10 13:00:00 CST,FanDuel,totals,Over,1.95,161.5,South Carolina Gamecocks,Georgia Bulldogs
+CBBM,NCAAB,95d431356f7749e4a35389497963f171,2026-01-10 13:00:00 CST,FanDuel,totals,Under,1.87,161.5,South Carolina Gamecocks,Georgia Bulldogs
+CBBM,NCAAB,06e9df31f5cdefc486310c83bc41c7de,2026-01-10 13:00:27 CST,FanDuel,totals,Over,1.91,163.5,Michigan Wolverines,Wisconsin Badgers
+CBBM,NCAAB,06e9df31f5cdefc486310c83bc41c7de,2026-01-10 13:00:27 CST,FanDuel,totals,Under,1.91,163.5,Michigan Wolverines,Wisconsin Badgers
+CBBM,NCAAB,9dcde24a860c9e0d4c86df7c96623804,2026-01-10 13:00:31 CST,FanDuel,totals,Over,1.85,155.5,Duke Blue Devils,SMU Mustangs
+CBBM,NCAAB,9dcde24a860c9e0d4c86df7c96623804,2026-01-10 13:00:31 CST,FanDuel,totals,Under,1.96,155.5,Duke Blue Devils,SMU Mustangs
+CBBM,NCAAB,857440c249cd1b7b4121f2751cdbd732,2026-01-10 13:00:34 CST,FanDuel,totals,Over,1.95,153.5,Creighton Bluejays,St. John's Red Storm
+CBBM,NCAAB,857440c249cd1b7b4121f2751cdbd732,2026-01-10 13:00:34 CST,FanDuel,totals,Under,1.87,153.5,Creighton Bluejays,St. John's Red Storm
+CBBM,NCAAB,b4be62d6572634a726f9007394d9c513,2026-01-10 13:00:37 CST,FanDuel,totals,Over,1.91,152.5,Purdue Boilermakers,Penn State Nittany Lions
+CBBM,NCAAB,b4be62d6572634a726f9007394d9c513,2026-01-10 13:00:37 CST,FanDuel,totals,Under,1.91,152.5,Purdue Boilermakers,Penn State Nittany Lions
+CBBM,NCAAB,29ea93ea648a1996a91ad6803420fc56,2026-01-10 13:00:47 CST,FanDuel,totals,Over,1.91,138.5,Pittsburgh Panthers,Syracuse Orange
+CBBM,NCAAB,29ea93ea648a1996a91ad6803420fc56,2026-01-10 13:00:47 CST,FanDuel,totals,Under,1.91,138.5,Pittsburgh Panthers,Syracuse Orange
+CBBM,NCAAB,c7b06931a41d2a45d8a65024804571c1,2026-01-10 13:15:00 CST,FanDuel,totals,Over,1.95,145.5,Virginia Cavaliers,Stanford Cardinal
+CBBM,NCAAB,c7b06931a41d2a45d8a65024804571c1,2026-01-10 13:15:00 CST,FanDuel,totals,Under,1.87,145.5,Virginia Cavaliers,Stanford Cardinal
+CBBM,NCAAB,d2e5f21a27c7959aef268e897a68ef33,2026-01-10 13:30:36 CST,FanDuel,totals,Over,1.95,144.5,Marquette Golden Eagles,Villanova Wildcats
+CBBM,NCAAB,d2e5f21a27c7959aef268e897a68ef33,2026-01-10 13:30:36 CST,FanDuel,totals,Under,1.87,144.5,Marquette Golden Eagles,Villanova Wildcats
+CBBM,NCAAB,cfc2689d94419606eadfa8ceac799e68,2026-01-10 14:00:13 CST,FanDuel,totals,Over,1.91,168.5,Arizona St Sun Devils,Kansas St Wildcats
+CBBM,NCAAB,cfc2689d94419606eadfa8ceac799e68,2026-01-10 14:00:13 CST,FanDuel,totals,Under,1.91,168.5,Arizona St Sun Devils,Kansas St Wildcats
+CBBM,NCAAB,71ad9fe883841275ebd1e39fde005688,2026-01-10 14:30:41 CST,FanDuel,totals,Over,1.95,162.5,Texas A&M Aggies,Oklahoma Sooners
+CBBM,NCAAB,71ad9fe883841275ebd1e39fde005688,2026-01-10 14:30:41 CST,FanDuel,totals,Under,1.87,162.5,Texas A&M Aggies,Oklahoma Sooners
+CBBM,NCAAB,c9617f3d4f6aecb543f30fff3ce3d7a9,2026-01-10 15:00:00 CST,FanDuel,totals,Over,1.95,153.5,TCU Horned Frogs,Arizona Wildcats
+CBBM,NCAAB,c9617f3d4f6aecb543f30fff3ce3d7a9,2026-01-10 15:00:00 CST,FanDuel,totals,Under,1.87,153.5,TCU Horned Frogs,Arizona Wildcats
+CBBM,NCAAB,b293078ff7493c5727dfb04708eb291e,2026-01-10 15:00:11 CST,FanDuel,totals,Over,1.95,148.5,Virginia Tech Hokies,California Golden Bears
+CBBM,NCAAB,b293078ff7493c5727dfb04708eb291e,2026-01-10 15:00:11 CST,FanDuel,totals,Under,1.87,148.5,Virginia Tech Hokies,California Golden Bears
+CBBM,NCAAB,eee4da3b00494ddb1178ccfac62d8825,2026-01-10 15:00:12 CST,FanDuel,totals,Over,1.87,164.5,Iowa State Cyclones,Oklahoma St Cowboys
+CBBM,NCAAB,eee4da3b00494ddb1178ccfac62d8825,2026-01-10 15:00:12 CST,FanDuel,totals,Under,1.95,164.5,Iowa State Cyclones,Oklahoma St Cowboys
+CBBM,NCAAB,7c345ee52cd573053a6e1abdfab59195,2026-01-10 15:00:32 CST,FanDuel,totals,Over,1.91,165.5,Xavier Musketeers,Providence Friars
+CBBM,NCAAB,7c345ee52cd573053a6e1abdfab59195,2026-01-10 15:00:32 CST,FanDuel,totals,Under,1.91,165.5,Xavier Musketeers,Providence Friars
+CBBM,NCAAB,7e48f73a5be078edc643ce4afccb4d38,2026-01-10 17:00:02 CST,FanDuel,totals,Over,1.91,132.5,Notre Dame Fighting Irish,Clemson Tigers
+CBBM,NCAAB,7e48f73a5be078edc643ce4afccb4d38,2026-01-10 17:00:02 CST,FanDuel,totals,Under,1.91,132.5,Notre Dame Fighting Irish,Clemson Tigers
+CBBM,NCAAB,7e5e801773e23441dab5475d5f7cdfb6,2026-01-10 17:00:18 CST,FanDuel,totals,Over,1.91,144.5,Ole Miss Rebels,Missouri Tigers
+CBBM,NCAAB,7e5e801773e23441dab5475d5f7cdfb6,2026-01-10 17:00:18 CST,FanDuel,totals,Under,1.91,144.5,Ole Miss Rebels,Missouri Tigers
+CBBM,NCAAB,c986a612d897da463477974ed1540708,2026-01-10 17:00:25 CST,FanDuel,totals,Over,1.85,136.5,Georgetown Hoyas,Seton Hall Pirates
+CBBM,NCAAB,c986a612d897da463477974ed1540708,2026-01-10 17:00:25 CST,FanDuel,totals,Under,1.96,136.5,Georgetown Hoyas,Seton Hall Pirates
+CBBM,NCAAB,feb85e7e667eff1dbe1e39ce00a25da4,2026-01-10 17:00:28 CST,FanDuel,totals,Over,1.91,170.5,Auburn Tigers,Arkansas Razorbacks
+CBBM,NCAAB,feb85e7e667eff1dbe1e39ce00a25da4,2026-01-10 17:00:28 CST,FanDuel,totals,Under,1.91,170.5,Auburn Tigers,Arkansas Razorbacks
+CBBM,NCAAB,6afe8d5d20163ec8e647385438b5f3d1,2026-01-10 17:00:40 CST,FanDuel,totals,Over,1.91,152.5,North Carolina Tar Heels,Wake Forest Demon Deacons
+CBBM,NCAAB,6afe8d5d20163ec8e647385438b5f3d1,2026-01-10 17:00:40 CST,FanDuel,totals,Under,1.91,152.5,North Carolina Tar Heels,Wake Forest Demon Deacons
+CBBM,NCAAB,5b7de0e671bf14755c0bd354f11ddf07,2026-01-10 18:00:00 CST,FanDuel,totals,Over,1.87,158.5,Colorado Buffaloes,Texas Tech Red Raiders
+CBBM,NCAAB,5b7de0e671bf14755c0bd354f11ddf07,2026-01-10 18:00:00 CST,FanDuel,totals,Under,1.95,158.5,Colorado Buffaloes,Texas Tech Red Raiders
+CBBM,NCAAB,083a488be4c6e1d2826c7747f7b6e7f7,2026-01-10 19:00:00 CST,FanDuel,totals,Over,1.87,176.5,Alabama Crimson Tide,Texas Longhorns
+CBBM,NCAAB,083a488be4c6e1d2826c7747f7b6e7f7,2026-01-10 19:00:00 CST,FanDuel,totals,Under,1.95,176.5,Alabama Crimson Tide,Texas Longhorns
+CBBM,NCAAB,30c9a682d35716a096972cc4ca8861ed,2026-01-10 19:00:50 CST,FanDuel,totals,Over,1.91,147.5,UCLA Bruins,Maryland Terrapins
+CBBM,NCAAB,30c9a682d35716a096972cc4ca8861ed,2026-01-10 19:00:50 CST,FanDuel,totals,Under,1.91,147.5,UCLA Bruins,Maryland Terrapins
+CBBM,NCAAB,35ee9f80be3be987aea3664c0501d605,2026-01-10 19:30:35 CST,FanDuel,totals,Over,1.91,155.5,Kentucky Wildcats,Mississippi St Bulldogs
+CBBM,NCAAB,35ee9f80be3be987aea3664c0501d605,2026-01-10 19:30:35 CST,FanDuel,totals,Under,1.91,155.5,Kentucky Wildcats,Mississippi St Bulldogs
+CBBM,NCAAB,00f1b7a61680e400f3a9d10b2102a4d3,2026-01-10 21:00:27 CST,FanDuel,totals,Over,1.91,166.5,Utah Utes,BYU Cougars
+CBBM,NCAAB,00f1b7a61680e400f3a9d10b2102a4d3,2026-01-10 21:00:27 CST,FanDuel,totals,Under,1.91,166.5,Utah Utes,BYU Cougars

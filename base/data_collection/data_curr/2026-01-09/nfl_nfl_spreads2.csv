@@ -1,0 +1,17 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,FanDuel,spreads,Carolina Panthers,1.91,10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,FanDuel,spreads,Los Angeles Rams,1.91,-10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetOnline.ag,spreads,Carolina Panthers,1.88,10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetOnline.ag,spreads,Los Angeles Rams,1.93,-10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,Pinnacle,spreads,Carolina Panthers,1.91,10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,Pinnacle,spreads,Los Angeles Rams,1.98,-10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetUS,spreads,Carolina Panthers,1.87,10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:30:00 CST,BetUS,spreads,Los Angeles Rams,1.95,-10.5,Carolina Panthers,Los Angeles Rams
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,spreads,Chicago Bears,1.94,1.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,spreads,Green Bay Packers,1.88,-1.5,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,spreads,Chicago Bears,1.93,1.0,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,spreads,Green Bay Packers,1.88,-1.0,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,spreads,Chicago Bears,2.05,1.0,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,spreads,Green Bay Packers,1.85,-1.0,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,spreads,Chicago Bears,1.95,1.0,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,spreads,Green Bay Packers,1.87,-1.0,Chicago Bears,Green Bay Packers
