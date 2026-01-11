@@ -24,9 +24,11 @@ def format_price(price, units_hint="usd_cent"):
 
 def get_kalshi_markets(event_ticker: str, force_live: bool = False) -> Optional[List[Dict[str, Any]]]:
     """Fetch active markets for an event ticker from Kalshi."""
-    url = f"{settings.KALSHI_BASE_URL}/trade-api/v2/markets?event_ticker={event_ticker}"
+    path = f"/trade-api/v2/markets?event_ticker={event_ticker}"
+    url = f"{settings.KALSHI_BASE_URL}{path}"
+    headers = kalshi_headers("GET", path)
     try:
-        res = SESSION.get(url, timeout=1.5)
+        res = SESSION.get(url, headers=headers, timeout=1.5)
         if res.status_code == 200:
             markets = res.json().get("markets", [])
             markets = [

@@ -1,0 +1,13 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:33:54 CST,FanDuel,h2h,Carolina Panthers,11.0,,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:33:54 CST,FanDuel,h2h,Los Angeles Rams,1.03,,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:33:54 CST,Pinnacle,h2h,Carolina Panthers,8.42,,Carolina Panthers,Los Angeles Rams
+NFL,NFL,c37a03009947c0191ab4e2de9664705a,2026-01-10 15:33:54 CST,Pinnacle,h2h,Los Angeles Rams,1.1,,Carolina Panthers,Los Angeles Rams
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,h2h,Chicago Bears,2.14,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,FanDuel,h2h,Green Bay Packers,1.75,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,h2h,Chicago Bears,2.15,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetOnline.ag,h2h,Green Bay Packers,1.74,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,h2h,Chicago Bears,2.13,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,Pinnacle,h2h,Green Bay Packers,1.8,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,h2h,Chicago Bears,2.1,,Chicago Bears,Green Bay Packers
+NFL,NFL,271335072b85daf0ceabb360ef75220e,2026-01-10 19:00:00 CST,BetUS,h2h,Green Bay Packers,1.77,,Chicago Bears,Green Bay Packers

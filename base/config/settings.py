@@ -29,7 +29,7 @@ DATA_DIR = Path(os.getenv("DATA_DIR", BASE_DIR / "data_collection" / "data_curr"
 POSITIONS_FILE = BASE_DIR / "positions.json"
 
 # Kalshi API settings
-KALSHI_BASE_URL = os.getenv("KALSHI_BASE_URL", "https://trading-api.kalshi.com")
+KALSHI_BASE_URL = os.getenv("KALSHI_BASE_URL", "https://api.elections.kalshi.com")
 KALSHI_WS_URL = os.getenv("KALSHI_WS_URL", "wss://api.elections.kalshi.com/trade-api/ws/v2")
 API_KEY_ID = os.getenv("KALSHI_API_KEY_ID") or os.getenv("KALSHI_ACCESS_KEY_ID")
 PRIVATE_KEY_PATH = os.getenv("KALSHI_PRIVATE_KEY_PATH", BASE_DIR / "kalshi_private_key.pem")
@@ -69,6 +69,9 @@ WEBSOCKET_ENABLED = os.getenv("WEBSOCKET_ENABLED", "True").lower() == "true"
 WEBSOCKET_RECONNECT_DELAY = float(os.getenv("WEBSOCKET_RECONNECT_DELAY", "5.0"))  # Initial reconnect delay (exponential backoff)
 WEBSOCKET_MAX_RECONNECT_DELAY = float(os.getenv("WEBSOCKET_MAX_RECONNECT_DELAY", "60.0"))  # Max reconnect delay
 WEBSOCKET_PRICE_CACHE_STALE_SECS = float(os.getenv("WEBSOCKET_PRICE_CACHE_STALE_SECS", "60.0"))  # Consider price stale after N seconds
+
+# Market discovery settings
+MIN_TRADING_VOLUME_PER_EVENT = int(os.getenv("MIN_TRADING_VOLUME_PER_EVENT", "0"))  # Minimum volume threshold (0 = no filter)
 
 # Order settings
 ORDER_FILL_TIME = float(os.getenv("ORDER_FILL_TIME", "30.0"))

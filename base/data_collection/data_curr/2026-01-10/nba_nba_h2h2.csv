@@ -1,0 +1,17 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,e3c70531715a7b1b9ce284c384c8bd0d,2026-01-11 14:10:00 CST,FanDuel,h2h,New Orleans Pelicans,2.9,,Orlando Magic,New Orleans Pelicans
+NBA,NBA,e3c70531715a7b1b9ce284c384c8bd0d,2026-01-11 14:10:00 CST,FanDuel,h2h,Orlando Magic,1.43,,Orlando Magic,New Orleans Pelicans
+NBA,NBA,7895da09d75f61761b080b8763233dbf,2026-01-11 14:40:00 CST,FanDuel,h2h,Brooklyn Nets,3.2,,Memphis Grizzlies,Brooklyn Nets
+NBA,NBA,7895da09d75f61761b080b8763233dbf,2026-01-11 14:40:00 CST,FanDuel,h2h,Memphis Grizzlies,1.37,,Memphis Grizzlies,Brooklyn Nets
+NBA,NBA,ee0ac8f02833830683b95a6d680bf8f5,2026-01-11 17:10:00 CST,FanDuel,h2h,New York Knicks,1.52,,Portland Trail Blazers,New York Knicks
+NBA,NBA,ee0ac8f02833830683b95a6d680bf8f5,2026-01-11 17:10:00 CST,FanDuel,h2h,Portland Trail Blazers,2.62,,Portland Trail Blazers,New York Knicks
+NBA,NBA,c392141a8f0eb03db56a0f0dca86dd14,2026-01-11 17:10:00 CST,FanDuel,h2h,Philadelphia 76ers,1.58,,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,c392141a8f0eb03db56a0f0dca86dd14,2026-01-11 17:10:00 CST,FanDuel,h2h,Toronto Raptors,2.44,,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,230cc244629492f81d1e9b5b482ea05a,2026-01-11 19:10:00 CST,FanDuel,h2h,Denver Nuggets,2.04,,Denver Nuggets,Milwaukee Bucks
+NBA,NBA,230cc244629492f81d1e9b5b482ea05a,2026-01-11 19:10:00 CST,FanDuel,h2h,Milwaukee Bucks,1.82,,Denver Nuggets,Milwaukee Bucks
+NBA,NBA,da88ede61ab04b8f3bb31d18bb33b03e,2026-01-11 19:10:00 CST,FanDuel,h2h,Phoenix Suns,1.11,,Phoenix Suns,Washington Wizards
+NBA,NBA,da88ede61ab04b8f3bb31d18bb33b03e,2026-01-11 19:10:00 CST,FanDuel,h2h,Washington Wizards,7.1,,Phoenix Suns,Washington Wizards
+NBA,NBA,337fdea46a5e7e784adb5058e364491e,2026-01-11 19:40:00 CST,FanDuel,h2h,Atlanta Hawks,3.0,,Golden State Warriors,Atlanta Hawks
+NBA,NBA,337fdea46a5e7e784adb5058e364491e,2026-01-11 19:40:00 CST,FanDuel,h2h,Golden State Warriors,1.41,,Golden State Warriors,Atlanta Hawks
+NBA,NBA,36fcfef1bd63f4ffa34b87ba9251e130,2026-01-11 20:10:00 CST,FanDuel,h2h,Houston Rockets,1.17,,Sacramento Kings,Houston Rockets
+NBA,NBA,36fcfef1bd63f4ffa34b87ba9251e130,2026-01-11 20:10:00 CST,FanDuel,h2h,Sacramento Kings,5.4,,Sacramento Kings,Houston Rockets

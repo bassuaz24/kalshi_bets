@@ -1,0 +1,29 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,NCAAB,4ad4d55ea57c0a8198c557840c87b3a1,2026-01-11 11:00:00 CST,FanDuel,totals,Over,1.87,151.5,Richmond Spiders,Saint Joseph's Hawks
+CBBM,NCAAB,4ad4d55ea57c0a8198c557840c87b3a1,2026-01-11 11:00:00 CST,FanDuel,totals,Under,1.95,151.5,Richmond Spiders,Saint Joseph's Hawks
+CBBM,NCAAB,11b7d6f8701fcaeb15d1065646f64609,2026-01-11 11:00:14 CST,FanDuel,totals,Over,1.87,144.5,Iowa Hawkeyes,Illinois Fighting Illini
+CBBM,NCAAB,11b7d6f8701fcaeb15d1065646f64609,2026-01-11 11:00:14 CST,FanDuel,totals,Under,1.95,144.5,Iowa Hawkeyes,Illinois Fighting Illini
+CBBM,NCAAB,6d191e78b454351bafcc0bcce3f6225b,2026-01-11 12:00:00 CST,FanDuel,totals,Over,1.87,141.5,Iona Gaels,Canisius Golden Griffins
+CBBM,NCAAB,6d191e78b454351bafcc0bcce3f6225b,2026-01-11 12:00:00 CST,FanDuel,totals,Under,1.95,141.5,Iona Gaels,Canisius Golden Griffins
+CBBM,NCAAB,4bab32ccb192d924a553ae89fc4e2eca,2026-01-11 12:00:00 CST,FanDuel,totals,Over,1.91,159.5,Detroit Mercy Titans,Cleveland St Vikings
+CBBM,NCAAB,4bab32ccb192d924a553ae89fc4e2eca,2026-01-11 12:00:00 CST,FanDuel,totals,Under,1.91,159.5,Detroit Mercy Titans,Cleveland St Vikings
+CBBM,NCAAB,857964f461158ddee8fd3392f5d485aa,2026-01-11 12:00:00 CST,FanDuel,totals,Over,1.87,151.5,Florida Atlantic Owls,Memphis Tigers
+CBBM,NCAAB,857964f461158ddee8fd3392f5d485aa,2026-01-11 12:00:00 CST,FanDuel,totals,Under,1.95,151.5,Florida Atlantic Owls,Memphis Tigers
+CBBM,NCAAB,4a1d8a2609d2bd14cf4c6fba63b83b20,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.87,139.5,Rice Owls,Charlotte 49ers
+CBBM,NCAAB,4a1d8a2609d2bd14cf4c6fba63b83b20,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.95,139.5,Rice Owls,Charlotte 49ers
+CBBM,NCAAB,c8f1329c5005ebd7f1cc409ed112911e,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.87,146.5,East Carolina Pirates,UAB Blazers
+CBBM,NCAAB,c8f1329c5005ebd7f1cc409ed112911e,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.95,146.5,East Carolina Pirates,UAB Blazers
+CBBM,NCAAB,9e6a4e255be1b7813448f63afef45f0a,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.91,145.5,Robert Morris Colonials,Fort Wayne Mastodons
+CBBM,NCAAB,9e6a4e255be1b7813448f63afef45f0a,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.91,145.5,Robert Morris Colonials,Fort Wayne Mastodons
+CBBM,NCAAB,9cae01b465fea240fe5c477d21503b6e,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.87,144.5,Green Bay Phoenix,Northern Kentucky Norse
+CBBM,NCAAB,9cae01b465fea240fe5c477d21503b6e,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.95,144.5,Green Bay Phoenix,Northern Kentucky Norse
+CBBM,NCAAB,7ee90fcfb713b6a9e1bcd48a4129b294,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.87,137.5,Mt. St. Mary's Mountaineers,Siena Saints
+CBBM,NCAAB,7ee90fcfb713b6a9e1bcd48a4129b294,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.95,137.5,Mt. St. Mary's Mountaineers,Siena Saints
+CBBM,NCAAB,e11da905a30f6a0c274892974e2817a7,2026-01-11 13:00:00 CST,FanDuel,totals,Over,1.87,152.5,Sacred Heart Pioneers,Quinnipiac Bobcats
+CBBM,NCAAB,e11da905a30f6a0c274892974e2817a7,2026-01-11 13:00:00 CST,FanDuel,totals,Under,1.95,152.5,Sacred Heart Pioneers,Quinnipiac Bobcats
+CBBM,NCAAB,9a3437c1fbca4291153767aaf295e4e9,2026-01-11 16:00:06 CST,FanDuel,totals,Over,1.87,149.5,UCF Knights,Cincinnati Bearcats
+CBBM,NCAAB,9a3437c1fbca4291153767aaf295e4e9,2026-01-11 16:00:06 CST,FanDuel,totals,Under,1.95,149.5,UCF Knights,Cincinnati Bearcats
+CBBM,NCAAB,a8af1e51f85ee03aec7d8a0c7af4c6f7,2026-01-11 16:00:49 CST,FanDuel,totals,Over,1.91,144.5,Rutgers Scarlet Knights,Northwestern Wildcats
+CBBM,NCAAB,a8af1e51f85ee03aec7d8a0c7af4c6f7,2026-01-11 16:00:49 CST,FanDuel,totals,Under,1.91,144.5,Rutgers Scarlet Knights,Northwestern Wildcats
+CBBM,NCAAB,3afce209c75986d20d333036333e703c,2026-01-11 17:00:20 CST,FanDuel,totals,Over,1.91,152.5,Washington Huskies,Ohio State Buckeyes
+CBBM,NCAAB,3afce209c75986d20d333036333e703c,2026-01-11 17:00:20 CST,FanDuel,totals,Under,1.91,152.5,Washington Huskies,Ohio State Buckeyes

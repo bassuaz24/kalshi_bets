@@ -63,13 +63,26 @@ def strategy_loop_thread():
                         import traceback
                         traceback.print_exc()
             
-            # 2. Market discovery (placeholder - implement based on your strategy)
-            # TODO: Implement market discovery from OddsAPI and Kalshi
-            # For now, we'll use a placeholder that gets markets from active events
+            # 2. Market discovery - find active markets from OddsAPI + Kalshi
+            # Run discovery periodically or if we have no active matches
             if not active_matches or (loop_start - last_reconcile_ts) >= settings.RECONCILE_INTERVAL:
                 print(f"🔎 [{threading.current_thread().name}] Discovering markets...")
-                # Placeholder: actual implementation would fetch from OddsAPI + Kalshi
-                # active_matches = discover_markets()
+                try:
+                    from strategy.market_discovery import discover_markets
+                    discovered = discover_markets()
+                    if discovered:
+                        active_matches = discovered
+                        print(f"   ✅ Discovered {len(active_matches)} active markets")
+                    elif not active_matches:
+                        # If no matches found, keep empty list (don't fail)
+                        if settings.VERBOSE:
+                            print(f"   ℹ️ No markets discovered (this is okay)")
+                except Exception as e:
+                    print(f"   ⚠️ Error during market discovery: {e}")
+                    if settings.VERBOSE:
+                        import traceback
+                        traceback.print_exc()
+                    # Continue with existing active_matches (don't fail the loop)
                 last_reconcile_ts = loop_start
             
             # 3. Reconcile positions (periodically)
@@ -344,7 +357,6 @@ def main():
         
         # Wait for threads to finish (with timeout)
         # Give threads a chance to see algorithm_running = False and exit
-        import time
         time.sleep(0.5)  # Brief pause for threads to check the flag
         
         for thread in threads:
