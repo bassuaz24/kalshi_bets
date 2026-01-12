@@ -1,0 +1,5 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,WNCAAB,51a24f198f22b5e20d2b133f7d58c0de,2026-01-12 18:00:00 CST,FanDuel,h2h,Alabama Crimson Tide,1.07,,Missouri Tigers,Alabama Crimson Tide
+CBBW,WNCAAB,51a24f198f22b5e20d2b133f7d58c0de,2026-01-12 18:00:00 CST,FanDuel,h2h,Missouri Tigers,7.4,,Missouri Tigers,Alabama Crimson Tide
+CBBW,WNCAAB,51a24f198f22b5e20d2b133f7d58c0de,2026-01-12 18:00:00 CST,BetOnline.ag,h2h,Alabama Crimson Tide,1.1,,Missouri Tigers,Alabama Crimson Tide
+CBBW,WNCAAB,51a24f198f22b5e20d2b133f7d58c0de,2026-01-12 18:00:00 CST,BetOnline.ag,h2h,Missouri Tigers,6.6,,Missouri Tigers,Alabama Crimson Tide

@@ -208,3 +208,17 @@ def collect_data_standalone(output_dir: Optional[Path] = None):
     This is a standalone function that can be called independently.
     """
     return collect_data_running(output_dir)
+
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Collect market data from OddsAPI")
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        help="Output directory (default: uses DATA_DIR from settings)"
+    )
+    args = parser.parse_args()
+    
+    output_dir = Path(args.output_dir) if args.output_dir else None
+    collect_data_standalone(output_dir)

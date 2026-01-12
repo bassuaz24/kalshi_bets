@@ -1,0 +1,13 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,61fc2e0519808b7939ffa4b246abdc06,2026-01-13 18:40:00 CST,FanDuel,totals,Over,1.89,230.5,Miami Heat,Phoenix Suns
+NBA,NBA,61fc2e0519808b7939ffa4b246abdc06,2026-01-13 18:40:00 CST,FanDuel,totals,Under,1.93,230.5,Miami Heat,Phoenix Suns
+NBA,NBA,bed2aa3c325290237960f892f5a097a6,2026-01-13 19:10:00 CST,FanDuel,totals,Over,1.94,225.5,Houston Rockets,Chicago Bulls
+NBA,NBA,bed2aa3c325290237960f892f5a097a6,2026-01-13 19:10:00 CST,FanDuel,totals,Under,1.88,225.5,Houston Rockets,Chicago Bulls
+NBA,NBA,bed2aa3c325290237960f892f5a097a6,2026-01-13 19:10:00 CST,BetOnline.ag,totals,Over,1.91,225.5,Houston Rockets,Chicago Bulls
+NBA,NBA,bed2aa3c325290237960f892f5a097a6,2026-01-13 19:10:00 CST,BetOnline.ag,totals,Under,1.91,225.5,Houston Rockets,Chicago Bulls
+NBA,NBA,e7bdcaa4eb0827e34ee88b6f7f4cfbf7,2026-01-13 19:10:00 CST,FanDuel,totals,Over,1.91,229.5,Milwaukee Bucks,Minnesota Timberwolves
+NBA,NBA,e7bdcaa4eb0827e34ee88b6f7f4cfbf7,2026-01-13 19:10:00 CST,FanDuel,totals,Under,1.91,229.5,Milwaukee Bucks,Minnesota Timberwolves
+NBA,NBA,a7a281e6b58fc8dcb4460426708635f0,2026-01-13 19:10:00 CST,FanDuel,totals,Over,1.91,228.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,NBA,a7a281e6b58fc8dcb4460426708635f0,2026-01-13 19:10:00 CST,FanDuel,totals,Under,1.91,228.5,Oklahoma City Thunder,San Antonio Spurs
+NBA,NBA,a7a281e6b58fc8dcb4460426708635f0,2026-01-13 19:10:00 CST,BetOnline.ag,totals,Over,1.91,228.0,Oklahoma City Thunder,San Antonio Spurs
+NBA,NBA,a7a281e6b58fc8dcb4460426708635f0,2026-01-13 19:10:00 CST,BetOnline.ag,totals,Under,1.91,228.0,Oklahoma City Thunder,San Antonio Spurs

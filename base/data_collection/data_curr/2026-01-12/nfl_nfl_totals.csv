@@ -1,0 +1,9 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,BetOnline.ag,totals,Over,1.91,38.0,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,BetOnline.ag,totals,Under,1.91,38.0,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,FanDuel,totals,Over,1.95,38.5,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,FanDuel,totals,Under,1.87,38.5,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,BetUS,totals,Over,1.91,38.0,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,BetUS,totals,Under,1.91,38.0,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,Pinnacle,totals,Over,1.9,38.0,Pittsburgh Steelers,Houston Texans
+NFL,NFL,932813a3782921beb4f7fecdf247865e,2026-01-12 19:15:00 CST,Pinnacle,totals,Under,1.98,38.0,Pittsburgh Steelers,Houston Texans

@@ -26,6 +26,7 @@ except ImportError:
 # Base directories (can be overridden by BASE_DIR env var)
 BASE_DIR = Path(os.getenv("BASE_DIR", str(_BASE_DIR)))
 DATA_DIR = Path(os.getenv("DATA_DIR", BASE_DIR / "data_collection" / "data_curr"))
+KALSHI_DATA_DIR = Path(os.getenv("KALSHI_DATA_DIR", BASE_DIR / "data_collection" / "kalshi_data"))
 POSITIONS_FILE = BASE_DIR / "positions.json"
 
 # Kalshi API settings
@@ -100,7 +101,6 @@ TICK = 1  # Kalshi prices in cents, so tick is 1
 # Sport keys for OddsAPI
 SPORT_KEYS = {
     "NFL": "americanfootball_nfl",
-    "CFB": "americanfootball_ncaaf",
     "NBA": "basketball_nba",
     "CBBM": "basketball_ncaab",
     "CBBW": "basketball_wncaab",
@@ -110,3 +110,6 @@ SPORT_KEYS = {
 ODDS_API_MARKETS = "h2h,spreads,totals"
 ODDS_API_REGION = "us"
 ODDS_API_BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
+
+# Kalshi collector settings
+KALSHI_COLLECTOR_RUNTIME = 120 #in seconds

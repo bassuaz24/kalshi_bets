@@ -1,0 +1,49 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,FanDuel,totals,Over,1.94,250.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,FanDuel,totals,Under,1.88,250.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,BetOnline.ag,totals,Over,1.91,249.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,BetOnline.ag,totals,Under,1.91,249.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,Pinnacle,totals,Over,1.93,249.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,Pinnacle,totals,Under,1.96,249.5,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,BetUS,totals,Over,1.91,250.0,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,37ad3adb35ed4728a96f52ce3ef3be12,2026-01-12 18:10:00 CST,BetUS,totals,Under,1.91,250.0,Cleveland Cavaliers,Utah Jazz
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,FanDuel,totals,Over,1.89,225.5,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,FanDuel,totals,Under,1.93,225.5,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,BetOnline.ag,totals,Over,1.91,226.5,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,BetOnline.ag,totals,Under,1.91,226.5,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,Pinnacle,totals,Over,1.94,226.0,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,Pinnacle,totals,Under,1.94,226.0,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,BetUS,totals,Over,1.91,226.5,Indiana Pacers,Boston Celtics
+NBA,NBA,dbad91dbabd7e090fe6d6ad58912cd58,2026-01-12 18:40:00 CST,BetUS,totals,Under,1.91,226.5,Indiana Pacers,Boston Celtics
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,FanDuel,totals,Over,1.94,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,FanDuel,totals,Under,1.88,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,BetOnline.ag,totals,Over,1.89,220.0,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,BetOnline.ag,totals,Under,1.93,220.0,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,Pinnacle,totals,Over,1.95,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,Pinnacle,totals,Under,1.93,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,BetUS,totals,Over,1.91,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,da3e1c4e31d6ac7036e05f00a60ad5f2,2026-01-12 18:40:00 CST,BetUS,totals,Under,1.91,220.5,Toronto Raptors,Philadelphia 76ers
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,FanDuel,totals,Over,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,FanDuel,totals,Under,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,BetOnline.ag,totals,Over,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,BetOnline.ag,totals,Under,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,Pinnacle,totals,Over,1.94,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,Pinnacle,totals,Under,1.94,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,BetUS,totals,Over,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,f0e102ee7c0722665cde7d3a4a4dfe1c,2026-01-12 19:40:00 CST,BetUS,totals,Under,1.91,219.5,Dallas Mavericks,Brooklyn Nets
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,FanDuel,totals,Over,1.87,229.5,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,FanDuel,totals,Under,1.95,229.5,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,BetOnline.ag,totals,Over,1.91,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,BetOnline.ag,totals,Under,1.91,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,BetUS,totals,Over,1.91,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,BetUS,totals,Under,1.91,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,Pinnacle,totals,Over,1.93,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,09fb007ac62ac7d2e08db4357be2417c,2026-01-12 21:10:00 CST,Pinnacle,totals,Under,1.95,230.0,Sacramento Kings,Los Angeles Lakers
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,FanDuel,totals,Over,1.89,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,FanDuel,totals,Under,1.93,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,BetOnline.ag,totals,Over,1.91,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,BetOnline.ag,totals,Under,1.91,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,Pinnacle,totals,Over,1.92,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,Pinnacle,totals,Under,1.97,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,BetUS,totals,Over,1.91,223.5,Los Angeles Clippers,Charlotte Hornets
+NBA,NBA,2532e809417a1fed704519de12ef68c0,2026-01-12 21:40:00 CST,BetUS,totals,Under,1.91,223.5,Los Angeles Clippers,Charlotte Hornets

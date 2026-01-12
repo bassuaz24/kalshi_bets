@@ -1,0 +1,115 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,NCAAB,5b7e61ada4b8298ff1609db5a6c75246,2026-01-13 14:30:00 CST,BetOnline.ag,totals,Over,1.91,139.0,Eastern Michigan Eagles,Northern Illinois Huskies
+CBBM,NCAAB,5b7e61ada4b8298ff1609db5a6c75246,2026-01-13 14:30:00 CST,BetOnline.ag,totals,Under,1.91,139.0,Eastern Michigan Eagles,Northern Illinois Huskies
+CBBM,NCAAB,2a063ad848b06aea510cad942185c8cf,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Over,1.91,164.5,Buffalo Bulls,Kent State Golden Flashes
+CBBM,NCAAB,2a063ad848b06aea510cad942185c8cf,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Under,1.91,164.5,Buffalo Bulls,Kent State Golden Flashes
+CBBM,NCAAB,2a063ad848b06aea510cad942185c8cf,2026-01-13 17:30:00 CST,FanDuel,totals,Over,1.91,165.5,Buffalo Bulls,Kent State Golden Flashes
+CBBM,NCAAB,2a063ad848b06aea510cad942185c8cf,2026-01-13 17:30:00 CST,FanDuel,totals,Under,1.91,165.5,Buffalo Bulls,Kent State Golden Flashes
+CBBM,NCAAB,c12386968944a0832b8c9e140f36efc7,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Over,1.87,155.0,St. John's Red Storm,Marquette Golden Eagles
+CBBM,NCAAB,c12386968944a0832b8c9e140f36efc7,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Under,1.95,155.0,St. John's Red Storm,Marquette Golden Eagles
+CBBM,NCAAB,c12386968944a0832b8c9e140f36efc7,2026-01-13 17:30:00 CST,FanDuel,totals,Over,1.87,155.5,St. John's Red Storm,Marquette Golden Eagles
+CBBM,NCAAB,c12386968944a0832b8c9e140f36efc7,2026-01-13 17:30:00 CST,FanDuel,totals,Under,1.95,155.5,St. John's Red Storm,Marquette Golden Eagles
+CBBM,NCAAB,d6e62a9efda67fe04fec2b71e95c1c42,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Over,1.87,159.5,Providence Friars,Villanova Wildcats
+CBBM,NCAAB,d6e62a9efda67fe04fec2b71e95c1c42,2026-01-13 17:30:00 CST,BetOnline.ag,totals,Under,1.95,159.5,Providence Friars,Villanova Wildcats
+CBBM,NCAAB,d6e62a9efda67fe04fec2b71e95c1c42,2026-01-13 17:30:00 CST,FanDuel,totals,Over,1.91,158.5,Providence Friars,Villanova Wildcats
+CBBM,NCAAB,d6e62a9efda67fe04fec2b71e95c1c42,2026-01-13 17:30:00 CST,FanDuel,totals,Under,1.91,158.5,Providence Friars,Villanova Wildcats
+CBBM,NCAAB,ee325c9a16f3248d553240a9c29a8029,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,154.5,Akron Zips,Ball State Cardinals
+CBBM,NCAAB,ee325c9a16f3248d553240a9c29a8029,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,154.5,Akron Zips,Ball State Cardinals
+CBBM,NCAAB,5ecd1f93108c0fa66e243fa4e80a8b51,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.87,131.5,Clemson Tigers,Boston College Eagles
+CBBM,NCAAB,5ecd1f93108c0fa66e243fa4e80a8b51,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.95,131.5,Clemson Tigers,Boston College Eagles
+CBBM,NCAAB,5ecd1f93108c0fa66e243fa4e80a8b51,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,131.0,Clemson Tigers,Boston College Eagles
+CBBM,NCAAB,5ecd1f93108c0fa66e243fa4e80a8b51,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,131.0,Clemson Tigers,Boston College Eagles
+CBBM,NCAAB,72cdd0dd12bacb4e81e72e0406f57c45,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,155.0,Miami (OH) RedHawks,Central Michigan Chippewas
+CBBM,NCAAB,72cdd0dd12bacb4e81e72e0406f57c45,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,155.0,Miami (OH) RedHawks,Central Michigan Chippewas
+CBBM,NCAAB,c1c5be4bf8afdd23a48eacf64f3929ec,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,152.5,Duquesne Dukes,Dayton Flyers
+CBBM,NCAAB,c1c5be4bf8afdd23a48eacf64f3929ec,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,152.5,Duquesne Dukes,Dayton Flyers
+CBBM,NCAAB,558143c8de2776fef92e9e45a7b7effb,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,142.0,Loyola (Chi) Ramblers,George Mason Patriots
+CBBM,NCAAB,558143c8de2776fef92e9e45a7b7effb,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,142.0,Loyola (Chi) Ramblers,George Mason Patriots
+CBBM,NCAAB,0e46a6ec91ba3290bde1e891e4ec6eee,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.91,140.5,Michigan St Spartans,Indiana Hoosiers
+CBBM,NCAAB,0e46a6ec91ba3290bde1e891e4ec6eee,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.91,140.5,Michigan St Spartans,Indiana Hoosiers
+CBBM,NCAAB,0e46a6ec91ba3290bde1e891e4ec6eee,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,141.0,Michigan St Spartans,Indiana Hoosiers
+CBBM,NCAAB,0e46a6ec91ba3290bde1e891e4ec6eee,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,141.0,Michigan St Spartans,Indiana Hoosiers
+CBBM,NCAAB,44df65a007fef5f55721742fbfb853b1,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,155.5,Louisville Cardinals,Virginia Cavaliers
+CBBM,NCAAB,44df65a007fef5f55721742fbfb853b1,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,155.5,Louisville Cardinals,Virginia Cavaliers
+CBBM,NCAAB,44df65a007fef5f55721742fbfb853b1,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.91,155.5,Louisville Cardinals,Virginia Cavaliers
+CBBM,NCAAB,44df65a007fef5f55721742fbfb853b1,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.91,155.5,Louisville Cardinals,Virginia Cavaliers
+CBBM,NCAAB,be528ea4b4d1c2dc303e81f0cdb8eefe,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.87,161.0,Western Michigan Broncos,Massachusetts Minutemen
+CBBM,NCAAB,be528ea4b4d1c2dc303e81f0cdb8eefe,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.95,161.0,Western Michigan Broncos,Massachusetts Minutemen
+CBBM,NCAAB,286588de621f69c10f858ae2d93117da,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.91,144.5,Notre Dame Fighting Irish,Miami Hurricanes
+CBBM,NCAAB,286588de621f69c10f858ae2d93117da,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.91,144.5,Notre Dame Fighting Irish,Miami Hurricanes
+CBBM,NCAAB,286588de621f69c10f858ae2d93117da,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,144.5,Notre Dame Fighting Irish,Miami Hurricanes
+CBBM,NCAAB,286588de621f69c10f858ae2d93117da,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,144.5,Notre Dame Fighting Irish,Miami Hurricanes
+CBBM,NCAAB,1db0fd7d18510342c54212d057ed5794,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,144.5,Minnesota Golden Gophers,Wisconsin Badgers
+CBBM,NCAAB,1db0fd7d18510342c54212d057ed5794,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,144.5,Minnesota Golden Gophers,Wisconsin Badgers
+CBBM,NCAAB,1db0fd7d18510342c54212d057ed5794,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.87,144.5,Minnesota Golden Gophers,Wisconsin Badgers
+CBBM,NCAAB,1db0fd7d18510342c54212d057ed5794,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.95,144.5,Minnesota Golden Gophers,Wisconsin Badgers
+CBBM,NCAAB,ee3c7d1171d624ff8aee41d893c86647,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,124.0,Northern Iowa Panthers,UIC Flames
+CBBM,NCAAB,ee3c7d1171d624ff8aee41d893c86647,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,124.0,Northern Iowa Panthers,UIC Flames
+CBBM,NCAAB,e78e5cedac24c095051e3d81b6fac888,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,157.0,Toledo Rockets,Ohio Bobcats
+CBBM,NCAAB,e78e5cedac24c095051e3d81b6fac888,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,157.0,Toledo Rockets,Ohio Bobcats
+CBBM,NCAAB,817b4e3a2c60239c0b07aece9deb8a8f,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Over,1.91,158.0,Tennessee Volunteers,Texas A&M Aggies
+CBBM,NCAAB,817b4e3a2c60239c0b07aece9deb8a8f,2026-01-13 18:00:00 CST,BetOnline.ag,totals,Under,1.91,158.0,Tennessee Volunteers,Texas A&M Aggies
+CBBM,NCAAB,817b4e3a2c60239c0b07aece9deb8a8f,2026-01-13 18:00:00 CST,FanDuel,totals,Over,1.91,158.5,Tennessee Volunteers,Texas A&M Aggies
+CBBM,NCAAB,817b4e3a2c60239c0b07aece9deb8a8f,2026-01-13 18:00:00 CST,FanDuel,totals,Under,1.91,158.5,Tennessee Volunteers,Texas A&M Aggies
+CBBM,NCAAB,e117ecfa6ca8c0984561eaf990a5e96d,2026-01-13 18:30:00 CST,BetOnline.ag,totals,Over,1.91,148.0,Belmont Bruins,Valparaiso Beacons
+CBBM,NCAAB,e117ecfa6ca8c0984561eaf990a5e96d,2026-01-13 18:30:00 CST,BetOnline.ag,totals,Under,1.91,148.0,Belmont Bruins,Valparaiso Beacons
+CBBM,NCAAB,370ad51e039d0b9266b245b97679b75b,2026-01-13 19:00:00 CST,BetOnline.ag,totals,Over,1.91,141.5,Evansville Purple Aces,Bradley Braves
+CBBM,NCAAB,370ad51e039d0b9266b245b97679b75b,2026-01-13 19:00:00 CST,BetOnline.ag,totals,Under,1.91,141.5,Evansville Purple Aces,Bradley Braves
+CBBM,NCAAB,af059cc727b2c0b4580e3af2823024f0,2026-01-13 19:00:00 CST,FanDuel,totals,Over,1.91,131.5,Seton Hall Pirates,UConn Huskies
+CBBM,NCAAB,af059cc727b2c0b4580e3af2823024f0,2026-01-13 19:00:00 CST,FanDuel,totals,Under,1.91,131.5,Seton Hall Pirates,UConn Huskies
+CBBM,NCAAB,af059cc727b2c0b4580e3af2823024f0,2026-01-13 19:00:00 CST,BetOnline.ag,totals,Over,1.95,131.0,Seton Hall Pirates,UConn Huskies
+CBBM,NCAAB,af059cc727b2c0b4580e3af2823024f0,2026-01-13 19:00:00 CST,BetOnline.ag,totals,Under,1.87,131.0,Seton Hall Pirates,UConn Huskies
+CBBM,NCAAB,30efd44519a9e4fccb10b0d57b936cf1,2026-01-13 19:30:00 CST,BetOnline.ag,totals,Over,1.91,128.5,Eastern Illinois Panthers,Western Illinois Leathernecks
+CBBM,NCAAB,30efd44519a9e4fccb10b0d57b936cf1,2026-01-13 19:30:00 CST,BetOnline.ag,totals,Under,1.91,128.5,Eastern Illinois Panthers,Western Illinois Leathernecks
+CBBM,NCAAB,102848aca43e9a1d654589791f0ed38e,2026-01-13 19:30:00 CST,FanDuel,totals,Over,1.91,129.5,Houston Cougars,West Virginia Mountaineers
+CBBM,NCAAB,102848aca43e9a1d654589791f0ed38e,2026-01-13 19:30:00 CST,FanDuel,totals,Under,1.91,129.5,Houston Cougars,West Virginia Mountaineers
+CBBM,NCAAB,102848aca43e9a1d654589791f0ed38e,2026-01-13 19:30:00 CST,BetOnline.ag,totals,Over,1.87,129.5,Houston Cougars,West Virginia Mountaineers
+CBBM,NCAAB,102848aca43e9a1d654589791f0ed38e,2026-01-13 19:30:00 CST,BetOnline.ag,totals,Under,1.95,129.5,Houston Cougars,West Virginia Mountaineers
+CBBM,NCAAB,736f160b99188421924d07ae4aa88437,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.87,173.5,Mississippi St Bulldogs,Alabama Crimson Tide
+CBBM,NCAAB,736f160b99188421924d07ae4aa88437,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.95,173.5,Mississippi St Bulldogs,Alabama Crimson Tide
+CBBM,NCAAB,736f160b99188421924d07ae4aa88437,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,171.5,Mississippi St Bulldogs,Alabama Crimson Tide
+CBBM,NCAAB,736f160b99188421924d07ae4aa88437,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,171.5,Mississippi St Bulldogs,Alabama Crimson Tide
+CBBM,NCAAB,704dcd93fddcbb501157b32eec9ba8fb,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,168.5,Oklahoma St Cowboys,Baylor Bears
+CBBM,NCAAB,704dcd93fddcbb501157b32eec9ba8fb,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,168.5,Oklahoma St Cowboys,Baylor Bears
+CBBM,NCAAB,704dcd93fddcbb501157b32eec9ba8fb,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.87,167.5,Oklahoma St Cowboys,Baylor Bears
+CBBM,NCAAB,704dcd93fddcbb501157b32eec9ba8fb,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.95,167.5,Oklahoma St Cowboys,Baylor Bears
+CBBM,NCAAB,62998850da0a7422afea2c9ab07413da,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,137.0,Fresno St Bulldogs,Colorado St Rams
+CBBM,NCAAB,62998850da0a7422afea2c9ab07413da,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,137.0,Fresno St Bulldogs,Colorado St Rams
+CBBM,NCAAB,ff91a2d384ea3a530b0cd25c633b8014,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,148.5,Creighton Bluejays,Georgetown Hoyas
+CBBM,NCAAB,ff91a2d384ea3a530b0cd25c633b8014,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,148.5,Creighton Bluejays,Georgetown Hoyas
+CBBM,NCAAB,ff91a2d384ea3a530b0cd25c633b8014,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.91,148.5,Creighton Bluejays,Georgetown Hoyas
+CBBM,NCAAB,ff91a2d384ea3a530b0cd25c633b8014,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.91,148.5,Creighton Bluejays,Georgetown Hoyas
+CBBM,NCAAB,1abfe09834edaabed5faed8d6f604ef4,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.87,155.5,Oklahoma Sooners,Florida Gators
+CBBM,NCAAB,1abfe09834edaabed5faed8d6f604ef4,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.95,155.5,Oklahoma Sooners,Florida Gators
+CBBM,NCAAB,1abfe09834edaabed5faed8d6f604ef4,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,154.0,Oklahoma Sooners,Florida Gators
+CBBM,NCAAB,1abfe09834edaabed5faed8d6f604ef4,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,154.0,Oklahoma Sooners,Florida Gators
+CBBM,NCAAB,e3cb3db152b624c66881997f57566425,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,158.5,Syracuse Orange,Florida St Seminoles
+CBBM,NCAAB,e3cb3db152b624c66881997f57566425,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,158.5,Syracuse Orange,Florida St Seminoles
+CBBM,NCAAB,e3cb3db152b624c66881997f57566425,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.91,159.5,Syracuse Orange,Florida St Seminoles
+CBBM,NCAAB,e3cb3db152b624c66881997f57566425,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.91,159.5,Syracuse Orange,Florida St Seminoles
+CBBM,NCAAB,2f7e8a679aeab56c2ab915e2e076a6be,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,141.0,New Mexico Lobos,Grand Canyon Antelopes
+CBBM,NCAAB,2f7e8a679aeab56c2ab915e2e076a6be,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,141.0,New Mexico Lobos,Grand Canyon Antelopes
+CBBM,NCAAB,05b21c9b293d8a47458f87248619aff8,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.91,145.5,Kansas Jayhawks,Iowa State Cyclones
+CBBM,NCAAB,05b21c9b293d8a47458f87248619aff8,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.91,145.5,Kansas Jayhawks,Iowa State Cyclones
+CBBM,NCAAB,05b21c9b293d8a47458f87248619aff8,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.87,146.0,Kansas Jayhawks,Iowa State Cyclones
+CBBM,NCAAB,05b21c9b293d8a47458f87248619aff8,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.95,146.0,Kansas Jayhawks,Iowa State Cyclones
+CBBM,NCAAB,ff276b590a2eb257dfb216301441d021,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Over,1.91,146.0,Nebraska Cornhuskers,Oregon Ducks
+CBBM,NCAAB,ff276b590a2eb257dfb216301441d021,2026-01-13 20:00:00 CST,BetOnline.ag,totals,Under,1.91,146.0,Nebraska Cornhuskers,Oregon Ducks
+CBBM,NCAAB,ff276b590a2eb257dfb216301441d021,2026-01-13 20:00:00 CST,FanDuel,totals,Over,1.91,146.5,Nebraska Cornhuskers,Oregon Ducks
+CBBM,NCAAB,ff276b590a2eb257dfb216301441d021,2026-01-13 20:00:00 CST,FanDuel,totals,Under,1.91,146.5,Nebraska Cornhuskers,Oregon Ducks
+CBBM,NCAAB,13dcd7bcd2f6c49e9846077531833130,2026-01-13 21:00:00 CST,BetOnline.ag,totals,Over,1.91,133.5,San José St Spartans,Air Force Falcons
+CBBM,NCAAB,13dcd7bcd2f6c49e9846077531833130,2026-01-13 21:00:00 CST,BetOnline.ag,totals,Under,1.91,133.5,San José St Spartans,Air Force Falcons
+CBBM,NCAAB,13dcd7bcd2f6c49e9846077531833130,2026-01-13 21:00:00 CST,FanDuel,totals,Over,1.87,132.5,San José St Spartans,Air Force Falcons
+CBBM,NCAAB,13dcd7bcd2f6c49e9846077531833130,2026-01-13 21:00:00 CST,FanDuel,totals,Under,1.95,132.5,San José St Spartans,Air Force Falcons
+CBBM,NCAAB,accaec754bbdb1d15896d3828af2cae7,2026-01-13 21:30:00 CST,BetOnline.ag,totals,Over,1.91,149.0,USC Trojans,Maryland Terrapins
+CBBM,NCAAB,accaec754bbdb1d15896d3828af2cae7,2026-01-13 21:30:00 CST,BetOnline.ag,totals,Under,1.91,149.0,USC Trojans,Maryland Terrapins
+CBBM,NCAAB,accaec754bbdb1d15896d3828af2cae7,2026-01-13 21:30:00 CST,FanDuel,totals,Over,1.87,149.5,USC Trojans,Maryland Terrapins
+CBBM,NCAAB,accaec754bbdb1d15896d3828af2cae7,2026-01-13 21:30:00 CST,FanDuel,totals,Under,1.95,149.5,USC Trojans,Maryland Terrapins
+CBBM,NCAAB,838ba32c065fb8204f5b0f2449b6cfb3,2026-01-13 22:00:00 CST,BetOnline.ag,totals,Over,1.91,147.5,UNLV Rebels,Boise State Broncos
+CBBM,NCAAB,838ba32c065fb8204f5b0f2449b6cfb3,2026-01-13 22:00:00 CST,BetOnline.ag,totals,Under,1.91,147.5,UNLV Rebels,Boise State Broncos
+CBBM,NCAAB,838ba32c065fb8204f5b0f2449b6cfb3,2026-01-13 22:00:00 CST,FanDuel,totals,Over,1.87,146.5,UNLV Rebels,Boise State Broncos
+CBBM,NCAAB,838ba32c065fb8204f5b0f2449b6cfb3,2026-01-13 22:00:00 CST,FanDuel,totals,Under,1.95,146.5,UNLV Rebels,Boise State Broncos
+CBBM,NCAAB,d8f7b9943e50e0dd7c0f6415396f0e43,2026-01-13 22:00:00 CST,BetOnline.ag,totals,Over,1.91,141.5,San Francisco Dons,Saint Mary's Gaels
+CBBM,NCAAB,d8f7b9943e50e0dd7c0f6415396f0e43,2026-01-13 22:00:00 CST,BetOnline.ag,totals,Under,1.91,141.5,San Francisco Dons,Saint Mary's Gaels
+CBBM,NCAAB,d8f7b9943e50e0dd7c0f6415396f0e43,2026-01-13 22:00:00 CST,FanDuel,totals,Over,1.91,142.5,San Francisco Dons,Saint Mary's Gaels
+CBBM,NCAAB,d8f7b9943e50e0dd7c0f6415396f0e43,2026-01-13 22:00:00 CST,FanDuel,totals,Under,1.91,142.5,San Francisco Dons,Saint Mary's Gaels
