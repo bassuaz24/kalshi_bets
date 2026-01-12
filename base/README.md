@@ -1,6 +1,6 @@
 # Trading Bot Infrastructure
 
-This is the reimplemented trading bot infrastructure based on `myles_repo` with several modifications.
+This is the trading bot and data collection infrastructure
 
 ## Structure
 
