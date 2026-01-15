@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.kalshi.collector</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/Brett/kdata/kalshi_bets/.venv/bin/python3</string>
+        <string>-m</string>
+        <string>data_collection.kalshi_collector</string>
+        <!-- Add --date argument here if needed, e.g.:
+        <string>--date</string>
+        <string>2026-01-12</string>
+        -->
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base</string>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base/data_collection/kalshi_collector.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base/data_collection/kalshi_collector.error.log</string>
+    
+    <key>RunAtLoad</key>
+    <false/>
+    
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+</dict>
+</plist>

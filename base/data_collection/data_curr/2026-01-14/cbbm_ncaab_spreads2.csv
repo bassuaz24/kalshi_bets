@@ -1,0 +1,125 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,NCAAB,5cd3b5fef12f70cf067530c597649a0b,2026-01-15 17:00:00 CST,BetOnline.ag,spreads,Liberty Flames,1.91,-8.5,Liberty Flames,New Mexico St Aggies
+CBBM,NCAAB,5cd3b5fef12f70cf067530c597649a0b,2026-01-15 17:00:00 CST,BetOnline.ag,spreads,New Mexico St Aggies,1.91,8.5,Liberty Flames,New Mexico St Aggies
+CBBM,NCAAB,5cd3b5fef12f70cf067530c597649a0b,2026-01-15 17:00:00 CST,FanDuel,spreads,Liberty Flames,1.94,-8.5,Liberty Flames,New Mexico St Aggies
+CBBM,NCAAB,5cd3b5fef12f70cf067530c597649a0b,2026-01-15 17:00:00 CST,FanDuel,spreads,New Mexico St Aggies,1.88,8.5,Liberty Flames,New Mexico St Aggies
+CBBM,NCAAB,22e8b64f8ae6cda762c687d8af2f07c4,2026-01-15 17:00:00 CST,BetOnline.ag,spreads,Mercer Bears,1.91,-9.5,VMI Keydets,Mercer Bears
+CBBM,NCAAB,22e8b64f8ae6cda762c687d8af2f07c4,2026-01-15 17:00:00 CST,BetOnline.ag,spreads,VMI Keydets,1.91,9.5,VMI Keydets,Mercer Bears
+CBBM,NCAAB,22e8b64f8ae6cda762c687d8af2f07c4,2026-01-15 17:00:00 CST,FanDuel,spreads,Mercer Bears,1.88,-9.5,VMI Keydets,Mercer Bears
+CBBM,NCAAB,22e8b64f8ae6cda762c687d8af2f07c4,2026-01-15 17:00:00 CST,FanDuel,spreads,VMI Keydets,1.94,9.5,VMI Keydets,Mercer Bears
+CBBM,NCAAB,72cd35a6835a176ea8feba35de467e99,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,Appalachian St Mountaineers,1.87,-2.0,Appalachian St Mountaineers,James Madison Dukes
+CBBM,NCAAB,72cd35a6835a176ea8feba35de467e99,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,James Madison Dukes,1.95,2.0,Appalachian St Mountaineers,James Madison Dukes
+CBBM,NCAAB,72cd35a6835a176ea8feba35de467e99,2026-01-15 17:30:00 CST,FanDuel,spreads,Appalachian St Mountaineers,1.89,-1.5,Appalachian St Mountaineers,James Madison Dukes
+CBBM,NCAAB,72cd35a6835a176ea8feba35de467e99,2026-01-15 17:30:00 CST,FanDuel,spreads,James Madison Dukes,1.93,1.5,Appalachian St Mountaineers,James Madison Dukes
+CBBM,NCAAB,883ec2ac013d3c064a1728d8d8a35021,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,IUPUI Jaguars,1.87,5.0,IUPUI Jaguars,Robert Morris Colonials
+CBBM,NCAAB,883ec2ac013d3c064a1728d8d8a35021,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,Robert Morris Colonials,1.95,-5.0,IUPUI Jaguars,Robert Morris Colonials
+CBBM,NCAAB,883ec2ac013d3c064a1728d8d8a35021,2026-01-15 17:30:00 CST,FanDuel,spreads,IUPUI Jaguars,1.87,5.5,IUPUI Jaguars,Robert Morris Colonials
+CBBM,NCAAB,883ec2ac013d3c064a1728d8d8a35021,2026-01-15 17:30:00 CST,FanDuel,spreads,Robert Morris Colonials,1.95,-5.5,IUPUI Jaguars,Robert Morris Colonials
+CBBM,NCAAB,280b9585a560c5e9c25d420b7a612154,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Cleveland St Vikings,1.91,3.5,Cleveland St Vikings,Green Bay Phoenix
+CBBM,NCAAB,280b9585a560c5e9c25d420b7a612154,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Green Bay Phoenix,1.91,-3.5,Cleveland St Vikings,Green Bay Phoenix
+CBBM,NCAAB,280b9585a560c5e9c25d420b7a612154,2026-01-15 18:00:00 CST,FanDuel,spreads,Cleveland St Vikings,1.94,3.5,Cleveland St Vikings,Green Bay Phoenix
+CBBM,NCAAB,280b9585a560c5e9c25d420b7a612154,2026-01-15 18:00:00 CST,FanDuel,spreads,Green Bay Phoenix,1.88,-3.5,Cleveland St Vikings,Green Bay Phoenix
+CBBM,NCAAB,eaffff6a581c63ed17332ea2c45fa207,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Delaware Blue Hens,1.87,-1.5,Delaware Blue Hens,UTEP Miners
+CBBM,NCAAB,eaffff6a581c63ed17332ea2c45fa207,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,UTEP Miners,1.95,1.5,Delaware Blue Hens,UTEP Miners
+CBBM,NCAAB,eaffff6a581c63ed17332ea2c45fa207,2026-01-15 18:00:00 CST,FanDuel,spreads,Delaware Blue Hens,1.87,-1.5,Delaware Blue Hens,UTEP Miners
+CBBM,NCAAB,eaffff6a581c63ed17332ea2c45fa207,2026-01-15 18:00:00 CST,FanDuel,spreads,UTEP Miners,1.95,1.5,Delaware Blue Hens,UTEP Miners
+CBBM,NCAAB,6d00ee023bf823fece0d136f7772de5a,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Detroit Mercy Titans,1.91,10.5,Northern Kentucky Norse,Detroit Mercy Titans
+CBBM,NCAAB,6d00ee023bf823fece0d136f7772de5a,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Northern Kentucky Norse,1.91,-10.5,Northern Kentucky Norse,Detroit Mercy Titans
+CBBM,NCAAB,6d00ee023bf823fece0d136f7772de5a,2026-01-15 18:00:00 CST,FanDuel,spreads,Detroit Mercy Titans,1.91,10.5,Northern Kentucky Norse,Detroit Mercy Titans
+CBBM,NCAAB,6d00ee023bf823fece0d136f7772de5a,2026-01-15 18:00:00 CST,FanDuel,spreads,Northern Kentucky Norse,1.91,-10.5,Northern Kentucky Norse,Detroit Mercy Titans
+CBBM,NCAAB,9a09427e8bdc4ff4982725877e75b731,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Drexel Dragons,1.91,6.0,Monmouth Hawks,Drexel Dragons
+CBBM,NCAAB,9a09427e8bdc4ff4982725877e75b731,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Monmouth Hawks,1.91,-6.0,Monmouth Hawks,Drexel Dragons
+CBBM,NCAAB,9a09427e8bdc4ff4982725877e75b731,2026-01-15 18:00:00 CST,FanDuel,spreads,Drexel Dragons,1.91,5.5,Monmouth Hawks,Drexel Dragons
+CBBM,NCAAB,9a09427e8bdc4ff4982725877e75b731,2026-01-15 18:00:00 CST,FanDuel,spreads,Monmouth Hawks,1.91,-5.5,Monmouth Hawks,Drexel Dragons
+CBBM,NCAAB,fcabc0ebfb0f345c6ed34d384ab863f3,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Elon Phoenix,1.91,-3.5,Northeastern Huskies,Elon Phoenix
+CBBM,NCAAB,fcabc0ebfb0f345c6ed34d384ab863f3,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Northeastern Huskies,1.91,3.5,Northeastern Huskies,Elon Phoenix
+CBBM,NCAAB,fcabc0ebfb0f345c6ed34d384ab863f3,2026-01-15 18:00:00 CST,FanDuel,spreads,Elon Phoenix,1.94,-2.5,Northeastern Huskies,Elon Phoenix
+CBBM,NCAAB,fcabc0ebfb0f345c6ed34d384ab863f3,2026-01-15 18:00:00 CST,FanDuel,spreads,Northeastern Huskies,1.88,2.5,Northeastern Huskies,Elon Phoenix
+CBBM,NCAAB,3ee5f0175b701ce370f3bfcf09b1eb3d,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Georgia Southern Eagles,1.91,-6.0,Georgia Southern Eagles,Old Dominion Monarchs
+CBBM,NCAAB,3ee5f0175b701ce370f3bfcf09b1eb3d,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Old Dominion Monarchs,1.91,6.0,Georgia Southern Eagles,Old Dominion Monarchs
+CBBM,NCAAB,3ee5f0175b701ce370f3bfcf09b1eb3d,2026-01-15 18:00:00 CST,FanDuel,spreads,Georgia Southern Eagles,1.94,-5.5,Georgia Southern Eagles,Old Dominion Monarchs
+CBBM,NCAAB,3ee5f0175b701ce370f3bfcf09b1eb3d,2026-01-15 18:00:00 CST,FanDuel,spreads,Old Dominion Monarchs,1.88,5.5,Georgia Southern Eagles,Old Dominion Monarchs
+CBBM,NCAAB,e1df7917dfa52feda3def24e706989f1,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Hofstra Pride,1.91,-7.5,Stony Brook Seawolves,Hofstra Pride
+CBBM,NCAAB,e1df7917dfa52feda3def24e706989f1,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Stony Brook Seawolves,1.91,7.5,Stony Brook Seawolves,Hofstra Pride
+CBBM,NCAAB,e1df7917dfa52feda3def24e706989f1,2026-01-15 18:00:00 CST,FanDuel,spreads,Hofstra Pride,1.87,-6.5,Stony Brook Seawolves,Hofstra Pride
+CBBM,NCAAB,e1df7917dfa52feda3def24e706989f1,2026-01-15 18:00:00 CST,FanDuel,spreads,Stony Brook Seawolves,1.95,6.5,Stony Brook Seawolves,Hofstra Pride
+CBBM,NCAAB,951ca16dc1c16e90b21f379a6089706c,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Milwaukee Panthers,1.91,2.0,Milwaukee Panthers,Oakland Golden Grizzlies
+CBBM,NCAAB,951ca16dc1c16e90b21f379a6089706c,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Oakland Golden Grizzlies,1.91,-2.0,Milwaukee Panthers,Oakland Golden Grizzlies
+CBBM,NCAAB,b05a76398e51a487f87b3e9c9c2f1c43,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,North Carolina A&T Aggies,1.91,12.5,William & Mary Tribe,North Carolina A&T Aggies
+CBBM,NCAAB,b05a76398e51a487f87b3e9c9c2f1c43,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,William & Mary Tribe,1.91,-12.5,William & Mary Tribe,North Carolina A&T Aggies
+CBBM,NCAAB,b05a76398e51a487f87b3e9c9c2f1c43,2026-01-15 18:00:00 CST,FanDuel,spreads,North Carolina A&T Aggies,1.87,12.5,William & Mary Tribe,North Carolina A&T Aggies
+CBBM,NCAAB,b05a76398e51a487f87b3e9c9c2f1c43,2026-01-15 18:00:00 CST,FanDuel,spreads,William & Mary Tribe,1.95,-12.5,William & Mary Tribe,North Carolina A&T Aggies
+CBBM,NCAAB,22cfdf2e56927b737157a045f72e7d57,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,The Citadel Bulldogs,1.91,9.0,UNC Greensboro Spartans,The Citadel Bulldogs
+CBBM,NCAAB,22cfdf2e56927b737157a045f72e7d57,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,UNC Greensboro Spartans,1.91,-9.0,UNC Greensboro Spartans,The Citadel Bulldogs
+CBBM,NCAAB,22cfdf2e56927b737157a045f72e7d57,2026-01-15 18:00:00 CST,FanDuel,spreads,The Citadel Bulldogs,1.87,9.5,UNC Greensboro Spartans,The Citadel Bulldogs
+CBBM,NCAAB,22cfdf2e56927b737157a045f72e7d57,2026-01-15 18:00:00 CST,FanDuel,spreads,UNC Greensboro Spartans,1.95,-9.5,UNC Greensboro Spartans,The Citadel Bulldogs
+CBBM,NCAAB,94d9493ceebdf47a559449d382e8d56e,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Wright St Raiders,1.91,-6.5,Wright St Raiders,Youngstown St Penguins
+CBBM,NCAAB,94d9493ceebdf47a559449d382e8d56e,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Youngstown St Penguins,1.91,6.5,Wright St Raiders,Youngstown St Penguins
+CBBM,NCAAB,94d9493ceebdf47a559449d382e8d56e,2026-01-15 18:00:00 CST,FanDuel,spreads,Wright St Raiders,1.95,-6.5,Wright St Raiders,Youngstown St Penguins
+CBBM,NCAAB,94d9493ceebdf47a559449d382e8d56e,2026-01-15 18:00:00 CST,FanDuel,spreads,Youngstown St Penguins,1.87,6.5,Wright St Raiders,Youngstown St Penguins
+CBBM,NCAAB,c86d8b23854fc1f28663734d424030ea,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Abilene Christian Wildcats,1.91,-2.0,Abilene Christian Wildcats,Cal Baptist Lancers
+CBBM,NCAAB,c86d8b23854fc1f28663734d424030ea,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Cal Baptist Lancers,1.91,2.0,Abilene Christian Wildcats,Cal Baptist Lancers
+CBBM,NCAAB,cf5e096f7785d7f466ffc0a568425a72,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Arkansas St Red Wolves,1.91,-4.0,South Alabama Jaguars,Arkansas St Red Wolves
+CBBM,NCAAB,cf5e096f7785d7f466ffc0a568425a72,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,South Alabama Jaguars,1.91,4.0,South Alabama Jaguars,Arkansas St Red Wolves
+CBBM,NCAAB,c4d1df31dd5a15b5e570533909e1b98c,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Arkansas-Little Rock Trojans,1.91,-6.0,Arkansas-Little Rock Trojans,Eastern Illinois Panthers
+CBBM,NCAAB,c4d1df31dd5a15b5e570533909e1b98c,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Eastern Illinois Panthers,1.91,6.0,Arkansas-Little Rock Trojans,Eastern Illinois Panthers
+CBBM,NCAAB,d0627ebaa93dd7e92ba40e34b5c0d613,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Charleston Cougars,1.91,2.5,Towson Tigers,Charleston Cougars
+CBBM,NCAAB,d0627ebaa93dd7e92ba40e34b5c0d613,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,Towson Tigers,1.91,-2.5,Towson Tigers,Charleston Cougars
+CBBM,NCAAB,d0627ebaa93dd7e92ba40e34b5c0d613,2026-01-15 19:00:00 CST,FanDuel,spreads,Charleston Cougars,1.98,2.5,Towson Tigers,Charleston Cougars
+CBBM,NCAAB,d0627ebaa93dd7e92ba40e34b5c0d613,2026-01-15 19:00:00 CST,FanDuel,spreads,Towson Tigers,1.83,-2.5,Towson Tigers,Charleston Cougars
+CBBM,NCAAB,0b6343aebb29fc2825b3e4346337dd62,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,North Dakota Fighting Hawks,1.91,10.0,North Dakota Fighting Hawks,St. Thomas (MN) Tommies
+CBBM,NCAAB,0b6343aebb29fc2825b3e4346337dd62,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,St. Thomas (MN) Tommies,1.91,-10.0,North Dakota Fighting Hawks,St. Thomas (MN) Tommies
+CBBM,NCAAB,92f39c7a58833ef4c0a0ecf60356c355,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,South Dakota Coyotes,1.91,-7.0,South Dakota Coyotes,UMKC Kangaroos
+CBBM,NCAAB,92f39c7a58833ef4c0a0ecf60356c355,2026-01-15 19:00:00 CST,BetOnline.ag,spreads,UMKC Kangaroos,1.91,7.0,South Dakota Coyotes,UMKC Kangaroos
+CBBM,NCAAB,96e37945bcbe203acf5c79ea9303d106,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Morehead St Eagles,1.91,7.5,Tennessee St Tigers,Morehead St Eagles
+CBBM,NCAAB,96e37945bcbe203acf5c79ea9303d106,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Tennessee St Tigers,1.91,-7.5,Tennessee St Tigers,Morehead St Eagles
+CBBM,NCAAB,5f32dc3f0a0e14358b9bba11e69b3f16,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,SIU-Edwardsville Cougars,1.91,8.5,Tenn-Martin Skyhawks,SIU-Edwardsville Cougars
+CBBM,NCAAB,5f32dc3f0a0e14358b9bba11e69b3f16,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Tenn-Martin Skyhawks,1.91,-8.5,Tenn-Martin Skyhawks,SIU-Edwardsville Cougars
+CBBM,NCAAB,35e52aed35c48277e77514edd489591b,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Southern Indiana Screaming Eagles,1.95,6.0,Tennessee Tech Golden Eagles,Southern Indiana Screaming Eagles
+CBBM,NCAAB,35e52aed35c48277e77514edd489591b,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Tennessee Tech Golden Eagles,1.87,-6.0,Tennessee Tech Golden Eagles,Southern Indiana Screaming Eagles
+CBBM,NCAAB,0108bfcb3bb4105dcbe3080d5bea3ab9,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Southern Utah Thunderbirds,1.91,6.0,Southern Utah Thunderbirds,Tarleton State Texans
+CBBM,NCAAB,0108bfcb3bb4105dcbe3080d5bea3ab9,2026-01-15 19:30:00 CST,BetOnline.ag,spreads,Tarleton State Texans,1.91,-6.0,Southern Utah Thunderbirds,Tarleton State Texans
+CBBM,NCAAB,cfa16a41d563727e72ddf62f7ed4cc66,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,CSU Fullerton Titans,1.91,3.5,UC Davis Aggies,CSU Fullerton Titans
+CBBM,NCAAB,cfa16a41d563727e72ddf62f7ed4cc66,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,UC Davis Aggies,1.91,-3.5,UC Davis Aggies,CSU Fullerton Titans
+CBBM,NCAAB,28c515378eb2ce3b72addda8d91ea5d5,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Eastern Washington Eagles,1.91,4.5,Weber State Wildcats,Eastern Washington Eagles
+CBBM,NCAAB,28c515378eb2ce3b72addda8d91ea5d5,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Weber State Wildcats,1.91,-4.5,Weber State Wildcats,Eastern Washington Eagles
+CBBM,NCAAB,28c515378eb2ce3b72addda8d91ea5d5,2026-01-15 20:00:00 CST,FanDuel,spreads,Eastern Washington Eagles,1.91,4.5,Weber State Wildcats,Eastern Washington Eagles
+CBBM,NCAAB,28c515378eb2ce3b72addda8d91ea5d5,2026-01-15 20:00:00 CST,FanDuel,spreads,Weber State Wildcats,1.91,-4.5,Weber State Wildcats,Eastern Washington Eagles
+CBBM,NCAAB,5f3b35f51814894fb06a71c5a96c0c2f,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Florida Atlantic Owls,1.87,-5.0,Florida Atlantic Owls,Wichita St Shockers
+CBBM,NCAAB,5f3b35f51814894fb06a71c5a96c0c2f,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Wichita St Shockers,1.95,5.0,Florida Atlantic Owls,Wichita St Shockers
+CBBM,NCAAB,5f3b35f51814894fb06a71c5a96c0c2f,2026-01-15 20:00:00 CST,FanDuel,spreads,Florida Atlantic Owls,1.91,-4.5,Florida Atlantic Owls,Wichita St Shockers
+CBBM,NCAAB,5f3b35f51814894fb06a71c5a96c0c2f,2026-01-15 20:00:00 CST,FanDuel,spreads,Wichita St Shockers,1.91,4.5,Florida Atlantic Owls,Wichita St Shockers
+CBBM,NCAAB,bdd36dee20c6edc9f37201923774318d,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Idaho State Bengals,1.91,-4.0,Idaho State Bengals,Idaho Vandals
+CBBM,NCAAB,bdd36dee20c6edc9f37201923774318d,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Idaho Vandals,1.91,4.0,Idaho State Bengals,Idaho Vandals
+CBBM,NCAAB,7cc227b03566e8b8d12892fef713fbf1,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Lindenwood Lions,1.95,6.5,SE Missouri St Redhawks,Lindenwood Lions
+CBBM,NCAAB,7cc227b03566e8b8d12892fef713fbf1,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,SE Missouri St Redhawks,1.87,-6.5,SE Missouri St Redhawks,Lindenwood Lions
+CBBM,NCAAB,b4d6d89b6ff40dbd2e3be8e7f9d31490,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,UT-Arlington Mavericks,1.95,1.5,Utah Tech Trailblazers,UT-Arlington Mavericks
+CBBM,NCAAB,b4d6d89b6ff40dbd2e3be8e7f9d31490,2026-01-15 20:00:00 CST,BetOnline.ag,spreads,Utah Tech Trailblazers,1.87,-1.5,Utah Tech Trailblazers,UT-Arlington Mavericks
+CBBM,NCAAB,e841593bc4cca1d26b4475a0335cc83a,2026-01-15 20:30:00 CST,BetOnline.ag,spreads,CSU Bakersfield Roadrunners,1.91,6.0,CSU Bakersfield Roadrunners,UC Santa Barbara Gauchos
+CBBM,NCAAB,e841593bc4cca1d26b4475a0335cc83a,2026-01-15 20:30:00 CST,BetOnline.ag,spreads,UC Santa Barbara Gauchos,1.91,-6.0,CSU Bakersfield Roadrunners,UC Santa Barbara Gauchos
+CBBM,NCAAB,b6b7b172232db7e372747a1f060ea93b,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,CSU Northridge Matadors,1.91,9.0,UC San Diego Tritons,CSU Northridge Matadors
+CBBM,NCAAB,b6b7b172232db7e372747a1f060ea93b,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,UC San Diego Tritons,1.91,-9.0,UC San Diego Tritons,CSU Northridge Matadors
+CBBM,NCAAB,b41d88491195373ebf2024b3912ef2c0,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Cal Poly Mustangs,1.91,7.0,Cal Poly Mustangs,Hawai'i Rainbow Warriors
+CBBM,NCAAB,b41d88491195373ebf2024b3912ef2c0,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Hawai'i Rainbow Warriors,1.91,-7.0,Cal Poly Mustangs,Hawai'i Rainbow Warriors
+CBBM,NCAAB,b41d88491195373ebf2024b3912ef2c0,2026-01-15 21:00:00 CST,FanDuel,spreads,Cal Poly Mustangs,1.91,6.5,Cal Poly Mustangs,Hawai'i Rainbow Warriors
+CBBM,NCAAB,b41d88491195373ebf2024b3912ef2c0,2026-01-15 21:00:00 CST,FanDuel,spreads,Hawai'i Rainbow Warriors,1.91,-6.5,Cal Poly Mustangs,Hawai'i Rainbow Warriors
+CBBM,NCAAB,2d192daefebcd2e707de5759a7873b32,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Gonzaga Bulldogs,1.95,-18.0,Washington St Cougars,Gonzaga Bulldogs
+CBBM,NCAAB,2d192daefebcd2e707de5759a7873b32,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Washington St Cougars,1.87,18.0,Washington St Cougars,Gonzaga Bulldogs
+CBBM,NCAAB,2d192daefebcd2e707de5759a7873b32,2026-01-15 21:00:00 CST,FanDuel,spreads,Gonzaga Bulldogs,1.95,-17.5,Washington St Cougars,Gonzaga Bulldogs
+CBBM,NCAAB,2d192daefebcd2e707de5759a7873b32,2026-01-15 21:00:00 CST,FanDuel,spreads,Washington St Cougars,1.87,17.5,Washington St Cougars,Gonzaga Bulldogs
+CBBM,NCAAB,32649638b3c289ae667ff76d61461bb1,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Long Beach St 49ers,1.91,-4.5,Long Beach St 49ers,UC Riverside Highlanders
+CBBM,NCAAB,32649638b3c289ae667ff76d61461bb1,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,UC Riverside Highlanders,1.91,4.5,Long Beach St 49ers,UC Riverside Highlanders
+CBBM,NCAAB,32649638b3c289ae667ff76d61461bb1,2026-01-15 21:00:00 CST,FanDuel,spreads,Long Beach St 49ers,1.91,-5.5,Long Beach St 49ers,UC Riverside Highlanders
+CBBM,NCAAB,32649638b3c289ae667ff76d61461bb1,2026-01-15 21:00:00 CST,FanDuel,spreads,UC Riverside Highlanders,1.91,5.5,Long Beach St 49ers,UC Riverside Highlanders
+CBBM,NCAAB,2388d35bcce46617469ed7880857502e,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,N Colorado Bears,1.95,3.0,Portland St Vikings,N Colorado Bears
+CBBM,NCAAB,2388d35bcce46617469ed7880857502e,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Portland St Vikings,1.87,-3.0,Portland St Vikings,N Colorado Bears
+CBBM,NCAAB,2388d35bcce46617469ed7880857502e,2026-01-15 21:00:00 CST,FanDuel,spreads,N Colorado Bears,1.94,3.5,Portland St Vikings,N Colorado Bears
+CBBM,NCAAB,2388d35bcce46617469ed7880857502e,2026-01-15 21:00:00 CST,FanDuel,spreads,Portland St Vikings,1.88,-3.5,Portland St Vikings,N Colorado Bears
+CBBM,NCAAB,34a178b324c3036ca88d054746d67c8f,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Northern Arizona Lumberjacks,1.87,3.0,Sacramento St Hornets,Northern Arizona Lumberjacks
+CBBM,NCAAB,34a178b324c3036ca88d054746d67c8f,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Sacramento St Hornets,1.95,-3.0,Sacramento St Hornets,Northern Arizona Lumberjacks
+CBBM,NCAAB,34a178b324c3036ca88d054746d67c8f,2026-01-15 21:00:00 CST,FanDuel,spreads,Northern Arizona Lumberjacks,1.95,2.5,Sacramento St Hornets,Northern Arizona Lumberjacks
+CBBM,NCAAB,34a178b324c3036ca88d054746d67c8f,2026-01-15 21:00:00 CST,FanDuel,spreads,Sacramento St Hornets,1.87,-2.5,Sacramento St Hornets,Northern Arizona Lumberjacks
+CBBM,NCAAB,8fdc91801811a8575fec0f1299b5ea96,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,San Diego Toreros,1.87,9.5,Seattle Redhawks,San Diego Toreros
+CBBM,NCAAB,8fdc91801811a8575fec0f1299b5ea96,2026-01-15 21:00:00 CST,BetOnline.ag,spreads,Seattle Redhawks,1.95,-9.5,Seattle Redhawks,San Diego Toreros
+CBBM,NCAAB,8fdc91801811a8575fec0f1299b5ea96,2026-01-15 21:00:00 CST,FanDuel,spreads,San Diego Toreros,1.91,9.5,Seattle Redhawks,San Diego Toreros
+CBBM,NCAAB,8fdc91801811a8575fec0f1299b5ea96,2026-01-15 21:00:00 CST,FanDuel,spreads,Seattle Redhawks,1.91,-9.5,Seattle Redhawks,San Diego Toreros

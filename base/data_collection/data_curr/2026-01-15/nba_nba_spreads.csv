@@ -1,0 +1,73 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,spreads,Memphis Grizzlies,1.89,5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,spreads,Orlando Magic,1.93,-5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetOnline.ag,spreads,Memphis Grizzlies,1.93,5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetOnline.ag,spreads,Orlando Magic,1.89,-5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetUS,spreads,Memphis Grizzlies,1.91,5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetUS,spreads,Orlando Magic,1.91,-5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,Pinnacle,spreads,Memphis Grizzlies,1.94,5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,Pinnacle,spreads,Orlando Magic,1.96,-5.0,Orlando Magic,Memphis Grizzlies
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,spreads,Detroit Pistons,1.93,-6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,spreads,Phoenix Suns,1.89,6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,BetOnline.ag,spreads,Detroit Pistons,1.91,-6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,BetOnline.ag,spreads,Phoenix Suns,1.91,6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,BetUS,spreads,Detroit Pistons,1.95,-6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,BetUS,spreads,Phoenix Suns,1.87,6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,Pinnacle,spreads,Detroit Pistons,1.99,-6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,Pinnacle,spreads,Phoenix Suns,1.92,6.0,Detroit Pistons,Phoenix Suns
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,spreads,Boston Celtics,1.88,-2.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,spreads,Miami Heat,1.94,2.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Boston Celtics,1.91,-3.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Miami Heat,1.91,3.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,BetUS,spreads,Boston Celtics,1.91,-2.5,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,BetUS,spreads,Miami Heat,1.91,2.5,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,Pinnacle,spreads,Boston Celtics,1.88,-2.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,Pinnacle,spreads,Miami Heat,2.03,2.0,Miami Heat,Boston Celtics
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,spreads,Houston Rockets,1.91,5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.91,-5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Houston Rockets,1.91,5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Oklahoma City Thunder,1.91,-5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetUS,spreads,Houston Rockets,1.91,5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetUS,spreads,Oklahoma City Thunder,1.91,-5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,Pinnacle,spreads,Houston Rockets,1.96,5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,Pinnacle,spreads,Oklahoma City Thunder,1.94,-5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,spreads,Milwaukee Bucks,1.95,7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,spreads,San Antonio Spurs,1.87,-7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetOnline.ag,spreads,Milwaukee Bucks,1.93,7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.89,-7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetUS,spreads,Milwaukee Bucks,1.91,7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetUS,spreads,San Antonio Spurs,1.91,-7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,Pinnacle,spreads,Milwaukee Bucks,1.93,7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,Pinnacle,spreads,San Antonio Spurs,1.97,-7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,FanDuel,spreads,Dallas Mavericks,1.91,-2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,FanDuel,spreads,Utah Jazz,1.91,2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,BetOnline.ag,spreads,Dallas Mavericks,1.91,-2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,BetOnline.ag,spreads,Utah Jazz,1.91,2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,Pinnacle,spreads,Dallas Mavericks,1.91,-2.0,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,Pinnacle,spreads,Utah Jazz,2.0,2.0,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,BetUS,spreads,Dallas Mavericks,1.91,-2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,2f48e9622a54956dd753751102a3ea12,2026-01-15 19:40:00 CST,BetUS,spreads,Utah Jazz,1.91,2.5,Dallas Mavericks,Utah Jazz
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,FanDuel,spreads,Atlanta Hawks,1.91,-4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,FanDuel,spreads,Portland Trail Blazers,1.91,4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,BetOnline.ag,spreads,Atlanta Hawks,1.91,-4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,BetOnline.ag,spreads,Portland Trail Blazers,1.91,4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,Pinnacle,spreads,Atlanta Hawks,1.93,-4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,Pinnacle,spreads,Portland Trail Blazers,1.97,4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,BetUS,spreads,Atlanta Hawks,1.91,-4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,149c207c35f1cf5624ab9bdad5d583e6,2026-01-15 21:10:00 CST,BetUS,spreads,Portland Trail Blazers,1.91,4.0,Portland Trail Blazers,Atlanta Hawks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,FanDuel,spreads,Golden State Warriors,1.91,-7.0,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,FanDuel,spreads,New York Knicks,1.91,7.0,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,BetOnline.ag,spreads,Golden State Warriors,1.91,-7.0,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,BetOnline.ag,spreads,New York Knicks,1.91,7.0,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,Pinnacle,spreads,Golden State Warriors,1.9,-6.5,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,Pinnacle,spreads,New York Knicks,2.0,6.5,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,BetUS,spreads,Golden State Warriors,1.91,-6.5,Golden State Warriors,New York Knicks
+NBA,NBA,d6a726d5017e571d13743c9313a78366,2026-01-15 21:10:00 CST,BetUS,spreads,New York Knicks,1.91,6.5,Golden State Warriors,New York Knicks
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,FanDuel,spreads,Charlotte Hornets,1.88,4.5,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,FanDuel,spreads,Los Angeles Lakers,1.94,-4.5,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,BetOnline.ag,spreads,Charlotte Hornets,1.91,4.0,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,BetOnline.ag,spreads,Los Angeles Lakers,1.91,-4.0,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,Pinnacle,spreads,Charlotte Hornets,1.9,4.5,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,Pinnacle,spreads,Los Angeles Lakers,2.01,-4.5,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,BetUS,spreads,Charlotte Hornets,1.91,4.0,Los Angeles Lakers,Charlotte Hornets
+NBA,NBA,0a255703aa60120bbd8ef50715aa91a7,2026-01-15 21:40:00 CST,BetUS,spreads,Los Angeles Lakers,1.91,-4.0,Los Angeles Lakers,Charlotte Hornets

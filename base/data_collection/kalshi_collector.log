@@ -1,0 +1,183 @@
+🎯 Target date: 2026-01-13
+🎯 Sports: NFL, NBA, CBBM, CBBW
+📁 Output directory: /Users/Brett/kdata/kalshi_bets/base/data_collection/kalshi_data/kalshi_logs
+⏱️  Runtime: 120.0 seconds
+🔍 Discovering markets for 2026-01-13...
+📊 Fetching markets for series: KXNBAGAME, KXNBASPREAD, KXNBATOTAL, KXNCAAMBGAME, KXNCAAMBSPREAD, KXNCAAMBTOTAL, KXNCAAWBGAME, KXNFLGAME, KXNFLSPREAD, KXNFLTOTAL
+  📡 Fetching KXNCAAMBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 70 markets for 2026-01-13
+  📡 Fetching KXNCAAMBSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 295 markets for 2026-01-13
+  📡 Fetching KXNBASPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 74 markets for 2026-01-13
+  📡 Fetching KXNFLGAME...
+    📊 Got 662 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+  📡 Fetching KXNBAGAME...
+    📊 Got 1482 total markets from API
+    ✅ Found 14 markets for 2026-01-13
+  📡 Fetching KXNCAAWBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 20 markets for 2026-01-13
+  📡 Fetching KXNCAAMBTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 280 markets for 2026-01-13
+  📡 Fetching KXNBATOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 77 markets for 2026-01-13
+  📡 Fetching KXNFLTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+  📡 Fetching KXNFLSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+✅ Discovered 830 unique markets
+💾 Wrote initial snapshot of 830 markets
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+🎯 Target date: 2026-01-13
+🎯 Sports: NFL, NBA, CBBM, CBBW
+📁 Output directory: /Users/Brett/kdata/kalshi_bets/base/data_collection/kalshi_data/kalshi_logs
+⏱️  Runtime: Indefinite (Ctrl+C to stop)
+🔍 Discovering markets for 2026-01-13...
+📊 Fetching markets for series: KXNBAGAME, KXNBASPREAD, KXNBATOTAL, KXNCAAMBGAME, KXNCAAMBSPREAD, KXNCAAMBTOTAL, KXNCAAWBGAME, KXNFLGAME, KXNFLSPREAD, KXNFLTOTAL
+  📡 Fetching KXNBATOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 77 markets for 2026-01-13
+  📡 Fetching KXNCAAMBSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 295 markets for 2026-01-13
+  📡 Fetching KXNBAGAME...
+    📊 Got 1482 total markets from API
+    ✅ Found 14 markets for 2026-01-13
+  📡 Fetching KXNCAAWBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 20 markets for 2026-01-13
+  📡 Fetching KXNCAAMBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 70 markets for 2026-01-13
+  📡 Fetching KXNFLTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+  📡 Fetching KXNCAAMBTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 280 markets for 2026-01-13
+  📡 Fetching KXNFLGAME...
+    📊 Got 662 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+  📡 Fetching KXNFLSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-13
+  📡 Fetching KXNBASPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 74 markets for 2026-01-13
+✅ Discovered 830 unique markets
+💾 Wrote initial snapshot of 830 markets
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13MARQSJU
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13SMCSF
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN13GTWNCREI
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13MARQSJU
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13AFASJSU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13AFASJSU (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef2e90>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13BSUUNLV: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13BSUUNLV (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3390>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13WVUHOU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13WVUHOU (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3890>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13UICUNI: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13UICUNI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3d90>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13GCUNM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13GCUNM (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107aa02d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13GCUNM
+❌ Kalshi fetch error for KXNBAGAME-26JAN13DENNOP: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNBAGAME-26JAN13DENNOP (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107aa0b90>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13CONNHALL: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN13CONNHALL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107aa1090>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN13SJUGTWN: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN13SJUGTWN (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107aa1590>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNBASPREAD-26JAN13ATLLAL: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNBASPREAD-26JAN13ATLLAL (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3d90>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13GTWNCREI: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN13GTWNCREI (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3890>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13ISUKU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13ISUKU (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef3390>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13FLAOKLA
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN13TULNTEM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN13TULNTEM (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x107ef2d50>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13FSUSYR: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN13FSUSYR (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef25d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13ISUKU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13ISUKU (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef1e50>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13BCCLEM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13BCCLEM (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef2490>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13CMUMOH: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN13CMUMOH (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef1810>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13VILLPROV: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13VILLPROV (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef11d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13BAYOKST: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN13BAYOKST (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef0a50>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13UVALOU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13UVALOU (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef1090>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN13BALLAKR
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13MDUSC: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13MDUSC (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107ef02d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13CMUMOH: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13CMUMOH (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107a74190>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13WISMINN: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13WISMINN (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107a74690>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN13MIAND: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN13MIAND (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107a74b90>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN13GCUNM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN13GCUNM (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107a75090>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNBAGAME-26JAN13SASOKC: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNBAGAME-26JAN13SASOKC (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x107a75590>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN13MARQSJU
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN13MARQSJU: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 830 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known

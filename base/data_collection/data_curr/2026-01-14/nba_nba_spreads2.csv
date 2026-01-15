@@ -1,0 +1,17 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,spreads,Memphis Grizzlies,1.93,4.5,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,spreads,Orlando Magic,1.89,-4.5,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetOnline.ag,spreads,Memphis Grizzlies,1.87,5.5,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,BetOnline.ag,spreads,Orlando Magic,1.95,-5.5,Orlando Magic,Memphis Grizzlies
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,spreads,Detroit Pistons,1.89,-6.5,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,spreads,Phoenix Suns,1.93,6.5,Detroit Pistons,Phoenix Suns
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,spreads,Boston Celtics,1.93,-2.0,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,spreads,Miami Heat,1.89,2.0,Miami Heat,Boston Celtics
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,spreads,Houston Rockets,1.91,4.5,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,spreads,Oklahoma City Thunder,1.91,-4.5,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Houston Rockets,1.91,5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,BetOnline.ag,spreads,Oklahoma City Thunder,1.91,-5.0,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,spreads,Milwaukee Bucks,1.91,7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,spreads,San Antonio Spurs,1.91,-7.5,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetOnline.ag,spreads,Milwaukee Bucks,1.91,7.0,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,BetOnline.ag,spreads,San Antonio Spurs,1.91,-7.0,San Antonio Spurs,Milwaukee Bucks

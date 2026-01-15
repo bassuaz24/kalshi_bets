@@ -112,4 +112,17 @@ ODDS_API_REGION = "us"
 ODDS_API_BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
 
 # Kalshi collector settings
-KALSHI_COLLECTOR_RUNTIME = 120 #in seconds
+KALSHI_COLLECTOR_RUNTIME = None  # in seconds (None = indefinite)
+
+# OddsAPI integration settings
+ODDS_API_FETCH_INTERVAL = float(os.getenv("ODDS_API_FETCH_INTERVAL", "1200.0"))  # Fetch interval in seconds (default: 20 minutes)
+
+# Bookmaker weights for weighted average calculation (weights should sum to 1.0)
+# Keys should match bookmaker names from OddsAPI (case-insensitive matching)
+ODDS_API_BOOKMAKER_WEIGHTS = {
+    "Pinnacle": 0.7,
+    "BetOnline.ag": 0.1,
+    "BetUS": 0.1,
+    "FanDuel": 0.1
+    # Add more bookmakers as needed
+}

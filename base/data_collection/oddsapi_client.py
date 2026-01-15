@@ -4,12 +4,19 @@ Data is separated by league for sports, by market otherwise.
 """
 
 import os
+import sys
 import requests
 import pandas as pd
 from typing import Dict, List, Optional, Any
 from datetime import datetime, timedelta
 import pytz
 from pathlib import Path
+
+# Add base directory to path
+_BASE_ROOT = Path(__file__).parent.parent.absolute()
+if str(_BASE_ROOT) not in sys.path:
+    sys.path.insert(0, str(_BASE_ROOT))
+
 from config import settings
 
 UTC = pytz.utc

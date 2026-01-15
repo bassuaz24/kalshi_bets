@@ -1,0 +1,33 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,WNCAAB,8bfd2af646f16b055a363e4105d6affe,2026-01-15 10:00:00 CST,FanDuel,spreads,Morehead St Eagles,1.88,-4.5,Tennessee St Tigers,Morehead St Eagles
+CBBW,WNCAAB,8bfd2af646f16b055a363e4105d6affe,2026-01-15 10:00:00 CST,FanDuel,spreads,Tennessee St Tigers,1.88,4.5,Tennessee St Tigers,Morehead St Eagles
+CBBW,WNCAAB,d301c49b0536c54aee968e63432e9a85,2026-01-15 17:00:00 CST,FanDuel,spreads,Louisville Cardinals,1.8,-1.5,Notre Dame Fighting Irish,Louisville Cardinals
+CBBW,WNCAAB,d301c49b0536c54aee968e63432e9a85,2026-01-15 17:00:00 CST,FanDuel,spreads,Notre Dame Fighting Irish,1.94,1.5,Notre Dame Fighting Irish,Louisville Cardinals
+CBBW,WNCAAB,7adae3da0f23d2c1df067a05c845a6dc,2026-01-15 17:30:00 CST,FanDuel,spreads,Mississippi St Bulldogs,1.88,10.5,Mississippi St Bulldogs,Vanderbilt Commodores
+CBBW,WNCAAB,7adae3da0f23d2c1df067a05c845a6dc,2026-01-15 17:30:00 CST,FanDuel,spreads,Vanderbilt Commodores,1.88,-10.5,Mississippi St Bulldogs,Vanderbilt Commodores
+CBBW,WNCAAB,7adae3da0f23d2c1df067a05c845a6dc,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,Mississippi St Bulldogs,1.87,10.5,Mississippi St Bulldogs,Vanderbilt Commodores
+CBBW,WNCAAB,7adae3da0f23d2c1df067a05c845a6dc,2026-01-15 17:30:00 CST,BetOnline.ag,spreads,Vanderbilt Commodores,1.87,-10.5,Mississippi St Bulldogs,Vanderbilt Commodores
+CBBW,WNCAAB,3f13ed4ad625d00ea01f794f13a206d9,2026-01-15 18:00:00 CST,FanDuel,spreads,Florida Gators,1.88,18.5,Kentucky Wildcats,Florida Gators
+CBBW,WNCAAB,3f13ed4ad625d00ea01f794f13a206d9,2026-01-15 18:00:00 CST,FanDuel,spreads,Kentucky Wildcats,1.88,-18.5,Kentucky Wildcats,Florida Gators
+CBBW,WNCAAB,3f13ed4ad625d00ea01f794f13a206d9,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Florida Gators,1.87,17.5,Kentucky Wildcats,Florida Gators
+CBBW,WNCAAB,3f13ed4ad625d00ea01f794f13a206d9,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Kentucky Wildcats,1.87,-17.5,Kentucky Wildcats,Florida Gators
+CBBW,WNCAAB,b802309f6e1007d112b0581868d2ea4e,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Illinois Fighting Illini,1.87,15.0,Michigan Wolverines,Illinois Fighting Illini
+CBBW,WNCAAB,b802309f6e1007d112b0581868d2ea4e,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Michigan Wolverines,1.87,-15.0,Michigan Wolverines,Illinois Fighting Illini
+CBBW,WNCAAB,b802309f6e1007d112b0581868d2ea4e,2026-01-15 18:00:00 CST,FanDuel,spreads,Illinois Fighting Illini,1.88,16.5,Michigan Wolverines,Illinois Fighting Illini
+CBBW,WNCAAB,b802309f6e1007d112b0581868d2ea4e,2026-01-15 18:00:00 CST,FanDuel,spreads,Michigan Wolverines,1.88,-16.5,Michigan Wolverines,Illinois Fighting Illini
+CBBW,WNCAAB,a471fc02f6ed5bc9cd0091533ebe84c8,2026-01-15 18:00:00 CST,FanDuel,spreads,Michigan St Spartans,1.88,-5.5,Michigan St Spartans,Nebraska Cornhuskers
+CBBW,WNCAAB,a471fc02f6ed5bc9cd0091533ebe84c8,2026-01-15 18:00:00 CST,FanDuel,spreads,Nebraska Cornhuskers,1.88,5.5,Michigan St Spartans,Nebraska Cornhuskers
+CBBW,WNCAAB,a471fc02f6ed5bc9cd0091533ebe84c8,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Michigan St Spartans,1.95,-6.0,Michigan St Spartans,Nebraska Cornhuskers
+CBBW,WNCAAB,a471fc02f6ed5bc9cd0091533ebe84c8,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Nebraska Cornhuskers,1.8,6.0,Michigan St Spartans,Nebraska Cornhuskers
+CBBW,WNCAAB,24d077af90289a846720e91bdac9ab43,2026-01-15 18:00:00 CST,FanDuel,spreads,South Carolina Gamecocks,1.88,-3.5,South Carolina Gamecocks,Texas Longhorns
+CBBW,WNCAAB,24d077af90289a846720e91bdac9ab43,2026-01-15 18:00:00 CST,FanDuel,spreads,Texas Longhorns,1.88,3.5,South Carolina Gamecocks,Texas Longhorns
+CBBW,WNCAAB,24d077af90289a846720e91bdac9ab43,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,South Carolina Gamecocks,1.87,-3.5,South Carolina Gamecocks,Texas Longhorns
+CBBW,WNCAAB,24d077af90289a846720e91bdac9ab43,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Texas Longhorns,1.87,3.5,South Carolina Gamecocks,Texas Longhorns
+CBBW,WNCAAB,1f61cc368003dd202baac127e7f0ee55,2026-01-15 18:00:00 CST,FanDuel,spreads,UConn Huskies,1.88,-35.5,UConn Huskies,Villanova Wildcats
+CBBW,WNCAAB,1f61cc368003dd202baac127e7f0ee55,2026-01-15 18:00:00 CST,FanDuel,spreads,Villanova Wildcats,1.88,35.5,UConn Huskies,Villanova Wildcats
+CBBW,WNCAAB,1f61cc368003dd202baac127e7f0ee55,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,UConn Huskies,1.87,-35.0,UConn Huskies,Villanova Wildcats
+CBBW,WNCAAB,1f61cc368003dd202baac127e7f0ee55,2026-01-15 18:00:00 CST,BetOnline.ag,spreads,Villanova Wildcats,1.87,35.0,UConn Huskies,Villanova Wildcats
+CBBW,WNCAAB,7a4591bcbe6145d4c26ee5caa9c6dfe7,2026-01-15 20:00:00 CST,FanDuel,spreads,Alabama Crimson Tide,1.88,-10.5,Auburn Tigers,Alabama Crimson Tide
+CBBW,WNCAAB,7a4591bcbe6145d4c26ee5caa9c6dfe7,2026-01-15 20:00:00 CST,FanDuel,spreads,Auburn Tigers,1.88,10.5,Auburn Tigers,Alabama Crimson Tide
+CBBW,WNCAAB,571a9f0810987b0ba769989ad69ae790,2026-01-15 20:00:00 CST,FanDuel,spreads,Iowa Hawkeyes,1.88,-5.5,Iowa Hawkeyes,Oregon Ducks
+CBBW,WNCAAB,571a9f0810987b0ba769989ad69ae790,2026-01-15 20:00:00 CST,FanDuel,spreads,Oregon Ducks,1.88,5.5,Iowa Hawkeyes,Oregon Ducks

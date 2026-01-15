@@ -1,0 +1,57 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,FanDuel,h2h,Cleveland Cavaliers,1.94,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,FanDuel,h2h,Philadelphia 76ers,1.91,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,BetOnline.ag,h2h,Cleveland Cavaliers,1.94,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,BetOnline.ag,h2h,Philadelphia 76ers,1.88,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,BetUS,h2h,Cleveland Cavaliers,1.95,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,BetUS,h2h,Philadelphia 76ers,1.87,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,Pinnacle,h2h,Cleveland Cavaliers,1.95,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,6f6b6d68a82da7d2596969eccc9d8fc0,2026-01-14 18:10:00 CST,Pinnacle,h2h,Philadelphia 76ers,1.95,,Philadelphia 76ers,Cleveland Cavaliers
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,FanDuel,h2h,Indiana Pacers,1.83,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,FanDuel,h2h,Toronto Raptors,2.02,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,BetOnline.ag,h2h,Indiana Pacers,1.84,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,BetOnline.ag,h2h,Toronto Raptors,1.99,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,BetUS,h2h,Indiana Pacers,1.87,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,BetUS,h2h,Toronto Raptors,1.95,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,Pinnacle,h2h,Indiana Pacers,1.87,,Indiana Pacers,Toronto Raptors
+NBA,NBA,d998966ee14effe144f827ea24f55596,2026-01-14 18:10:00 CST,Pinnacle,h2h,Toronto Raptors,2.04,,Indiana Pacers,Toronto Raptors
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,FanDuel,h2h,Brooklyn Nets,1.96,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,FanDuel,h2h,New Orleans Pelicans,1.89,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,BetOnline.ag,h2h,Brooklyn Nets,2.0,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,BetOnline.ag,h2h,New Orleans Pelicans,1.83,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,Pinnacle,h2h,Brooklyn Nets,2.01,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,Pinnacle,h2h,New Orleans Pelicans,1.9,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,BetUS,h2h,Brooklyn Nets,1.95,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f05432db83b26af2b2bc075aa368d6c7,2026-01-14 19:10:00 CST,BetUS,h2h,New Orleans Pelicans,1.87,,New Orleans Pelicans,Brooklyn Nets
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,FanDuel,h2h,Chicago Bulls,1.54,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,FanDuel,h2h,Utah Jazz,2.54,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,BetUS,h2h,Chicago Bulls,1.56,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,BetUS,h2h,Utah Jazz,2.55,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,BetOnline.ag,h2h,Chicago Bulls,1.56,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,BetOnline.ag,h2h,Utah Jazz,2.57,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,Pinnacle,h2h,Chicago Bulls,1.54,,Chicago Bulls,Utah Jazz
+NBA,NBA,f61d079e95dd2353146f2388afc9745c,2026-01-14 19:10:00 CST,Pinnacle,h2h,Utah Jazz,2.65,,Chicago Bulls,Utah Jazz
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,FanDuel,h2h,Dallas Mavericks,1.7,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,FanDuel,h2h,Denver Nuggets,2.2,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,BetOnline.ag,h2h,Dallas Mavericks,1.71,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,BetOnline.ag,h2h,Denver Nuggets,2.2,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,Pinnacle,h2h,Dallas Mavericks,1.76,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,Pinnacle,h2h,Denver Nuggets,2.17,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,BetUS,h2h,Dallas Mavericks,1.74,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,e344ae8d5874f424db7ff884ff5c7d4c,2026-01-14 20:40:00 CST,BetUS,h2h,Denver Nuggets,2.15,,Dallas Mavericks,Denver Nuggets
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,FanDuel,h2h,New York Knicks,1.2,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,FanDuel,h2h,Sacramento Kings,4.8,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,BetOnline.ag,h2h,New York Knicks,1.22,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,BetOnline.ag,h2h,Sacramento Kings,4.5,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,BetUS,h2h,New York Knicks,1.22,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,BetUS,h2h,Sacramento Kings,4.55,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,Pinnacle,h2h,New York Knicks,1.21,,Sacramento Kings,New York Knicks
+NBA,NBA,d60e679b1c41fee318471829ca33d591,2026-01-14 21:10:00 CST,Pinnacle,h2h,Sacramento Kings,4.88,,Sacramento Kings,New York Knicks
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,FanDuel,h2h,Los Angeles Clippers,1.19,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,FanDuel,h2h,Washington Wizards,5.0,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,BetOnline.ag,h2h,Los Angeles Clippers,1.22,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,BetOnline.ag,h2h,Washington Wizards,4.5,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,Pinnacle,h2h,Los Angeles Clippers,1.21,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,Pinnacle,h2h,Washington Wizards,4.69,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,BetUS,h2h,Los Angeles Clippers,1.22,,Los Angeles Clippers,Washington Wizards
+NBA,NBA,670fc53d8277a283b49dcc1809a7c6a0,2026-01-14 21:40:00 CST,BetUS,h2h,Washington Wizards,4.55,,Los Angeles Clippers,Washington Wizards

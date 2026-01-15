@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,h2h,Memphis Grizzlies,2.6,,Orlando Magic,Memphis Grizzlies
+NBA,NBA,3c42c29ed4783164fd918abc996efd37,2026-01-15 13:10:00 CST,FanDuel,h2h,Orlando Magic,1.53,,Orlando Magic,Memphis Grizzlies
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,h2h,Detroit Pistons,1.43,,Detroit Pistons,Phoenix Suns
+NBA,NBA,e2a3dbd8d101d617f49495df16db2d11,2026-01-15 18:10:00 CST,FanDuel,h2h,Phoenix Suns,2.94,,Detroit Pistons,Phoenix Suns
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,h2h,Boston Celtics,1.79,,Miami Heat,Boston Celtics
+NBA,NBA,363cf226fe2602130e774d952f7aba95,2026-01-15 18:40:00 CST,FanDuel,h2h,Miami Heat,2.08,,Miami Heat,Boston Celtics
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,h2h,Houston Rockets,2.62,,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2ad9e0affab10cad1a66f8c7bc1ad959,2026-01-15 18:40:00 CST,FanDuel,h2h,Oklahoma City Thunder,1.53,,Houston Rockets,Oklahoma City Thunder
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,h2h,Milwaukee Bucks,3.25,,San Antonio Spurs,Milwaukee Bucks
+NBA,NBA,2bb59ddfd831a67347299ff05ffd9937,2026-01-15 19:10:00 CST,FanDuel,h2h,San Antonio Spurs,1.36,,San Antonio Spurs,Milwaukee Bucks

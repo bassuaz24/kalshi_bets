@@ -1,0 +1,11 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBW,WNCAAB,17e49a9e817fa6aa0aa06273e17caa0a,2026-01-14 17:30:00 CST,FanDuel,h2h,Ohio State Buckeyes,1.0,,Ohio State Buckeyes,Penn State Nittany Lions
+CBBW,WNCAAB,17e49a9e817fa6aa0aa06273e17caa0a,2026-01-14 17:30:00 CST,FanDuel,h2h,Penn State Nittany Lions,21.0,,Ohio State Buckeyes,Penn State Nittany Lions
+CBBW,WNCAAB,7b0894936ac53f22b1496e80f3c67468,2026-01-14 18:00:00 CST,FanDuel,h2h,TCU Horned Frogs,1.71,,West Virginia Mountaineers,TCU Horned Frogs
+CBBW,WNCAAB,7b0894936ac53f22b1496e80f3c67468,2026-01-14 18:00:00 CST,FanDuel,h2h,West Virginia Mountaineers,2.06,,West Virginia Mountaineers,TCU Horned Frogs
+CBBW,WNCAAB,06286ff13df25e7be180a058b769e187,2026-01-14 19:00:00 CST,FanDuel,h2h,Minnesota Golden Gophers,8.5,,Minnesota Golden Gophers,UCLA Bruins
+CBBW,WNCAAB,06286ff13df25e7be180a058b769e187,2026-01-14 19:00:00 CST,FanDuel,h2h,UCLA Bruins,1.05,,Minnesota Golden Gophers,UCLA Bruins
+CBBW,WNCAAB,6c8e67878a3f5d4c20b46372cd6c9f7c,2026-01-14 20:00:00 CST,FanDuel,h2h,Baylor Bears,1.65,,Utah Utes,Baylor Bears
+CBBW,WNCAAB,6c8e67878a3f5d4c20b46372cd6c9f7c,2026-01-14 20:00:00 CST,FanDuel,h2h,Utah Utes,2.16,,Utah Utes,Baylor Bears
+CBBW,WNCAAB,96e1ea78b1f261595e453fd5c188c627,2026-01-14 20:00:00 CST,FanDuel,h2h,Colorado Buffaloes,2.16,,Colorado Buffaloes,Iowa State Cyclones
+CBBW,WNCAAB,96e1ea78b1f261595e453fd5c188c627,2026-01-14 20:00:00 CST,FanDuel,h2h,Iowa State Cyclones,1.65,,Colorado Buffaloes,Iowa State Cyclones
