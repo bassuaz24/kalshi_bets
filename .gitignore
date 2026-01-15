@@ -1,0 +1,29 @@
+# Kalshi data collection output (large CSV files)
+base/data_collection/kalshi_data/
+base/data_collection/data_curr/
+
+# Log files
+*.log
+*.error.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
