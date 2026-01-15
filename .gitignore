@@ -1,6 +1,10 @@
 # Kalshi data collection output (large CSV files)
-base/data_collection/kalshi_data/
-base/data_collection/data_curr/
+# Note: CSV files are tracked with Git LFS (see .gitattributes)
+# Only ignore non-CSV files in these directories
+base/data_collection/kalshi_data/**/*
+!base/data_collection/kalshi_data/**/*.csv
+base/data_collection/data_curr/**/*
+!base/data_collection/data_curr/**/*.csv
 
 # Log files
 *.log

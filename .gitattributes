@@ -1,0 +1,5 @@
+# Track CSV files in kalshi_data with Git LFS
+base/data_collection/kalshi_data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Track CSV files in data_curr with Git LFS
+base/data_collection/data_curr/**/*.csv filter=lfs diff=lfs merge=lfs -text
