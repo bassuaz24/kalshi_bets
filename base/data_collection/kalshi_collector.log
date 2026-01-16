@@ -181,3 +181,158 @@
 ❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
 ❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
 ❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+🎯 Target date: 2026-01-15
+🎯 Sports: NFL, NBA, CBBM, CBBW
+📁 Output directory: /Users/Brett/kdata/kalshi_bets/base/data_collection/kalshi_data/kalshi_logs
+⏱️  Runtime: Indefinite (Ctrl+C to stop)
+🔍 Discovering markets for 2026-01-15...
+📊 Fetching markets for series: KXNBAGAME, KXNBASPREAD, KXNBATOTAL, KXNCAAMBGAME, KXNCAAMBSPREAD, KXNCAAMBTOTAL, KXNCAAWBGAME, KXNFLGAME, KXNFLSPREAD, KXNFLTOTAL
+  📡 Fetching KXNCAAMBTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 165 markets for 2026-01-15
+  📡 Fetching KXNFLTOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-15
+  📡 Fetching KXNFLSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 0 markets for 2026-01-15
+  📡 Fetching KXNFLGAME...
+    📊 Got 662 total markets from API
+    ✅ Found 0 markets for 2026-01-15
+  📡 Fetching KXNCAAMBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 98 markets for 2026-01-15
+  📡 Fetching KXNCAAMBSPREAD...
+    📊 Got 2000 total markets from API
+    ✅ Found 158 markets for 2026-01-15
+  📡 Fetching KXNBASPREAD...
+❌ Exception fetching KXNBASPREAD: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+    📊 Got 1600 total markets from API
+    ✅ Found 97 markets for 2026-01-15
+  📡 Fetching KXNBAGAME...
+    📊 Got 1512 total markets from API
+    ✅ Found 18 markets for 2026-01-15
+  📡 Fetching KXNBATOTAL...
+    📊 Got 2000 total markets from API
+    ✅ Found 99 markets for 2026-01-15
+  📡 Fetching KXNCAAWBGAME...
+    📊 Got 2000 total markets from API
+    ✅ Found 162 markets for 2026-01-15
+✅ Discovered 797 unique markets
+💾 Wrote initial snapshot of 797 markets
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15BELLLIP
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15SUUTARL
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15ILLMICH: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15PRSTUNCO: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15MORETNST
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15TXSOJKST
+⚠️ Kalshi fetch timeout for KXNBATOTAL-26JAN15BOSMIA
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15FGCUUWGA
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15PRSTUNCO: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15UMBCBRY
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PORTSCU
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15PRSTUNCO: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15SUUTARL: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15HAWCP
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN15UNCOPRST: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15CALSYR: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15ODUGASO: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15EIUUALR: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15CSFUCD: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+❌ Kalshi fetch error for KXNBATOTAL-26JAN15MILSAS: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNBASPREAD-26JAN15PHXDET: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15MASSLNJIT: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15UTAUTU
