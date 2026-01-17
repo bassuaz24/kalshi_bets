@@ -336,3 +336,86 @@
 📡 Subscribed to 797 markets via WebSocket
 ⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
 ⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15UTAUTU
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15ETAMIW: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15UNAUNF: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15NMSULIB: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15COFCTOWS
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15NCATWM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN15NCATWM (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108333390>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15CALSYR
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15NAUSAC
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15PACPEPP: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN15PACPEPP (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x108331810>: Failed to establish a new connection: [Errno 51] Network is unreachable'))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15USDSEA: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN15USDSEA (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108331bd0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15WISNW: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN15WISNW (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108331450>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15MORETNST: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN15MORETNST (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108330690>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15ODUGASO: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN15ODUGASO (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x108330f50>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15ILLMICH: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN15ILLMICH (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083b42d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15HOFSTON: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBSPREAD-26JAN15HOFSTON (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083b47d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15TXSOJKST: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAWBGAME-26JAN15TXSOJKST (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083b4cd0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15HAWCP: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBGAME-26JAN15HAWCP (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083b51d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN15CSNUCSD: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Max retries exceeded with url: /trade-api/v2/markets?event_ticker=KXNCAAMBTOTAL-26JAN15CSNUCSD (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1083b56d0>: Failed to resolve 'api.elections.kalshi.com' ([Errno 8] nodename nor servname provided, or not known)"))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: [Errno 8] nodename nor servname provided, or not known
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15NAUSAC
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15UNCOPRST
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15USDSEA
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MERVMI
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15MORETNST
