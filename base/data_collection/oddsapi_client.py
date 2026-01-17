@@ -7,7 +7,7 @@ import os
 import sys
 import requests
 import pandas as pd
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 from datetime import datetime, timedelta
 import pytz
 from pathlib import Path
@@ -62,7 +62,25 @@ def fetch_odds(sport_key: str) -> Optional[List[Dict[str, Any]]]:
         if resp.status_code != 200:
             print(f"❌ Error fetching {sport_key}: {resp.status_code} - {resp.text[:200]}")
             return None
-        return resp.json()
+        data = resp.json()
+        
+        # Debug: Log API response structure
+        if settings.VERBOSE and data:
+            print(f"📡 OddsAPI returned {len(data)} games for {sport_key}")
+            if len(data) > 0:
+                # Sample first game structure
+                sample = data[0]
+                print(f"   Sample game structure:")
+                print(f"     - ID: {sample.get('id')}")
+                print(f"     - Home: {sample.get('home_team')}")
+                print(f"     - Away: {sample.get('away_team')}")
+                print(f"     - Commence: {sample.get('commence_time')}")
+                print(f"     - Bookmakers: {len(sample.get('bookmakers', []))}")
+                if sample.get('bookmakers'):
+                    for bm in sample.get('bookmakers', [])[:2]:  # First 2 bookmakers
+                        print(f"       - {bm.get('title')}: {len(bm.get('markets', []))} markets")
+        
+        return data
     except Exception as e:
         print(f"❌ Exception fetching {sport_key}: {e}")
         return None
@@ -81,41 +99,157 @@ def fetch_kalshi_markets(event_ticker: Optional[str] = None) -> List[Dict[str, A
     return []
 
 
-def normalize_odds_data(sport_name: str, games: List[Dict[str, Any]], target_dates: set) -> Dict[str, List[Dict[str, Any]]]:
-    """Normalize OddsAPI data to rows organized by date and market."""
+def normalize_odds_data(sport_name: str, games: List[Dict[str, Any]], target_dates: set) -> Tuple[Dict[str, List[Dict[str, Any]]], List[Dict[str, Any]]]:
+    """Normalize OddsAPI data to rows organized by date and market.
+    
+    Returns:
+        Tuple of (rows_by_date, skipped_games)
+    """
     rows_by_date = {}
+    skipped_games = []  # Track skipped games with details
+    current_timestamp = datetime.now(CST).strftime("%Y-%m-%d %H:%M:%S %Z")
+    
+    # Track filtering statistics
+    stats = {
+        "total_games": len(games),
+        "missing_commence_time": 0,
+        "datetime_conversion_error": 0,
+        "date_filtered": 0,
+        "no_bookmakers": 0,
+        "games_processed": 0,
+        "games_with_no_rows": 0,  # Games that passed filters but produced no data
+        "bookmakers_with_no_markets": 0,
+        "markets_with_no_outcomes": 0,
+        "outcomes_missing_price": 0,
+        "rows_created": 0
+    }
 
     for game in games:
         game_time = game.get("commence_time")
+        home_team = game.get("home_team", "Unknown")
+        away_team = game.get("away_team", "Unknown")
+        game_id = game.get("id", "")
+        sport_title = game.get("sport_title", "")
+        bookmakers_count = len(game.get("bookmakers", []))
+        
         if not game_time:
+            stats["missing_commence_time"] += 1
+            skipped_games.append({
+                "timestamp": current_timestamp,
+                "sport": sport_name,
+                "league": sport_title,
+                "game_id": game_id,
+                "home_team": home_team,
+                "away_team": away_team,
+                "commence_time": "",
+                "skip_reason": "missing_commence_time",
+                "bookmakers_count": bookmakers_count,
+                "details": "Game missing commence_time field"
+            })
+            if settings.VERBOSE:
+                print(f"⚠️ Skipping game {home_team} vs {away_team}: missing commence_time")
             continue
+            
         try:
             game_time_cst = _as_cst_datetime(game_time)
-        except Exception:
+            commence_time_str = convert_to_cst(game_time_cst)
+        except Exception as e:
+            stats["datetime_conversion_error"] += 1
+            skipped_games.append({
+                "timestamp": current_timestamp,
+                "sport": sport_name,
+                "league": sport_title,
+                "game_id": game_id,
+                "home_team": home_team,
+                "away_team": away_team,
+                "commence_time": str(game_time),
+                "skip_reason": "datetime_conversion_error",
+                "bookmakers_count": bookmakers_count,
+                "details": f"Error converting datetime: {str(e)}"
+            })
+            if settings.VERBOSE:
+                print(f"⚠️ Skipping game {home_team} vs {away_team}: datetime conversion error: {e}")
             continue
+            
         game_date = game_time_cst.date()
         if game_date not in target_dates:
+            stats["date_filtered"] += 1
+            skipped_games.append({
+                "timestamp": current_timestamp,
+                "sport": sport_name,
+                "league": sport_title,
+                "game_id": game_id,
+                "home_team": home_team,
+                "away_team": away_team,
+                "commence_time": commence_time_str,
+                "skip_reason": "date_filtered",
+                "bookmakers_count": bookmakers_count,
+                "details": f"Game date {game_date} not in target dates {target_dates}"
+            })
+            if settings.VERBOSE:
+                print(f"⚠️ Skipping game {home_team} vs {away_team}: date {game_date} not in target_dates {target_dates}")
             continue
 
-        home_team = game.get("home_team")
-        away_team = game.get("away_team")
-        game_id = game.get("id")
+        bookmakers = game.get("bookmakers", [])
+        if not bookmakers:
+            stats["no_bookmakers"] += 1
+            skipped_games.append({
+                "timestamp": current_timestamp,
+                "sport": sport_name,
+                "league": sport_title,
+                "game_id": game_id,
+                "home_team": home_team,
+                "away_team": away_team,
+                "commence_time": commence_time_str,
+                "skip_reason": "no_bookmakers",
+                "bookmakers_count": 0,
+                "details": "Game has no bookmakers available"
+            })
+            if settings.VERBOSE:
+                print(f"⚠️ Skipping game {home_team} vs {away_team}: no bookmakers available")
+            continue
+        
+        stats["games_processed"] += 1
+        rows_before = stats["rows_created"]
+        
+        # Count markets and outcomes for diagnostics
+        total_markets = 0
+        total_outcomes = 0
+        bookmaker_names = []
 
-        for bookmaker in game.get("bookmakers", []):
+        for bookmaker in bookmakers:
             book_name = bookmaker["title"]
-            for market in bookmaker.get("markets", []):
+            bookmaker_names.append(book_name)
+            markets = bookmaker.get("markets", [])
+            if not markets:
+                stats["bookmakers_with_no_markets"] += 1
+                if settings.VERBOSE:
+                    print(f"⚠️ Bookmaker {book_name} for {home_team} vs {away_team} has no markets")
+                continue
+                
+            for market in markets:
                 market_type = market.get("key")
+                outcomes = market.get("outcomes", [])
+                total_markets += 1
+                
+                if not outcomes:
+                    stats["markets_with_no_outcomes"] += 1
+                    if settings.VERBOSE:
+                        print(f"⚠️ Market {market_type} from {book_name} for {home_team} vs {away_team} has no outcomes")
+                    continue
 
-                for outcome in market.get("outcomes", []):
+                for outcome in outcomes:
                     price = outcome.get("price")
                     if price is None:
+                        stats["outcomes_missing_price"] += 1
                         continue
+                    total_outcomes += 1
 
                     rows_by_date.setdefault(game_date, []).append({
                         "sport": sport_name,
-                        "league": game.get("sport_title", ""),
+                        "league": sport_title,
                         "game_id": game_id,
-                        "start_time": convert_to_cst(game_time_cst),
+                        "start_time": commence_time_str,
                         "bookmaker": book_name,
                         "market": market_type,
                         "team": outcome.get("name"),
@@ -124,17 +258,111 @@ def normalize_odds_data(sport_name: str, games: List[Dict[str, Any]], target_dat
                         "home_team": home_team,
                         "away_team": away_team
                     })
+                    stats["rows_created"] += 1
+        
+        # Check if this game produced any rows
+        if stats["rows_created"] == rows_before:
+            stats["games_with_no_rows"] += 1
+            skipped_games.append({
+                "timestamp": current_timestamp,
+                "sport": sport_name,
+                "league": sport_title,
+                "game_id": game_id,
+                "home_team": home_team,
+                "away_team": away_team,
+                "commence_time": commence_time_str,
+                "skip_reason": "games_with_no_rows",
+                "bookmakers_count": len(bookmakers),
+                "bookmakers": ", ".join(bookmaker_names),
+                "total_markets": total_markets,
+                "total_outcomes": total_outcomes,
+                "details": f"Game passed filters but produced no rows. Bookmakers: {len(bookmakers)}, Markets: {total_markets}, Outcomes: {total_outcomes}"
+            })
+            if settings.VERBOSE:
+                print(f"⚠️ Game {home_team} vs {away_team} (ID: {game_id}) passed filters but produced no rows")
+                print(f"   Bookmakers: {len(bookmakers)}, Markets per bookmaker: {[len(b.get('markets', [])) for b in bookmakers]}")
+    
+    # Print summary statistics
+    if stats["total_games"] > 0:
+        print(f"📊 OddsAPI filtering stats for {sport_name}:")
+        print(f"   Total games: {stats['total_games']}")
+        print(f"   Processed: {stats['games_processed']}")
+        print(f"   Rows created: {stats['rows_created']}")
+        if stats["missing_commence_time"] > 0:
+            print(f"   ⚠️ Missing commence_time: {stats['missing_commence_time']}")
+        if stats["datetime_conversion_error"] > 0:
+            print(f"   ⚠️ Datetime conversion errors: {stats['datetime_conversion_error']}")
+        if stats["date_filtered"] > 0:
+            print(f"   ⚠️ Date filtered out: {stats['date_filtered']} (target dates: {target_dates})")
+        if stats["no_bookmakers"] > 0:
+            print(f"   ⚠️ No bookmakers: {stats['no_bookmakers']}")
+        if stats["games_with_no_rows"] > 0:
+            print(f"   ⚠️ Games with no rows (CRITICAL): {stats['games_with_no_rows']} - These games passed filters but produced no data!")
+        if stats["bookmakers_with_no_markets"] > 0:
+            print(f"   ⚠️ Bookmakers with no markets: {stats['bookmakers_with_no_markets']}")
+        if stats["markets_with_no_outcomes"] > 0:
+            print(f"   ⚠️ Markets with no outcomes: {stats['markets_with_no_outcomes']}")
+        if stats["outcomes_missing_price"] > 0:
+            print(f"   ⚠️ Outcomes missing price: {stats['outcomes_missing_price']}")
 
-    return rows_by_date
+    return rows_by_date, skipped_games
 
 
-def save_market_data(data: List[Dict[str, Any]], filepath: Path, market_type: Optional[str] = None):
-    """Save market data to CSV file."""
+def save_skipped_games(skipped_games: List[Dict[str, Any]], filepath: Path):
+    """Save skipped games to CSV file."""
+    if not skipped_games:
+        return
+    
+    os.makedirs(filepath.parent, exist_ok=True)
+    df = pd.DataFrame(skipped_games)
+    
+    # Ensure consistent column order
+    columns = [
+        "timestamp", "sport", "league", "game_id", "home_team", "away_team",
+        "commence_time", "skip_reason", "bookmakers_count", "bookmakers",
+        "total_markets", "total_outcomes", "details"
+    ]
+    
+    # Only include columns that exist in the data
+    existing_columns = [col for col in columns if col in df.columns]
+    # Add any additional columns that weren't in the list
+    for col in df.columns:
+        if col not in existing_columns:
+            existing_columns.append(col)
+    
+    df = df[existing_columns]
+    
+    # Append to existing file if it exists
+    if filepath.exists():
+        try:
+            df_existing = pd.read_csv(filepath)
+            df_combined = pd.concat([df_existing, df], ignore_index=True)
+            # Remove duplicates based on game_id and timestamp
+            df_combined = df_combined.drop_duplicates(subset=["game_id", "timestamp"], keep="last")  # type: ignore
+            df_combined.to_csv(filepath, index=False)
+        except Exception as e:
+            # If append fails, just overwrite
+            if settings.VERBOSE:
+                print(f"⚠️ Failed to append to {filepath}: {e}, overwriting instead")
+            df.to_csv(filepath, index=False)
+    else:
+        df.to_csv(filepath, index=False)
+
+
+def save_market_data(data: List[Dict[str, Any]], filepath: Path, market_type: Optional[str] = None, append: bool = True):
+    """Save market data to CSV file.
+    
+    Args:
+        data: List of dictionaries to save
+        filepath: Path to CSV file
+        market_type: Optional market type (for logging)
+        append: If True and file exists, append data (default: True)
+    """
     if not data:
         return
 
     os.makedirs(filepath.parent, exist_ok=True)
-    df = pd.DataFrame(data)
+    df_new = pd.DataFrame(data)
     
     columns = [
         "sport", "league", "game_id", "start_time",
@@ -143,10 +371,24 @@ def save_market_data(data: List[Dict[str, Any]], filepath: Path, market_type: Op
     ]
     
     # Only include columns that exist in the data
-    existing_columns = [col for col in columns if col in df.columns]
-    df = df[existing_columns]
+    existing_columns = [col for col in columns if col in df_new.columns]
+    df_new = df_new[existing_columns]
     
-    df.to_csv(filepath, index=False)
+    # Append to existing file if it exists and append=True
+    if append and filepath.exists():
+        try:
+            df_existing = pd.read_csv(filepath)
+            # Combine and remove duplicates based on all columns
+            df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+            df_combined = df_combined.drop_duplicates()
+            df_combined.to_csv(filepath, index=False)
+        except Exception as e:
+            # If append fails, just overwrite
+            if settings.VERBOSE:
+                print(f"⚠️ Failed to append to {filepath}: {e}, overwriting instead")
+            df_new.to_csv(filepath, index=False)
+    else:
+        df_new.to_csv(filepath, index=False)
 
 
 def collect_data_running(output_dir: Optional[Path] = None) -> Dict[str, Any]:
@@ -167,13 +409,16 @@ def collect_data_running(output_dir: Optional[Path] = None) -> Dict[str, Any]:
     collected_data = {}
 
     # Collect from OddsAPI (sports data by league)
+    all_skipped_games = []  # Collect all skipped games across sports
+    
     for sport_name, sport_key in settings.SPORT_KEYS.items():
         print(f"📡 Fetching odds for {sport_name} ({sport_key})...")
         data = fetch_odds(sport_key)
         if not data:
             continue
 
-        rows_by_date = normalize_odds_data(sport_name, data, target_dates)
+        rows_by_date, skipped_games = normalize_odds_data(sport_name, data, target_dates)
+        all_skipped_games.extend(skipped_games)
 
         for game_date, rows in rows_by_date.items():
             if not rows:
@@ -182,7 +427,7 @@ def collect_data_running(output_dir: Optional[Path] = None) -> Dict[str, Any]:
             # Separate by market type
             df = pd.DataFrame(rows)
             for market_type in df["market"].unique():
-                market_data = df[df["market"] == market_type].to_dict("records")
+                market_data = df[df["market"] == market_type].to_dict("records")  # type: ignore
                 
                 # For sports: organize by league
                 if settings.DATA_SEPARATE_BY_LEAGUE:
@@ -195,12 +440,41 @@ def collect_data_running(output_dir: Optional[Path] = None) -> Dict[str, Any]:
                     collected_data[key] = []
                 collected_data[key].extend(market_data)
 
-                # Save to file
-                date_str = game_date.strftime("%Y-%m-%d")
+                # Save to file (append mode if file exists for same date)
+                # Use original filename format (without date suffix for today, with "2" suffix for tomorrow)
                 suffix = "2" if game_date == tomorrow_date else ""
                 filename = f"{key.lower()}{suffix}.csv"
                 filepath = output_dir / filename
                 save_market_data(market_data, filepath, market_type)
+
+    # Save skipped games to CSV (one file per day, in data_collection directory)
+    if all_skipped_games:
+        # Group skipped games by date
+        skipped_by_date = {}
+        for skipped in all_skipped_games:
+            # Try to extract date from commence_time
+            commence_time = skipped.get("commence_time", "")
+            if commence_time:
+                try:
+                    # Parse the commence_time string to get date
+                    dt = _as_cst_datetime(commence_time)
+                    skip_date = dt.date()
+                except:
+                    # If we can't parse, use today's date
+                    skip_date = today_date
+            else:
+                skip_date = today_date
+            
+            skipped_by_date.setdefault(skip_date, []).extend([skipped])
+        
+        # Save skipped games for each date in data_collection directory (parent of output_dir)
+        skipped_dir = output_dir.parent  # This is the data_collection directory
+        for skip_date, skipped_list in skipped_by_date.items():
+            date_str = skip_date.strftime("%Y-%m-%d")
+            suffix = "2" if skip_date == tomorrow_date else ""
+            skipped_filepath = skipped_dir / f"skipped_games_{date_str}{suffix}.csv"
+            save_skipped_games(skipped_list, skipped_filepath)
+            print(f"📝 Saved {len(skipped_list)} skipped games to {skipped_filepath.name}")
 
     # Collect Kalshi markets (non-sports: by market)
     # This would require event ticker discovery, which is handled in the main loop

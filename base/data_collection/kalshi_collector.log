@@ -419,3 +419,137 @@
 ⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
 ⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MERVMI
 ⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15MORETNST
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15WEBEWU: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15COPPUMES: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15MRSHJMU: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNBATOTAL-26JAN15MILSAS: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNBASPREAD-26JAN15PHXDET: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15PRSTUNCO
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15ARKMIZZ: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15UVMME: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+❌ WebSocket error: server rejected WebSocket connection: HTTP 401
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ WebSocket connection closed, reconnecting...
+✅ Connected to Kalshi WebSocket
+📡 Subscribed to 797 markets via WebSocket
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15SELAUTRGV
+⚠️ Kalshi fetch timeout for KXNBATOTAL-26JAN15MILSAS
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15CBUAC
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15NJITMASSL
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15FLAUK: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15MHUCCSU
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MERVMI
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15WICHFAU
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15CSNUCSD
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15UNCOPRST: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNBAGAME-26JAN15MEMORL
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15ACCBU
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15CARKJAC
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15JACCARK: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15PACPEPP: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15QUCFGCU
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15GBCLEV
+❌ Kalshi fetch error for KXNBASPREAD-26JAN15UTADAL: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15ARKMIZZ
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MEUVM
+❌ Kalshi fetch error for KXNCAAMBSPREAD-26JAN15SIUEUTM: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+❌ Kalshi fetch error for KXNBASPREAD-26JAN15MEMORL: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15HOFSTON
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15COFCTOWS
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15MERVMI
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15USTNEOM
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15CHSNHC
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15EKYPEAY: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNBASPREAD-26JAN15CHALAL
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15UCSDCSN: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15COFCTOWS
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15HAWCP
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15GBCLEV
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15TARLSUU
+❌ Kalshi fetch error for KXNCAAMBTOTAL-26JAN15UWGASTET: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15LBSUUCRV
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15GBCLEV
+⚠️ Kalshi fetch timeout for KXNCAAMBSPREAD-26JAN15NJITMASSL
+⚠️ Kalshi fetch timeout for KXNCAAMBGAME-26JAN15RMUIUIN
+⚠️ Kalshi fetch timeout for KXNBASPREAD-26JAN15MILSAS
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15MIAUNC
+❌ Kalshi fetch error for KXNCAAWBGAME-26JAN15UCDCSF: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15UTAUTU: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MORETNST
+⚠️ Kalshi fetch timeout for KXNCAAMBTOTAL-26JAN15MEUVM
+⚠️ Kalshi fetch timeout for KXNCAAWBGAME-26JAN15ULLARST
+❌ Kalshi fetch error for KXNCAAMBGAME-26JAN15EKYPEAY: HTTPSConnectionPool(host='api.elections.kalshi.com', port=443): Read timed out.
