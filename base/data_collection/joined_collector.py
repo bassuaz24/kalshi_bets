@@ -51,7 +51,10 @@ class JoinedCollector(KalshiCollector):
         super().__init__(target_date, sports, output_dir, runtime_seconds)
         
         # Initialize matcher
-        match_cache_file = output_dir / f"match_cache_{target_date.isoformat()}.json"
+        # Store match cache in dedicated directory within kalshi_data
+        match_cache_dir = settings.KALSHI_DATA_DIR / "match_cache"
+        match_cache_dir.mkdir(parents=True, exist_ok=True)
+        match_cache_file = match_cache_dir / f"match_cache_{target_date.isoformat()}.json"
         self.matcher = MarketMatcher(settings.DATA_DIR, match_cache_file)
         
         # Create joined CSV file

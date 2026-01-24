@@ -143,6 +143,7 @@ TEAM_MAP_B = {
     "LINW": "Lindenwood Lions",
     "LIP": "Lipscomb Bisons",
     "LIU": "LIU Sharks",
+    "LMC": "Le Moyne Dolphins",
     "LMD": "Loyola (MD) Greyhounds",
     "LMU": "Loyola Marymount Lions",
     "LONG": "Longwood Lancers",
