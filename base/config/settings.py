@@ -103,7 +103,6 @@ SPORT_KEYS = {
     "NFL": "americanfootball_nfl",
     "NBA": "basketball_nba",
     "CBBM": "basketball_ncaab",
-    "CBBW": "basketball_wncaab",
 }
 
 # Markets to fetch from OddsAPI
@@ -115,7 +114,7 @@ ODDS_API_BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
 KALSHI_COLLECTOR_RUNTIME = None  # in seconds (None = indefinite)
 
 # OddsAPI integration settings
-ODDS_API_FETCH_INTERVAL = float(os.getenv("ODDS_API_FETCH_INTERVAL", "1200.0"))  # Fetch interval in seconds (default: 20 minutes)
+ODDS_API_FETCH_INTERVAL = float(os.getenv("ODDS_API_FETCH_INTERVAL", "1800.0"))  # Fetch interval in seconds (default: 30 minutes)
 
 # Bookmaker weights for weighted average calculation (weights should sum to 1.0)
 # Keys should match bookmaker names from OddsAPI (case-insensitive matching)

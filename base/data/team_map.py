@@ -1,4 +1,4 @@
-TEAM_MAP = {
+TEAM_MAP_B = {
     "AAMU": "Alambama A&M Bulldogs",
     "AC": "Abilene Christian Wildcats",
     "AFA": "Air Force Falcons",

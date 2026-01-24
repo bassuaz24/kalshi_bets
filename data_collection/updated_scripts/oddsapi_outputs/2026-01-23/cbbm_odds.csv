@@ -1,0 +1,345 @@
+sport,league,game_id,start_time,bookmaker,market,team,price,point,home_team,away_team
+CBBM,,350f5f643a34e8c59586fbeeb7ff73c2,2026-01-23 16:30:28 CST,FanDuel,spreads,Saint Louis Billikens,1.98,-34.5,St. Bonaventure Bonnies,Saint Louis Billikens
+CBBM,,350f5f643a34e8c59586fbeeb7ff73c2,2026-01-23 16:30:28 CST,FanDuel,spreads,St. Bonaventure Bonnies,1.77,34.5,St. Bonaventure Bonnies,Saint Louis Billikens
+CBBM,,350f5f643a34e8c59586fbeeb7ff73c2,2026-01-23 16:30:28 CST,FanDuel,totals,Over,1.8,155.5,St. Bonaventure Bonnies,Saint Louis Billikens
+CBBM,,350f5f643a34e8c59586fbeeb7ff73c2,2026-01-23 16:30:28 CST,FanDuel,totals,Under,1.94,155.5,St. Bonaventure Bonnies,Saint Louis Billikens
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,h2h,Indiana Hoosiers,1.01,,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,h2h,Rutgers Scarlet Knights,16.0,,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,spreads,Indiana Hoosiers,1.82,-12.5,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,spreads,Rutgers Scarlet Knights,1.93,12.5,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,totals,Over,1.8,157.5,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,FanDuel,totals,Under,1.94,157.5,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,h2h,Indiana Hoosiers,1.04,,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,h2h,Rutgers Scarlet Knights,16.3,,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,spreads,Indiana Hoosiers,1.99,-16.0,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,spreads,Rutgers Scarlet Knights,1.87,16.0,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,totals,Over,1.93,157.0,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,13abc8272a48a5942d7f261858f63f37,2026-01-23 17:00:26 CST,Pinnacle,totals,Under,1.92,157.0,Rutgers Scarlet Knights,Indiana Hoosiers
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Buffalo Bulls,1.8,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Massachusetts Minutemen,2.05,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Buffalo Bulls,1.86,-1.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Massachusetts Minutemen,1.96,1.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.91,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.91,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,h2h,Buffalo Bulls,2.62,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,h2h,Massachusetts Minutemen,1.48,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,spreads,Buffalo Bulls,1.91,3.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,spreads,Massachusetts Minutemen,1.83,-3.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.91,163.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.83,163.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,h2h,Buffalo Bulls,1.87,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,h2h,Massachusetts Minutemen,1.99,,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,spreads,Buffalo Bulls,1.91,-1.0,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,spreads,Massachusetts Minutemen,1.94,1.0,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.93,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.88,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetUS,spreads,Buffalo Bulls,1.87,-1.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetUS,spreads,Massachusetts Minutemen,1.95,1.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetUS,totals,Over,1.91,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,57a5128dccb3d1d41bb7c7dccd1fa19c,2026-01-23 18:00:00 CST,BetUS,totals,Under,1.91,159.5,Buffalo Bulls,Massachusetts Minutemen
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,h2h,Central Connecticut St Blue Devils,1.14,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,h2h,Fairleigh Dickinson Knights,5.4,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,spreads,Central Connecticut St Blue Devils,1.88,-9.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,spreads,Fairleigh Dickinson Knights,1.88,9.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.91,128.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.83,128.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Central Connecticut St Blue Devils,1.27,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Fairleigh Dickinson Knights,3.92,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Central Connecticut St Blue Devils,1.87,-7.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Fairleigh Dickinson Knights,1.95,7.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,2.05,141.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.8,141.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,h2h,Central Connecticut St Blue Devils,1.3,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,h2h,Fairleigh Dickinson Knights,3.56,,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,spreads,Central Connecticut St Blue Devils,1.97,-7.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,spreads,Fairleigh Dickinson Knights,1.85,7.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.92,140.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,238338715a967e44187b13a5636f2317,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.87,140.5,Central Connecticut St Blue Devils,Fairleigh Dickinson Knights
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Charleston Southern Buccaneers,1.98,,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Longwood Lancers,1.85,,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Charleston Southern Buccaneers,1.85,1.0,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Longwood Lancers,1.98,-1.0,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.91,156.0,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.91,156.0,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,h2h,Charleston Southern Buccaneers,2.12,,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,h2h,Longwood Lancers,1.68,,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,spreads,Charleston Southern Buccaneers,1.8,2.5,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,spreads,Longwood Lancers,1.95,-2.5,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.83,155.5,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,1dab5e1a5a584352b5398d751825e852,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.91,155.5,Longwood Lancers,Charleston Southern Buccaneers
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Chicago St Cougars,2.61,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,St. Francis (PA) Red Flash,1.54,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Chicago St Cougars,2.0,3.0,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,St. Francis (PA) Red Flash,1.83,-3.0,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,2.0,143.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.83,143.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,h2h,Chicago St Cougars,2.48,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,h2h,St. Francis (PA) Red Flash,1.55,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,spreads,Chicago St Cougars,1.95,3.0,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,spreads,St. Francis (PA) Red Flash,1.86,-3.0,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.91,142.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.88,142.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,h2h,Chicago St Cougars,2.65,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,h2h,St. Francis (PA) Red Flash,1.45,,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,spreads,Chicago St Cougars,1.8,4.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,spreads,St. Francis (PA) Red Flash,1.95,-4.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.91,153.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,7299f78896a2143aff4d4ebe295a1cf5,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.83,153.5,St. Francis (PA) Red Flash,Chicago St Cougars
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,East Tennessee St Buccaneers,1.95,-17.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,The Citadel Bulldogs,1.87,17.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.91,141.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.91,141.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,h2h,East Tennessee St Buccaneers,1.06,,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,h2h,The Citadel Bulldogs,11.0,,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,spreads,East Tennessee St Buccaneers,1.91,-17.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,spreads,The Citadel Bulldogs,1.91,17.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,totals,Over,1.91,141.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,BetUS,totals,Under,1.91,141.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,Pinnacle,spreads,East Tennessee St Buccaneers,1.88,-17.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,Pinnacle,spreads,The Citadel Bulldogs,1.97,17.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.88,141.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.93,141.0,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,h2h,East Tennessee St Buccaneers,1.01,,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,h2h,The Citadel Bulldogs,17.0,,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,spreads,East Tennessee St Buccaneers,1.95,-17.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,spreads,The Citadel Bulldogs,1.8,17.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.83,135.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,83cba53bc2b41a16017b50bee2bdfd6d,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.91,135.5,East Tennessee St Buccaneers,The Citadel Bulldogs
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,High Point Panthers,1.27,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Radford Highlanders,3.99,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,High Point Panthers,1.87,-8.0,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Radford Highlanders,1.95,8.0,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.95,165.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.87,165.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,h2h,High Point Panthers,1.22,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,h2h,Radford Highlanders,4.1,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,spreads,High Point Panthers,1.83,-8.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,spreads,Radford Highlanders,1.91,8.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.91,170.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.83,170.5,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,h2h,High Point Panthers,1.26,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,h2h,Radford Highlanders,3.96,,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,spreads,High Point Panthers,1.92,-8.0,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,spreads,Radford Highlanders,1.9,8.0,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.87,164.0,Radford Highlanders,High Point Panthers
+CBBM,,a1883f6fcc66fb2e1d2d64f4bafaf16b,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.92,164.0,Radford Highlanders,High Point Panthers
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Jacksonville St Gamecocks,2.15,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Middle Tennessee Blue Raiders,1.74,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Jacksonville St Gamecocks,1.91,1.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Middle Tennessee Blue Raiders,1.91,-1.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.91,133.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.91,133.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,h2h,Jacksonville St Gamecocks,2.05,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,h2h,Middle Tennessee Blue Raiders,1.8,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,spreads,Jacksonville St Gamecocks,1.91,1.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,spreads,Middle Tennessee Blue Raiders,1.91,-1.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,totals,Over,1.91,133.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,BetUS,totals,Under,1.91,133.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,h2h,Jacksonville St Gamecocks,2.13,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,h2h,Middle Tennessee Blue Raiders,1.76,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,spreads,Jacksonville St Gamecocks,1.92,2.0,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,spreads,Middle Tennessee Blue Raiders,1.93,-2.0,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.88,134.0,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.93,134.0,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,h2h,Jacksonville St Gamecocks,1.91,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,h2h,Middle Tennessee Blue Raiders,1.85,,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,spreads,Jacksonville St Gamecocks,1.91,-0.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,spreads,Middle Tennessee Blue Raiders,1.83,0.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.83,136.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,744246851085c9ed464077bf9ef26122,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.91,136.5,Jacksonville St Gamecocks,Middle Tennessee Blue Raiders
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,LIU Sharks,1.36,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Stonehill Skyhawks,3.3,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,LIU Sharks,1.91,-5.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Stonehill Skyhawks,1.91,5.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,1.91,137.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.91,137.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,h2h,LIU Sharks,1.37,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,h2h,Stonehill Skyhawks,3.13,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,spreads,LIU Sharks,1.93,-6.0,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,spreads,Stonehill Skyhawks,1.89,6.0,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.92,137.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.86,137.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,h2h,LIU Sharks,1.83,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,h2h,Stonehill Skyhawks,1.93,,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,spreads,LIU Sharks,1.83,0.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,spreads,Stonehill Skyhawks,1.91,-0.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.91,136.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,ebc4e0ecd6c64276ecc2309a7b8c2042,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.83,136.5,Stonehill Skyhawks,LIU Sharks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Le Moyne Dolphins,1.27,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,h2h,Wagner Seahawks,3.99,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Le Moyne Dolphins,1.91,-7.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,spreads,Wagner Seahawks,1.91,7.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Over,2.2,145.0,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,BetOnline.ag,totals,Under,1.71,145.0,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,h2h,Le Moyne Dolphins,1.25,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,h2h,Wagner Seahawks,4.06,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,spreads,Le Moyne Dolphins,1.91,-8.0,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,spreads,Wagner Seahawks,1.91,8.0,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,totals,Over,1.9,142.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,Pinnacle,totals,Under,1.88,142.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,h2h,Le Moyne Dolphins,1.3,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,h2h,Wagner Seahawks,3.35,,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,spreads,Le Moyne Dolphins,1.91,-6.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,spreads,Wagner Seahawks,1.83,6.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,totals,Over,1.83,142.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,c9a37a8b1ee6c36638447047c13303c6,2026-01-23 18:00:00 CST,FanDuel,totals,Under,1.91,142.5,Le Moyne Dolphins,Wagner Seahawks
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,h2h,Gardner-Webb Bulldogs,5.76,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,h2h,South Carolina Upstate Spartans,1.15,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,spreads,Gardner-Webb Bulldogs,1.95,10.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,spreads,South Carolina Upstate Spartans,1.87,-10.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,totals,Over,1.91,153.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,BetOnline.ag,totals,Under,1.91,153.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,h2h,Gardner-Webb Bulldogs,5.37,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,h2h,South Carolina Upstate Spartans,1.16,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,spreads,Gardner-Webb Bulldogs,1.98,10.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,spreads,South Carolina Upstate Spartans,1.84,-10.0,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,totals,Over,1.89,153.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,Pinnacle,totals,Under,1.89,153.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,h2h,Gardner-Webb Bulldogs,4.5,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,h2h,South Carolina Upstate Spartans,1.16,,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,spreads,Gardner-Webb Bulldogs,1.91,10.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,spreads,South Carolina Upstate Spartans,1.83,-10.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,totals,Over,1.87,149.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,b12fba07102d7fc179cf36054c330024,2026-01-23 18:02:45 CST,FanDuel,totals,Under,1.87,149.5,Gardner-Webb Bulldogs,South Carolina Upstate Spartans
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,h2h,Charlotte 49ers,1.69,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,h2h,Tulane Green Wave,2.25,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,spreads,Charlotte 49ers,1.91,-2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,spreads,Tulane Green Wave,1.91,2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,totals,Over,1.87,143.0,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetOnline.ag,totals,Under,1.95,143.0,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,h2h,Charlotte 49ers,1.66,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,h2h,Tulane Green Wave,2.26,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,spreads,Charlotte 49ers,1.91,-2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,spreads,Tulane Green Wave,1.91,2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,totals,Over,1.96,143.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,FanDuel,totals,Under,1.85,143.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,h2h,Charlotte 49ers,1.69,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,h2h,Tulane Green Wave,2.24,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,spreads,Charlotte 49ers,1.89,-2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,spreads,Tulane Green Wave,1.96,2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,totals,Over,1.86,142.0,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,Pinnacle,totals,Under,1.95,142.0,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,h2h,Charlotte 49ers,1.69,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,h2h,Tulane Green Wave,2.25,,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,spreads,Charlotte 49ers,1.91,-2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,spreads,Tulane Green Wave,1.91,2.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,totals,Over,1.91,143.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,30147c93798e0ee0dade1cc202f90639,2026-01-23 18:30:00 CST,BetUS,totals,Under,1.91,143.5,Charlotte 49ers,Tulane Green Wave
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,h2h,Akron Zips,1.31,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,h2h,Ohio Bobcats,3.63,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,spreads,Akron Zips,1.93,-7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,spreads,Ohio Bobcats,1.88,7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,totals,Over,1.91,168.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetOnline.ag,totals,Under,1.91,168.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,h2h,Akron Zips,1.3,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,h2h,Ohio Bobcats,3.65,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,spreads,Akron Zips,1.98,-7.5,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,spreads,Ohio Bobcats,1.83,7.5,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,totals,Over,1.91,167.5,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,FanDuel,totals,Under,1.91,167.5,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,h2h,Akron Zips,1.3,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,h2h,Ohio Bobcats,3.7,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,spreads,Akron Zips,1.96,-7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,spreads,Ohio Bobcats,1.89,7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,totals,Over,1.94,168.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,Pinnacle,totals,Under,1.88,168.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,h2h,Akron Zips,1.29,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,h2h,Ohio Bobcats,3.75,,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,spreads,Akron Zips,1.91,-7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,spreads,Ohio Bobcats,1.91,7.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,totals,Over,1.91,168.0,Ohio Bobcats,Akron Zips
+CBBM,,d73b9cf7e8af40d3a0f9993200dc6d81,2026-01-23 19:00:00 CST,BetUS,totals,Under,1.91,168.0,Ohio Bobcats,Akron Zips
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,h2h,Michigan Wolverines,1.04,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,h2h,Ohio State Buckeyes,12.6,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,spreads,Michigan Wolverines,1.87,-16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,spreads,Ohio State Buckeyes,1.95,16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,totals,Over,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,FanDuel,totals,Under,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,h2h,Michigan Wolverines,1.05,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,h2h,Ohio State Buckeyes,11.41,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,spreads,Michigan Wolverines,1.91,-16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,spreads,Ohio State Buckeyes,1.91,16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,totals,Over,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetOnline.ag,totals,Under,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,Pinnacle,spreads,Michigan Wolverines,1.98,-17.0,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,Pinnacle,spreads,Ohio State Buckeyes,1.87,17.0,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,Pinnacle,totals,Over,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,Pinnacle,totals,Under,1.91,165.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,h2h,Michigan Wolverines,1.05,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,h2h,Ohio State Buckeyes,11.5,,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,spreads,Michigan Wolverines,1.91,-16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,spreads,Ohio State Buckeyes,1.91,16.5,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,totals,Over,1.91,166.0,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,ce37a6ee0c8e3471336890a4b5d67297,2026-01-23 19:00:06 CST,BetUS,totals,Under,1.91,166.0,Michigan Wolverines,Ohio State Buckeyes
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,h2h,Butler Bulldogs,1.38,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,h2h,Marquette Golden Eagles,3.15,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,spreads,Butler Bulldogs,1.91,-5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,spreads,Marquette Golden Eagles,1.91,5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,totals,Over,1.85,161.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,FanDuel,totals,Under,1.96,161.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,h2h,Butler Bulldogs,1.42,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,h2h,Marquette Golden Eagles,3.0,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,spreads,Butler Bulldogs,1.91,-5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,spreads,Marquette Golden Eagles,1.91,5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,totals,Over,1.91,161.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetOnline.ag,totals,Under,1.91,161.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,h2h,Butler Bulldogs,1.38,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,h2h,Marquette Golden Eagles,3.17,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,spreads,Butler Bulldogs,1.92,-6.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,spreads,Marquette Golden Eagles,1.93,6.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,totals,Over,1.91,161.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,Pinnacle,totals,Under,1.91,161.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,h2h,Butler Bulldogs,1.42,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,h2h,Marquette Golden Eagles,3.03,,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,spreads,Butler Bulldogs,1.91,-5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,spreads,Marquette Golden Eagles,1.91,5.5,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,totals,Over,1.91,161.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,9337439e0718789ce814daf2291e2607,2026-01-23 19:00:19 CST,BetUS,totals,Under,1.91,161.0,Butler Bulldogs,Marquette Golden Eagles
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,h2h,Southern Indiana Screaming Eagles,1.36,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,h2h,Western Illinois Leathernecks,3.3,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,spreads,Southern Indiana Screaming Eagles,1.87,-6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,spreads,Western Illinois Leathernecks,1.95,6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,totals,Over,1.93,136.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetOnline.ag,totals,Under,1.88,136.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,h2h,Southern Indiana Screaming Eagles,1.32,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,h2h,Western Illinois Leathernecks,3.4,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,spreads,Southern Indiana Screaming Eagles,1.91,-6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,spreads,Western Illinois Leathernecks,1.91,6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,totals,Over,1.91,136.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,FanDuel,totals,Under,1.91,136.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,h2h,Southern Indiana Screaming Eagles,1.37,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,h2h,Western Illinois Leathernecks,3.16,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,spreads,Southern Indiana Screaming Eagles,1.96,-6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,spreads,Western Illinois Leathernecks,1.86,6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,totals,Over,1.93,135.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,Pinnacle,totals,Under,1.81,135.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,h2h,Southern Indiana Screaming Eagles,1.33,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,h2h,Western Illinois Leathernecks,3.5,,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,spreads,Southern Indiana Screaming Eagles,1.91,-6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,spreads,Western Illinois Leathernecks,1.91,6.5,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,totals,Over,1.91,136.0,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,fbb8caaf59fb34680073104d86832984,2026-01-23 19:30:00 CST,BetUS,totals,Under,1.91,136.0,Southern Indiana Screaming Eagles,Western Illinois Leathernecks
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,h2h,Colorado St Rams,3.15,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,h2h,Utah State Aggies,1.38,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,spreads,Colorado St Rams,1.91,5.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,spreads,Utah State Aggies,1.91,-5.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,totals,Over,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,FanDuel,totals,Under,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,h2h,Colorado St Rams,3.0,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,h2h,Utah State Aggies,1.42,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,spreads,Colorado St Rams,1.91,6.0,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,spreads,Utah State Aggies,1.91,-6.0,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,totals,Over,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetOnline.ag,totals,Under,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,h2h,Colorado St Rams,3.03,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,h2h,Utah State Aggies,1.42,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,spreads,Colorado St Rams,1.91,6.0,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,spreads,Utah State Aggies,1.91,-6.0,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,totals,Over,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,BetUS,totals,Under,1.91,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,h2h,Colorado St Rams,3.13,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,h2h,Utah State Aggies,1.39,,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,spreads,Colorado St Rams,1.95,5.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,spreads,Utah State Aggies,1.9,-5.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,totals,Over,1.89,148.5,Colorado St Rams,Utah State Aggies
+CBBM,,ca0e7c617edc784efbb630f5c2ce8961,2026-01-23 21:00:00 CST,Pinnacle,totals,Under,1.93,148.5,Colorado St Rams,Utah State Aggies
