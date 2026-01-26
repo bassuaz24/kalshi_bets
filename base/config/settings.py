@@ -103,6 +103,8 @@ SPORT_KEYS = {
     "NFL": "americanfootball_nfl",
     "NBA": "basketball_nba",
     "CBBM": "basketball_ncaab",
+    "CBBW": "basketball_wncaab",
+    "ATP": "tennis_atp_aus_open_singles"
 }
 
 # Markets to fetch from OddsAPI
