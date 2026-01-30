@@ -104,7 +104,8 @@ SPORT_KEYS = {
     "NBA": "basketball_nba",
     "CBBM": "basketball_ncaab",
     "CBBW": "basketball_wncaab",
-    "ATP": "tennis_atp_aus_open_singles"
+    "ATP": "tennis_atp_aus_open_singles",
+    "WTA": "tennis_wta_aus_open_singles"
 }
 
 # Markets to fetch from OddsAPI
@@ -112,8 +113,9 @@ ODDS_API_MARKETS = "h2h,spreads,totals"
 ODDS_API_REGION = "us"
 ODDS_API_BOOKMAKERS = ["fanduel", "pinnacle", "betus", "betonlineag"]
 
-# Kalshi collector settings
-KALSHI_COLLECTOR_RUNTIME = None  # in seconds (None = indefinite)
+# Kalshi collector settings (KALSHI_COLLECTOR_RUNTIME in seconds; empty/absent = indefinite)
+_runtime = os.getenv("KALSHI_COLLECTOR_RUNTIME", "").strip()
+KALSHI_COLLECTOR_RUNTIME = float(_runtime) if _runtime else None
 
 # OddsAPI integration settings
 ODDS_API_FETCH_INTERVAL = float(os.getenv("ODDS_API_FETCH_INTERVAL", "1800.0"))  # Fetch interval in seconds (default: 30 minutes)

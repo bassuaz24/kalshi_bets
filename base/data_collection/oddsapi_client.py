@@ -378,7 +378,13 @@ def save_skipped_games(skipped_games: List[Dict[str, Any]], filepath: Path):
         df.to_csv(filepath, index=False)
 
 
-def save_market_data(data: List[Dict[str, Any]], filepath: Path, market_type: Optional[str] = None, append: bool = True):
+def save_market_data(
+    data: List[Dict[str, Any]],
+    filepath: Path,
+    market_type: Optional[str] = None,
+    append: bool = True,
+    fetch_timestamp: Optional[datetime] = None,
+):
     """Save market data to CSV file.
     
     Args:
@@ -386,30 +392,36 @@ def save_market_data(data: List[Dict[str, Any]], filepath: Path, market_type: Op
         filepath: Path to CSV file
         market_type: Optional market type (for logging)
         append: If True and file exists, append data (default: True)
+        fetch_timestamp: Timestamp for this fetch (default: now in CST). Stored as ISO string.
     """
     if not data:
         return
 
+    if fetch_timestamp is None:
+        fetch_timestamp = datetime.now(CST)
+    ts_str = fetch_timestamp.astimezone(CST).isoformat()
+
     os.makedirs(filepath.parent, exist_ok=True)
     df_new = pd.DataFrame(data)
-    
+
+    # Add fetch_timestamp to each row
+    df_new["fetch_timestamp"] = ts_str
+
     columns = [
         "sport", "league", "game_id", "start_time",
         "bookmaker", "market", "team", "price", "point",
-        "home_team", "away_team"
+        "home_team", "away_team", "fetch_timestamp"
     ]
-    
+
     # Only include columns that exist in the data
     existing_columns = [col for col in columns if col in df_new.columns]
     df_new = df_new[existing_columns]
-    
-    # Append to existing file if it exists and append=True
+
+    # Append to existing file if it exists and append=True (stack without deduplication)
     if append and filepath.exists():
         try:
             df_existing = pd.read_csv(filepath)
-            # Combine and remove duplicates based on all columns
             df_combined = pd.concat([df_existing, df_new], ignore_index=True)
-            df_combined = df_combined.drop_duplicates()
             df_combined.to_csv(filepath, index=False)
         except Exception as e:
             # If append fails, just overwrite
@@ -525,7 +537,12 @@ def collect_data_running(output_dir: Optional[Path] = None, target_date: Optiona
                     f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:489","message":"Saving market data","data":{"sport_name":sport_name,"key":key,"filename":filename,"filepath":str(filepath),"market_data_count":len(market_data)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
                 # #endregion
                 
-                save_market_data(market_data, filepath, market_type)
+                save_market_data(
+                    market_data,
+                    filepath,
+                    market_type,
+                    fetch_timestamp=datetime.now(CST),
+                )
 
         # Save skipped games to CSV (one file per day, in data_collection directory)
         if all_skipped_games:

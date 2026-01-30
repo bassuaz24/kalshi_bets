@@ -26,20 +26,27 @@ if str(_BASE_ROOT) not in sys.path:
 
 from data_collection.kalshi_collector import KalshiCollector, CSV_COLUMNS, _market_to_row, _parse_time
 from data_collection.market_matcher import MarketMatcher, parse_kalshi_ticker
-from data_collection.oddsapi_client import fetch_odds, normalize_odds_data, save_skipped_games
+from data_collection.oddsapi_client import (
+    CST,
+    fetch_odds,
+    normalize_odds_data,
+    save_market_data,
+    save_skipped_games,
+)
 from config import settings
 
 LOCAL_TZ = pytz.timezone("US/Eastern")
 
 # Extended CSV columns for joined data
 JOINED_CSV_COLUMNS = CSV_COLUMNS + [
-    "oddsapi_price",  # Weighted average price from OddsAPI
+    "devig_prob",  # Weighted average of de-vigged probabilities from OddsAPI bookmakers
     "oddsapi_game_id",
     "oddsapi_team",
     "oddsapi_point",
     "oddsapi_home_team",
     "oddsapi_away_team",
     "oddsapi_start_time",  # Start time from OddsAPI
+    "oddsapi_fetch_timestamp",  # Timestamp when OddsAPI data was fetched
     "match_status",  # "matched" or "unmatched"
 ]
 
@@ -142,11 +149,11 @@ class JoinedCollector(KalshiCollector):
                 save_skipped_games(skipped, skipped_file)
                 all_skipped.extend(skipped)
             
-            # Save data to CSV files (overwrite existing files)
+            # Save data to CSV files (always append/stack with fetch_timestamp)
             for game_date, rows in rows_by_date.items():
                 if not rows:
                     continue
-                
+
                 # Create date directory
                 # Ensure game_date is a date object
                 if isinstance(game_date, str):
@@ -154,22 +161,27 @@ class JoinedCollector(KalshiCollector):
                     game_date = dt.strptime(game_date, "%Y-%m-%d").date()
                 date_dir = settings.DATA_DIR / game_date.isoformat()
                 date_dir.mkdir(parents=True, exist_ok=True)
-                
-                # Separate by market type and save
+
+                # Separate by market type and save (always append with timestamp)
                 import pandas as pd
                 df = pd.DataFrame(rows)
                 for market_type in df["market"].unique():
                     market_rows = df[df["market"] == market_type]
-                    
+                    market_data = market_rows.to_dict("records")
+
                     # File naming: {sport_name}_{market_type}.csv
                     sport_name_lower = sport_code.lower()
                     filename = f"{sport_name_lower}_{market_type}.csv"
                     filepath = date_dir / filename
-                    
-                    # Save (overwrite if overwrite=True)
-                    if overwrite or not filepath.exists():
-                        market_rows.to_csv(filepath, index=False)
-                        print(f"    💾 Saved {len(market_rows)} rows to {filepath.name}")
+
+                    save_market_data(
+                        market_data,
+                        filepath,
+                        market_type,
+                        append=True,
+                        fetch_timestamp=datetime.now(CST),
+                    )
+                    print(f"    💾 Saved {len(market_data)} rows to {filepath.name}")
             
             print(f"    ✅ Processed {len(games)} games for {sport_code}")
         
@@ -234,18 +246,29 @@ class JoinedCollector(KalshiCollector):
                 if not market_ticker:
                     return
                 
-                # Update market data
                 with self.markets_lock:
                     if market_ticker not in self.markets:
                         return
                     
                     market = self.markets[market_ticker]
-                    market["yes_bid"] = ticker_data.get("yes_bid")
-                    market["yes_ask"] = ticker_data.get("yes_ask")
-                    market["no_bid"] = ticker_data.get("no_bid")
-                    market["no_ask"] = ticker_data.get("no_ask")
-                    market["liquidity_dollars"] = ticker_data.get("liquidity_dollars")
-                    market["volume_24h"] = ticker_data.get("volume_24h")
+                    yb = ticker_data.get("yes_bid")
+                    ya = ticker_data.get("yes_ask")
+                    market["yes_bid"] = yb
+                    market["yes_ask"] = ya
+                    # Compute no_bid / no_ask from yes_bid / yes_ask (cents); overwrite each ticker
+                    if ya is not None:
+                        try:
+                            market["no_bid"] = int(round(100 - float(ya)))
+                        except (TypeError, ValueError):
+                            pass
+                    if yb is not None:
+                        try:
+                            market["no_ask"] = int(round(100 - float(yb)))
+                        except (TypeError, ValueError):
+                            pass
+                    for key in ("volume", "open_interest", "dollar_volume", "dollar_open_interest"):
+                        if key in ticker_data and ticker_data[key] is not None:
+                            market[key] = ticker_data[key]
                 
                 # Write to regular CSV (parent class behavior)
                 timestamp = datetime.now(LOCAL_TZ)
@@ -278,70 +301,76 @@ class JoinedCollector(KalshiCollector):
             if parsed:
                 event_date = parsed.get("date")
                 if event_date:
-                    weighted_price = self.matcher.get_weighted_price(ticker, match_key, event_date)
+                    devig_prob = self.matcher.get_devig_prob(ticker, match_key, event_date)
                     oddsapi_rows = self.matcher.get_oddsapi_rows(ticker, match_key, event_date)
                     
                     if oddsapi_rows and len(oddsapi_rows) > 0:
                         first_row = oddsapi_rows[0]
+                        fetch_ts = first_row.get("fetch_timestamp")
                         joined_row = {
                             **kalshi_row,
-                            "oddsapi_price": weighted_price,
+                            "devig_prob": devig_prob,
                             "oddsapi_game_id": str(first_row.get("game_id", "")),
                             "oddsapi_team": str(first_row.get("team", "")),
                             "oddsapi_point": first_row.get("point"),
                             "oddsapi_home_team": str(first_row.get("home_team", "")),
                             "oddsapi_away_team": str(first_row.get("away_team", "")),
                             "oddsapi_start_time": str(first_row.get("start_time", "")),
+                            "oddsapi_fetch_timestamp": str(fetch_ts) if fetch_ts is not None else "",
                             "match_status": "matched",
                         }
                     else:
                         # Match found but no rows (shouldn't happen)
                         joined_row = {
                             **kalshi_row,
-                            "oddsapi_price": None,
+                            "devig_prob": None,
                             "oddsapi_game_id": None,
                             "oddsapi_team": None,
                             "oddsapi_point": None,
                             "oddsapi_home_team": None,
                             "oddsapi_away_team": None,
                             "oddsapi_start_time": None,
+                            "oddsapi_fetch_timestamp": None,
                             "match_status": "matched_no_data",
                         }
                 else:
                     joined_row = {
                         **kalshi_row,
-                        "oddsapi_price": None,
+                        "devig_prob": None,
                         "oddsapi_game_id": None,
                         "oddsapi_team": None,
                         "oddsapi_point": None,
                         "oddsapi_home_team": None,
                         "oddsapi_away_team": None,
                         "oddsapi_start_time": None,
+                        "oddsapi_fetch_timestamp": None,
                         "match_status": "parse_error",
                     }
             else:
                 joined_row = {
                     **kalshi_row,
-                    "oddsapi_price": None,
+                    "devig_prob": None,
                     "oddsapi_game_id": None,
                     "oddsapi_team": None,
                     "oddsapi_point": None,
                     "oddsapi_home_team": None,
                     "oddsapi_away_team": None,
                     "oddsapi_start_time": None,
+                    "oddsapi_fetch_timestamp": None,
                     "match_status": "parse_error",
                 }
         else:
             # No match - write Kalshi-only data
             joined_row = {
                 **kalshi_row,
-                "oddsapi_price": None,
+                "devig_prob": None,
                 "oddsapi_game_id": None,
                 "oddsapi_team": None,
                 "oddsapi_point": None,
                 "oddsapi_home_team": None,
                 "oddsapi_away_team": None,
                 "oddsapi_start_time": None,
+                "oddsapi_fetch_timestamp": None,
                 "match_status": "unmatched",
             }
             
@@ -379,10 +408,10 @@ class JoinedCollector(KalshiCollector):
                     break
                 
                 print(f"\n🔄 Periodic OddsAPI fetch (every {fetch_interval/60:.1f} minutes)...")
-                
-                # Fetch fresh OddsAPI data and overwrite CSV files
-                # Matches remain unchanged - they'll automatically use the fresh data
-                self._fetch_oddsapi_data(overwrite=True)
+
+                # Fetch fresh OddsAPI data and append to CSV files (stacked with timestamp)
+                # Matches remain unchanged - load_oddsapi_data filters to latest fetch
+                self._fetch_oddsapi_data()
                 
                 print(f"✅ OddsAPI data refreshed. Existing matches will use updated prices.")
                 
@@ -405,22 +434,7 @@ class JoinedCollector(KalshiCollector):
             self.running = False
             return
         
-        # Write initial snapshot with joined data
-        print("💾 Writing initial snapshot with joined data...")
-        timestamp = datetime.now(LOCAL_TZ)
-        try:
-            with self.markets_lock:
-                for ticker, market in self.markets.items():
-                    row = _market_to_row(market, timestamp)
-                    self._append_row(row)
-                    self._write_joined_row(market, timestamp)
-            
-            print(f"💾 Wrote initial snapshot of {market_count} markets (joined data)")
-        except Exception as e:
-            print(f"⚠️ Error writing initial snapshot: {e}")
-            import traceback
-            traceback.print_exc()
-        
+        # No initial snapshot — we only write on WebSocket ticker updates
         # Start periodic OddsAPI updates
         print("🔄 Starting periodic OddsAPI updates...")
         oddsapi_task = asyncio.create_task(self._update_oddsapi_periodically())
@@ -492,27 +506,57 @@ async def main_async(args):
     else:
         print(f"⏱️  Runtime: Indefinite (Ctrl+C to stop)")
     
+    # Prevent system sleep while collector is running
+    try:
+        from wakepy import keep
+        print("💤 Preventing system sleep (using wakepy)...")
+    except ImportError:
+        print("⚠️  wakepy not installed - system may sleep if lid is closed")
+        keep = None
+    
     collector = JoinedCollector(target_date, sports, output_dir, runtime_seconds)
     
-    # Start collector
-    collector_task = asyncio.create_task(collector.start())
-    
-    # Handle runtime limit
-    try:
-        if runtime_seconds:
-            await asyncio.wait_for(collector_task, timeout=runtime_seconds)
-        else:
-            await collector_task
-    except asyncio.TimeoutError:
-        print(f"⏱️  Runtime limit reached ({runtime_seconds} seconds)")
-        await collector.stop()
-    except KeyboardInterrupt:
-        print("\n🛑 Interrupted by user")
-        await collector.stop()
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        await collector.stop()
-        raise
+    # Use wakepy context manager to prevent sleep
+    if keep:
+        with keep.running():
+            # Start collector
+            collector_task = asyncio.create_task(collector.start())
+            
+            # Handle runtime limit
+            try:
+                if runtime_seconds:
+                    await asyncio.wait_for(collector_task, timeout=runtime_seconds)
+                else:
+                    await collector_task
+            except asyncio.TimeoutError:
+                print(f"⏱️  Runtime limit reached ({runtime_seconds} seconds)")
+                await collector.stop()
+            except KeyboardInterrupt:
+                print("\n🛑 Interrupted by user")
+                await collector.stop()
+            except Exception as e:
+                print(f"❌ Error: {e}")
+                await collector.stop()
+                raise
+    else:
+        # Fallback if wakepy not available
+        collector_task = asyncio.create_task(collector.start())
+        
+        try:
+            if runtime_seconds:
+                await asyncio.wait_for(collector_task, timeout=runtime_seconds)
+            else:
+                await collector_task
+        except asyncio.TimeoutError:
+            print(f"⏱️  Runtime limit reached ({runtime_seconds} seconds)")
+            await collector.stop()
+        except KeyboardInterrupt:
+            print("\n🛑 Interrupted by user")
+            await collector.stop()
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            await collector.stop()
+            raise
 
 
 def main():

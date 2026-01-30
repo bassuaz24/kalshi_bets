@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.kalshi.joined_collector</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/Brett/kdata/kalshi_bets/.venv/bin/python3</string>
+        <string>-m</string>
+        <string>data_collection.joined_collector</string>
+        <!-- Add --date argument here if needed, e.g.:
+        <string>--date</string>
+        <string>2026-01-27</string>
+        -->
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base</string>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base/data_collection/joined_collector.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/Brett/kdata/kalshi_bets/base/data_collection/joined_collector.error.log</string>
+    
+    <key>RunAtLoad</key>
+    <false/>
+    
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>0</integer>
+        <key>Minute</key>
+        <integer>1</integer>
+    </dict>
+    
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        <!-- 86220 sec = 23h57m (12:01am to 11:58pm) -->
+        <key>KALSHI_COLLECTOR_RUNTIME</key>
+        <string>86220</string>
+    </dict>
+</dict>
+</plist>

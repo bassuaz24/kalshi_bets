@@ -18,6 +18,10 @@ from typing import Dict, List, Optional, Tuple, Any, Set
 from datetime import date, datetime
 from pathlib import Path
 from collections import defaultdict
+import numpy as np
+from scipy.optimize import brentq
+from scipy.special import expit, logit
+
 
 # Add base directory to path
 _BASE_ROOT = Path(__file__).parent.parent.absolute()
@@ -25,9 +29,11 @@ if str(_BASE_ROOT) not in sys.path:
     sys.path.insert(0, str(_BASE_ROOT))
 
 from config import settings
-from data.team_map import TEAM_MAP_B
+from data.team_maps import TEAM_MAP_B, TEAM_MAP_ATP, TEAM_MAP_WTA
 from strategy.utils import normalize_team_name, fuzzy_match_teams
 
+# Type for team name: single string or list when symbol has duplicates (e.g. tennis BER -> [Berrettini, Bergs])
+_TeamName = Optional[str | List[str]]
 
 # Sport key mappings (Kalshi sport code -> OddsAPI sport key)
 KALSHI_TO_ODDSAPI_SPORT = {
@@ -35,7 +41,7 @@ KALSHI_TO_ODDSAPI_SPORT = {
     "NBA": "basketball_nba",
     "CBBM": "basketball_ncaab",
     "CBBW": "basketball_wncaab",
-
+    **getattr(settings, "SPORT_KEYS", {}),  # ATP, WTA, etc.
 }
 
 # Market type mappings (Kalshi series label -> OddsAPI market type)
@@ -57,32 +63,46 @@ def _build_reverse_team_map() -> Dict[str, str]:
     
     _REVERSE_TEAM_MAP = {}
     for ticker, full_name in TEAM_MAP_B.items():
-        normalized = normalize_team_name(full_name)
-        if normalized:
-            _REVERSE_TEAM_MAP[normalized] = ticker
+        if isinstance(full_name, list):
+            for name in full_name:
+                normalized = normalize_team_name(name)
+                if normalized:
+                    _REVERSE_TEAM_MAP[normalized] = ticker
+        else:
+            normalized = normalize_team_name(full_name)
+            if normalized:
+                _REVERSE_TEAM_MAP[normalized] = ticker
     
     return _REVERSE_TEAM_MAP
 
 
-def ticker_to_team_name(ticker_code: str, sport: str) -> Optional[str]:
+def ticker_to_team_name(ticker_code: str, sport: str) -> _TeamName:
     """
-    Convert Kalshi ticker code to full team name using TEAM_MAP_B.
+    Convert Kalshi ticker code to full team/player name.
+    
+    For NCAA/NBA uses TEAM_MAP_B (returns single str).
+    For ATP/WTA uses TEAM_MAP_ATP/TEAM_MAP_WTA; may return a list when
+    multiple players share the same 3-letter symbol (e.g. BER -> [Berrettini, Bergs]).
     
     Args:
-        ticker_code: Kalshi ticker code (e.g., "OAK")
-        sport: Sport code (e.g., "CBBM", "NBA") - not used, kept for compatibility
+        ticker_code: Kalshi ticker code (e.g., "OAK", "BER")
+        sport: Sport code (e.g., "CBBM", "NBA", "ATP", "WTA")
     
     Returns:
-        Full team name from TEAM_MAP_B, or None if not found
+        Full name (str), list of names (list), or None if not found
     """
     ticker_upper = ticker_code.upper()
     ticker_lower = ticker_code.lower()
     
-    # Use TEAM_MAP_B for all sports (includes NBA and NCAA teams)
-    # Try both uppercase and lowercase keys
-    result = TEAM_MAP_B.get(ticker_upper)
-    if result is None:
-        result = TEAM_MAP_B.get(ticker_lower)
+    if sport == "ATP":
+        result = TEAM_MAP_ATP.get(ticker_upper) or TEAM_MAP_ATP.get(ticker_lower)
+        return result
+    if sport == "WTA":
+        result = TEAM_MAP_WTA.get(ticker_upper) or TEAM_MAP_WTA.get(ticker_lower)
+        return result
+    
+    # Non-tennis: TEAM_MAP_B (NCAA, NBA)
+    result = TEAM_MAP_B.get(ticker_upper) or TEAM_MAP_B.get(ticker_lower)
     return result
 
 
@@ -118,13 +138,15 @@ def parse_kalshi_ticker(ticker: str) -> Optional[Dict[str, Any]]:
     """
     ticker_upper = ticker.upper()
     
-    # Extract series prefix (e.g., KXNCAAMBGAME, KXNCAAMBSPREAD)
-    series_match = re.match(r"^(KX[A-Z]+)(GAME|SPREAD|TOTAL)", ticker_upper)
+    # Extract series prefix (e.g., KXNCAAMBGAME, KXATPMATCH)
+    series_match = re.match(r"^(KX[A-Z]+)(GAME|SPREAD|TOTAL|MATCH)", ticker_upper)
     if not series_match:
         return None
     
     series_prefix = series_match.group(1)
-    market_type = series_match.group(2)
+    raw_market_type = series_match.group(2)
+    # Tennis uses MATCH; map to GAME for internal handling
+    market_type = "GAME" if raw_market_type == "MATCH" else raw_market_type
     
     # Map series prefix to sport
     sport = None
@@ -138,6 +160,10 @@ def parse_kalshi_ticker(ticker: str) -> Optional[Dict[str, Any]]:
         sport = "CBBW"
     elif series_prefix.startswith("KXNCAAF"):
         sport = "CFB"
+    elif series_prefix.startswith("KXATP"):
+        sport = "ATP"
+    elif series_prefix.startswith("KXWTA"):
+        sport = "WTA"
     
     if not sport:
         return None
@@ -161,26 +187,50 @@ def parse_kalshi_ticker(ticker: str) -> Optional[Dict[str, Any]]:
     
     # Parse based on market type
     if market_type == "GAME":
-        # Format: KXNCAAMBGAME-26JAN15OAKMILW-OAK
-        # Extract team code from the end (after last dash)
+        # Format: KXNCAAMBGAME-26JAN15OAKMILW-OAK  or  KXATPMATCH-26JAN26BERSIN-BER
         parts = ticker_upper.split("-")
         if len(parts) >= 2:
             team_code = parts[-1]
             result["team_code"] = team_code
+            # Tennis: extract opponent from middle part (date + two player codes)
+            if sport in ("ATP", "WTA") and len(parts) >= 2:
+                date_str = date_match.group(1)
+                middle = parts[-2] if len(parts) >= 3 else ""
+                if date_str in middle:
+                    team_part = middle[middle.index(date_str) + len(date_str):]
+                    if team_part.startswith(team_code):
+                        result["opponent_code"] = team_part[len(team_code):]
+                    elif team_part.endswith(team_code):
+                        result["opponent_code"] = team_part[:-len(team_code)]
+                    else:
+                        result["opponent_code"] = None
+                else:
+                    result["opponent_code"] = None
     elif market_type == "SPREAD":
-        # Format: KXNCAAMBSPREAD-26JAN15IDHOIDST-IDST6
-        # Extract team code and spread number from the end
+        # Format: KXNCAAMBSPREAD-26JAN15IDHOIDST-IDST6  or  KXATP...SPREAD-26JAN26BERSIN-BER6
         parts = ticker_upper.split("-")
         if len(parts) >= 2:
             end_part = parts[-1]
-            # Find the spread number (digits at the end)
             spread_match = re.search(r"(\d+)$", end_part)
             if spread_match:
                 spread_num = int(spread_match.group(1))
-                # Extract team code (everything before the digits)
                 team_code = end_part[: -len(spread_match.group(1))]
                 result["team_code"] = team_code
                 result["spread"] = spread_num
+                # Tennis: extract opponent from middle part
+                if sport in ("ATP", "WTA") and len(parts) >= 3:
+                    date_str = date_match.group(1)
+                    middle = parts[-2]
+                    if date_str in middle:
+                        team_part = middle[middle.index(date_str) + len(date_str):]
+                        if team_part.startswith(team_code):
+                            result["opponent_code"] = team_part[len(team_code):]
+                        elif team_part.endswith(team_code):
+                            result["opponent_code"] = team_part[:-len(team_code)]
+                        else:
+                            result["opponent_code"] = None
+                    else:
+                        result["opponent_code"] = None
     elif market_type == "TOTAL":
         # Format: KXNCAAMBTOTAL-26JAN15WICHFAU-137
         # Extract away/home team codes and total number
@@ -286,19 +336,86 @@ def get_oddsapi_file_path(sport: str, market_type: str, event_date: date, data_d
     return None
 
 
-def load_oddsapi_data(file_path: Path, normalize: bool = True) -> pd.DataFrame:
+def _disambiguate_tennis_team_name(
+    candidate_names: List[str],
+    opponent_code: Optional[str],
+    oddsapi_df: pd.DataFrame,
+    sport: str,
+) -> Optional[str]:
+    """
+    When a tennis player symbol maps to multiple names (e.g. BER -> [Berrettini, Bergs]),
+    use the opponent from the ticker to disambiguate: find the opponent in OddsAPI data,
+    then the other player in that row (home_team/away_team) is our player.
+    
+    Returns:
+        Single resolved player name from candidate_names, or None if cannot disambiguate.
+    """
+    if not candidate_names or not opponent_code or oddsapi_df.empty:
+        return candidate_names[0] if (candidate_names and len(candidate_names) == 1) else None
+    
+    tennis_map = TEAM_MAP_ATP if sport == "ATP" else TEAM_MAP_WTA
+    opponent_val = tennis_map.get(opponent_code.upper()) or tennis_map.get(opponent_code.lower())
+    if isinstance(opponent_val, list):
+        opponent_val = opponent_val[0]  # pick first for opponent
+    if not opponent_val:
+        return candidate_names[0] if len(candidate_names) == 1 else None
+    
+    opponent_norm = normalize_team_name(opponent_val)
+    if not opponent_norm:
+        return candidate_names[0] if len(candidate_names) == 1 else None
+    
+    # OddsAPI tennis rows have home_team, away_team (and team for the row's selection)
+    home_col = "home_team_normalized" if "home_team_normalized" in oddsapi_df.columns else "home_team"
+    away_col = "away_team_normalized" if "away_team_normalized" in oddsapi_df.columns else "away_team"
+    
+    for _, row in oddsapi_df.iterrows():
+        home_val = str(row.get("home_team", "")).strip()
+        away_val = str(row.get("away_team", "")).strip()
+        home_n = normalize_team_name(home_val) if home_val else ""
+        away_n = normalize_team_name(away_val) if away_val else ""
+        if opponent_norm == home_n:
+            # Opponent is home; our player is away
+            for c in candidate_names:
+                if normalize_team_name(c) == away_n:
+                    return c
+            if away_val in candidate_names:
+                return away_val
+        if opponent_norm == away_n:
+            # Opponent is away; our player is home
+            for c in candidate_names:
+                if normalize_team_name(c) == home_n:
+                    return c
+            if home_val in candidate_names:
+                return home_val
+    
+    return candidate_names[0] if len(candidate_names) == 1 else None
+
+
+def load_oddsapi_data(
+    file_path: Path,
+    normalize: bool = True,
+    latest_fetch_only: bool = True,
+) -> pd.DataFrame:
     """Load OddsAPI CSV file into DataFrame.
     
     Args:
         file_path: Path to CSV file
         normalize: If True, pre-normalize team names for faster matching (default: True)
+        latest_fetch_only: If True and fetch_timestamp column exists, filter to rows
+            from the most recent fetch (default: True). Backwards compatible: files
+            without fetch_timestamp use all rows.
     """
     if not file_path.exists():
         return pd.DataFrame()
-    
+
     try:
         df = pd.read_csv(file_path)
-        
+
+        # Filter to latest fetch when fetch_timestamp column exists
+        if latest_fetch_only and "fetch_timestamp" in df.columns and len(df) > 0:
+            max_ts = df["fetch_timestamp"].max()
+            df = df[df["fetch_timestamp"] == max_ts].copy()
+
         # Pre-normalize team names for faster matching
         if normalize and len(df) > 0:
             if "team" in df.columns:
@@ -336,10 +453,21 @@ def match_h2h_market(
     if not team_code:
         return None
     
-    # Convert ticker code to team name
-    team_name = ticker_to_team_name(team_code, sport)
-    if not team_name:
+    # Convert ticker code to team name (may be str or list for tennis duplicates)
+    team_name_raw = ticker_to_team_name(team_code, sport)
+    if team_name_raw is None:
         return None
+    if isinstance(team_name_raw, list):
+        team_name = _disambiguate_tennis_team_name(
+            team_name_raw,
+            parsed.get("opponent_code"),
+            oddsapi_df,
+            sport,
+        )
+        if not team_name:
+            return None
+    else:
+        team_name = team_name_raw
     
     # Normalize team name for matching
     normalized_team = normalize_team_name(team_name)
@@ -397,10 +525,21 @@ def match_spread_market(
     # Transform spread: add 0.5, then multiply by -1
     transformed_spread = (spread_num + 0.5) * -1
     
-    # Convert ticker code to team name
-    team_name = ticker_to_team_name(team_code, sport)
-    if not team_name:
+    # Convert ticker code to team name (may be str or list for tennis duplicates)
+    team_name_raw = ticker_to_team_name(team_code, sport)
+    if team_name_raw is None:
         return None
+    if isinstance(team_name_raw, list):
+        team_name = _disambiguate_tennis_team_name(
+            team_name_raw,
+            parsed.get("opponent_code"),
+            oddsapi_df,
+            sport,
+        )
+        if not team_name:
+            return None
+    else:
+        team_name = team_name_raw
     
     normalized_team = normalize_team_name(team_name)
     
@@ -466,19 +605,17 @@ def match_total_market(
     # Transform total: add 0.5
     transformed_total = total_num + 0.5
     
-    # Convert ticker codes to team names
-    away_name = ticker_to_team_name(away_code, sport)
-    home_name = ticker_to_team_name(home_code, sport)
-    
-    if not away_name or not home_name:
+    # Convert ticker codes to team names (may be str or list for tennis duplicates)
+    away_raw = ticker_to_team_name(away_code, sport)
+    home_raw = ticker_to_team_name(home_code, sport)
+    if away_raw is None or home_raw is None:
         return None
-    
-    normalized_away = normalize_team_name(away_name)
-    normalized_home = normalize_team_name(home_name)
+    away_candidates = [away_raw] if isinstance(away_raw, str) else away_raw
+    home_candidates = [home_raw] if isinstance(home_raw, str) else home_raw
     
     # Use pre-normalized team names (should already be in dataframe from load_oddsapi_data)
     if "away_team_normalized" not in oddsapi_df.columns:
-        # Fallback: normalize on the fly (shouldn't happen if cache is working)
+        oddsapi_df = oddsapi_df.copy()
         oddsapi_df["away_team_normalized"] = oddsapi_df["away_team"].astype(str).apply(
             lambda x: normalize_team_name(str(x).strip())
         )
@@ -486,8 +623,7 @@ def match_total_market(
             lambda x: normalize_team_name(str(x).strip())
         )
     
-    # Filter using vectorized operations
-    # First filter for "Over" and point match (fast filters)
+    # Filter using vectorized operations: "Over" and point match
     filtered = oddsapi_df[
         (oddsapi_df["team"].astype(str).str.lower() == "over") &
         (pd.notna(oddsapi_df["point"])) &
@@ -497,11 +633,22 @@ def match_total_market(
     if len(filtered) == 0:
         return None
     
-    # Then filter for exact team matches
-    exact_matches = filtered[
-        (filtered["away_team_normalized"] == normalized_away) &
-        (filtered["home_team_normalized"] == normalized_home)
-    ]
+    # Try each (away, home) pair when tennis symbols map to multiple names
+    exact_matches = filtered.iloc[0:0]  # empty
+    for away_name in away_candidates:
+        for home_name in home_candidates:
+            normalized_away = normalize_team_name(away_name)
+            normalized_home = normalize_team_name(home_name)
+            if not normalized_away or not normalized_home:
+                continue
+            exact_matches = filtered[
+                (filtered["away_team_normalized"] == normalized_away) &
+                (filtered["home_team_normalized"] == normalized_home)
+            ]
+            if len(exact_matches) > 0:
+                break
+        if len(exact_matches) > 0:
+            break
     
     if len(exact_matches) > 0:
         match_row = exact_matches.iloc[0]
@@ -516,20 +663,48 @@ def match_total_market(
     for row in filtered.itertuples(index=False):
         row_away = str(getattr(row, "away_team", "")).strip()
         row_home = str(getattr(row, "home_team", "")).strip()
-        
-        if row_away and row_home:
-            away_matches = fuzzy_match_teams(row_away, away_name)
-            home_matches = fuzzy_match_teams(row_home, home_name)
-            
-            if away_matches and home_matches:
-                game_id = str(getattr(row, "game_id", ""))
-                matched_home = str(getattr(row, "home_team", ""))
-                point = float(getattr(row, "point", 0))
-                team = str(getattr(row, "team", ""))
-                # Use | as delimiter to avoid issues with negative point values
-                return f"{game_id}|{matched_home}|{point}|{team}"
+        if not row_away or not row_home:
+            continue
+        for away_name in away_candidates:
+            for home_name in home_candidates:
+                if fuzzy_match_teams(row_away, away_name) and fuzzy_match_teams(row_home, home_name):
+                    game_id = str(getattr(row, "game_id", ""))
+                    matched_home = str(getattr(row, "home_team", ""))
+                    point = float(getattr(row, "point", 0))
+                    team = str(getattr(row, "team", ""))
+                    return f"{game_id}|{matched_home}|{point}|{team}"
     
     return None
+
+
+def devig_logit(p1: float, p2: float) -> Tuple[float, float]:
+    """
+    Remove vig from two implied probabilities using logit method.
+    
+    Args:
+        p1, p2: Implied probabilities (1/odds) for the two outcomes
+    
+    Returns:
+        (q1, q2): De-vigged fair probabilities that sum to 1
+    """
+    # Clamp to avoid logit(0) or logit(1) undefined
+    eps = 1e-6
+    p1 = max(eps, min(1 - eps, float(p1)))
+    p2 = max(eps, min(1 - eps, float(p2)))
+    try:
+        z1 = logit(p1)
+        z2 = logit(p2)
+        f = lambda lam: expit(z1 - lam) + expit(z2 - lam) - 1
+        lam = brentq(f, -50, 50)
+        q1 = expit(z1 - lam)
+        q2 = expit(z2 - lam)
+        return q1, q2
+    except (ValueError, RuntimeError):
+        # Fallback: additive normalization
+        total = p1 + p2
+        if total <= 0:
+            return 0.5, 0.5
+        return p1 / total, p2 / total
 
 
 def compute_weighted_average(
@@ -669,6 +844,15 @@ class MarketMatcher:
         
         self.match_stats["total_attempted"] += 1
         
+        # ATP/WTA: only GAME (MATCH -> h2h) is comparable. Kalshi has no WTA spread/totals;
+        # ATP TOTALSETS is sets, OddsAPI totals are games — skip spread/total for tennis.
+        sport = parsed["sport"]
+        market_type = parsed["market_type"]
+        if sport in ("ATP", "WTA") and market_type in ("SPREAD", "TOTAL"):
+            self.unmatched_tickers.add(ticker)
+            self.match_stats["unmatched"] += 1
+            return None
+        
         # Get OddsAPI file path
         file_path = get_oddsapi_file_path(
             parsed["sport"],
@@ -693,9 +877,8 @@ class MarketMatcher:
             self.match_stats["unmatched"] += 1
             return None
         
-        # Match based on market type
+        # Match based on market type (ATP/WTA only reach here for GAME/MATCH -> h2h)
         match_key = None
-        market_type = parsed["market_type"]
         
         if market_type == "GAME":
             match_key = match_h2h_market(ticker, parsed, oddsapi_df, parsed["sport"])
@@ -812,6 +995,126 @@ class MarketMatcher:
             return None
         
         return compute_weighted_average(rows, settings.ODDS_API_BOOKMAKER_WEIGHTS)
+
+    def get_devig_prob(self, ticker: str, match_key: str, event_date: date) -> Optional[float]:
+        """
+        Get weighted average of de-vigged probabilities for a matched ticker.
+        
+        For each bookmaker: convert odds to implied probs (1/odds), run devig_logit
+        on the two-outcome pair, take our outcome's fair prob, then weighted average
+        across bookmakers.
+        
+        Args:
+            ticker: Kalshi ticker
+            match_key: Match key from find_match
+            event_date: Event date
+        
+        Returns:
+            Weighted average de-vigged probability, or None if no match
+        """
+        parsed = parse_kalshi_ticker(ticker)
+        if not parsed:
+            return None
+        
+        file_path = get_oddsapi_file_path(
+            parsed["sport"],
+            parsed["market_type"],
+            event_date,
+            self.data_dir
+        )
+        if not file_path:
+            return None
+        
+        oddsapi_df = load_oddsapi_data(file_path)
+        if oddsapi_df.empty:
+            return None
+        
+        match_parts = match_key.split("|")
+        market_type = parsed["market_type"]
+        weights = settings.ODDS_API_BOOKMAKER_WEIGHTS
+        
+        # Filter to the binary outcome pair (both outcomes for the game)
+        if market_type == "GAME":
+            if len(match_parts) < 2:
+                return None
+            game_id, our_team = match_parts[0], match_parts[1]
+            game_rows = oddsapi_df[oddsapi_df["game_id"].astype(str) == str(game_id)]
+            our_match = lambda r: str(r.get("team", "")).strip() == str(our_team).strip()
+        elif market_type == "SPREAD":
+            if len(match_parts) < 3:
+                return None
+            game_id, our_team, our_point = match_parts[0], match_parts[1], float(match_parts[2])
+            game_rows = oddsapi_df[oddsapi_df["game_id"].astype(str) == str(game_id)]
+            # Filter to rows with matching |point| (spread pair: e.g. -3.5 and +3.5)
+            game_rows = game_rows[
+                game_rows["point"].apply(
+                    lambda x: abs(float(x) - our_point) < 0.01 or abs(float(x) + our_point) < 0.01
+                    if pd.notna(x) else False
+                )
+            ]
+            our_match = lambda r: (str(r.get("team", "")).strip() == str(our_team).strip() and
+                                   abs(float(r.get("point") or 0) - our_point) < 0.01)
+        elif market_type == "TOTAL":
+            if len(match_parts) < 4:
+                return None
+            game_id, home_team, point_val, our_team = match_parts[0], match_parts[1], float(match_parts[2]), match_parts[3]
+            game_rows = oddsapi_df[
+                (oddsapi_df["game_id"].astype(str) == str(game_id)) &
+                (oddsapi_df["home_team"].astype(str).str.strip() == str(home_team).strip()) &
+                (oddsapi_df["point"].apply(
+                    lambda x: abs(float(x) - point_val) < 0.01 if pd.notna(x) else False
+                ))
+            ]
+            our_match = lambda r: str(r.get("team", "")).strip() == str(our_team).strip()
+        else:
+            return None
+        
+        if game_rows.empty:
+            return None
+        
+        total_weight = 0.0
+        weighted_sum = 0.0
+        
+        for bookmaker, group in game_rows.groupby("bookmaker"):
+            rows_list = [row for _, row in group.iterrows()]
+            if len(rows_list) != 2:
+                continue
+            
+            r1, r2 = rows_list[0], rows_list[1]
+            try:
+                p1 = 1.0 / float(r1.get("price") or 0)
+                p2 = 1.0 / float(r2.get("price") or 0)
+            except (ValueError, TypeError, ZeroDivisionError):
+                continue
+            if p1 <= 0 or p2 <= 0 or p1 >= 1 or p2 >= 1:
+                continue
+            
+            try:
+                q1, q2 = devig_logit(p1, p2)
+            except Exception:
+                continue
+            
+            # Identify which q is for our outcome
+            our_q = q1 if our_match(r1) else (q2 if our_match(r2) else None)
+            if our_q is None:
+                continue
+            
+            # Get weight for this bookmaker
+            weight = None
+            for book_name, book_weight in weights.items():
+                if str(bookmaker).lower() == book_name.lower():
+                    weight = book_weight
+                    break
+            if weight is None:
+                continue
+            
+            weighted_sum += our_q * weight
+            total_weight += weight
+        
+        if total_weight == 0:
+            return None
+        
+        return weighted_sum / total_weight
     
     def invalidate_match(self, ticker: str):
         """Invalidate a match (e.g., when market closes)."""

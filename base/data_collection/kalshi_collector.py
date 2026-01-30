@@ -43,7 +43,8 @@ SPORT_TO_SERIES = {
     "CFB": ["KXNCAAFGAME", "KXNCAAFTOTAL", "KXNCAAFSPREAD"],
     "CBBM": ["KXNCAAMBGAME", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"],
     "CBBW": ["KXNCAAWBGAME"],
-    "ATP": ["KXATPMATCH", "KXATPTOTALSETS"],
+    "ATP": ["KXATPMATCH"],#"KXATPCHALLENGERMATCH" not on oddsapi, KXATPTOTALSETS not on oddsapi
+    "WTA": ["KXWTAMATCH"],
     "ALL": ["KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
             "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
             "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"],
@@ -53,7 +54,7 @@ SPORT_TO_SERIES = {
 CSV_COLUMNS = [
     "timestamp", "ticker", "title", "status", "market_type", "event_start_time",
     "yes_bid", "yes_ask", "no_bid", "no_ask",
-    "liquidity_dollars", "volume_24h",
+    "volume", "open_interest", "dollar_volume", "dollar_open_interest",
 ]
 
 
@@ -177,8 +178,10 @@ def _market_to_row(market: Dict[str, Any], timestamp: datetime) -> Dict[str, Any
         "yes_ask": yes_ask,
         "no_bid": no_bid,
         "no_ask": no_ask,
-        "liquidity_dollars": _to_float(market.get("liquidity_dollars")),
-        "volume_24h": _to_float(market.get("volume_24h")),
+        "volume": _to_float(market.get("volume")),
+        "open_interest": _to_float(market.get("open_interest")),
+        "dollar_volume": _to_float(market.get("dollar_volume")),
+        "dollar_open_interest": _to_float(market.get("dollar_open_interest")),
     }
 
 
@@ -335,15 +338,25 @@ class KalshiCollector:
                         # For now, skip - we only track discovered markets
                         return
                     
-                    # Update prices
                     market = self.markets[market_ticker]
-                    market["yes_bid"] = ticker_data.get("yes_bid")
-                    market["yes_ask"] = ticker_data.get("yes_ask")
-                    market["no_bid"] = ticker_data.get("no_bid")
-                    market["no_ask"] = ticker_data.get("no_ask")
-                    market["liquidity_dollars"] = ticker_data.get("liquidity_dollars")
-                    market["volume_24h"] = ticker_data.get("volume_24h")
-                    # Status might be in ticker data, but usually we get it from REST API
+                    yb = ticker_data.get("yes_bid")
+                    ya = ticker_data.get("yes_ask")
+                    market["yes_bid"] = yb
+                    market["yes_ask"] = ya
+                    # Compute no_bid / no_ask from yes_bid / yes_ask (cents); overwrite each ticker
+                    if ya is not None:
+                        try:
+                            market["no_bid"] = int(round(100 - float(ya)))
+                        except (TypeError, ValueError):
+                            pass
+                    if yb is not None:
+                        try:
+                            market["no_ask"] = int(round(100 - float(yb)))
+                        except (TypeError, ValueError):
+                            pass
+                    for key in ("volume", "open_interest", "dollar_volume", "dollar_open_interest"):
+                        if key in ticker_data and ticker_data[key] is not None:
+                            market[key] = ticker_data[key]
                 
                 # Write to CSV
                 timestamp = datetime.now(LOCAL_TZ)
@@ -481,15 +494,7 @@ class KalshiCollector:
             self.running = False
             return
         
-        # Write initial snapshot
-        timestamp = datetime.now(LOCAL_TZ)
-        with self.markets_lock:
-            for ticker, market in self.markets.items():
-                row = _market_to_row(market, timestamp)
-                self._append_row(row)
-        
-        print(f"💾 Wrote initial snapshot of {market_count} markets")
-        
+        # No initial snapshot — we only write on WebSocket ticker updates
         # Start WebSocket connection
         await self._connection_loop()
     
