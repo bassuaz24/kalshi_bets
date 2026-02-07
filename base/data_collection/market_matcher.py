@@ -30,7 +30,7 @@ if str(_BASE_ROOT) not in sys.path:
 
 from config import settings
 from data.team_maps import TEAM_MAP_B, TEAM_MAP_ATP, TEAM_MAP_WTA
-from strategy.utils import normalize_team_name, fuzzy_match_teams
+from strategy.utils import normalize_team_name
 
 # Type for team name: single string or list when symbol has duplicates (e.g. tennis BER -> [Berrettini, Bergs])
 _TeamName = Optional[str | List[str]]
@@ -490,17 +490,7 @@ def match_h2h_market(
         matched_team = str(match_row.get("team", ""))
         # Use | as delimiter to handle team names with dashes
         return f"{game_id}|{matched_team}"
-    
-    # Fallback to fuzzy matching (only if exact match fails)
-    # This is slower, so we only do it if needed
-    for row in oddsapi_df.itertuples(index=False):
-        row_team = str(getattr(row, "team", "")).strip()
-        if row_team and fuzzy_match_teams(row_team, team_name):
-            game_id = str(getattr(row, "game_id", ""))
-            matched_team = str(getattr(row, "team", ""))
-            # Use | as delimiter to handle team names with dashes
-            return f"{game_id}|{matched_team}"
-    
+
     return None
 
 
@@ -569,17 +559,7 @@ def match_spread_market(
         point = float(match_row.get("point", 0))
         # Use | as delimiter to avoid issues with negative point values
         return f"{game_id}|{matched_team}|{point}"
-    
-    # Fallback to fuzzy matching (only if exact match fails)
-    for row in point_matches.itertuples(index=False):
-        row_team = str(getattr(row, "team", "")).strip()
-        if row_team and fuzzy_match_teams(row_team, team_name):
-            game_id = str(getattr(row, "game_id", ""))
-            matched_team = str(getattr(row, "team", ""))
-            point = float(getattr(row, "point", 0))
-            # Use | as delimiter to avoid issues with negative point values
-            return f"{game_id}|{matched_team}|{point}"
-    
+
     return None
 
 
@@ -658,22 +638,7 @@ def match_total_market(
         team = str(match_row.get("team", ""))
         # Use | as delimiter to avoid issues with negative point values
         return f"{game_id}|{matched_home}|{point}|{team}"
-    
-    # Fallback to fuzzy matching (only if exact match fails)
-    for row in filtered.itertuples(index=False):
-        row_away = str(getattr(row, "away_team", "")).strip()
-        row_home = str(getattr(row, "home_team", "")).strip()
-        if not row_away or not row_home:
-            continue
-        for away_name in away_candidates:
-            for home_name in home_candidates:
-                if fuzzy_match_teams(row_away, away_name) and fuzzy_match_teams(row_home, home_name):
-                    game_id = str(getattr(row, "game_id", ""))
-                    matched_home = str(getattr(row, "home_team", ""))
-                    point = float(getattr(row, "point", 0))
-                    team = str(getattr(row, "team", ""))
-                    return f"{game_id}|{matched_home}|{point}|{team}"
-    
+
     return None
 
 

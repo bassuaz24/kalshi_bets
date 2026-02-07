@@ -100,46 +100,18 @@ class JoinedCollector(KalshiCollector):
         # Fetch data for each sport
         all_skipped = []
         for sport_code, oddsapi_sport_key in settings.SPORT_KEYS.items():
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                import json
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"joined_collector.py:91","message":"Checking sport","data":{"sport_code":sport_code,"oddsapi_sport_key":oddsapi_sport_key,"sports":self.sports,"will_process":sport_code in self.sports or "ALL" in self.sports},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
-            
             if sport_code not in self.sports and "ALL" not in self.sports:
-                # #region agent log
-                with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                    import json
-                    f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"joined_collector.py:94","message":"Skipping sport (not in self.sports)","data":{"sport_code":sport_code},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-                # #endregion
                 continue
             
             print(f"  📊 Fetching {sport_code} ({oddsapi_sport_key})...")
             games = fetch_odds(oddsapi_sport_key)
             
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                import json
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"joined_collector.py:99","message":"After fetch_odds in joined_collector","data":{"sport_code":sport_code,"oddsapi_sport_key":oddsapi_sport_key,"games_is_none":games is None,"games_count":len(games) if games else 0},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
-            
             if not games:
                 print(f"    ⚠️ No data for {sport_code}")
-                # #region agent log
-                with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                    import json
-                    f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"joined_collector.py:104","message":"No games returned, skipping","data":{"sport_code":sport_code},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-                # #endregion
                 continue
             
             # Normalize data
             rows_by_date, skipped = normalize_odds_data(sport_code, games, target_dates)
-            
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                import json
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"joined_collector.py:110","message":"After normalize_odds_data in joined_collector","data":{"sport_code":sport_code,"rows_by_date_keys":list(str(k) for k in rows_by_date.keys()),"rows_by_date_counts":{str(k):len(v) for k,v in rows_by_date.items()},"skipped_count":len(skipped)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
             
             # Save skipped games
             if skipped:

@@ -152,7 +152,19 @@ def fuzzy_match_teams(name1: str, name2: str, threshold: float = 0.7) -> bool:
         return True
     
     # Substring match (one name contains the other)
+    # Reject when the longer name has a geographic/prefix modifier (e.g. "East", "West")
+    # that indicates a different school - e.g. "East Texas A&M" vs "Texas A&M"
+    _GEO_MODIFIERS = {"east", "west", "north", "south", "central"}
     if n1 in n2 or n2 in n1:
+        shorter, longer = (n1, n2) if len(n1) <= len(n2) else (n2, n1)
+        if shorter in longer:
+            idx = longer.index(shorter)
+            if idx > 0:
+                prefix = longer[:idx].strip().lower()
+                prefix_words = set(re.findall(r"[a-z0-9&]+", prefix))
+                if prefix_words & _GEO_MODIFIERS:
+                    # Different school (e.g. East Texas A&M vs Texas A&M) - reject
+                    return False
         return True
     
     # Word overlap (at least threshold% of words match)

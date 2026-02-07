@@ -59,37 +59,12 @@ def fetch_odds(sport_key: str) -> Optional[List[Dict[str, Any]]]:
 
     try:
         resp = requests.get(url, params=params, timeout=10)
-        
-        # #region agent log
-        with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-            import json
-            f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:61","message":"API response received","data":{"sport_key":sport_key,"status_code":resp.status_code,"url":url},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-        # #endregion
-        
+
         if resp.status_code != 200:
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:65","message":"API error","data":{"sport_key":sport_key,"status_code":resp.status_code,"error_text":resp.text[:200]},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
             print(f"❌ Error fetching {sport_key}: {resp.status_code} - {resp.text[:200]}")
             return None
         data = resp.json()
-        
-        # #region agent log
-        with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-            import json
-            sample_game = data[0] if data and len(data) > 0 else None
-            sample_bookmakers = len(sample_game.get('bookmakers', [])) if sample_game else 0
-            sample_bookmaker_names = [bm.get('title', '') for bm in sample_game.get('bookmakers', [])] if sample_game else []
-            all_bookmaker_names = []
-            for game in (data or []):
-                for bm in game.get('bookmakers', []):
-                    bm_name = bm.get('title', '')
-                    if bm_name and bm_name not in all_bookmaker_names:
-                        all_bookmaker_names.append(bm_name)
-            f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:72","message":"API data parsed","data":{"sport_key":sport_key,"games_count":len(data) if data else 0,"sample_game_id":sample_game.get('id') if sample_game else None,"sample_home":sample_game.get('home_team') if sample_game else None,"sample_away":sample_game.get('away_team') if sample_game else None,"sample_bookmakers":sample_bookmakers,"sample_bookmaker_names":sample_bookmaker_names,"all_bookmaker_names":all_bookmaker_names,"configured_bookmakers":settings.ODDS_API_BOOKMAKERS},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-        # #endregion
-        
+
         # Debug: Log API response structure
         if settings.VERBOSE and data:
             print(f"📡 OddsAPI returned {len(data)} games for {sport_key}")
@@ -327,12 +302,6 @@ def normalize_odds_data(sport_name: str, games: List[Dict[str, Any]], target_dat
             print(f"   ⚠️ Markets with no outcomes: {stats['markets_with_no_outcomes']}")
         if stats["outcomes_missing_price"] > 0:
             print(f"   ⚠️ Outcomes missing price: {stats['outcomes_missing_price']}")
-    
-    # #region agent log
-    with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-        import json
-        f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:325","message":"normalize_odds_data stats","data":{"sport_name":sport_name,"stats":stats,"rows_by_date_keys":[str(k) for k in rows_by_date.keys()],"rows_by_date_counts":{str(k):len(v) for k,v in rows_by_date.items()},"skipped_games_count":len(skipped_games)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-    # #endregion
 
     return rows_by_date, skipped_games
 
@@ -457,69 +426,29 @@ def collect_data_running(output_dir: Optional[Path] = None, target_date: Optiona
     all_skipped_games = []  # Collect all skipped games across sports
     
     for sport_name, sport_key in settings.SPORT_KEYS.items():
-        # #region agent log
-        with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-            import json
-            f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:430","message":"Processing sport","data":{"sport_name":sport_name,"sport_key":sport_key},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-        # #endregion
-        
         print(f"📡 Fetching odds for {sport_name} ({sport_key})...")
         data = fetch_odds(sport_key)
-        
-        # #region agent log
-        with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-            import json
-            f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:439","message":"After fetch_odds","data":{"sport_name":sport_name,"sport_key":sport_key,"data_is_none":data is None,"data_len":len(data) if data else 0},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-        # #endregion
-        
+
         if not data:
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                import json
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:446","message":"No data returned, skipping","data":{"sport_name":sport_name,"sport_key":sport_key},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
             continue
 
         rows_by_date, skipped_games = normalize_odds_data(sport_name, data, target_dates)
-        
-        # #region agent log
-        with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-            import json
-            f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:453","message":"After normalize_odds_data","data":{"sport_name":sport_name,"sport_key":sport_key,"rows_by_date_keys":[str(k) for k in rows_by_date.keys()],"rows_by_date_counts":{str(k):len(v) for k,v in rows_by_date.items()},"skipped_games_count":len(skipped_games)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-        # #endregion
-        
+
         all_skipped_games.extend(skipped_games)
 
         for game_date, rows in rows_by_date.items():
             # Only process rows for the target date, not tomorrow
             if game_date != target_date:
                 continue
-                
-            # #region agent log
-            with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                import json
-                f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:461","message":"Processing rows_by_date entry","data":{"sport_name":sport_name,"game_date":str(game_date),"rows_count":len(rows)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-            # #endregion
-            
+
             if not rows:
-                # #region agent log
-                with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                    import json
-                    f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:464","message":"No rows for date, skipping","data":{"sport_name":sport_name,"game_date":str(game_date)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-                # #endregion
                 continue
 
             # Separate by market type
             df = pd.DataFrame(rows)
             for market_type in df["market"].unique():
                 market_data = df[df["market"] == market_type].to_dict("records")  # type: ignore
-                
-                # #region agent log
-                with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                    import json
-                    f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:471","message":"Processing market type","data":{"sport_name":sport_name,"game_date":str(game_date),"market_type":market_type,"market_data_count":len(market_data)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-                # #endregion
-                
+
                 # Use sport name only (not sport_league) for filename
                 key = f"{sport_name}_{market_type}"
                 
@@ -530,13 +459,7 @@ def collect_data_running(output_dir: Optional[Path] = None, target_date: Optiona
                 # Save to file (only for the target date, not tomorrow)
                 filename = f"{key.lower()}.csv"
                 filepath = output_dir / filename
-                
-                # #region agent log
-                with open('/Users/Brett/kdata/kalshi_bets/.cursor/debug.log', 'a') as f:
-                    import json
-                    f.write(json.dumps({"sessionId":"debug-session","runId":"run1","hypothesisId":"I","location":"oddsapi_client.py:489","message":"Saving market data","data":{"sport_name":sport_name,"key":key,"filename":filename,"filepath":str(filepath),"market_data_count":len(market_data)},"timestamp":int(datetime.now().timestamp()*1000)}) + '\n')
-                # #endregion
-                
+
                 save_market_data(
                     market_data,
                     filepath,
