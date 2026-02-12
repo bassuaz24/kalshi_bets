@@ -210,7 +210,21 @@ class JoinedCollector(KalshiCollector):
         try:
             data = json.loads(message)
             msg_type = data.get("type")
-            
+
+            # Capture ticker subscription sid for incremental add_markets (update_subscription)
+            if msg_type == "subscribed":
+                msg = data.get("msg") or data.get("data") or {}
+                if msg.get("channel") == "ticker":
+                    sid = msg.get("sid")
+                    if sid is not None:
+                        self._ticker_sid = sid
+                        if getattr(settings, "VERBOSE", False):
+                            print(f"   📌 Captured ticker sid={sid}")
+
+            if msg_type == "error":
+                err_msg = data.get("msg") or {}
+                print(f"   ⚠️ WebSocket error: {err_msg.get('code')} - {err_msg.get('msg')}")
+
             if msg_type == "ticker":
                 ticker_data = data.get("msg") or data.get("data") or {}
                 market_ticker = ticker_data.get("market_ticker")

@@ -198,6 +198,7 @@ class KalshiCollector:
         self.markets_lock = threading.RLock()
         
         self.ws = None  # WebSocket connection (from websockets.connect())
+        self._ticker_sid = None  # Subscription ID for ticker channel (for update_subscription)
         self.running = False
         self.message_id = 1
         self.message_id_lock = threading.Lock()
@@ -292,29 +293,50 @@ class KalshiCollector:
         print(f"✅ Discovered {len(self.markets)} unique markets")
         return len(self.markets)
     
-    async def _subscribe_to_markets(self, market_tickers: List[str]):
-        """Subscribe to WebSocket updates for markets."""
+    async def _subscribe_to_markets(self, market_tickers: List[str], add_to_existing: bool = False):
+        """
+        Subscribe to WebSocket updates for markets.
+        If add_to_existing=True and we have a ticker subscription sid, use update_subscription
+        to add markets to the existing subscription (Kalshi requires this for incremental adds).
+        """
         if not self.ws or not market_tickers:
             return
-        
+
         try:
             if self.ws.closed:
                 return
         except AttributeError:
             pass
-        
-        subscription = {
-            "id": self._get_next_message_id(),
-            "cmd": "subscribe",
-            "params": {
-                "channels": ["ticker"],
-                "market_tickers": market_tickers
+
+        if add_to_existing and self._ticker_sid is not None:
+            # Add markets to existing ticker subscription (Kalshi API requirement)
+            # Use sids array - API doc: "Exactly one subscription ID is required"
+            msg = {
+                "id": self._get_next_message_id(),
+                "cmd": "update_subscription",
+                "params": {
+                    "sids": [self._ticker_sid],
+                    "market_tickers": market_tickers,
+                    "action": "add_markets",
+                },
             }
-        }
-        
+        else:
+            # New subscription
+            msg = {
+                "id": self._get_next_message_id(),
+                "cmd": "subscribe",
+                "params": {
+                    "channels": ["ticker"],
+                    "market_tickers": market_tickers,
+                },
+            }
+
         try:
-            await self.ws.send(json.dumps(subscription))
-            print(f"📡 Subscribed to {len(market_tickers)} markets via WebSocket")
+            await self.ws.send(json.dumps(msg))
+            if add_to_existing:
+                print(f"📡 Added {len(market_tickers)} markets to subscription (sid={self._ticker_sid})")
+            else:
+                print(f"📡 Subscribed to {len(market_tickers)} markets via WebSocket")
         except Exception as e:
             print(f"⚠️ Error subscribing: {e}")
     
