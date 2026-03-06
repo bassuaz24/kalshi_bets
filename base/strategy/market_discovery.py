@@ -387,16 +387,27 @@ def discover_markets(
     all_matches = []
     
     # Process each sport
-    for sport_name, sport_key in settings.SPORT_KEYS.items():
-        if sport_key not in sport_keys:
+    for sport_name, oddsapi_keys in settings.SPORT_KEYS.items():
+        # Support single key or list of keys (e.g. ATP = [tennis_atp_qatar, tennis_atp_dubai])
+        keys = oddsapi_keys if isinstance(oddsapi_keys, (list, tuple)) else [oddsapi_keys]
+
+        # Check if this sport should be included
+        if oddsapi_keys not in sport_keys and not any(k in sport_keys for k in keys):
             continue
         
-        print(f"🔍 Discovering markets for {sport_name} ({sport_key})...")
+        # Fetch from all OddsAPI keys for this sport
+        oddsapi_data = []
+        for sport_key in keys:
+            print(f"🔍 Discovering markets for {sport_name} ({sport_key})...")
+            data = fetch_odds(sport_key)
+            if data:
+                oddsapi_data.extend(data)
         
-        # Fetch from OddsAPI
-        oddsapi_data = fetch_odds(sport_key)
         if not oddsapi_data:
             continue
+        
+        # Use first key for matching (tennis tournaments map to same Kalshi format)
+        sport_key_for_match = keys[0]
         
         # Filter events by target dates
         filtered_events = []
@@ -429,7 +440,7 @@ def discover_markets(
         print(f"   📊 Found {len(filtered_events)} OddsAPI events for {sport_name}")
         
         # Match to Kalshi
-        matches = match_oddsapi_to_kalshi(filtered_events, sport_key)
+        matches = match_oddsapi_to_kalshi(filtered_events, sport_key_for_match)
         
         # Convert to strategy engine format
         for match in matches:

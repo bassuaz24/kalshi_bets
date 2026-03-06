@@ -166,13 +166,16 @@ class ScheduledJoinedCollector(JoinedCollector):
                 added = 0
                 if to_subscribe and self.ws:
                     try:
-                        ws_closed = getattr(self.ws, "closed", True)
+                        # Default to False: websockets lib may not expose "closed"; assume open
+                        ws_closed = getattr(self.ws, "closed", False)
                         if not ws_closed:
                             with self.subscribed_tickers_lock:
                                 for t in to_subscribe:
                                     self.subscribed_tickers.add(t)
-                            # Use add_to_existing=True when we have sid; else use new subscribe
-                            await self._subscribe_to_markets(to_subscribe, add_to_existing=True)
+                            # Use update_subscription when we have sid; else new subscribe
+                            await self._subscribe_to_markets(
+                                to_subscribe, add_to_existing=(self._ticker_sid is not None)
+                            )
                             added = len(to_subscribe)
                         else:
                             print(

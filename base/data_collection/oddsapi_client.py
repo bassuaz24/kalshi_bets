@@ -425,14 +425,21 @@ def collect_data_running(output_dir: Optional[Path] = None, target_date: Optiona
     # Collect from OddsAPI (sports data by league)
     all_skipped_games = []  # Collect all skipped games across sports
     
-    for sport_name, sport_key in settings.SPORT_KEYS.items():
-        print(f"📡 Fetching odds for {sport_name} ({sport_key})...")
-        data = fetch_odds(sport_key)
+    for sport_name, oddsapi_keys in settings.SPORT_KEYS.items():
+        # Support single key or list of keys (e.g. ATP = [tennis_atp_qatar, tennis_atp_dubai])
+        keys = oddsapi_keys if isinstance(oddsapi_keys, (list, tuple)) else [oddsapi_keys]
 
-        if not data:
+        all_data = []
+        for sport_key in keys:
+            print(f"📡 Fetching odds for {sport_name} ({sport_key})...")
+            data = fetch_odds(sport_key)
+            if data:
+                all_data.extend(data)
+
+        if not all_data:
             continue
 
-        rows_by_date, skipped_games = normalize_odds_data(sport_name, data, target_dates)
+        rows_by_date, skipped_games = normalize_odds_data(sport_name, all_data, target_dates)
 
         all_skipped_games.extend(skipped_games)
 

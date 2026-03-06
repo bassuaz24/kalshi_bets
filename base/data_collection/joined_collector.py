@@ -99,19 +99,26 @@ class JoinedCollector(KalshiCollector):
         
         # Fetch data for each sport
         all_skipped = []
-        for sport_code, oddsapi_sport_key in settings.SPORT_KEYS.items():
+        for sport_code, oddsapi_keys in settings.SPORT_KEYS.items():
             if sport_code not in self.sports and "ALL" not in self.sports:
                 continue
-            
-            print(f"  📊 Fetching {sport_code} ({oddsapi_sport_key})...")
-            games = fetch_odds(oddsapi_sport_key)
-            
-            if not games:
+
+            # Support single key or list of keys (e.g. ATP = [tennis_atp_qatar, tennis_atp_dubai])
+            keys = oddsapi_keys if isinstance(oddsapi_keys, (list, tuple)) else [oddsapi_keys]
+
+            all_games = []
+            for oddsapi_sport_key in keys:
+                print(f"  📊 Fetching {sport_code} ({oddsapi_sport_key})...")
+                games = fetch_odds(oddsapi_sport_key)
+                if games:
+                    all_games.extend(games)
+
+            if not all_games:
                 print(f"    ⚠️ No data for {sport_code}")
                 continue
-            
-            # Normalize data
-            rows_by_date, skipped = normalize_odds_data(sport_code, games, target_dates)
+
+            # Normalize data (merged from all tournaments)
+            rows_by_date, skipped = normalize_odds_data(sport_code, all_games, target_dates)
             
             # Save skipped games
             if skipped:

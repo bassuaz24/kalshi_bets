@@ -40,14 +40,17 @@
     "KXNCAAMBTOTAL-26FEB13SPCSHU-147": "b8b6387ac85f510db00d4d73d034deb5|Sacred Heart Pioneers|147.5|Over",
     "KXNCAAMBTOTAL-26FEB13CORPRIN-154": "6bf083b72100e79363dc4e96a5fc06c2|Princeton Tigers|154.5|Over",
     "KXNCAAMBTOTAL-26FEB13BRWNHARV-131": "539b5f59c0c2eeaf8a5602681f257792|Harvard Crimson|131.5|Over",
-    "KXNCAAMBTOTAL-26FEB13QUINSIE-144": "073941696f38ec95e3095cbb3b033369|Siena Saints|144.5|Over"
+    "KXNCAAMBTOTAL-26FEB13QUINSIE-144": "073941696f38ec95e3095cbb3b033369|Siena Saints|144.5|Over",
+    "KXNCAAMBSPREAD-26FEB13OHIOMOH-MOH13": "4cb3f6e6065cafae55154f237483d8b6|Miami (OH) RedHawks|-13.5",
+    "KXNCAAMBSPREAD-26FEB13MASSAKR-AKR7": "00d8cab3603e5266f75ff6e8b23719b4|Akron Zips|-7.5",
+    "KXNCAAMBTOTAL-26FEB13OHIOMOH-165": "4cb3f6e6065cafae55154f237483d8b6|Miami (OH) RedHawks|165.5|Over"
   },
   "stats": {
-    "total_attempted": 471,
-    "matched": 41,
-    "unmatched": 430,
+    "total_attempted": 768,
+    "matched": 44,
+    "unmatched": 724,
     "h2h_matched": 28,
-    "spread_matched": 7,
-    "total_matched": 6
+    "spread_matched": 9,
+    "total_matched": 7
   }
 }
