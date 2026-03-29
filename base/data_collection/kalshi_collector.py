@@ -38,16 +38,19 @@ LOCAL_TZ = pytz.timezone("US/Eastern")
 
 # Series ticker mappings for sports
 SPORT_TO_SERIES = {
-    "NFL": ["KXNFLGAME", "KXNFLTOTAL", "KXNFLSPREAD"],
+    #"NFL": ["KXNFLGAME", "KXNFLTOTAL", "KXNFLSPREAD"],
     "NBA": ["KXNBAGAME", "KXNBATOTAL", "KXNBASPREAD"],
-    "CFB": ["KXNCAAFGAME", "KXNCAAFTOTAL", "KXNCAAFSPREAD"],
+    #"CFB": ["KXNCAAFGAME", "KXNCAAFTOTAL", "KXNCAAFSPREAD"],
     "CBBM": ["KXNCAAMBGAME", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"],
     "CBBW": ["KXNCAAWBGAME"],
     "ATP": ["KXATPMATCH"],#"KXATPCHALLENGERMATCH" not on oddsapi, KXATPTOTALSETS not on oddsapi
     "WTA": ["KXWTAMATCH"],
-    "ALL": ["KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
-            "KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
-            "KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"],
+    #"ALL": ["KXNFLGAME", "KXNBAGAME", "KXNCAAFGAME", "KXNCAAMBGAME", "KXNCAAWBGAME",
+            #"KXNFLTOTAL", "KXNFLSPREAD", "KXNBATOTAL", "KXNBASPREAD",
+            #"KXNCAAFTOTAL", "KXNCAAFSPREAD", "KXNCAAMBTOTAL", "KXNCAAMBSPREAD"],
+    "MLB": ["KXMLBGAME", "KXMLBTOTAL", "KXMLBSPREAD"],
+    "NCAABB": ["KXNCAABBGAME", "KXNCAABBTOTAL", "KXNCAABBSPEAD"],
+    "MLS": ["KXMLSGAME", "KXMLSTOTAL", "KXMLSSPREAD"],
 }
 
 # CSV columns
@@ -361,8 +364,25 @@ class KalshiCollector:
                         return
                     
                     market = self.markets[market_ticker]
+                    # WebSocket payload uses *_dollars fields (strings) rather than cents.
+                    # Keep market dict in cents to match REST + format_price(units_hint="usd_cent").
                     yb = ticker_data.get("yes_bid")
                     ya = ticker_data.get("yes_ask")
+                    if yb is None:
+                        yb = ticker_data.get("yes_bid_dollars")
+                        if yb is not None:
+                            try:
+                                yb = int(round(float(yb) * 100))
+                            except (TypeError, ValueError):
+                                yb = None
+                    if ya is None:
+                        ya = ticker_data.get("yes_ask_dollars")
+                        if ya is not None:
+                            try:
+                                ya = int(round(float(ya) * 100))
+                            except (TypeError, ValueError):
+                                ya = None
+
                     market["yes_bid"] = yb
                     market["yes_ask"] = ya
                     # Compute no_bid / no_ask from yes_bid / yes_ask (cents); overwrite each ticker
@@ -376,7 +396,20 @@ class KalshiCollector:
                             market["no_ask"] = int(round(100 - float(yb)))
                         except (TypeError, ValueError):
                             pass
-                    for key in ("volume", "open_interest", "dollar_volume", "dollar_open_interest"):
+
+                    # Volume/open interest often arrive as *_fp strings.
+                    vol = ticker_data.get("volume")
+                    if vol is None:
+                        vol = ticker_data.get("volume_fp")
+                    oi = ticker_data.get("open_interest")
+                    if oi is None:
+                        oi = ticker_data.get("open_interest_fp")
+                    if vol is not None:
+                        market["volume"] = vol
+                    if oi is not None:
+                        market["open_interest"] = oi
+
+                    for key in ("dollar_volume", "dollar_open_interest"):
                         if key in ticker_data and ticker_data[key] is not None:
                             market[key] = ticker_data[key]
                 
