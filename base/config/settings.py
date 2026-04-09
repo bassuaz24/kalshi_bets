@@ -116,7 +116,7 @@ SPORT_KEYS = {
     # "tennis_wta_indian_wells", "tennis_wta_qatar_open", "tennis_wta_us_open", "tennis_wta_wimbledon", "tennis_wta_wuhan"
     "MLB": "baseball_mlb",
     "NCAABB": "baseball_ncaa",
-    "NHL": "icehockey_nhl",
+    #"NHL": "icehockey_nhl",
     "SOC": "soccer_usa_mls", 
     #"WNBA": "basketball_wnba"
 }

@@ -544,3 +544,37 @@ TEAM_MAP_B = {**TEAM_MAP_NCAA, **TEAM_MAP_NBA}
 # Aliases for code that expects TEAM_MAP (NCAA) and NBA_TEAM_MAP
 TEAM_MAP = TEAM_MAP_NCAA
 NBA_TEAM_MAP = TEAM_MAP_NBA
+
+
+TEAM_MAP_MLB = {
+    "AZ": "Arizona Diamondbacks",
+    "ATL": "Atlanta Braves",
+    "ATH": "Athletics",
+    "BAL": "Baltimore Orioles",
+    "BOS": "Boston Red Sox",
+    "CHC": "Chicago Cubs",
+    "CWS": "Chicago White Sox",
+    "CIN": "Cincinnati Reds",
+    "CLE": "Cleveland Guardians",
+    "COL": "Colorado Rockies",
+    "DET": "Detroit Tigers",
+    "HOU": "Houston Astros",
+    "KC": "Kansas City Royals",
+    "LAA": "Los Angeles Angels",
+    "LAD": "Los Angeles Dodgers",
+    "MIA": "Miami Marlins",
+    "MIL": "Milwaukee Brewers",
+    "MIN": "Minnesota Twins",
+    "NYM": "New York Mets",
+    "NYY": "New York Yankees",
+    "PHI": "Philadelphia Phillies",
+    "PIT": "Pittsburgh Pirates",
+    "SD": "San Diego Padres",
+    "SEA": "Seattle Mariners",
+    "SF": "San Francisco Giants",
+    "STL": "St. Louis Cardinals",
+    "TB": "Tampa Bay Rays",
+    "TEX": "Texas Rangers",
+    "TOR": "Toronto Blue Jays",
+    "WSH": "Washington Nationals",
+}

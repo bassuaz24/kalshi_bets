@@ -29,7 +29,7 @@ if str(_BASE_ROOT) not in sys.path:
     sys.path.insert(0, str(_BASE_ROOT))
 
 from config import settings
-from data.team_maps import TEAM_MAP_B, TEAM_MAP_ATP, TEAM_MAP_WTA
+from data.team_maps import TEAM_MAP_B, TEAM_MAP_ATP, TEAM_MAP_WTA, TEAM_MAP_MLB
 from strategy.utils import normalize_team_name
 
 # Type for team name: single string or list when symbol has duplicates (e.g. tennis BER -> [Berrettini, Bergs])
@@ -81,6 +81,7 @@ def ticker_to_team_name(ticker_code: str, sport: str) -> _TeamName:
     Convert Kalshi ticker code to full team/player name.
     
     For NCAA/NBA uses TEAM_MAP_B (returns single str).
+    For MLB uses TEAM_MAP_MLB (returns single str).
     For ATP/WTA uses TEAM_MAP_ATP/TEAM_MAP_WTA; may return a list when
     multiple players share the same 3-letter symbol (e.g. BER -> [Berrettini, Bergs]).
     
@@ -100,7 +101,10 @@ def ticker_to_team_name(ticker_code: str, sport: str) -> _TeamName:
     if sport == "WTA":
         result = TEAM_MAP_WTA.get(ticker_upper) or TEAM_MAP_WTA.get(ticker_lower)
         return result
-    
+    if sport == "MLB":
+        result = TEAM_MAP_MLB.get(ticker_upper) or TEAM_MAP_MLB.get(ticker_lower)
+        return result
+
     # Non-tennis: TEAM_MAP_B (NCAA, NBA)
     result = TEAM_MAP_B.get(ticker_upper) or TEAM_MAP_B.get(ticker_lower)
     return result
@@ -164,7 +168,9 @@ def parse_kalshi_ticker(ticker: str) -> Optional[Dict[str, Any]]:
         sport = "ATP"
     elif series_prefix.startswith("KXWTA"):
         sport = "WTA"
-    
+    elif series_prefix.startswith("KXMLB"):
+        sport = "MLB"
+
     if not sport:
         return None
     

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/Brett/kdata/kalshi_bets/base/data_collection/joined_collector.py", line 407, in _update_oddsapi_periodically
+    "market_type": parsed.get("market_type") if parsed else None,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Brett/kdata/kalshi_bets/base/data_collection/joined_collector.py", line 165, in _fetch_oddsapi_data
+    print(f"    ✅ Processed {len(games)} games for {sport_code}")
+                              ~~~^^^^^^^
+TypeError: object of type 'NoneType' has no len()
