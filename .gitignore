@@ -31,3 +31,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Market data snapshots
+data_collection/market_data_*.json
